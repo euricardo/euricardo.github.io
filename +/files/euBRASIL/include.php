@@ -1,0 +1,1 @@
+<?php include('arquivo.php'); ?>
