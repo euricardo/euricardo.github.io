@@ -1,0 +1,48 @@
+<html>
+<body>
+<OBJECT id=wolfi classid=CLSID:D45FD31B-5C6E-11D1-9EC1-00C04FD7081F>Merlin</OBJECT>
+<SCRIPT language=JavaScript type=text/javascript>
+ 
+function LoadLocalAgent(CharID, CharACS) {
+  LoadReq = wolfi.Characters.Load(CharID, CharACS);
+  return(true);
+  }
+  var MerlinID;
+  var MerlinACS;
+  wolfi.Connected = true;
+  MerlinLoaded = LoadLocalAgent(MerlinID, MerlinACS);
+  Merlin = wolfi.Characters.Character(MerlinID);
+  Merlin.Show();
+ 
+  Merlin.Play("Greet");
+  Merlin.Play("Surprised");
+  Merlin.Play("GetAttention");
+  Merlin.Play ("Acknowledge");
+  Merlin.Play ("Announce");
+  Merlin.speak("OI");
+  Merlin.Play("Blink"); Merlin.Play("Confused");
+  Merlin.MoveTo (650,400);
+  Merlin.Play('GestureRight');
+  Merlin.speak("BEM VINDO AO SITE WWW.CODIGOFONTE.COM.BR");
+  Merlin.Play('GestureRight');
+  Merlin.speak("O MELHOR SITE DE CODIGO FONTE DA INTERNET");
+  Merlin.MoveTo (650,250);
+  Merlin.Play ("Write"); Merlin.speak("ESTAMOS PASSANDO POR UM TESTE");
+  Merlin.MoveTo (70,400);
+  Merlin.speak("PARA DEMOSNTRAÇÃO DE COMO FUNCIONA O MERLIN");
+  Merlin.MoveTo (70,400);
+  Merlin.Play('GestureRight');
+  Merlin.Play('DoMAgic1');Merlin.Play('DoMAgic2');
+  Merlin.Play("Blink");
+  Merlin.Play("GetAttention");
+  Merlin.speak("TCHAU...");
+  Merlin.Play("Blink");
+  Merlin.Play("Surprised");
+  Merlin.speak("JA VOU INDO");
+  Merlin.Play ("Wave");
+  Merlin.play ("Greet");
+  Merlin.Play("Congratulate_2");
+  Merlin.Hide();
+</SCRIPT>
+</body>
+</html>
