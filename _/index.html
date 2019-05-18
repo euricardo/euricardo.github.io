@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Cadastro</title> 
+
+<meta name="google-site-verification" content="czkWrS7R6UX9tCchnfc9hBll-hXMHO9-gnoJFPCvWRI" />
+
+<meta http-equiv="content-language" content="pt-br" />
+<meta name="description" content="Portal para analistas, desenvolvedores de sistemas e webdesigners. Artigos, dicas e vídeo aulas sobre C#, Java, Visual Basic .NET, PHP, ASP, Delphi, Visual Basic, ColdFusion, Javascript, HTML, Oracle, SQL Server, InterBase, Firebird, e muito mais." /><meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=3.0,initial-scale=1.0" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="apple-mobile-web-app-title" content="Cadastro - DevMedia">
+<!-- ICON MAC -->  
+<link rel="apple-touch-icon" href="../favicon.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="../imagens/2013/Devmedia72x.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="../imagens/2013/Devmedia114x.png" />
+<link rel="apple-touch-icon" sizes="129x129" href="../imagens/2013/Devmedia129x.png" />  
+<!-- FAVICON HTML5-->
+<link rel="icon" href="../favicon.png">
+<!-- FAVICON IE-->
+<link rel="icon" type="image/png" href="../favicon.png">
+<link href="../../plus.google.com/%2bdevmedia.html" rel="publisher" />
+<!-- CSS - RESET E PRESET -->
+<link rel="stylesheet" type="text/css" href="../css/2013/devmedia2d2b.css?d=1">
+<!-- CSS - RESPONSIVO -->
+<link rel="stylesheet" type="text/css" href="../css/2013/devmedia-responsiveac4f.css?d=1.3">
+<!-- CSS - HEADER E FOOTER -->
+<link rel="stylesheet" type="text/css" href="../css/2013/devmedia-header-footer280c.css?d=4.4.4">
+<link rel="stylesheet" type="text/css" href="../includeb/style.min.css">
+
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script async src="../js/2013/menue69c.js?d=6.5"></script>
+<script async src="../js/2013/menu.desktopf2c1.js?d=1.07"></script>  <!--[if lt IE 9]>
+	<script async defer src="js/modernizr.custom.js"></script>
+  <![endif]-->
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  /*js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=145393072270566";*/
+  js.src = "../../connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=145393072270566";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-15997918-1']);
+_gaq.push(['_setDomainName', 'devmedia.com.br']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+<body>
+<div class="dm-shadow"></div>
+<section class="dm-shell">
+<header>
+<span class="opacity"></span>
+
+
+			</div>
+			</header><link rel="stylesheet" href="../../code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="css/notifIt.css" />
+<script type="text/javascript" src="js/jquery.mask.min.1.13.3.js"></script>
+<!--<script type="text/javascript" src="js/polyfiller.js"></script>-->
+<script type="text/javascript" src="../../code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="js/notifIt.js"></script>
+<script>
+//http://stackoverflow.com/questions/5899783/detect-safari-using-jquery
+var is_chrome = navigator.userAgent.indexOf('Chrome') > -1;
+var is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
+var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
+var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+var is_opera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+if ((is_chrome)&&(is_safari)) {is_safari=false;}
+if ((is_chrome)&&(is_opera)) {is_chrome=false;}
+
+if (is_safari){
+	$.getScript("js/polyfiller.js", function(){
+		$.webshims.polyfill();
+		// alert("Running test.js");
+	});
+}
+
+	$(document).ready(function(){
+				//$("#telContato").mask("(999) 99999-9999");
+		$("#dataNascimento").mask("00/00/0000");
+		/*$("#telContato").mask("0000-0000Z", {
+			translation: {
+				'Z':{
+					pattern: /[0-9]/,
+					optional: true
+				}
+			}
+		});
+		
+		$("#telComercial").mask("0000-0000Z", {
+			translation: {
+				'Z':{
+					pattern: /[0-9]/,
+					optional: true
+				}
+			}
+		});*/
+		var SPMaskBehavior = function (val) {
+		  return val.replace(/\D/g, '').length === 9 ? '00000-0000' : '0000-00009';
+		},
+		spOptions = {
+		  onKeyPress: function(val, e, field, options) {
+			  field.mask(SPMaskBehavior.apply({}, arguments), options);
+			}
+		};
+
+		$('#telContato,#telComercial').mask(SPMaskBehavior, spOptions);
+
+		
+		$(document).on("blur","#confSenha",function(){
+			var confSenha = $(this).val();
+			var senha = $("#senha").val();
+			if(confSenha != ""){
+				if(senha != confSenha){
+					notif({
+					  type: "info",
+					  msg: "Senha de confirmação é diferente da senha.",
+					  position: "center",
+					  width: 200,
+					  multiline: true
+					});
+					$(this).val("");
+					$(this).focus();
+				}
+			}
+		});
+		
+		$(document).on("change",".pessoa",function(){
+			if($(this).val() == "J"){
+				$(".nomeContato").show();
+				$("#nomeContato").attr("required", "true");
+			} else {
+				$(".nomeContato").hide();
+				$("#nomeContato").removeAttr("required");
+			}
+		});
+		
+		$(document).on("change",".place",function(){
+			// alert($(this).val());
+			if($(this).val() == "F"){
+				$('#telContato,#telComercial').unmask();
+				// $('#telContato,#telComercial').cleanVal();
+				// $("#telContato").unmask();
+				// $("#telComercial").unmask();
+				$(".pais").show();
+				$("#pais").attr("required", "true");
+				$(".estado").hide();
+				$("#estado").removeAttr("required");
+				$(".cidade").hide();
+				$("#cidade").removeAttr("required");
+				
+				$("#telContato").removeAttr("required");
+				$("#telContato").attr("pattern", "[0-9]+$");
+				$("#telContato").attr("maxlength", "40");
+				
+				$("#telContatoDDD").removeAttr("required");
+				$("#telComercial").removeAttr("required");
+				$("#telComercial").attr("pattern", "[0-9]+$");
+				$("#telComercial").attr("maxlength", "40");
+				$("#telComercialDDD").removeAttr("required");
+				
+			} else {
+				$(".pais").hide();
+				$("#pais").removeAttr("required");
+				$(".estado").show();
+				$(".selectEstado").attr("required", "true");
+				$("#telContato").attr("required", "true");
+				$("#telContato").attr("pattern", "[0-9]{4,5}-[0-9]{4}");
+				$("#telContatoDDD").attr("required", "true");
+				$("#telComercial").attr("required", "true");
+				$("#telComercial").attr("pattern", "[0-9]{4,5}-[0-9]{4}");
+				$("#telComercialDDD").attr("required", "true");
+				/*$("#telContato").mask("0000-0000Z", {
+					translation: {
+						'Z':{
+							pattern: /[0-9]/,
+							optional: true
+						}
+					}
+				});*/
+				
+				if($("#cidade option").length > 0){
+					$(".cidade").show();
+					$("#cidade").attr("required", "true");
+				}
+				
+				/*$("#telComercial").mask("0000-0000Z", {
+					translation: {
+						'Z':{
+							pattern: /[0-9]/,
+							optional: true
+						}
+					}
+				});*/
+				$('#telContato,#telComercial').mask(SPMaskBehavior, spOptions);
+			}
+		});
+		
+		
+		$(document).on("change",".selectEstado",function(){
+			var uf = $(this).val();
+			$.ajax({
+				type: "POST",
+				url: "scripts/funcoes.php",
+				data: "uf="+ uf + "&funcao=pegaMunicipios",
+				beforeSend:function(){
+					var html = '<img src="images/loading2.gif" style="position:absolute; margin:0 0 0 10px;" class="carregaCidades" alt="loading" title="loading" />';
+					$(html).insertAfter("#estado");
+				},
+				success:function(data){
+					data = $.parseJSON(data);
+					$(".selectCidades option").remove();
+					if(data.status == 1){
+						var n = data.retorno.length;
+						//alert(n);
+						$(".selectCidades").append($('<option>', { 
+							value: "",
+							text : "Selecione a sua cidade" 
+						}));
+						for(var i=0;i < n;i++){
+							$(".selectCidades").append($('<option>', { 
+								value: data.retorno[i].valor,
+								text : data.retorno[i].texto 
+							}));
+						}
+						
+						$(".cidade").show();
+						$("#cidade").attr("required", "true");
+						
+					} else {
+						notif({
+						  type: "error",
+						  msg: data.retorno,
+						  position: "center",
+						  width: 200,
+						  multiline: true
+						});
+					}
+					
+					$(".carregaCidades").remove();
+				},
+                error:function(data){
+					$(".carregaCidades").remove();
+                }
+			});
+		});
+
+		$(document).on("change",".selectCidades",function(){
+			var nomeCidade = $(".selectCidades option:selected").text();
+			$("#nomeCidade").val(nomeCidade);
+		});
+		
+		function travaform(){
+			$("input").prop("readonly", true);
+			$('select option:not(:selected)').prop('disabled',true);
+			$("#cadastrarBotao").prop('disabled', true);
+		}
+		
+		function destravaform(){
+			$("input").prop('readonly', false);
+			$('select option:not(:selected)').prop('disabled',false);
+			$("#cadastrarBotao").prop('disabled', false);
+		}
+		
+		$(document).on("submit", ".allForm" ,function(e){ 
+			travaform();
+			if($("input[name='place']:checked").val() != "F"){
+				var telContato = $("#telContato").val();
+				var telContatoDDD = $("#telContatoDDD").val();
+				var telComercial = $("#telComercial").val();
+				var telComercialDDD = $("#telComercialDDD").val();
+				
+				telContato = telContatoDDD+telContato;
+				telComercial = telComercialDDD+telComercial;
+				
+				if(telContato != telComercial){
+				} else {
+					e.preventDefault();
+					notif({
+					  type: "error",
+					  msg: "Os números de contato estão iguais, favor informar dois números diferentes.",
+					  position: "center",
+					  width: 200,
+					  multiline: true
+					});
+					destravaform();
+				}
+			}
+			
+		});	
+		
+		/*$("#dataNascimento").datepicker({
+			dateFormat: 'dd/mm/yy',
+			dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+		    dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+		    dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+		    monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+		    monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+		    nextText: 'Próximo',
+		    prevText: 'Anterior',
+			changeYear: true,
+			yearRange : 'c-100:c'
+		});*/
+	});
+	
+</script>
+<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+<section class="container-fluid">
+	<div class="container">
+        <div class="row-fluid">
+        
+            <div class="span12 dm-libg dm-devware">
+            	<div class="dm-lifree">
+					<h3>Cadastro DevMedia</h3>
+				</div>
+			</div>
+			<div class="form-opn-chamado span12" style="margin: 0">
+				<form class="allForm" id="novoChamadoForm" method="POST">
+					<ul>
+						<li>
+						    <label for="login">Login:</label>
+						    <input type="text" maxlength="80" pattern="[A-Za-z0-9!@.\-_]*" name="login" value="" required="required" />
+						</li>
+						<li>
+						    <label for="senha">Senha:</label>
+						    <input id="senha" maxlength="30" type="password" pattern="[A-Za-z0-9!@.]*" name="senha" required="required" />
+						</li>
+						<li>
+						    <label for="senha2">Confirmação de senha:</label>
+						    <input id="confSenha" maxlength="30" type="password" pattern="[A-Za-z0-9!@.]*" name="senha2" required="required" />
+						</li>
+
+						
+						<li class="nomeContato" style="display: none" >
+						    <label for="nomeContato">Contato:</label>
+						    <input id="nomeContato" maxlength="50" pattern="[A-Za-zà-ýÀ-Ý0-9!@.ç ]*" type="text" name="nomeContato" value=""  />
+						</li>
+						<li>
+						    <label for="nome">Nome:</label>
+						    <input type="text" maxlength="60" name="nome" pattern="[A-Za-zà-ýÀ-Ý0-9!@.ç ]*" value="" required="required" />
+						</li>
+						<li class="pais"   style="display: none">
+						    <label for="pais">Pais:</label>
+						    <input id="pais" type="text" pattern="[A-Za-zà-ýÀ-Ý0-9!@.ç ]*" maxlength="30" name="pais" value=""  />
+						</li>
+						<li class="estado" style="display: none">
+						    <label for="estado">Estado:</label>
+							<select id="estado" name="estado" class="selectEstado">
+								<option value="">Selecione o seu estado</option>
+																											<option value="AC" >Acre</option>
+																			<option value="AL" >Alagoas</option>
+																			<option value="AP" >Amapá</option>
+																			<option value="AM" >Amazonas</option>
+																			<option value="BA" >Bahia</option>
+																			<option value="CE" >Ceará</option>
+																			<option value="DF" >Distrito Federal</option>
+																			<option value="ES" >Espírito Santo</option>
+																			<option value="GO" >Goiás</option>
+																			<option value="MA" >Maranhão</option>
+																			<option value="MT" >Mato Grosso</option>
+																			<option value="MS" >Mato Grosso do Sul</option>
+																			<option value="MG" >Minas Gerais</option>
+																			<option value="PA" >Pará</option>
+																			<option value="PB" >Paraíba</option>
+																			<option value="PR" >Paraná</option>
+																			<option value="PE" >Pernambuco</option>
+																			<option value="PI" >Piauí</option>
+																			<option value="RJ" >Rio de Janeiro</option>
+																			<option value="RN" >Rio Grande do Norte</option>
+																			<option value="RS" >Rio Grande do Sul</option>
+																			<option value="RO" >Rondônia</option>
+																			<option value="RR" >Roraima</option>
+																			<option value="SC" >Santa Catarina</option>
+																			<option value="SP" >São Paulo</option>
+																			<option value="SE" >Sergipe</option>
+																			<option value="TO" >Tocantins</option>
+																								</select>
+						</li>
+						<li class="cidade" style="display: none">
+						    <label for="cidade">Cidade:</label>
+							<select id="cidade" name="cidade" class="selectCidades">
+							</select>
+							<input type="hidden" name="nomeCidade" id="nomeCidade" value="">
+						</li>
+						<li>
+						    <label for="email">E-mail:</label>
+						    <input type="email" pattern="[a-z0-9._+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" maxlength="60" value="" required="required" />
+						</li>
+						<li>
+						    <label for="dataNascimento">Data de Nascimento:</label>
+						    <input type="text" name="dataNascimento" maxlength="11" pattern="\d{1,2}/\d{1,2}/\d{4}" id="dataNascimento" maxlength="12" value="" required="required" />
+						</li>
+						<li>
+						    <label for="telContato">Tel. Contato:</label>
+						    <input id="telContatoDDD" maxlength="3" pattern="[0-9]+$" type="tel" name="telContatoDDD" value="" required="required" />
+						    <input id="telContato" pattern="[0-9]{4,5}-[0-9]{4}" type="tel" name="telContato" value="" required="required" />
+						</li>
+						<li>
+						    <label for="telComercial">Tel. Comercial:</label>
+						    <input id="telComercialDDD" maxlength="3" pattern="[0-9]+$" type="tel" name="telComercialDDD" value="" required="required" />
+						    <input id="telComercial" pattern="[0-9]{4,5}-[0-9]{4}" type="tel" name="telComercial" value="" required="required" />
+						</li>
+						<li>
+						    <label for="politicaPrivacidade">Politica de privacidade:</label>
+						    <input id="politicaPrivacidade" type="checkbox" name="politicaPrivacidade" checked required="required" />Li e concordo com os termos da <a target="_blank" class="linkPolitica" onClick="window.open('politicaprivacidade.html','JANELA','scrollbars=1,height=300,width=450');">politica de privacidade</a>
+						</li>
+						
+						<li>
+						<input type="hidden" name="funcao" value="cadastrarUsuario" />
+						<button id="cadastrarBotao" class="submit" type="submit">Cadastrar</button>
+						<div class="loading" style="display:none;"><img style="width: 13%; margin: 0 10px 0 0;" src="imagens/loading2.html" />Loading...</div>
+						<!--<a href=" ">Voltar</a>
+						<div class="textoCadastro" style="margin: 0">
+							<a href=" ">Já se cadastrou antes? Tente usar o serviço de lembrete de login</a>
+						</div>-->
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

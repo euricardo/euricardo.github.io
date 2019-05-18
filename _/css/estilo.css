@@ -1,0 +1,312 @@
+.dm-lifree{display:inline-block; padding-right:10px;}
+.dm-lifree h3{text-align:left;display:block;text-transform:uppercase; color:#302f31;margin:10px 0;line-height:40px;font-size:24.5px;}
+.dm-lifree{margin-top:-5px;font-family:"Conv_Nexa Bold", Arial, Tahoma}
+.dm-lifree{border-top:5px solid #49c5bf;}
+.dm-libg{border-top:5px solid #302f31}
+
+.dm-devware h4 {
+font-family: "Conv_Nexa Light", Arial, Tahoma;
+font-size: 24px;
+line-height: 130%;
+font-weight: 100;
+text-transform: uppercase;
+color: #49c5bf;
+margin-top: 0;
+}
+
+.dm-devware p {
+margin: 0 0 40px;
+color: #656565;
+font-size: 17px;
+font-family: Arial, Tahoma;
+line-height: 120%;
+}
+
+.infoCampo{
+	font-size: 12px;
+	color: #a4a4a4;
+	font-family: Arial, Tahoma;
+}
+
+.textoCadastro{
+	margin: 0 0 40px !important;
+	color: #656565 !important;
+	font-size: 17px !important;
+	font-family: Arial, Tahoma !important;
+	line-height: 120% !important;
+	clear: both;
+}
+
+.textoCadastro a{
+	text-decoration: none !important;
+	color: #49c5bf !important;
+	font-weight: bold !important;
+	font-size: 18px !important;
+}
+
+.textoCadastro a:hover{
+	text-decoration: underline !important;
+}
+
+.mensagemOk{
+	margin: 0 0 40px;
+	color: #656565;
+	font-size: 17px;
+	font-family: Arial, Tahoma;
+	line-height: 120%;
+}
+
+.mensagemOk a{
+	font-weight: bold;
+	color: #8cc53e;
+	text-decoration: none;
+}
+
+.mensagemOk a:hover{
+	text-decoration: underline;
+}
+
+/* === Estilo dos forms do site === */
+.allForm label{
+	font-family: Arial, Verdana;
+}
+
+.allForm ul {
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
+}
+
+.allForm li{
+	padding:12px; 
+	position:relative;
+	font-family: Arial;
+} 
+
+.required_notification {
+	color:#d45252; 
+	margin:5px 0 0 0; 
+	display:inline;
+	float:right;
+}
+
+/* === Form Elements === */
+.allForm label {
+	width:180px;
+	margin-top: 3px;
+	display:inline-block;
+	padding:3px;
+	text-align: right;
+}
+.allForm input {
+	height:20px; 
+	width:266px; 
+	padding:5px 8px;
+}
+.allForm select {
+	height: 35px;
+	width: 308px;
+	padding: 5px 2px 5px 5px;
+}
+
+.allForm select[multiple] {
+	height:150px; 
+	width:100%; 
+	padding:5px 8px;
+}
+
+.allForm textarea {padding:8px; width:75%; min-height: 130px;}
+.allForm button {float: left;}
+
+/* form element visual styles */
+.allForm input, .allForm textarea { 
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	-ms-transition: padding .25s;
+	transition: padding .25s;
+}
+
+ .allForm select  { 
+	height: 30px;
+	width: 308px;
+	padding: 5px 2px 5px 5px;
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+
+.allForm input:focus, .allForm textarea:focus {
+	background: #fff; 
+	border:1px solid #555; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:40px;
+}
+
+/* === HTML5 validation styles === */	
+.allForm input:required, .allForm textarea:required {
+	background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+}
+.allForm input:required:valid, .allForm textarea:required:valid {
+	background: #fff url(../images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.allForm input:focus:invalid, .allForm textarea:focus:invalid {
+	background: #fff url(../images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+	
+/* === Button Style === */
+button.submit {
+	background: #49c5bf;
+	background: -moz-linear-gradient(top, #49c5bf 0%, #38b4ad 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49c5bf), color-stop(100%,#38b4ad));
+	background: -webkit-linear-gradient(top, #49c5bf 0%,#38b4ad 100%);
+	background: -o-linear-gradient(top, #49c5bf 0%,#38b4ad 100%);
+	background: -ms-linear-gradient(top, #49c5bf 0%,#38b4ad 100%);
+	background: linear-gradient(to bottom, #49c5bf 0%,#38b4ad 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c5bf', endColorstr='#38b4ad',GradientType=0 );
+
+	border: 1px solid #34A59F;
+	margin: auto 40px 40px auto;
+	display: block;
+	cursor: pointer;
+	padding: 10px 30px;
+	font-family:"Conv_Nexa Bold", Arial, Tahoma;
+	font-size: 24px;
+	color: #fff;
+	border-radius:4px;
+	outline: none;
+}
+
+button.submit:hover {
+	background: #38b4ad;
+	background: -moz-linear-gradient(top, #38b4ad 0%, #49c5bf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#38b4ad), color-stop(100%,#49c5bf));
+	background: -webkit-linear-gradient(top, #38b4ad 0%,#49c5bf 100%);
+	background: -o-linear-gradient(top, #38b4ad 0%,#49c5bf 100%);
+	background: -ms-linear-gradient(top, #38b4ad 0%,#49c5bf 100%);
+	background: linear-gradient(to bottom, #38b4ad 0%,#49c5bf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38b4ad', endColorstr='#49c5bf',GradientType=0 ); 
+}
+button.submit:active {
+	background: #38b4ad;
+	border: 1px solid #309691;
+	
+}
+
+.loading {
+	background: #FDFDFD;
+	border: 1px solid #D2D6D6;
+	margin: auto 40px 40px auto;
+	display: inline-block;
+	padding: 10px 10px;
+	font-family:"Conv_Nexa Bold", Arial, Tahoma;
+	font-size: 24px;
+	color: #302f31;
+	border-radius:4px;
+	float: left;
+	outline: none;
+}
+
+.allForm a {
+	font-family:"Conv_Nexa Bold", Arial, Tahoma;
+	font-size: 24px;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	margin: 8px;
+	cursor: pointer;
+}
+
+.allForm a:hover {
+	text-decoration: underline;
+}
+
+#politicaPrivacidade, .pessoa, .place{
+	height: auto !important;
+	width: auto !important;
+	box-shadow: none !important;
+	margin-left: 10px;
+}
+
+.linkPolitica{
+	float: none !important;
+	font-size: 17px !important;
+	font-weight: bold;
+	font-family: Arial, Tahoma !important;
+	margin: 0 !important;
+}
+/* === Fim do estilo dos forms === */
+
+.labelRadio{
+	text-align: left !important; 
+	width: 141px !important;
+}
+
+#telContatoDDD, #telComercialDDD{
+	width: 23px !important;
+}
+
+#telContato, #telComercial{
+		width: 199px !important;
+	}
+
+@media(max-width:767px){
+	
+	.hideBr{
+		display:none !important;
+	}
+	
+	.labelRadio{
+		text-align: left !important;
+		width: 118px !important;
+	}
+
+}
+@media(max-width:537px){
+	
+	.hideBr{
+		display:block !important;
+	}
+	.allForm label {
+		text-align: left !important;
+		display: block;
+	}
+	
+	.labelRadio{
+		display: inline-block !important;
+	}
+
+}
+
+@media(max-width:391px){
+	
+	.labelRadio{
+		width: 100px !important;
+	}
+	
+	#telContato, #telComercial{
+		width: 160px !important;
+	}
+
+}
+
+@media(max-width:319px){
+	
+	.labelRadio{
+		width: 21% !important;
+	}
+	
+}
