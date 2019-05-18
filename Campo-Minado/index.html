@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="css/campo-minado.css">
+		<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+		
+		<link rel="shortcut icon" href="imagens/favicon.ico">
+		
+		<meta name="description" content="Campo minado com Javascript. Minewisper with Javascript.">
+		<meta name="robots" content="index, follow">
+		
+		<title>Campo Minado</title>
+	</head>
+	<body>
+	
+		<div id="pagina">
+			<div id="header">
+				<h1 id="titulo">Campo Minado</h1>
+			</div>
+			
+			<div id="conteudo">
+			
+				<div id="div_campo" class="campo_1">
+					<div id="div_tabuleiro" class="sem_selecao">
+					
+						<table id="tabela_campo">
+							<tr><td id='q_0_0' class='quadrado sem_acao'></td><td id='q_0_1' class='quadrado sem_acao'></td><td id='q_0_2' class='quadrado sem_acao'></td><td id='q_0_3' class='quadrado sem_acao'></td><td id='q_0_4' class='quadrado sem_acao'></td><td id='q_0_5' class='quadrado sem_acao'></td><td id='q_0_6' class='quadrado sem_acao'></td><td id='q_0_7' class='quadrado sem_acao'></td></tr><tr><td id='q_1_0' class='quadrado sem_acao'></td><td id='q_1_1' class='quadrado sem_acao'></td><td id='q_1_2' class='quadrado sem_acao'></td><td id='q_1_3' class='quadrado sem_acao'></td><td id='q_1_4' class='quadrado sem_acao'></td><td id='q_1_5' class='quadrado sem_acao'></td><td id='q_1_6' class='quadrado sem_acao'></td><td id='q_1_7' class='quadrado sem_acao'></td></tr><tr><td id='q_2_0' class='quadrado sem_acao'></td><td id='q_2_1' class='quadrado sem_acao'></td><td id='q_2_2' class='quadrado sem_acao'></td><td id='q_2_3' class='quadrado sem_acao'></td><td id='q_2_4' class='quadrado sem_acao'></td><td id='q_2_5' class='quadrado sem_acao'></td><td id='q_2_6' class='quadrado sem_acao'></td><td id='q_2_7' class='quadrado sem_acao'></td></tr><tr><td id='q_3_0' class='quadrado sem_acao'></td><td id='q_3_1' class='quadrado sem_acao'></td><td id='q_3_2' class='quadrado sem_acao'></td><td id='q_3_3' class='quadrado sem_acao'></td><td id='q_3_4' class='quadrado sem_acao'></td><td id='q_3_5' class='quadrado sem_acao'></td><td id='q_3_6' class='quadrado sem_acao'></td><td id='q_3_7' class='quadrado sem_acao'></td></tr><tr><td id='q_4_0' class='quadrado sem_acao'></td><td id='q_4_1' class='quadrado sem_acao'></td><td id='q_4_2' class='quadrado sem_acao'></td><td id='q_4_3' class='quadrado sem_acao'></td><td id='q_4_4' class='quadrado sem_acao'></td><td id='q_4_5' class='quadrado sem_acao'></td><td id='q_4_6' class='quadrado sem_acao'></td><td id='q_4_7' class='quadrado sem_acao'></td></tr><tr><td id='q_5_0' class='quadrado sem_acao'></td><td id='q_5_1' class='quadrado sem_acao'></td><td id='q_5_2' class='quadrado sem_acao'></td><td id='q_5_3' class='quadrado sem_acao'></td><td id='q_5_4' class='quadrado sem_acao'></td><td id='q_5_5' class='quadrado sem_acao'></td><td id='q_5_6' class='quadrado sem_acao'></td><td id='q_5_7' class='quadrado sem_acao'></td></tr><tr><td id='q_6_0' class='quadrado sem_acao'></td><td id='q_6_1' class='quadrado sem_acao'></td><td id='q_6_2' class='quadrado sem_acao'></td><td id='q_6_3' class='quadrado sem_acao'></td><td id='q_6_4' class='quadrado sem_acao'></td><td id='q_6_5' class='quadrado sem_acao'></td><td id='q_6_6' class='quadrado sem_acao'></td><td id='q_6_7' class='quadrado sem_acao'></td></tr><tr><td id='q_7_0' class='quadrado sem_acao'></td><td id='q_7_1' class='quadrado sem_acao'></td><td id='q_7_2' class='quadrado sem_acao'></td><td id='q_7_3' class='quadrado sem_acao'></td><td id='q_7_4' class='quadrado sem_acao'></td><td id='q_7_5' class='quadrado sem_acao'></td><td id='q_7_6' class='quadrado sem_acao'></td><td id='q_7_7' class='quadrado sem_acao'></td></tr>
+						</table>
+					</div>
+					
+					<div id="div_status">
+						<div id="div_contagem_bombas" class="caixa_status borda_arredondada">
+							<span id="contagem_bombas">0</span>
+						</div>
+						
+						<div id="div_tempo" class="caixa_status borda_arredondada">
+							<span id="minutos">0</span>
+							<span>:</span>
+							<span id="segundos">00</span>
+							<span></span>
+						</div>
+					</div>
+					
+					<hr/>
+					
+					<div id="div_controle">
+						<table id="table_opcoes">
+							<tr>
+								<td>
+									<button class="novo_jogo borda_arredondada tooltip" title="Novo Jogo (N)">
+										Novo Jogo
+									</button>
+								</td>
+								<td>
+									<button id="botao_instrucao" class="borda_arredondada tooltip" style="width: 30px;" 
+										title="Instruções (I)">
+										?
+									</button>
+								</td>
+								<td class="opcoes">
+									<button id="opcao_1" class="opcao borda_arredondada tooltip selecionada" value="1" 
+										title="8x8 | 10 Bombas (Alt + 1)">
+										1
+									</button>
+									<button id="opcao_2" class="opcao borda_arredondada tooltip" value="2" 
+										title="12x12 | 20 Bombas (Alt + 2)">
+										2
+									</button>
+									<button id="opcao_3" class="opcao borda_arredondada tooltip" value="3"
+										title="15x20 | 50 Bombas (Alt + 3)">
+										3
+									</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+				</div> <!-- Div campo -->
+				
+				<div id="modal_instrucoes" class="modal borda_arredondada">
+						<a href="#close" class="close" title="Fechar (Esc)">&#10005;</a>
+						<h2>Instruções</h2>
+						<hr/>
+						<p>
+							<strong>As regras do Campo Minado são simples:</strong> 
+							<ul>
+								<li>Se você descobrir uma mina, o jogo acaba.</li>
+								<li>Se descobrir um quadrado vazio, você continua jogando.</li>
+								<li>Se aparecer um número, ele informará quantas minas estão escondidas nos oito quadrados que o cercam.</li>
+							</ul>
+							Você usa essa informação para deduzir em que quadrados próximos é seguro clicar.
+						</p>
+						<hr/>
+						<p>
+							<strong>Para descobrir um quadrado:</strong> clique com o lado esquerdo do mouse.
+							<br/>
+							<strong>Para marcar uma mina
+								<img id="img_bandeira" src="imagens/flag.png" alt="Bandeira" />:
+							</strong>
+							clique com o lado direito do mouse. 
+						</p>
+						<hr/>
+						<p>
+							<strong>Você pode escolher entre três tamanhos:</strong>
+							<ul>
+								<li>8x8 - 10 Bombas</li>
+								<li>12x12 - 20 Bombas</li>
+								<li>15x20 - 50 Bombas</li>
+							</ul>
+						</p>
+				</div> <!-- Modal Instruções -->
+				
+				<div id="modal_resultado" class="modal borda_arredondada texto-centralizado">
+						<a href="#close" class="close" title="Fechar (Esc)">&#10005;</a>
+						<h2>Você <span id="span_resultado"></span> <span id="span_carinha"></span></h2>
+						<!-- <hr/> -->
+						<!-- <p>
+							<button class="novo_jogo borda_arredondada">
+								Novo Jogo
+							</button>
+						</p> -->
+				</div> <!-- Modal Resultado -->
+				
+			</div> <!-- Conteúdo -->
+			
+			<div id="footer"> 
+				<div style="vertical-align: middle;">
+					Campo Minado com Javascript |
+					Desenvolvido por 
+					<a href="http://about.me/aragaorenan" target="_blank">Renan Aragão</a> |
+					<a href="https://github.com/aragaorenan/Campo-Minado" target="_blank">
+						Código
+						<img id="github" src="imagens/github.png" alt="Código Github"/>
+					</a>
+				</div>
+			</div>
+				
+		</div> <!-- Página -->
+		
+		<!-- JS -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/timer.js"></script>
+		<script src="js/campo-minado.js"></script>
+		<script src="js/jquery.tooltipster.min.js"></script>
+		<script src="js/bPopup.js"></script>
+	
+	</body>
+</html>

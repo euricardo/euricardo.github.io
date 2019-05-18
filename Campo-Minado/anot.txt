@@ -1,0 +1,8 @@
+
+- So descobre se não tiver bandeira.
+- Diminuir tamanho imagens
+- Mudar nome imagens
+- Disable para <td> nao funciona.
+- Imagens demoram a carregar quando entra pela primeira vez.
+- Verificar se nao esta gerando repitido.
+- Shortcut: ctrl+n

@@ -1,0 +1,12 @@
+- Olhar TODO's
+
+
+- Font family do documento
+- Mudar timer.js
+- Fazer atalho com alt para opcoes
+- Comprimir JS e CSS
+- Atalho N do teclado nao funciona
+- Mudar inicializa_eventos.
+- Estilo(CSS) do jogo.
+- Revisar JS e CSS.
+- Definir keypress para letras maiusculas tb.
