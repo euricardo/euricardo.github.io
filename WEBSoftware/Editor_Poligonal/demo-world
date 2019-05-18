@@ -1,0 +1,318 @@
+<!doctype html>
+
+<base href="" />
+<html lang="en">
+<head>
+    <!-- [build] -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29790814-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-29790814-3');
+    </script>
+    <!-- [/build] -->
+
+    <meta charset="utf-8">
+
+    <title>Image Map Pro - WordPress Plugin</title>
+    <meta name="description" content="Image Map Pro - WordPress Plugin">
+    <meta name="author" content="Webcraft Plugins">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- [dev]
+    <link rel="stylesheet" href="css/lib/hljs-default.css">
+    <link rel="stylesheet" href="css/lib/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/lib/image-map-pro.min.css">
+    <link rel="stylesheet" href="css/lib/slippry.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/inner-pages.css">
+    <link rel="stylesheet" href="css/footer.css">
+    [/dev] -->
+
+    <!-- [build] -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- [/build] -->
+</head>
+
+<body>
+
+<header class="inner-page-nav">
+    <nav class="container">
+        <ul> 
+            <li id="nav-logo">
+                <a href="index.html">
+                    <span>
+                        <img src="img/logo-white.png" id="nav-logo-white">
+                        <img src="img/logo-black.png" id="nav-logo-black">
+                    </span>
+                </a>
+            </li>
+            <li class="hidden-xs"><a href="index.html#features" data-scroll-to-element="#section-key-features"><span>features</span></a></li>
+            <li class="hidden-xs">
+                <a href="index.html#examples" data-scroll-to-element="#section-demos"><span>examples <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                <ul class="submenu">
+                    <li>
+                        <a href="countries">
+                            Countries and Continents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-mall">
+                            floor plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-product">
+                            product presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-world">
+                            world map
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="hidden-xs"><a href="index.html#pricing" data-scroll-to-element="#section-pricing"><span>pricing</span></a></li>
+            <li class="hidden-xs">
+                <a href="index.html#support" data-scroll-to-element="#section-support"><span>help <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                <ul class="submenu">
+                    <li>
+                        <a href="tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://webcraftplugins.com/support">Customer Support</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="hidden-xs nav-green"><a href="index.html#pricing" data-scroll-to-element="#section-pricing"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</span></a></li>
+            <li class="visible-xs"><a><span id="span-menu"><i class="fa fa-bars" aria-hidden="true"></i></span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="mobile-menu">
+    <div id="mobile-menu-inner">
+        <img src="img/logo-black.png">
+        <ul>
+            <li>
+                <a href="index.html#features" data-scroll-to-element="#section-key-features">Features</a>
+            </li>
+            <li>
+                <a href="index.html#examples" data-scroll-to-element="#section-demos">Examples</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="countries">
+                            countries
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-mall">
+                            floor plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-product">
+                            product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-world">
+                            world map
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="index.html#pricing" data-scroll-to-element="#section-pricing">Pricing</a></li>
+            <li>
+                <a href="https://imagemappro.com/support" data-scroll-to-element="#section-support">Help</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://webcraftplugins.com/support">Customer Support</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-green"><a href="index.html#pricing" data-scroll-to-element="#section-pricing"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a></li>
+        </ul>
+    </div>
+</div>
+<div class="inner-page-header">
+    <div class="container">
+        <span>Example</span>
+        <h2>World Map</h2>
+        <p>This demo showcases the ability to create rich content in the tooltips and to have an image as a background for a vector shape. By default it’s hidden and on mouseover you can see it as a colored version of the continent.</p>
+    </div>
+</div>
+
+<section class="inner-page-section">
+    <div class="container">
+        <div id="image-map-world"></div>
+    </div>
+</section>
+
+<section class="inner-page-description">
+    <div class="container">
+        <div class="col-sm-4">
+            <h3><i class="fa fa-cogs" aria-hidden="true"></i> Content Builder</h3>
+            <p>Image Map Pro™ comes with its own custom rich content builder. You can create complex and responsive grid layouts, effortlessly add images, video and buttons to the content and style it all to match the design of your website.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><i class="fa fa-comment" aria-hidden="true"></i> Responsive Tooltips</h3>
+            <p>Having lots of content in the tooltips can be fine on desktop, but it doesn’t work on mobile. The best option in this case is to make the tooltips appear fullscreen and scrollable on mobile devices, which is one click away in the Editor.</p>
+        </div>
+        <div class="col-sm-4">
+            <h3><i class="fa fa-picture-o" aria-hidden="true"></i> Image Backgrounds</h3>
+            <p>Having an image as a background for a vector shape, you can create incredibly cool effects and experiences for your customers. The limit is your imagination!</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="footer-top">
+        <div id="footer-top-logo">
+            <p id="made-with-love">Made with <i class="fa fa-heart" aria-hidden="true"></i> by</p>
+            <a href="https://webcraftplugins.com"><img src="img/logo-webcraftplugins.png"></a>
+        </div>
+        <div id="footer-top-bg"></div>
+        <svg width="1920px" height="85px" viewBox="0 0 1920 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M0,34 L1920,34 C1920,34 1920,64.1813946 1920,70.151625 C1771.40967,70.151625 1687.55509,72.3217375 1622.05122,72.3217375 C1556.54736,72.3217375 1550.6125,68.5157356 1455.46887,72.3217375 C1360.32524,76.1277395 1307.56441,75.7781899 1182.11328,72.6821971 C1116.11055,71.053324 1111.66504,71.6579427 1060.98474,72.6821971 C1054.71898,72.8088289 1049.87842,72.8662745 1044.66553,82.1459173 C1033.52979,82.1459173 877.715761,85.760813 876.962891,84.8540529 C864.921875,70.351808 853.076656,72.6821971 848.97876,72.6821971 C777.166789,72.6821971 789.95752,74.5505848 740.168596,71.6579427 C704.0931,69.5620248 656.23011,71.6579427 614.260867,71.6579427 C530.126816,71.6579427 531.774695,68.269586 424.896867,72.3217375 C318.01904,76.3738891 305.934822,72.3217375 180.676534,72.3217375 C55.4182449,72.3217375 52.6577148,70.151625 0,70.151625 C7.12433658e-14,64.3901559 0,34 0,34 Z" id="Rectangle-2-Copy-2" fill="#2f3739" transform="translate(960.000000, 59.500000) scale(1, -1) translate(-960.000000, -59.500000) "></path>
+                <path d="M1058,83 C1058,37.2740862 1025.16797,-3.24839078 959,0.205908996 C892.832031,3.66020877 860,37.2740862 860,83 C932.365234,83 993.31543,83 1058,83 Z" id="Oval-5-Copy" fill="#2f3739"></path>
+            </g>
+        </svg>
+    </div>
+
+    <div id="footer-main">
+        <div class="container">
+            <div class="col-sm-8 no-padding">
+                <h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <span>Feedback From</span>Over 10,000 Customers
+                </h3>
+                <article class="col-sm-6 col-md-6">
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        This plugin works beautifully, and the support from the software company is fantastic. I actually only needed one small item, but they were able to provide a fix very quickly. Feel good about purchasing this plugin - it works well, makes it so much easier to build image maps, super flexible and easy to use.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        The plug-in is amazing. Extremely convenient and intuitive interface. All functions are exactly as described in the documentation. Support is extremely high.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </article>
+                <article class="col-sm-6 col-md-6">
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        This is a great plug-in and the support is worth every penny. We have reached out a few times to ask questions and they have responded in less than a day each time, and resolved our questions.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        It is very easy to use, it looks very pretty, there are many customization options and it just works!  I've used it already in several websites and I'll keep using it.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <h3 class="single-line">
+                    <img src="img/support.svg">
+                    Customer Support
+                </h3>
+                <p>If you need help using any of our products,
+                please contact us and we will do our best to help!
+                Guaranteed response within 24 hours.</p>
+                <a class="footer-button" href="https://webcraftplugins.com/support">Get Help</a>
+
+                <div class="footer-separator"></div>
+
+                <h4>Image Map Pro™</h4>
+                <nav>
+                    <ul>
+                        <li><a href="index.html#features" data-scroll-to-element="#section-key-features">Features</a></li>
+                        <li><a href="index.html#pricing" data-scroll-to-element="#section-pricing">Pricing</a></li>
+                        <li><a href="countries">List of Countries</a></li>
+                        <li><a href="index.html#examples" data-scroll-to-element="#section-demos">Examples</a></li>
+                        <li><a href="tutorials">Tutorials</a></li>
+                        <li><a href="documentation">Documentation</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer-bottom">
+        <div id="footer-bottom-bg">
+            <svg preserveAspectRatio="none" width="1920px" height="31px" viewBox="0 0 1920 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none">
+                    <path d="M1920,-3.63797881e-12 C1920,-3.63797881e-12 1920,18.0314321 1920,20.2780959 C1847,10.9592906 1687.55509,24.2936952 1622.05122,24.2936952 C1556.54736,24.2936952 1550.6125,17.2510286 1455.46887,24.2936952 C1360.32524,31.3363618 1307.56441,30.6895515 1182.11328,24.9606934 C1116.11055,21.9466092 1076.21283,22.9244197 1060.98474,24.9606934 C983,35.3886813 947.415857,27.1565584 880.511278,24.2936952 C851.806301,23.0654023 845.785504,30.5441326 740.168596,23.0654023 C687.146175,19.3108861 656.23011,23.0654023 614.260867,23.0654023 C530.126816,23.0654023 531.774695,16.7955509 424.896867,24.2936952 C318.01904,31.7918396 305.934822,24.2936952 180.676534,24.2936952 C55.4182449,24.2936952 89,17.9527629 0,20.2780959 C1.45464202e-14,18.1013234 2.76380788e-14,0.0234375 2.76380788e-14,0.0234375 L1920,-3.63797881e-12 Z" id="Rectangle-2-Copy-2" fill="#212425" transform="translate(960.000000, 15.044922) scale(1, -1) translate(-960.000000, -15.044922) "></path>
+                </g>
+            </svg>
+        </div>
+        <div class="container">
+            <a href="mailto:hello@webcraftplugins.com"><i class="fa fa-envelope" aria-hidden="true"></i> hello@webcraftplugins.com</a>
+            <a href="privacy">Privacy Policy</a>
+            <a href="terms">Terms of Use</a>
+            <span>© 2019</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.intercomSettings = {
+        app_id: "ukqxz4ki"
+    };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ukqxz4ki';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+<!-- [dev]
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/image-map-pro.min.js"></script>
+<script src="js/lib/highlight.pack.js"></script>
+<script src="js/lib/perfect-scrollbar.min.js"></script>
+<script src="js/lib/slippry.min.js"></script>
+<script src="js/demos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/sections.js"></script>
+<script src="js/tracking.js"></script>
+[/dev] -->
+
+<!-- [build] -->
+<script src="js/app.js"></script>
+<!-- [/build] -->
+
+</body>
+</html>

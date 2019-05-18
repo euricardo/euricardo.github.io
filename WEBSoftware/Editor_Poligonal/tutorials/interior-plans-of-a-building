@@ -1,0 +1,571 @@
+<!doctype html>
+
+<base href="" />
+<html lang="en">
+<head>
+    <!-- [build] -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29790814-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-29790814-3');
+    </script>
+    <!-- [/build] -->
+
+    <meta charset="utf-8">
+
+    <title>Image Map Pro - WordPress Plugin</title>
+    <meta name="description" content="Image Map Pro - WordPress Plugin">
+    <meta name="author" content="Webcraft Plugins">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- [dev]
+    <link rel="stylesheet" href="css/lib/hljs-default.css">
+    <link rel="stylesheet" href="css/lib/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/lib/image-map-pro.min.css">
+    <link rel="stylesheet" href="css/lib/slippry.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/inner-pages.css">
+    <link rel="stylesheet" href="css/footer.css">
+    [/dev] -->
+
+    <!-- [build] -->
+    <link rel="stylesheet" href="../css/app.css">
+    <!-- [/build] -->
+</head>
+
+<body>
+
+<header class="inner-page-nav">
+    <nav class="container">
+        <ul> 
+            <li id="nav-logo">
+                <a href="../index.html">
+                    <span>
+                        <img src="../img/logo-white.png" id="nav-logo-white">
+                        <img src="../img/logo-black.png" id="nav-logo-black">
+                    </span>
+                </a>
+            </li>
+            <li class="hidden-xs"><a href="../index.html#features" data-scroll-to-element="#section-key-features"><span>features</span></a></li>
+            <li class="hidden-xs">
+                <a href="../index.html#examples" data-scroll-to-element="#section-demos"><span>examples <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                <ul class="submenu">
+                    <li>
+                        <a href="../countries">
+                            Countries and Continents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../demo-mall">
+                            floor plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../demo-product">
+                            product presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../demo-world">
+                            world map
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="hidden-xs"><a href="../index.html#pricing" data-scroll-to-element="#section-pricing"><span>pricing</span></a></li>
+            <li class="hidden-xs">
+                <a href="../index.html#support" data-scroll-to-element="#section-support"><span>help <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                <ul class="submenu">
+                    <li>
+                        <a href="../tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="../documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://webcraftplugins.com/support">Customer Support</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="hidden-xs nav-green"><a href="../index.html#pricing" data-scroll-to-element="#section-pricing"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</span></a></li>
+            <li class="visible-xs"><a><span id="span-menu"><i class="fa fa-bars" aria-hidden="true"></i></span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="mobile-menu">
+    <div id="mobile-menu-inner">
+        <img src="../img/logo-black.png">
+        <ul>
+            <li>
+                <a href="../index.html#features" data-scroll-to-element="#section-key-features">Features</a>
+            </li>
+            <li>
+                <a href="../index.html#examples" data-scroll-to-element="#section-demos">Examples</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="../countries">
+                            countries
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../demo-mall">
+                            floor plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../demo-product">
+                            product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../demo-world">
+                            world map
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="../index.html#pricing" data-scroll-to-element="#section-pricing">Pricing</a></li>
+            <li>
+                <a href="https://imagemappro.com/support" data-scroll-to-element="#section-support">Help</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="../tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="../documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://webcraftplugins.com/support">Customer Support</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-green"><a href="../index.html#pricing" data-scroll-to-element="#section-pricing"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a></li>
+        </ul>
+    </div>
+</div>
+<div class="inner-page-header">
+    <div class="container">
+        <span>Tutorial</span>
+        <h2>Interior Plans of a Building</h2>
+    </div>
+</div>
+
+<section id="section-tutorial">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12" style="display: flex; align-items: center; justify-content: center;">
+                <div id="tutorial-demo-building-1"></div>
+            </div>
+            <div class="col-sm-8 col-xs-12">
+                <div id="tutorial-demo-building-2"></div>
+            </div>
+        </div>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/1.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 1</span>
+                        Create a new image map
+                    </h3>
+                    <p>To create a new image map, click <strong>New</strong> on the top-left of the editor, enter a name and click <strong>Create</strong>.</p>
+                    <p class="more">You can choose to have a responsive or fixed size of the image map. To change that, click Settings. From the menu on the left, choose General. The Responsive setting is automatically enabled. If you want to set a specific size, you should disable it and enter the desired width and height in pixels.</p>
+                    <p class="more">Keep in mind the real size of the image which you will set as a background in next step. If you set a different width/height ratio you can stretch the image and it will look bad. After setting an image in Step 2, you can always come back and click the Reset Size button.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/2.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 2</span>
+                        Set a background image
+                    </h3>
+                    <p>To set the background image click <strong>Settings</strong>, go to the <strong>Image</strong> section and click <strong>Choose Image</strong> to launch the WP Media Library.</p>
+                    <p class="more">If you are using the Standalone version, you have to paste the URL of the image.</p>
+                </div>
+            </section>
+        </article>
+
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/3.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 3</span>
+                        Draw shapes
+                    </h3>
+                    <p>Choose the <strong>Rectangle</strong> tool from the toolbar on the left and draw a rect for each floor of the building.</p>
+                    <p>When you are done drawing shapes, choose the <strong>Select</strong> tool to avoid accidentally creating new shapes.</p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/4.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <p>Additionally, you can rename each shape by clicking <strong>Rename</strong>.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/5.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 4</span>
+                        Shape styles
+                    </h3>
+                    <p>You can customize the styles of a shape both for its default state and mouseover state.</p>
+                    <p>When you select a shape you can see its settings on the right side of the Editor. Look for the <strong>Default Style</strong> and <strong>Mouseover Style</strong> tabs.</p>
+                    <p>In this tutorial we used the following settings (see below). You don’t have to copy them exactly, feel free to experiment!</p>
+                    <p>
+                        <ul>
+                            <li><strong>Background Color</strong>: #0458CF</li>
+                            <li><strong>Background Opacity</strong>: 0</li>
+                            <li><strong>Border Width</strong>: 4</li>
+                            <li><strong>Border Style</strong>: Dashed</li>
+                            <li><strong>Border Color</strong>: #0458CF</li>
+                            <li><strong>Border Opacity</strong>: 0</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/6.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <p>For the mouseover styles we want to use the exact same settings, but with a few modifications.</p>
+                    <p>Open the <strong>Mouseover Style</strong>, click <strong>Copy from Default Styles</strong> and change the <strong>Background Opacity</strong> to 0.3 and <strong>Border Opacity</strong> to 1.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/7.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 5</span>
+                        Second image map for the floors
+                    </h3>
+                    <p>We are done with the building and now it’s time to create a new image map, which will contain all eight floors.</p>
+                    <p>Create a new image map and from the <strong>Floors</strong> settings tab, click <strong>Enable Floors</strong>. By default, the first floor is named “Main Floor”.</p>
+                    <p>To rename the floor and set a background image, first select it and then click <strong>Edit</strong>. In the window that opens you can change the name of the floor and set its image.</p>
+                <p>To add another floor, press the + button on the left and a similar window will open.</p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/8.png"></div>
+                <div class="col-md-4 col-sm-6">
+                <p>To switch to the new floor (to add shapes to it for example) use the menu that has appeared just above the image map.</p>
+                <p class="more">In this tutorial we will go over the steps to create just one of the floors of the building, and then the process is the same for the rest of the floors.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/9.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 6</span>
+                        Draw a shape for each room
+                    </h3>
+                    <p>The best tool to use for the job is the <strong>Polygon</strong>. Select it and draw a path around each room.</p>
+
+                    <p class="more">Tip: To finish drawing a path, simply press Enter or click the first point of the path.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/10.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 7</span>
+                        Shape styles
+                    </h3>
+                    <p>We are going to style the polygons that we made, similarly to how we did it in step 4. We used these settings:</p>
+                    <p>
+                        Default Style:
+                        <ul>
+                            <li><strong>Background Opacity</strong>: 0</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Mouseover Style:
+                        <ul>
+                            <li><strong>Background Opacity</strong>: 0.2</li>
+                            <li><strong>Background Color</strong>: #0158CF</li>
+                            <li><strong>Stroke Opacity</strong>: 1</li>
+                            <li><strong>Stroke Width</strong>: 4</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/11.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <p>When you style one of the polygons, you can copy/paste styles to the rest of the polygons to make things quick. Use the <strong>Copy Style</strong> and <strong>Paste Style</strong> buttons as shown on the image.</p>
+                    <p>It will be best to do this after step 8. That way you will be copying the styles of the tooltips as well!</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/12.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 8</span>
+                        Tooltip styles
+                    </h3>
+                    <p>You can customize the tooltips by changing background color, opacity, border radius, you can set fixed width or even place the tooltip exactly where you want it.</p>
+                    <p>Select a shape, click the <strong>Tooltip Style</strong> button and change the <strong>Background Color</strong> to #0158CF and the <strong>Padding</strong> to 5.</p>
+                    <p class="more">If the <strong>Tooltip Style</strong> button is not easily accessible, you can click <strong>Edit Style</strong> from the <strong>Tooltip</strong> tab on the right.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/13.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 9</span>
+                        Tooltip content
+                    </h3>
+                    <p>To edit the content of the tooltip, click the <strong>Tooltip Content</strong> button above it.</p>
+                    <p>When the new window opens, click the text in the tooltip to select it and the <strong>Settings</strong> tab will open automatically.</p>
+                    <p>Since the default element in a tooltip is the <strong>Heading</strong> element, in the <strong>Heading</strong> tab you can edit the text.</p>
+                    <p class="more">Feel free to explore the different options for layout and style.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/14.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 10</span>
+                        Connect rooms with similar purpose
+                    </h3>
+                    <p>In Image Map Pro™ you can have shapes that are connected to each other. For example, when we mouseover over one of the bathrooms, we want the other one to be highlighted as well.</p>
+                    <p>To make this work, select one of the bathrooms and from the <strong>Parent</strong> menu in the <strong>General</strong> tab, select the other bathroom. Also enable <strong>Use Parent’s Tooltip</strong>.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-2/15.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 11</span>
+                        Add a menu
+                    </h3>
+                    <p>With a few clicks you can add a menu to your image map. Open the <strong>General</strong> settings and the <strong>Shapes Menu</strong> tab. Enable the menu from there and also click <strong>Group by Floor</strong> and select <strong>Right</strong> for the <strong>Menu Position</strong>.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="col-xs-12">
+                    <h3>
+                        <span>Step 12</span>
+                        Connecting both image maps
+                    </h3>
+                    <p>Our end goal is to click one of the floors on the first image map and show the corresponding floor on the second image map. This is where the JavaScript API comes in! Please keep in mind, this is a tutorial on Image Map Pro™, not on JavaScript. If you don’t understand any of the code below that is okay, you can still do lots of things with the Editor!</p>
+                    <p>Here is the code:</p>
+<pre><code class="javascript">(function($, window, document, undefined) {
+    $(document).ready(function() {
+
+        // Called when the user clicks on a shape
+        $.imageMapProEventClickedShape = function(imageMapName, shapeName) {
+
+            // First, check which image map and which shape triggered the event
+            // We want to listen for events only from the image map “Building”
+            if (imageMapName == 'Building' && shapeName == 'Floor 1') {
+
+                // Switch to the corresponding floor on the second image map
+                $.imageMapProGoToFloor('Floors', 'Floor 1');
+            }
+
+            // Repeat for each floor
+            // …
+        });
+    });
+})(jQuery, window, document);
+</code></pre>
+                    <p>Here are the two API functions that we use:</p>
+                    <p><code>$.imageMapProEventClickedShape</code> - Called when the user triggers clicks on (or taps) a shape.</p>
+                    <p><code>$.imageMapProGoToFloor</code> - When called, the specified image map will switch on the specified floor.</p>
+                    <p class="more">Check out the full <a href="../documentation">documentation</a> of the JavaScript and the HTML APIs.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="tutorial-step-img-wrap col-md-8 col-sm-6"><img src="../img/tutorial-1/9.png"></div>
+                <div class="col-md-4 col-sm-6">
+                    <h3>
+                        <span>Step 13</span>
+                        Include the code
+                    </h3>
+                    <p>To make the code work, we need to add it to your image map (duh). This process is different in the WordPress version and the Standalone version of the plugin.</p>
+                    <p>WordPress - Open the <strong>Settings</strong>, go to the <strong>Custom Code</strong> tab and paste the code there.</p>
+                    <p>Standalone - Paste the code in a <code>&lt;script&gt;</code> tag or in a separate .js file.</p>
+                </div>
+            </section>
+        </article>
+        <article class="tutorial-step">
+            <section class="row">
+                <div class="col-xs-6">
+                    <h3>
+                        <span>Step 14</span>
+                        Publish your image map
+                    </h3>
+                    <p>The final step left is to publish the image map on your site. Again, this process is different on WordPress and in the Standalone versions of the plugin.</p>
+                    <p>For detailed instructions, please check out the <strong>Publishing Your Image Map</strong> section of the <a href="../documentation">documentation</a>.</p>
+                </div>
+            </section>
+        </article>
+    </div>
+</section>
+
+<footer>
+    <div id="footer-top">
+        <div id="footer-top-logo">
+            <p id="made-with-love">Made with <i class="fa fa-heart" aria-hidden="true"></i> by</p>
+            <a href="https://webcraftplugins.com"><img src="../img/logo-webcraftplugins.png"></a>
+        </div>
+        <div id="footer-top-bg"></div>
+        <svg width="1920px" height="85px" viewBox="0 0 1920 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M0,34 L1920,34 C1920,34 1920,64.1813946 1920,70.151625 C1771.40967,70.151625 1687.55509,72.3217375 1622.05122,72.3217375 C1556.54736,72.3217375 1550.6125,68.5157356 1455.46887,72.3217375 C1360.32524,76.1277395 1307.56441,75.7781899 1182.11328,72.6821971 C1116.11055,71.053324 1111.66504,71.6579427 1060.98474,72.6821971 C1054.71898,72.8088289 1049.87842,72.8662745 1044.66553,82.1459173 C1033.52979,82.1459173 877.715761,85.760813 876.962891,84.8540529 C864.921875,70.351808 853.076656,72.6821971 848.97876,72.6821971 C777.166789,72.6821971 789.95752,74.5505848 740.168596,71.6579427 C704.0931,69.5620248 656.23011,71.6579427 614.260867,71.6579427 C530.126816,71.6579427 531.774695,68.269586 424.896867,72.3217375 C318.01904,76.3738891 305.934822,72.3217375 180.676534,72.3217375 C55.4182449,72.3217375 52.6577148,70.151625 0,70.151625 C7.12433658e-14,64.3901559 0,34 0,34 Z" id="Rectangle-2-Copy-2" fill="#2f3739" transform="translate(960.000000, 59.500000) scale(1, -1) translate(-960.000000, -59.500000) "></path>
+                <path d="M1058,83 C1058,37.2740862 1025.16797,-3.24839078 959,0.205908996 C892.832031,3.66020877 860,37.2740862 860,83 C932.365234,83 993.31543,83 1058,83 Z" id="Oval-5-Copy" fill="#2f3739"></path>
+            </g>
+        </svg>
+    </div>
+
+    <div id="footer-main">
+        <div class="container">
+            <div class="col-sm-8 no-padding">
+                <h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <span>Feedback From</span>Over 10,000 Customers
+                </h3>
+                <article class="col-sm-6 col-md-6">
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        This plugin works beautifully, and the support from the software company is fantastic. I actually only needed one small item, but they were able to provide a fix very quickly. Feel good about purchasing this plugin - it works well, makes it so much easier to build image maps, super flexible and easy to use.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        The plug-in is amazing. Extremely convenient and intuitive interface. All functions are exactly as described in the documentation. Support is extremely high.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </article>
+                <article class="col-sm-6 col-md-6">
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        This is a great plug-in and the support is worth every penny. We have reached out a few times to ask questions and they have responded in less than a day each time, and resolved our questions.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        It is very easy to use, it looks very pretty, there are many customization options and it just works!  I've used it already in several websites and I'll keep using it.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <h3 class="single-line">
+                    <img src="../img/support.svg">
+                    Customer Support
+                </h3>
+                <p>If you need help using any of our products,
+                please contact us and we will do our best to help!
+                Guaranteed response within 24 hours.</p>
+                <a class="footer-button" href="https://webcraftplugins.com/support">Get Help</a>
+
+                <div class="footer-separator"></div>
+
+                <h4>Image Map Pro™</h4>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html#features" data-scroll-to-element="#section-key-features">Features</a></li>
+                        <li><a href="../index.html#pricing" data-scroll-to-element="#section-pricing">Pricing</a></li>
+                        <li><a href="../countries">List of Countries</a></li>
+                        <li><a href="../index.html#examples" data-scroll-to-element="#section-demos">Examples</a></li>
+                        <li><a href="../tutorials">Tutorials</a></li>
+                        <li><a href="../documentation">Documentation</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer-bottom">
+        <div id="footer-bottom-bg">
+            <svg preserveAspectRatio="none" width="1920px" height="31px" viewBox="0 0 1920 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none">
+                    <path d="M1920,-3.63797881e-12 C1920,-3.63797881e-12 1920,18.0314321 1920,20.2780959 C1847,10.9592906 1687.55509,24.2936952 1622.05122,24.2936952 C1556.54736,24.2936952 1550.6125,17.2510286 1455.46887,24.2936952 C1360.32524,31.3363618 1307.56441,30.6895515 1182.11328,24.9606934 C1116.11055,21.9466092 1076.21283,22.9244197 1060.98474,24.9606934 C983,35.3886813 947.415857,27.1565584 880.511278,24.2936952 C851.806301,23.0654023 845.785504,30.5441326 740.168596,23.0654023 C687.146175,19.3108861 656.23011,23.0654023 614.260867,23.0654023 C530.126816,23.0654023 531.774695,16.7955509 424.896867,24.2936952 C318.01904,31.7918396 305.934822,24.2936952 180.676534,24.2936952 C55.4182449,24.2936952 89,17.9527629 0,20.2780959 C1.45464202e-14,18.1013234 2.76380788e-14,0.0234375 2.76380788e-14,0.0234375 L1920,-3.63797881e-12 Z" id="Rectangle-2-Copy-2" fill="#212425" transform="translate(960.000000, 15.044922) scale(1, -1) translate(-960.000000, -15.044922) "></path>
+                </g>
+            </svg>
+        </div>
+        <div class="container">
+            <a href="mailto:hello@webcraftplugins.com"><i class="fa fa-envelope" aria-hidden="true"></i> hello@webcraftplugins.com</a>
+            <a href="../privacy">Privacy Policy</a>
+            <a href="../terms">Terms of Use</a>
+            <span>© 2019</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.intercomSettings = {
+        app_id: "ukqxz4ki"
+    };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ukqxz4ki';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+<!-- [dev]
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/image-map-pro.min.js"></script>
+<script src="js/lib/highlight.pack.js"></script>
+<script src="js/lib/perfect-scrollbar.min.js"></script>
+<script src="js/lib/slippry.min.js"></script>
+<script src="js/demos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/sections.js"></script>
+<script src="js/tracking.js"></script>
+[/dev] -->
+
+<!-- [build] -->
+<script src="../js/app.js"></script>
+<!-- [/build] -->
+
+</body>
+</html>

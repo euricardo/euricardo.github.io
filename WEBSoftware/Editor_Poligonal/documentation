@@ -1,0 +1,935 @@
+<!doctype html>
+
+<base href="" />
+<html lang="en">
+<head>
+    <!-- [build] -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29790814-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-29790814-3');
+    </script>
+    <!-- [/build] -->
+
+    <meta charset="utf-8">
+
+    <title>Image Map Pro - WordPress Plugin</title>
+    <meta name="description" content="Image Map Pro - WordPress Plugin">
+    <meta name="author" content="Webcraft Plugins">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- [dev]
+    <link rel="stylesheet" href="css/lib/hljs-default.css">
+    <link rel="stylesheet" href="css/lib/perfect-scrollbar.css">
+    <link rel="stylesheet" href="css/lib/image-map-pro.min.css">
+    <link rel="stylesheet" href="css/lib/slippry.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/inner-pages.css">
+    <link rel="stylesheet" href="css/footer.css">
+    [/dev] -->
+
+    <!-- [build] -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- [/build] -->
+</head>
+
+<body>
+
+<header class="inner-page-nav">
+    <nav class="container">
+        <ul> 
+            <li id="nav-logo">
+                <a href="index.html">
+                    <span>
+                        <img src="img/logo-white.png" id="nav-logo-white">
+                        <img src="img/logo-black.png" id="nav-logo-black">
+                    </span>
+                </a>
+            </li>
+            <li class="hidden-xs"><a href="index.html#features" data-scroll-to-element="#section-key-features"><span>features</span></a></li>
+            <li class="hidden-xs">
+                <a href="index.html#examples" data-scroll-to-element="#section-demos"><span>examples <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                <ul class="submenu">
+                    <li>
+                        <a href="countries">
+                            Countries and Continents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-mall">
+                            floor plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-product">
+                            product presentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-world">
+                            world map
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="hidden-xs"><a href="index.html#pricing" data-scroll-to-element="#section-pricing"><span>pricing</span></a></li>
+            <li class="hidden-xs">
+                <a href="index.html#support" data-scroll-to-element="#section-support"><span>help <i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                <ul class="submenu">
+                    <li>
+                        <a href="tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://webcraftplugins.com/support">Customer Support</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="hidden-xs nav-green"><a href="index.html#pricing" data-scroll-to-element="#section-pricing"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</span></a></li>
+            <li class="visible-xs"><a><span id="span-menu"><i class="fa fa-bars" aria-hidden="true"></i></span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="mobile-menu">
+    <div id="mobile-menu-inner">
+        <img src="img/logo-black.png">
+        <ul>
+            <li>
+                <a href="index.html#features" data-scroll-to-element="#section-key-features">Features</a>
+            </li>
+            <li>
+                <a href="index.html#examples" data-scroll-to-element="#section-demos">Examples</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="countries">
+                            countries
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-mall">
+                            floor plan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-product">
+                            product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="demo-world">
+                            world map
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="index.html#pricing" data-scroll-to-element="#section-pricing">Pricing</a></li>
+            <li>
+                <a href="https://imagemappro.com/support" data-scroll-to-element="#section-support">Help</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="documentation">Documentation</a>
+                    </li>
+                    <li>
+                        <a href="https://webcraftplugins.com/support">Customer Support</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-green"><a href="index.html#pricing" data-scroll-to-element="#section-pricing"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now</a></li>
+        </ul>
+    </div>
+</div>
+<div class="inner-page-header">
+    <div class="container">
+        <h2 class="col-md-12">Documentation</h2>
+    </div>
+</div>
+
+<section class="inner-page-section">
+    <div class="container">
+        <nav id="nav-documentation" class="col-sm-3">
+            <ol>
+                <li>
+                    <a data-scroll-to-element="#installation">Installation</a>
+                    <ol>
+                        <li><a data-scroll-to-element="#installation-wordpress">WordPress</a></li>
+                        <li><a data-scroll-to-element="#installation-standalone">Standalone</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a data-scroll-to-element="#first-steps">First Steps</a>
+                    <ol>
+                        <li><a data-scroll-to-element="#take-the-guided-tour">Take the Guided Tour</a></li>
+                        <li><a data-scroll-to-element="#activation">Activation (WordPress only)</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a data-scroll-to-element="#working-with-the-editor">Working with the Editor</a>
+                    <ol>
+                        <li><a data-scroll-to-element="#creating-a-new-image-map">Creating a new Image Map</a></li>
+                        <li><a data-scroll-to-element="#responsive">Responsive</a></li>
+                        <li><a data-scroll-to-element="#drawing-shapes">Drawing Shapes, Icons and Text</a></li>
+                        <li><a data-scroll-to-element="#styles">Styles</a></li>
+                        <li><a data-scroll-to-element="#preview-mode">Preview Mode</a></li>
+                        <li><a data-scroll-to-element="#save-load">Save, Load</a></li>
+                        <li><a data-scroll-to-element="#import-export">Import, Export</a></li>
+                        <li><a data-scroll-to-element="#connected-shapes">Connected Shapes</a></li>
+                        <li><a data-scroll-to-element="#glowing-and-animation">Glowing and Animation</a></li>
+                        <li><a data-scroll-to-element="#shapes-menu">Shapes Menu</a></li>
+                        <li><a data-scroll-to-element="#multiple-floors">Multiple Floors</a></li>
+                        <li><a data-scroll-to-element="#zooming">Zooming</a></li>
+                        <li><a data-scroll-to-element="#fullscreen">Fullscreen</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a data-scroll-to-element="#publishing-your-image-map">Publishing your Image Map</a>
+                    <ol>
+                        <li><a data-scroll-to-element="#publishing-wordpress">WordPress</a></li>
+                        <li><a data-scroll-to-element="#publishing-standalone">Standalone</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a data-scroll-to-element="#api">API</a>
+                    <ol>
+                        <li><a data-scroll-to-element="#intro">Intro</a></li>
+                        <li><a data-scroll-to-element="#simple-html-example">Simple HTML API Example</a></li>
+                        <li><a data-scroll-to-element="#simple-javascript-api-example-1">Simple JavaScript API Example 1</a></li>
+                        <li><a data-scroll-to-element="#simple-javascript-api-example-2">Simple JavaScript API Example 2</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a data-scroll-to-element="#api-reference">API Reference</a>
+                    <ol>
+                        <li><a data-scroll-to-element="#reference-html">HTML</a></li>
+                        <li><a data-scroll-to-element="#javascript-actions">JavaScript Actions</a></li>
+                        <li><a data-scroll-to-element="#javascript-hooks">JavaScript Hooks</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <div id="nav-back"><i class="fa fa-chevron-up" aria-hidden="true"></i> Back Up</div>
+        </nav>
+        <section id="section-documentation" class="col-sm-9">
+            <section id="installation">
+                <h3>Installation</h3>
+                <section id="installation-wordpress">
+                    <h4>Installing the WordPress Version</h4>
+                    <ol>
+                        <li>
+                            Download the plugin from CodeCanyon.
+                            <p>Visit CodeCanyon, then go to your Downloads page. Find “Image Map Pro for WordPress”, press Download and then select “Installable WordPress file only”.</p>
+                        </li>
+                        <li>
+                            Upload it to your WordPress website.
+                            <p>Open your WordPress dashboard. From the menu on the left click Plugins -> Add New. Finally click the “Upload Plugin” button and choose the ZIP file that you downloaded in step 1.</p>
+                        </li>
+                        <li>
+                            You are all done!
+                        </li>
+                    </ol>
+                </section>
+                <section id="installation-standalone">
+                    <h4>Installing the Standalone Version</h4>
+                    <ol>
+                        <li>
+                            Download the plugin from CodeCanyon.
+                            <p>Visit CodeCanyon, then go to your Downloads page. Find “Image Map Pro for jQuery”, press Download and then select “All Files & Documentation”.</p>
+                        </li>
+                        <li>
+                            Extract the zip package that you downloaded and copy the <strong>editor</strong> folder to any location on your computer or a server.
+                            <em><strong>IMPORTANT</strong>: The editor can save your image maps in the browser using HTML5 Local Storage, which is URL dependant. This means that if you move the editor folder, your saves will be gone. If you move back the editor folder to its old location, the saves will still be there.</em>
+                        </li>
+                        <li>
+                            Done! You can start using the Editor now by launching editor.html from the <strong>editor</strong> folder.
+                        </li>
+                    </ol>
+                </section>
+            </section>
+            <section id="first-steps">
+                <h3>First Steps</h3>
+                <section id="take-the-guided-tour">
+                    <h4>Take the Guided Tour</h4>
+                    <p>When you first launch the Image Map Pro Editor you will see a Guided Tour that will take you through the basics of using the editor. It’s the easiest way to get started quickly with the plugin and we highly recommend you to check it out!</p>
+                    <p>To see the Guided Tour again, click the “Help” button located at the top of the editor.</p>
+                </section>
+                <section id="activation">
+                    <h4>Activation (WordPress Only)</h4>
+                    <p>By choosing to activate the plugin you will gain access to automatic updates, and that is all. There is no restricted functionality, no annoying pop-ups if you choose not to activate!</p>
+                    <p>
+                        To activate the plugin, first you will need your Purchase Code. <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-">Here is a step by step guide of where to find it.</a> When you have your Purchase Code, launch the Image Map Pro Editor and click <strong>Activate</strong> in the top-left of the screen. Paste the code and enjoy lifetime automatic updates!
+                        <img src="img/documentation/activate-button-IMP.png">
+                    </p>
+                </section>
+            </section>
+            <section id="working-with-the-editor">
+                <h3>Working with the Editor</h3>
+                <section id="creating-a-new-image-map">
+                    <h4>Creating a New Image Map</h4>
+                    <p>To create a new image map, click the <strong>New</strong> button in the top-left corner of the Editor, enter a name and click <strong>Create</strong>.
+                    <img src="img/documentation/new-button-IMP.png">
+                    <p>
+                        A white background image will be loaded by default. To change it, click the button <strong>Settings</strong>. It will be shown a left menu, in it choose section <strong>Image</strong>. Then simply enter the URL of the new image, or click <strong>Choose Image</strong> if you are using WordPress, to launch the WP Media Library and pick an image.
+                        <img src="img/documentation/settings-choose-image-IMP.png">
+                    </p>
+                </section>
+                <section id="responsive">
+                    <h4>Responsive</h4>
+                    <p>
+                        The image map is responsive! If you enable the <strong>Responsive</strong> toggle, the image map will scale to 100% width of its parent element. Additionally, the <strong>Preserve Quality</strong> toggle (enabled by default) prevents the image from becoming larger than its original size (in pixels), preventing loss of quality.
+                        <img src="img/documentation/responsive-IMP.png">
+                    </p>
+                </section>
+                <section id="drawing-shapes">
+                    <h4>Drawing Shapes, Icons and Text</h4>
+                    <p>
+                        To start drawing shapes, first, make sure that you are in <strong>Edit</strong> mode. (please, read below about <strong>Edit</strong> and <strong>Preview</strong> mode). Then, select a tool from the toolbar on the left and either click or click and drag the image, depending on the tool that you selected.
+                    </p>
+                    <p>
+                        Keep in mind, that if you choose to draw a polygon shape to finish the drawing you have to click on the first point from where you started drawing (or press <strong>Enter</strong>). Then it will be possible to add, remove and move points from the shape. You can remove points using the right mouse button on a point, and add points using the left mouse button on one of the borders of the polygon.
+                    </p>
+                    <p>
+                        To insert icons you can use the <strong>Icon</strong> tool. Then, you should click on the image where you want to insert the icon. Keep in mind, that you can change the type of the icon by using the Icons Library integrated into the editor or set a custom icon by setting a specific URL. It can be done from the section <strong>Icon</strong> in the right menu of the editor.
+                    </p>
+                    <p>
+                        To insert text you should use the <strong>Text</strong> tool and click on the image where you want to insert the text. You can edit the text and choose its font from the section <strong>Text</strong> in the right menu.
+
+                        <img src="img/documentation/toolbar-icon-IMP.png">
+                    </p>
+                </section>
+                <section id="styles">
+                    <h4>Styles</h4>
+                    <p>
+                        To change the style of a shape, like color or opacity, first make sure that the shape is selected. You can select a shape by clicking it in the shapes list (on the right), or by clicking it in <strong>Edit Mode</strong>.
+                        Then, you can see the settings for <strong>Default Style</strong> and <strong>Mouseover Style</strong> in the right menu. Experiment with different settings and use what you like!
+                        <img src="img/documentation/styles-shape-IMP.png">
+                    </p>
+                </section>
+                <section id="preview-mode">
+                    <h4>Preview Mode</h4>
+                    <p>
+                        At any point you can click the <strong>Preview</strong> button on the top-left side of the Editor to see how the image will look like in the end. You can still make changes to the settings and the preview will instantly update itself.
+                        <img src="img/documentation/preview-button-IMP.png">
+                    </p>
+                </section>
+                <section id="save-load">
+                    <h4>Save, Load</h4>
+                    <p>Don’t forget to save! You can create as many image maps as you wish, and you can switch between them by clicking <strong>Load</strong> and choosing the image map that you saved previously.</p>
+                </section>
+                <section id="import-export">
+                    <h4>Import, Export</h4>
+                    <p>
+                        With the <strong>Import</strong> and <strong>Export</strong> buttons from the Editor you can migrate your image maps to another website, or make backups to your image maps. You know, just in case. Moreover, if you can work your way around the JSON code, you can make modifications to the image map.
+                    </p>
+                    <p>
+                        Introduced in version 4.3 is the ability to import any SVG file to the image map. For example, you might already have an illustrator file with schematics, which you don’t want to rebuild from scratch. Now you can import those shapes in Image Map Pro as SVG. Just make sure that you select “SVG XML Code” in the Import options and follow the instructions.
+                    </p>
+                    <p>
+                        Keep in mind, that using <strong>Import</strong> and <strong>Export</strong> buttons you can duplicate your image maps. Firstly, you have to create a new image map from the <strong>New</strong> button. After that, you can export and import (into the new project) the JSON code of the image map which you want to duplicate.
+                        <img src="img/documentation/import-export-buttons-IMP.png">
+                    </p>
+                </section>
+                <section id="connected-shapes">
+                    <h4>Connected Shapes</h4>
+                    <p>It is possible to have multiple shapes linked together. For example, when you mouseover one shape, several other shapes around it will highlight as well. The way this is done is by defining a “master” shape, and “slave” shapes, which are connected to it. Select each of the shapes that you wish to be “slaves”, and using the drop-down menu <strong>Parent</strong> (located the <strong>General</strong> settings of the right menu) select the shape which you wish to be their “master”. Do this for each shape and you are done!</p>
+                    <p>
+                        Additionally, you can choose to have only one tooltip for each group of connected shapes. Select each of the “slave” shapes and enable “Use Connected Shape’s Tooltip”.
+                        <img src="img/documentation/connected-shapes-IMP.png">
+                    </p>
+                </section>
+                <section id="glowing-and-animation">
+                    <h4>Glowing and Animation</h4>
+                    <p>You can set animation of visualizing and glowing effect so that the shapes to be stand out. It can be accomplished using the options in the section <strong>Shapes</strong> located in the left menu which can be shown clicking the button <strong>Settings</strong>. There you will see 2 main options:</p>
+                    <ol>
+                        <li><strong>Page Load Animation</strong> – from that drop-down menu you can choose an animation of visualizing of the all  shapes and icons when the image map is initialized.</li>
+                        <li><strong>Glowing Shapes</strong> – by activating of that option you will set glowing effect for all shapes and icons in the image map. You can set specific <strong>Glow Color</strong> and <strong>Glow Opacity</strong>. If the <strong>Glowing on Mouseover</strong> is active the glowing effect will stop for all shapes and icons when you mouseover only one of them.</li>
+                    </ol>
+                    <p>
+                        <img src="img/documentation/shapes-animation-glowing-IMP.png">
+                    </p>
+                </section>
+                <section id="shapes-menu">
+                    <h4>Shapes Menu</h4>
+                    <p>
+                        If you enable <strong>Shapes Menu</strong> (in the section <strong>Shapes</strong> located in the left menu which can be shown clicking the button <strong>Settings</strong>), a shape menu (list of the shapes) will be created. You can set where exactly that menu to be visualized – you can choose between <strong>Left</strong> and <strong>Right</strong> position according to your image map or it to be visualized separately from the image map, as <strong>Detached Menu</strong>. Moreover, you can set whether in the menu to have <strong>Search Box</strong> and whether the shapes to be grouped by existing Floors (please, read below about <a data-scroll-to-element="#multiple-floors"><strong>Multiple Floors</strong></a>). Additionally, if the option <strong>Hide Children of Connected Shapes</strong> is active and if in your image map there are connected shapes (please, read more above about <a data-scroll-to-element="#connected-shapes"><strong>Connected Shapes</strong></a>), these shapes which are defined as “slaves” will not be included in the menu.
+                        <img src="img/documentation/shapes-menu-IMP.png">
+                    </p>
+                </section>
+                <section id="multiple-floors">
+                    <h4>Multiple Floors</h4>
+                    <p>
+                        To have an image map made of more than one layers (or floors), go to the <strong>Floors</strong> section of the image map settings and click <strong>Enable Floors</strong>. For each one of these floors/layers, you can set a different background image and annotate them using shapes, icons and tooltips. When that feature is activated, a menu for switching between floors will be inserted automatically in the top-right corner of the image map, both in <strong>Edit</strong> and in <strong>Preview</strong> modes.
+                    </p>
+                    <p>Here's how to work with Floors in the Editor:</p>
+                    <ol>
+                        <li>Add a floor – by using the plus (+) button </li>
+                        <li>Remove a floor – by using the minus (–) button</li>
+                        <li>Duplicate existing floors – by selecting the floor which you want to duplicate and use the button <strong>Duplicate</strong> located below the list of existing floors</li>
+                        <li>Move Up and Move Down the floors – you can change the order of the existing floors</li>
+                        <li>By using the button <strong>Edit</strong>, you can rename a floor and change its background image.</li>
+                    </ol>
+                    <p>
+                        <img src="img/documentation/multiple-floors-IMP.png">
+                    </p>
+                </section>
+                <section id="zooming">
+                    <h4>Zooming</h4>
+                    <p>In version 4.3 we added zoom functionality to the plugin. Now you can have much more complex and precise image maps on your website and visitors with all kinds of screen sizes will be able to use them. The plugin also supports intuitive pinch zoom/pan on touchscreen devices!</p>
+                    <p>To get started, from the editor open the <strong>Zooming</strong> tab, which is in the image map settings tab. From there you have several different options:</p>
+                    <ol>
+                        <li><strong>Max Zoom</strong> - the maximum level of zoom allowed.</li>
+                        <li><strong>Limit Max Zoom</strong> - if enabled, the zooming can only go up to the original image size.</li>
+                        <li><strong>Enable Navigator</strong> - shows a mini image on the bottom left of the image map, giving you an idea of where you are on the image map while zooming and panning around.</li>
+                        <li><strong>Enable Zoom Buttons</strong> - adds + / - buttons on the bottom right side of the image map, allowing you to click to zoom in/out. Useful if you want to make it more obvious that there is zooming.</li>
+                        <li><strong>Zoom Button/Background Color</strong> - change the style of the zoom buttons to match the design of your website.</li>
+                        <li><strong>Hold CTRL to Zoom</strong> – if it is active, it will be required to press the CTRL (or CMD on MacOS) button from the keyboard so that the image map can be zoomed without scrolling the page.</li>
+                    </ol>
+                    <p>
+                        <img src="img/documentation/zooming-IMP.png">
+                    </p>
+                </section>
+                <section id="fullscreen">
+                    <h4>Fullscreen</h4>
+                    <p>You can choose to enable fullscreen mode for those extra large and detailed image maps. To get started, open the <strong>Fullscreen</strong> tab in the image map settings tab. From there you have several different options:</p>
+                    <ol>
+                        <li><strong>Start in Fullscreen Mode</strong> - If enabled, the image map will go straight into fullscreen mode when the page loads. Be careful!</li>
+                        <li><strong>Fullscreen Background</strong> - The color of the “empty” space around the image in fullscreen mode.</li>
+                        <li><strong>Fullscreen Button Position</strong> - You can choose to move the fullscreen button to a different location on the image map, if you feel like it’s obstructing information.</li>
+                        <li><strong>Button Type</strong> - Icon/Text/Icon and Text - Choose whatever you feel is appropriate! Functionality is the same.</li>
+                        <li><strong>Button Colors</strong> - Change the style of the button to match the design of your website.</li>
+                        <li><strong>Button Icon/Text Color </strong> - Change the style of the text in the button to match the design of your website.</li>
+                    </ol>
+                </section>
+            </section>
+            <section id="publishing-your-image-map">
+                <h3>Publishing Your Image Map</h3>
+                <section id="publishing-wordpress">
+                    <h4>WordPress</h4>
+                    <p>There are a couple of ways to publish your image map:</p>
+                    <ul>
+                        <li><strong>Gutenberg</strong> - Image Map Pro integrates seamlessly with the new Gutenberg post editor. You can insert an "Image Map Pro" element and select your image map from the dropdown menu on the element itself.</li>
+                        <li>
+                            <strong>Shortcode</strong> - You can insert the image map into a WordPress page or a post using a shortcode, which you can copy or change from the Editor: click the button <strong>Settings</strong>, go to the section <strong>General</strong> in the left menu and you will see the <strong>Shortcode</strong> field there. For example, if you enter my-image-map as a name of your image map or directly as a shortcode, you can insert the image map with [my-image-map] in plain text.
+                            <em><strong>IMPORTANT:</strong> Please keep in mind that the shortcode must be entered without brackets and must not contain any spaces or special characters.</em>
+                            <img src="img/documentation/set-shortcode-IMP.png">
+                        </li>
+                    </ul>
+                </section>
+                <section id="publishing-standalone">
+                    <h4>Standalone</h4>
+                    <p>
+                        Inserting the finished image map on your site is straightforward. From the Editor, press the <strong>Code</strong> button:
+                        <img src="img/documentation/code-button-IMP.png">
+                    </p> 
+                    <p>
+                        A window will open, showing you a sample HTML page. On this page you can see which scripts need to be included and where exactly. Moreover, you could see the exemplary demo placed in the package which you have downloaded from CodeCanyon.
+                    </p>
+                    <p>
+                        Here is a list of the files and scripts that you must include on your website:
+                    </p>
+                    <ol>
+                        <li>
+                            CSS File - included in the <code>&lt;head&gt;</code> tag, like this:
+                            <pre><code>&lt;link rel="stylesheet" href="css/image-map-pro.min.css"&gt;</code></pre>
+                        </li>
+                        <li>
+                            Container Element - place it anywhere in your document, where you wish the image map to appear.
+                            <pre><code>&lt;div id="image-map-pro-container"&gt;&lt;/div&gt;</code></pre>
+                        </li>
+                        <li>
+                            jQuery - there are many ways to include jQuery on your page. The easiest would be to copy-paste this line, just before the closing <code>&lt;/body&gt;</code> tag of your page:
+                            <pre><code>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;</code></pre>
+                        </li>
+                        <li>
+                            JS File - this is Image Map Pro’s own javascript file. Include it immediately after jQuery:
+                            <pre><code>&lt;script src="js/image-map-pro.min.js"&gt;&lt;/script&gt;</code></pre>
+                        </li>
+                        <li>
+                            Launch Code - the code which actually launches the image map. You have two options:
+                            <ul>
+                                <li>
+                                    Option 1 - Insert the code at the bottom of the HTML page. Paste the code like this, after the included JS files:
+<pre><code>&lt;script type="text/javascript"&gt;
+    ;(function ($, window, document, undefined) {
+        $(document).ready(function() {
+            // Code from the textarea goes here...
+        });
+    })(jQuery, window, document);
+&lt;/script&gt;</code>
+</pre>
+                                </li>
+                                <li>
+                                    Option 2 - Insert the code in an external JS file. In this case you paste the same code in your JS file, except for the <code>&lt;script&gt;</code> tag, like this:
+<pre><code>;(function ($, window, document, undefined) {
+    $(document).ready(function() {
+        // Code from the textarea goes here...
+    });
+})(jQuery, window, document);
+</code></pre>
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+            </section>
+            <section id="api">
+                <h3>API</h3>
+                <section id="intro">
+                    <h4>Intro</h4>
+                    <p>Adding custom functionality is super easy, using the Image Map Pro’s API. However, you will need to know a bit of JavaScript/jQuery (or just HTML if you need only basic functionality) to put something together. This documentation will give you a solid start on the API, but you <strong>will</strong> need to write some code by yourself.</p>
+                </section>
+                <section id="a-simple-example-html">
+                    <h4>Simple HTML API Example</h4>
+                    <p>Let’s say that we want to have a list of buttons next to our image map, and we want to highlight different shapes when mousing over each button.</p>
+                    <p>The simplest way to accomplish this would be to use the HTML API:</p>
+                    <pre><code>&lt;div data-imp-trigger-shape-on-mouseover="my-shape-1"&gt;My Shape 1&lt;/div&gt;</code></pre>
+                    <p>With the <code>data-imp-trigger-shape-on-mouseover</code> HTML attribute we are telling the plugin to highlight <code>my-shape-1</code> and to open its tooltip. If you want only to highlight or only open the tooltip, there are different HTML attributes for that. Please check the API Reference section for a full list.</p>
+                    <p>If you have more than one image map on the same page, you will need to add the <code>data-imp-image-map-name</code> attribute to specify on which image map you want to make a change:</p>
+                    <pre><code>&lt;div data-imp-open-tooltip-on-click="my-shape-1" data-imp-image-map-name="My Image Map"&gt;My Shape 1&lt;/div&gt;</code></pre>
+                    <p>In this example we are opening the tooltip for the <code>my-shape-1</code> shape <strong>on click</strong>, in an image map named <code>My Image Map</code>.</p>
+                </section>
+                <section id="simple-javascript-api-example-1">
+                    <h4>Simple JavaScript API Example 1</h4>
+                    <p>The API provides you with several different functions, which you can use to trigger events on the image map and to listen for events.</p>
+                    <p>Let’s say that we want to achieve some really awesome mouseover effects and we want to replace the entire image when a user points at a specific shape. Because why not.</p>
+<pre><code class="javascript">$.imageMapProEventHighlightedShape = function(imageMapName, shapeName) {
+    console.log(shapeName);
+}
+</code></pre>
+                    <p>The hook function that we want to use in this case is <code>$.imageMapProEventHighlightedShape</code>. Whenever a mouseover event occurs on a shape, this function is called. It provides us with two variables - <code>imageMapName</code> and <code>shapeName</code>, which we can check to see which shape was highlighted and on which image map. In the example above we are simply logging the value of <code>shapeName</code> to the console.</p>
+<pre><code class="javascript">$.imageMapProEventHighlightedShape = function(imageMapName, shapeName) {
+    // Check which shape has been highlighted
+    if (shapeName == 'shape') {
+        // This piece of code will execute only when "shape" has been highlighted.
+        // For the purposes of this example, we replace our image with a new one.
+        $('#image-map-pro-1718 .imp-main-image').attr('src', 'img/image-2.png');
+
+        // Regarding the selector “#image-map-pro-1718” you have to replace the “1718” with the ID of your image map. You can see the ID by clicking the “Export” button located at the top of the editor.
+    }
+}
+</code></pre>
+                    <p>Of course, we will want to go back to the original image when the user moves the mouse away from <code>shape</code>. In this case we need to use the <code>$.imageMapProEventHighlightedShape</code> hook function, which works exactly the same.</p>
+                    <p>For the full list of functions, please see the API Reference section below.</p>
+                    <p>Also, as a good practice we should “enclose” our code, using this boilerplate snippet:</p>
+<pre><code class="javascript">(function($, window, document, undefined) {
+    $(document).ready(function() {
+        // Your code goes here...
+    });
+})(jQuery, window, document);
+</code></pre>
+                    <p>This is just a bonus tip and you should be doing it to all your scripts. It’s not specific to this plugin.</p>
+                    <p>Finally, here is how the entire code would look like:</p>
+<pre><code class="javascript">(function($, window, document, undefined) {
+    $(document).ready(function() {
+        // When the user triggers a mouseover event on a shape (or "highlights" a shape), we want to replace the main image with a new one
+        $.imageMapProEventHighlightedShape = function(imageMapName, shapeName) {
+
+            // Check which shape has been highlighted
+            if (shapeName == 'shape') {
+
+                // This piece of code will execute only when "shape" has been highlighted.
+                // For the purposes of this example, we replace our image with a new one.
+                $('#image-map-pro-1718 .imp-main-image').attr('src', 'img/image-2.png');
+
+                // Regarding the selector “#image-map-pro-1718” you have to replace the “1718” with the ID of your image map. You can see the ID by clicking the “Export” button located at the top of the editor.
+            }
+        }
+
+        // When the mouse moves away from the shape, revert back to the original image
+        $.imageMapProEventUnhighlightedShape = function(imageMapName, shapeName) {
+
+            // Check which shape has been unhighlighted
+            if (shapeName == 'shape') {
+
+                // Revert back to the original image
+                $('#image-map-pro-1718 .imp-main-image').attr('src', 'img/image-1.jpg');
+            }
+        }
+    });
+})(jQuery, window, document);
+</code></pre>
+                    <p>
+                        You have many different options where to put this block of code. If you are using the WordPress version, you can insert it via the editor of the plugin by using the section <strong>Custom Code</strong> (using the field <strong>Custom JS</strong>) located in the image map settings. Moreover, you can paste it at the bottom of image-map-pro.js, or just slap it in a <code>&lt;script&gt;</code> tag on the page itself (this way is recommended if you use the Standalone version).
+
+                        <img src="img/documentation/Custom-JS-IMP.png">
+                    </p>
+                </section>
+                <section id="simple-javascript-api-example-2">
+                    <h4>Simple JavaScript API Example 2</h4>
+                    <p>In the previous example we used <strong>Hooks</strong>. Meaning that we were waiting for something to happen, and the plugin called the hook functions for us when that thing happened. In this example we want to make something happen, and for that we need to use <strong>Actions</strong>.</p>
+                    <p>Let’s say that we want to have a list of buttons next to our image map, and we want to highlight different shapes when mousing over each button.</p>
+                    <pre><code>$.imageMapProHighlightShape('My Image Map', 'my-shape-1');</code></pre>
+                    <p>In this example we are telling the plugin to highlight shape with name <code>my-shape-1</code> on an image map with name <code>My Image Map</code>. Here is how we would use this in an example:</p>
+<pre><code class="javascript">(function($, window, document, undefined) {
+    $(document).ready(function() {
+        // Add an event listener to all of our buttons
+        $('.button-list .button').on('mouseover', function(e) {
+            // When the event is triggered, find out the ID of the button, which triggered the event
+            if ($(this).attr('id') == 'button-1') {
+
+                // Highlight our shape corresponding to the button
+                $.imageMapProHighlightShape('My Image Map', 'building-1');
+
+                // Unhighlight the rest of the shapes
+                $.imageMapProUnhighlightShape('My Image Map', 'building-2');
+                $.imageMapProUnhighlightShape('My Image Map', 'building-3');
+            }
+
+            // Repeat 2 more times...
+            if ($(this).attr('id') == 'button-2') {
+                $.imageMapProHighlightShape('My Image Map', 'building-2');
+
+                $.imageMapProUnhighlightShape('My Image Map', 'building-1');
+                $.imageMapProUnhighlightShape('My Image Map', 'building-3');
+            }
+            if ($(this).attr('id') == 'button-3') {
+                $.imageMapProHighlightShape('My Image Map', 'building-3');
+
+                $.imageMapProUnhighlightShape('My Image Map', 'building-1');
+                $.imageMapProUnhighlightShape('My Image Map', 'building-2');
+            }
+        });
+
+        // Unhighlight all shapes if the mouse moves away from the buttons
+        $('.button-list').on('mouseout', function(e) {
+            $.imageMapProUnhighlightShape('My Image Map', 'building-1');
+            $.imageMapProUnhighlightShape('My Image Map', 'building-2');
+            $.imageMapProUnhighlightShape('My Image Map', 'building-3');
+        });
+    });
+})(jQuery, window, document);
+</code></pre>
+                    <p>And here is the HTML snippet:</p>
+<pre><code>&lt;div class="button-list"&gt;
+    &lt;div id="button-1" class="button"&gt;Day1&lt;/div&gt;
+    &lt;div id="button-2" class="button"&gt;Day2&lt;/div&gt;
+    &lt;div id="button-3" class="button"&gt;Day2&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                </section>
+            </section>
+            <section id="api-reference">
+                <h3>API Reference</h3>
+                <section id="reference-html">
+                    <h4>HTML</h4>
+                    <p>This is a list of all HTML attributes provided by the plugin. For an example of how can you use them, please see the <strong>Custom Functionality with the Image Map Pro API</strong> section. Note - when you highlight a shape with the API, you can unhighlight it only by using the API. The same applies for opening tooltips. An exception to this rule is when you use the “mouseover” triggers from the HTML API.</p>
+                    <table>
+                    <thead>
+                    <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;image&#8209;map&#8209;name</code></td>
+                    <td>Specifies on which image map you want to trigger the action. This is required if you have more than one image map on the same page. If you have just one, you don’t need to use it.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;highlight&#8209;shape&#8209;on&#8209;mouseover</code></td>
+                    <td>When a user triggers a mouseover event on this element, the plugin will highlight a shape. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;highlight&#8209;shape&#8209;on&#8209;click</code></td>
+                    <td>When a user clicks on this element, the plugin will highlight a shape. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;unhighlight&#8209;shape&#8209;on&#8209;mouseover</code></td>
+                    <td>When a user triggers a mouseover event on this element, the plugin will remove the highlight effect from a shape. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;unhighlight&#8209;shape&#8209;on&#8209;click</code></td>
+                    <td>When a user clicks on this element, the plugin will remove the highlight effect from a shape. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;open&#8209;tooltip&#8209;on&#8209;mouseover</code></td>
+                    <td>When a user triggers a mouseover event on this element, the plugin will open the shape’s tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;open&#8209;tooltip&#8209;on&#8209;click</code></td>
+                    <td>When a user clicks on this element, the plugin will open the shape’s tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;close&#8209;tooltip&#8209;on&#8209;mouseover</code></td>
+                    <td>When a user triggers a mouseover event on this element, the plugin will close the shape’s tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;close&#8209;tooltip&#8209;on&#8209;click</code></td>
+                    <td>When a user clicks on this element, the plugin will close the shape’s tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;trigger&#8209;shape&#8209;on&#8209;mouseover</code></td>
+                    <td>When a user triggers a mouseover event on this element, the plugin will highlight a shape and show its tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;trigger&#8209;shape&#8209;on&#8209;click</code></td>
+                    <td>When a user clicks on this element, the plugin will highlight a shape and show its tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;untrigger&#8209;shape&#8209;on&#8209;mouseover</code></td>
+                    <td>When a user triggers a mouseover event on this element, the plugin will remove the highlight effect from a shape and hide its tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;untrigger&#8209;shape&#8209;on&#8209;click</code></td>
+                    <td>When a user clicks on this element, the plugin will remove the highlight effect from a shape and hide its tooltip. The value of the attribute represents the name of the shape.</td>
+                    </tr>
+                        <tr>
+                        <td><code>data&#8209;imp&#8209;focus&#8209;shape&#8209;on&#8209;mouseover</code></td>
+                        <td>When a user triggers a mouseover event on this element and zooming is enabled, the plugin will zoom and pan to try to fit the shape in the window.</td>
+                        </tr>
+                        <tr>
+                        <td><code>data&#8209;imp&#8209;focus&#8209;shape&#8209;on&#8209;click</code></td>
+                        <td>When a user clicks on this element and zooming is enabled, the plugin will zoom and pan to try to fit the shape in the window.</td>
+                        </tr>
+                    <tr>
+                    <td><code>data&#8209;imp&#8209;go&#8209;to&#8209;floor</code></td>
+                    <td>When a user clicks on this element, the currently active floor is changed. The value of the attribute represents the name of the floor, which will become active.</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </section>
+                <section id="javascript-actions">
+                    <h4>JavaScript Actions</h4>
+                    <p><strong>Actions</strong> are when you call a function and something happens on the image map. For example if you want to open a tooltip or highlight a shape, you need to use an <strong>Action</strong>. Note - when you highlight a shape with the API, you can unhighlight it only by using the API. The same applies for opening tooltips.</p>
+                    <table>
+                    <thead>
+                    <tr>
+                    <th>Action Name</th>
+                    <th>Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td><code>$.imageMapProHighlightShape(imageMapName, shapeTitle);</code></td>
+                    <td>Highlight a shape with a title of <code>shapeTitle</code> on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProUnhighlightShape(imageMapName, shapeTitle);</code></td>
+                    <td>Remove the highlight effect from a shape with a title of <code>shapeTitle</code> on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProFocusShape(imageMapName, shapeTitle);</code></td>
+                    <td>If zooming is enabled, try to zoom and pan on the shape with a title of <code>shapeTitle</code> on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProOpenTooltip(imageMapName, shapeTitle);</code></td>
+                    <td>Open the tooltip for a shape with a title of <code>shapeTitle</code> on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProHideTooltip(imageMapName, shapeTitle);</code></td>
+                    <td>Close the tooltip for a shape with a title of <code>shapeTitle</code> on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProReInitMap(imageMapName);</code></td>
+                    <td>Manually reinitialize an image map.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProIsMobile();</code></td>
+                    <td>Returns <code>true</code> if the user is using a mobile browser, or <code>false</code> if he is not. This is the same check that the plugin does in order to determine it fullscreen tooltips are necessary. This action is useful if you want to make adjustments to the contents of the tooltips, or anything else when the user is on a mobile device.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapGoToFloor(imageMapName, floorName);</code></td>
+                    <td>Zoom out on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProZoomIn(imageMapName);</code></td>
+                    <td>Zoom in on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProZoomOut(imageMapName);</code></td>
+                    <td>Zoom out on an image map with a name <code>imageMapName</code>.</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </section>
+                <section id="javascript-hooks">
+                    <h4>JavaScript Hooks</h4>
+                    <p><strong>Hooks</strong> are functions which get called when something specific happens on an image map. For example - you want to know when a user has highlighted a specific shape.</p>
+                    <table>
+                    <thead>
+                    <tr>
+                    <th>Hook Name</th>
+                    <th>Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td><code>$.imageMapProInitialized = function(imageMapName) {}</code></td>
+                    <td>Called when an image map with a name <code>imageMapName</code> has finished initializing.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProEventHighlightedShape = function(imageMapName, shapeTitle) {}</code></td>
+                    <td>Called when a shape has been highlighted. Parameters include the name of the shape, and the name of the image map.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProEventUnhighlightedShape = function(imageMapName, shapeTitle) {}</code></td>
+                    <td>Called when a shape has been unhighlighted. Parameters include the name of the shape, and the name of the image map.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProEventClickedShape = function(imageMapName, shapeTitle) {}</code></td>
+                    <td>Called when a shape has been clicked. Parameters include the name of the shape, and the name of the image map.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProEventOpenedTooltip = function(imageMapName, shapeTitle) {}</code></td>
+                    <td>Called when a tooltip has been opened. Parameters include the name of the shape, and the name of the image map.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProEventClosedTooltip = function(imageMapName, shapeTitle) {}</code></td>
+                    <td>Called when a tooltip has been closed. Parameters include the name of the shape, and the name of the image map.</td>
+                    </tr>
+                    <tr>
+                    <td><code>$.imageMapProEventSwitchedFloor = function(imageMapName, floorName) {}</code></td>
+                    <td>Called when the image map has changed the currently active floor.</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </section>
+            </section>
+        </section>
+    </div>
+</section>
+
+<footer>
+    <div id="footer-top">
+        <div id="footer-top-logo">
+            <p id="made-with-love">Made with <i class="fa fa-heart" aria-hidden="true"></i> by</p>
+            <a href="https://webcraftplugins.com"><img src="img/logo-webcraftplugins.png"></a>
+        </div>
+        <div id="footer-top-bg"></div>
+        <svg width="1920px" height="85px" viewBox="0 0 1920 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M0,34 L1920,34 C1920,34 1920,64.1813946 1920,70.151625 C1771.40967,70.151625 1687.55509,72.3217375 1622.05122,72.3217375 C1556.54736,72.3217375 1550.6125,68.5157356 1455.46887,72.3217375 C1360.32524,76.1277395 1307.56441,75.7781899 1182.11328,72.6821971 C1116.11055,71.053324 1111.66504,71.6579427 1060.98474,72.6821971 C1054.71898,72.8088289 1049.87842,72.8662745 1044.66553,82.1459173 C1033.52979,82.1459173 877.715761,85.760813 876.962891,84.8540529 C864.921875,70.351808 853.076656,72.6821971 848.97876,72.6821971 C777.166789,72.6821971 789.95752,74.5505848 740.168596,71.6579427 C704.0931,69.5620248 656.23011,71.6579427 614.260867,71.6579427 C530.126816,71.6579427 531.774695,68.269586 424.896867,72.3217375 C318.01904,76.3738891 305.934822,72.3217375 180.676534,72.3217375 C55.4182449,72.3217375 52.6577148,70.151625 0,70.151625 C7.12433658e-14,64.3901559 0,34 0,34 Z" id="Rectangle-2-Copy-2" fill="#2f3739" transform="translate(960.000000, 59.500000) scale(1, -1) translate(-960.000000, -59.500000) "></path>
+                <path d="M1058,83 C1058,37.2740862 1025.16797,-3.24839078 959,0.205908996 C892.832031,3.66020877 860,37.2740862 860,83 C932.365234,83 993.31543,83 1058,83 Z" id="Oval-5-Copy" fill="#2f3739"></path>
+            </g>
+        </svg>
+    </div>
+
+    <div id="footer-main">
+        <div class="container">
+            <div class="col-sm-8 no-padding">
+                <h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <span>Feedback From</span>Over 10,000 Customers
+                </h3>
+                <article class="col-sm-6 col-md-6">
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        This plugin works beautifully, and the support from the software company is fantastic. I actually only needed one small item, but they were able to provide a fix very quickly. Feel good about purchasing this plugin - it works well, makes it so much easier to build image maps, super flexible and easy to use.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        The plug-in is amazing. Extremely convenient and intuitive interface. All functions are exactly as described in the documentation. Support is extremely high.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </article>
+                <article class="col-sm-6 col-md-6">
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        This is a great plug-in and the support is worth every penny. We have reached out a few times to ask questions and they have responded in less than a day each time, and resolved our questions.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="review-box">
+                        <div class="review-box-quotes"><i class="fa fa-quote-right" aria-hidden="true"></i></div>
+                        It is very easy to use, it looks very pretty, there are many customization options and it just works!  I've used it already in several websites and I'll keep using it.
+                        <div class="review-box-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 col-md-4">
+                <h3 class="single-line">
+                    <img src="img/support.svg">
+                    Customer Support
+                </h3>
+                <p>If you need help using any of our products,
+                please contact us and we will do our best to help!
+                Guaranteed response within 24 hours.</p>
+                <a class="footer-button" href="https://webcraftplugins.com/support">Get Help</a>
+
+                <div class="footer-separator"></div>
+
+                <h4>Image Map Pro™</h4>
+                <nav>
+                    <ul>
+                        <li><a href="index.html#features" data-scroll-to-element="#section-key-features">Features</a></li>
+                        <li><a href="index.html#pricing" data-scroll-to-element="#section-pricing">Pricing</a></li>
+                        <li><a href="countries">List of Countries</a></li>
+                        <li><a href="index.html#examples" data-scroll-to-element="#section-demos">Examples</a></li>
+                        <li><a href="tutorials">Tutorials</a></li>
+                        <li><a href="documentation">Documentation</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer-bottom">
+        <div id="footer-bottom-bg">
+            <svg preserveAspectRatio="none" width="1920px" height="31px" viewBox="0 0 1920 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none">
+                    <path d="M1920,-3.63797881e-12 C1920,-3.63797881e-12 1920,18.0314321 1920,20.2780959 C1847,10.9592906 1687.55509,24.2936952 1622.05122,24.2936952 C1556.54736,24.2936952 1550.6125,17.2510286 1455.46887,24.2936952 C1360.32524,31.3363618 1307.56441,30.6895515 1182.11328,24.9606934 C1116.11055,21.9466092 1076.21283,22.9244197 1060.98474,24.9606934 C983,35.3886813 947.415857,27.1565584 880.511278,24.2936952 C851.806301,23.0654023 845.785504,30.5441326 740.168596,23.0654023 C687.146175,19.3108861 656.23011,23.0654023 614.260867,23.0654023 C530.126816,23.0654023 531.774695,16.7955509 424.896867,24.2936952 C318.01904,31.7918396 305.934822,24.2936952 180.676534,24.2936952 C55.4182449,24.2936952 89,17.9527629 0,20.2780959 C1.45464202e-14,18.1013234 2.76380788e-14,0.0234375 2.76380788e-14,0.0234375 L1920,-3.63797881e-12 Z" id="Rectangle-2-Copy-2" fill="#212425" transform="translate(960.000000, 15.044922) scale(1, -1) translate(-960.000000, -15.044922) "></path>
+                </g>
+            </svg>
+        </div>
+        <div class="container">
+            <a href="mailto:hello@webcraftplugins.com"><i class="fa fa-envelope" aria-hidden="true"></i> hello@webcraftplugins.com</a>
+            <a href="privacy">Privacy Policy</a>
+            <a href="terms">Terms of Use</a>
+            <span>© 2019</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.intercomSettings = {
+        app_id: "ukqxz4ki"
+    };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ukqxz4ki';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+<!-- [dev]
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/image-map-pro.min.js"></script>
+<script src="js/lib/highlight.pack.js"></script>
+<script src="js/lib/perfect-scrollbar.min.js"></script>
+<script src="js/lib/slippry.min.js"></script>
+<script src="js/demos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/sections.js"></script>
+<script src="js/tracking.js"></script>
+[/dev] -->
+
+<!-- [build] -->
+<script src="js/app.js"></script>
+<!-- [/build] -->
+
+</body>
+</html>
