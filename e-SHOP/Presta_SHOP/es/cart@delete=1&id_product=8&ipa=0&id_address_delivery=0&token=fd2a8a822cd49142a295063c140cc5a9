@@ -1,0 +1,970 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="es"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="es"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="es"><![endif]-->
+<!--[if gt IE 8]> <html class="no-js ie9" lang="es"><![endif]-->
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Order - Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest</title>
+		<meta name="generator" content="PrestaShop" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+
+<meta name="google-site-verification" content="TW5Bzv8Cn5rcPUMMEyclsMJCC7QtnswexvECj2XTcEU" />
+<meta name="msvalidate.01" content="44FFBB7F688CEAE3165BAC4FFE6E0C24" />
+<meta name='yandex-verification' content='5c50fdf07ff6ae5d' />
+<meta name="alexaVerifyID" content="YTYXodw5rh1QsTfgR3wiWf7VUNI"/>
+<meta name="wot-verification" content="c10c574d9e5870d26925"/>
+<meta name="norton-safeweb-site-verification" content="vo6furjobdroc5zimcfq7viqw0-pjgznqi1j-05zdn60iq5otw91gf8lzjhrj6txq0e0j6pzsgqgrr73bc86pplrcs8jfvqbe6w4hhsdm95xrg8jhpbnq3miteu13byx" />
+
+                <meta name="p:domain_verify" content="db5a1151cf72f87b7531a536a82e75d3"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<link rel="icon" type="image/vnd.microsoft.icon" href="https://newpstheme.com/img/favicon.ico?1507315106" />
+		<link rel="shortcut icon" type="image/x-icon" href="https://newpstheme.com/img/favicon.ico?1507315106" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/global.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/highdpi.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/responsive-tables.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/uniform.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/addresses.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/themeconfigurator/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/pronewproduct/css/pronewproduct.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prosuppliers/css/prosuppliers.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/proadvpopup/css/proadvpopup.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/propin/css/propin.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prospecial/css/prospecial.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/growl/jquery.growl.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetqrcode/css/tetqrcode.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetyoutube/css/tetyoutube.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbanner/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcountdown/css/jquery.ui.datepicker.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcountdown/css/tetcountdown.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetmap/views/css/tetmap.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbrand/views/css/tetbrand.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbtn/css/tetbtn.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcategory/css/tetcategory.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prozoom/css/prozoom.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prosearch/css/prosearch.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetfacebook/views/css/tetfacebook.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/instagrampromodule.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/owl.carousel.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/owl.theme.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tettwitter/views/css/tettwitter.css" type="text/css" media="all" />
+		<script type="text/javascript">
+var CUSTOMIZE_TEXTFIELD = 1;
+var FancyboxI18nClose = 'Cerrar';
+var FancyboxI18nNext = 'Siguiente';
+var FancyboxI18nPrev = 'Previo';
+var added_to_wishlist = 'Añadido a su lista de deseos.';
+var ajax_allowed = true;
+var ajaxsearch = true;
+var baseDir = 'https://newpstheme.com/';
+var baseUri = 'https://newpstheme.com/';
+var blocksearch_type = 'top';
+var contentOnly = false;
+var customizationIdMessage = 'Personalización n°';
+var delete_txt = 'Eliminar';
+var displayList = false;
+var freeProductTranslation = '¡Gratis!';
+var freeShippingTranslation = 'Envío gratuito!';
+var generated_date = 1558573191;
+var id_lang = 2;
+var img_dir = 'https://newpstheme.com/themes/default-bootstrap/img/';
+var instantsearch = false;
+var isGuest = 0;
+var isLogged = 0;
+var loggin_required = 'Debe identificarse para administrar su lista de deseos.';
+var mywishlist_url = 'https://newpstheme.com/es/module/blockwishlist/mywishlist';
+var page_name = 'order';
+var placeholder_blocknewsletter = 'Introduzca su dirección de correo electrónico';
+var priceDisplayMethod = 1;
+var priceDisplayPrecision = 2;
+var quickView = true;
+var removingLinkText = 'eliminar este producto de mi carrito';
+var roundMode = 2;
+var search_url = 'https://newpstheme.com/es/search';
+var static_token = 'fd2a8a822cd49142a295063c140cc5a9';
+var token = '16ea7d68797fcf2913e80bdbc9ef6b03';
+var usingSecureMode = true;
+var wishlistProductsIds = false;
+</script>
+
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.easing.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/tools.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/global.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/10-bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/16-jquery.vimeo.api.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/products-comparison.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.typewatch.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/cart-summary.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.serialScroll.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/tools/treeManagement.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/pronewproduct/js/flexslider.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prosuppliers/js/jquery.carouFredSel-6.1.0.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prosuppliers/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/proadvpopup/js/jquery.meerkat.1.3.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prospecial/js/prospecial-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/growl/jquery.growl.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcountdown/js/tetcountdown.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcountdown/js/tetcountdown-main.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.carouFredSel-6.2.1.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcategory/js/tetcategory-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prozoom/js/prozoom.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetfacebook/views/js/facebook-wid-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/instagrampromodule/views/js/instagrampromodule-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tettwitter/views/js/tettwitter.js"></script>
+	
+		<script type="text/javascript">
+
+window.$zopim||(function(d,s){
+var z=$zopim=function(c){
+z._.push(c)},$=z.s=d.createElement(s),
+e=d.getElementsByTagName(s)[0];
+z.set=function(o){
+z.set._.push(o)
+};
+z._=[];
+z.set._=[];
+$.async=!0;
+$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2RAMebWHGvG4ifBjKkTUtnYkv94EhUfO';
+z.t=+new Date;
+$.type='text/javascript';
+e.parentNode.insertBefore($,e)
+})(document,'script');
+
+</script><!--Start of Facebook Open Graph-->
+<meta property="fb:app_id" content="870003573031200" />
+<meta property="og:site_name" content="Prestashop Top Module Codecanyon"/>
+<meta property="og:url" content="http://newpstheme.com/en/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Prestashop Module"/>
+<meta property="og:description" content="Prestashop Top Module Codecanyon.  Best Evanto Prestashop Module.  Addon Prestashop module 1.6 and 1.5"/>
+<meta property="og:image" content="https://0.s3.envato.com/files/106534342/2.jpg"/>
+<meta property="og:locale" content="es"/>
+<!--End of Facebook Open Graph-->
+<script>			
+	var zoom_type = "window";
+	var zoom_lens_size  = "150";
+	var zoom_cursor_type = "cursor";
+	var zoom_lens_opacity = "0.5";
+	var zoom_scroll = "1";
+	var zoom_easing = "1";
+	var zoom_fade_in = "1400";
+    var zoom_fade_out = "500";
+    var zoom_lens_shape = "square";
+	var zoom_win_width = "400";
+    var zoom_win_height = "600";  
+	var zoom_win_border = "1";  
+</script>
+<script>
+	function applyElevateZoom(){
+		var src = $('.thickbox.shown').attr('href');
+		var bigimage = $('.fancybox.shown').attr('href'); 
+		$('#bigpic').elevateZoom({
+			zoomType: zoom_type,
+			cursor: zoom_cursor_type,
+			zoomWindowFadeIn: zoom_fade_in,
+			zoomWindowFadeOut: zoom_fade_out,
+			scrollZoom: zoom_scroll,
+			easing: zoom_easing,
+			lensOpacity: zoom_lens_opacity,
+			lensShape: zoom_lens_shape,
+			lensSize: zoom_lens_size,
+			zoomImage: bigimage,
+			zoomWindowWidth: zoom_win_width,
+			zoomWindowHeight: zoom_win_height,
+			borderSize: zoom_win_border,
+	   });
+	}
+
+	$(document).ready(function(){
+		applyElevateZoom();
+		$('#color_to_pick_list').click(
+			function(){
+				restartElevateZoom();
+			}
+		);
+
+		$('#color_to_pick_list').hover(
+			function(){
+				restartElevateZoom();
+			}
+		);
+
+
+		$('#views_block li a').hover(
+			function(){
+			restartElevateZoom();
+			}
+		);
+	});
+
+	function restartElevateZoom(){
+		$(".zoomContainer").remove();
+		applyElevateZoom();
+	}
+</script>
+	<script type="text/javascript">
+    var sc_project="11748747" 
+    var sc_invisible=0; 
+    var sc_security="82bcd203"; 
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics
+    Made Easy - StatCounter" href="http://statcounter.com/"
+    target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/11748693/0/868b86fb/0/" alt="Web
+    Analytics Made Easy - StatCounter"></a></div></noscript>
+<style>
+ .statcounter {
+	 display:none;
+	}
+</style>
+ 
+	<script type="text/javascript">
+    var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+    {
+		widgetcode:"c893587ca91f9e3a938a656fe3e36aef36baf3d4552f7cfda8679367dc251c1a174804d331f7712f24d598d7bcfa0ed2", values:{},ready:function(){
+	}};
+    var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+    s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+    </script>
+
+
+
+
+	
+		<!--[if IE 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body onload="initialize()"  id="order" class="order hide-left-column hide-right-column lang_es">
+					<div id="page">
+			<div class="header-container">
+				<header id="header">
+					<div class="banner">
+						<div class="container">
+							<div class="row">
+								<style>
+#countdown-banner.countdownHolder .digit{
+	background: #3a3a3a;
+}
+</style>
+<div class="countdown-title clearfix">
+	<div class="customtextcountdown">
+   		<h4><span style="color: #f5a623;">This Limited offer ends in:</span></h4>
+    </div>
+	<div id="countdown-banner"></div>
+    <div class="customtextcountdown">
+   		<p>Custom text description module "Countdown Discount Timer Module"</p>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+$(function(){
+	var ts = new Date(2015 ,1 , 25, 00, 00 , 00 );
+	var newYear = true;
+	if((new Date()) > ts){
+		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		newYear = false;
+	}
+	$('#countdown-banner').countdown({
+		timestamp	: ts,
+		callback	: function(days, hours, minutes, seconds){
+			var message = "";
+			message += days + " jour" + ( days == 1 ? '':'s' ) + ", ";
+			message += hours + " heure" + ( hours==1 ? '':'s' ) + ", ";
+			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " et ";
+			message += seconds + " seconde" + ( seconds==1 ? '':'s' );
+		}
+	});	
+});
+</script>
+
+							</div>
+						</div>
+					</div>
+					<div class="nav">
+						<div class="container">
+							<div class="row">
+								<nav><!-- Block user information module NAV  -->
+<div class="header_user_info">
+			<a class="login" href="my-account" rel="nofollow" title="Entrar a tu cuenta de cliente">
+			Iniciar sesión
+		</a>
+	</div>
+<!-- /Block usmodule NAV -->
+<!-- Block currencies module -->
+	<div id="currencies-block-top">
+		<form id="setCurrency" action="cart@delete=1&amp;id_product=8&amp;ipa=0&amp;id_address_delivery=0&amp;token=fd2a8a822cd49142a295063c140cc5a9" method="post">
+			<div class="current">
+				<input type="hidden" name="id_currency" id="id_currency" value=""/>
+				<input type="hidden" name="SubmitCurrency" value="" />
+				<span class="cur-label">Divisa :</span>
+																		<strong>USD</strong>																</div>
+			<ul id="first-currencies" class="currencies_ul toogle_content">
+									<li >
+						<a href="javascript:setCurrency(3);" rel="nofollow" title="Dollar">
+							Dollar
+						</a>
+					</li>
+									<li class="selected">
+						<a href="javascript:setCurrency(1);" rel="nofollow" title="Dollar">
+							Dollar
+						</a>
+					</li>
+									<li >
+						<a href="javascript:setCurrency(2);" rel="nofollow" title="Euro">
+							Euro
+						</a>
+					</li>
+							</ul>
+		</form>
+	</div>
+<!-- /Block currencies module --><!-- Block languages module -->
+	<div id="languages-block-top" class="languages-block">
+														<div class="current">
+					<span>Español</span>
+				</div>
+												<ul id="first-languages" class="languages-block_ul toogle_content">
+							<li >
+																				<a href="../en/cart@delete=1&amp;id_product=8&amp;ipa=0&amp;id_address_delivery=0&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="English (English)">
+															<span>English</span>
+									</a>
+								</li>
+							<li class="selected">
+										<span>Español</span>
+								</li>
+							<li >
+																				<a href="../fr/cart@delete=1&amp;id_product=8&amp;ipa=0&amp;id_address_delivery=0&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Français (French)">
+															<span>Français</span>
+									</a>
+								</li>
+					</ul>
+	</div>
+<!-- /Block languages module -->
+<div id="contact-link">
+	<a href="contact-us" title="Contacta con nosotros">Contacte con nosotros</a>
+</div>
+	<span class="shop-phone">
+		<i class="icon-phone"></i>Llámanos ahora: <strong>0123-456-789</strong>
+	</span>
+</nav>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="container">
+							<div class="row">
+								<div id="header_logo">
+									<a href="../index.html" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+										<img class="logo img-responsive" src="../img/logo.jpg" alt="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest" width="350" height="99"/>
+									</a>
+								</div>
+								<div id="search_block_top" class="col-sm-4 clearfix">
+	<form id="searchbox" method="get" action="https://newpstheme.com/es/search" >
+		<input type="hidden" name="controller" value="search" />
+		<input type="hidden" name="orderby" value="position" />
+		<input type="hidden" name="orderway" value="desc" />
+		<input class="search_query form-control" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" />
+		<button type="submit" name="submit_search" class="btn btn-default button-search">
+			<span>Search</span>
+		</button>
+	</form>
+</div>  
+
+  <div id="search_autocomplete" class="search-autocomplete"></div>
+	
+		<script type="text/javascript">
+		$('document').ready( function() {
+			$("#search_query_top")
+				.autocomplete(
+					       '/modules/prosearch/prosearchAjax.php',{
+						minChars: 3,
+						max: 10,
+						width: 270,
+						selectFirst: false,
+						scroll: false,
+						dataType: "json",
+						formatItem: function(data, i, max, value, term) {
+							return value;
+						},
+						parse: function(data) {
+							var mytab = new Array();
+							for (var i = 0; i < data.length; i++)
+								mytab[mytab.length] = { data: data[i], value:' <img src="https://newpstheme.com/es/'+&#32;data[i].ajaxsearchimage&#32;+&#32;'" />' + data[i].pname };
+							return mytab;
+						},
+						extraParams: {
+							ajaxSearch: 1,
+							id_lang: 2
+						}
+					}
+				)
+				.result(function(event, data, formatted) {
+					$('#search_query_top').val(data.pname);
+					document.location.href = data.product_link;
+				})
+		});
+	</script>
+
+			
+<!-- MODULE Block cart -->
+<div class="col-sm-4 clearfix">
+	<div class="shopping_cart">
+		<a href="order" title="Ver mi carrito de compra" rel="nofollow">
+			<b>Carrito:</b>
+			<span class="ajax_cart_quantity unvisible">0</span>
+			<span class="ajax_cart_product_txt unvisible">producto</span>
+			<span class="ajax_cart_product_txt_s unvisible">Productos</span>
+			<span class="ajax_cart_total unvisible">
+							</span>
+			<span class="ajax_cart_no_product">vacío</span>
+					</a>
+					<div class="cart_block block exclusive">
+				<div class="block_content">
+					<!-- block list of products -->
+					<div class="cart_block_list">
+												<p class="cart_block_no_products">
+							Ningún producto
+						</p>
+												<div class="cart-prices">
+							<div class="cart-prices-line first-line">
+								<span class="price cart_block_shipping_cost ajax_cart_shipping_cost">
+																			Envío gratuito!
+																	</span>
+								<span>
+									Transporte
+								</span>
+							</div>
+																					<div class="cart-prices-line last-line">
+								<span class="price cart_block_total ajax_block_cart_total">$0.00</span>
+								<span>Total</span>
+							</div>
+													</div>
+						<p class="cart-buttons">
+							<a id="button_order_cart" class="btn btn-default button button-small" href="order" title="Confirmar" rel="nofollow">
+								<span>
+									Confirmar<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div><!-- .cart_block -->
+			</div>
+</div>
+
+	<div id="layer_cart">
+		<div class="clearfix">
+			<div class="layer_cart_product col-xs-12 col-md-6">
+				<span class="cross" title="Cerrar Ventana"></span>
+				<h2>
+					<i class="icon-ok"></i>Producto añadido correctamente a su carrito de la compra
+				</h2>
+				<div class="product-image-container layer_cart_img">
+				</div>
+				<div class="layer_cart_product_info">
+					<span id="layer_cart_product_title" class="product-name"></span>
+					<span id="layer_cart_product_attributes"></span>
+					<div>
+						<strong class="dark">Cantidad</strong>
+						<span id="layer_cart_product_quantity"></span>
+					</div>
+					<div>
+						<strong class="dark">Total</strong>
+						<span id="layer_cart_product_price"></span>
+					</div>
+				</div>
+			</div>
+			<div class="layer_cart_cart col-xs-12 col-md-6">
+				<h2>
+					<!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt_s  unvisible">
+						Hay <span class="ajax_cart_quantity">0</span> artículos en su carrito.
+					</span>
+					<!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt ">
+						Hay 1 artículo en su cesta.
+					</span>
+				</h2>
+	
+				<div class="layer_cart_row">
+					<strong class="dark">
+						Total productos:
+											</strong>
+					<span class="ajax_block_products_total">
+											</span>
+				</div>
+	
+								<div class="layer_cart_row">
+					<strong class="dark">
+						Total envío:&nbsp;					</strong>
+					<span class="ajax_cart_shipping_cost">
+													Envío gratuito!
+											</span>
+				</div>
+								<div class="layer_cart_row">	
+					<strong class="dark">
+						Total
+											</strong>
+					<span class="ajax_block_cart_total">
+											</span>
+				</div>
+				<div class="button-container">	
+					<span class="continue btn btn-default button exclusive-medium" title="Continuar la compra">
+						<span>
+							<i class="icon-chevron-left left"></i>Continuar la compra
+						</span>
+					</span>
+					<a class="btn btn-default button button-medium"	href="order" title="Ir a la caja" rel="nofollow">
+						<span>
+							Ir a la caja<i class="icon-chevron-right right"></i>
+						</span>
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="crossseling"></div>
+	</div> <!-- #layer_cart -->
+	<div class="layer_cart_overlay"></div>
+
+<!-- /MODULE Block cart -->	<!-- Menu -->
+	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
+		<div class="cat-title">Categorías</div>
+		<ul class="sf-menu clearfix menu-content">
+			<li><a href="12-lacinia-esta" title="Lacinia esta">Lacinia esta</a></li><li><a href="13-consequat-ante" title="Consequat ante">Consequat ante</a></li><li><a href="14-elementum-velit" title="Elementum velit">Elementum velit</a></li><li><a href="15-enim-adipiscing" title="Enim adipiscing">Enim adipiscing</a></li><li><a href="16-proin-dictum" title="Proin dictum">Proin dictum</a></li>
+					</ul>
+	</div>
+	<!--/ Menu -->
+<script>
+	
+		(function($){
+			$(document).ready(function(){
+				var $dur = "medium"; 
+				$("#fbplikebox").css({left: -370 , top : 150 })
+				$("#fbplikebox").hover(function () {
+					$(this).stop().animate({
+					left: 0
+					}, $dur);
+				}, function () {
+					$(this).stop().animate({
+					   left: -370
+					}, $dur);
+				});
+				$("#fbplikebox").show();
+			});
+		})(jQuery);
+			
+	</script>
+<style>
+.block-top-tab{
+	width: 370px;	
+}
+@media (max-width: 768px) {
+.block-top-tab{
+	width: 260px;
+}
+}	
+.block_content_animation_tab{
+	background: #ffffff;
+	height: 290
+	border-radius: 0 0 10px  0;
+}
+#facebook_block_likebox{
+	height: 290
+}
+#fbplikebox{
+	right: inherit!important;
+}
+@media (max-width: 768px) {
+#fbplikebox {
+	left: -260px!important;
+	right: inherit!important;
+}
+#fbplikebox:hover{
+	left: 0px!important;
+	right: inherit!important;
+} 
+}
+.title_block_custom{
+	color: ;
+	font: 300 px/22px "Open Sans",sans-serif;
+	background: ;
+}
+.fbplbadge {
+	color: #ffffff;
+	background: #3B5998;
+	right: -49px;
+	left: inherit;
+	border-radius: 0 10px 10px 0;		
+}
+#overlay {
+	height: 290
+}
+.submitbutton{
+	background: #3B5998;
+}
+</style>
+
+<div id="fb-root"></div>
+<div id="fbplikebox" style="display:none;">
+<div id="facebook_block_likebox" class="block-top-tab" style=" height:290px">
+    <div class="block_content_animation_tab" >
+    <div class="fb-page" 
+    data-href="https://www.facebook.com/webtet.modules" 
+    data-tabs="timeline" 
+    data-small-header="0" 
+    data-adapt-container-width="true" 
+    data-hide-cover="1" 
+    data-show-facepile="1"
+    data-height="290"
+    >
+</div> 
+</div>
+	<div class="fbplbadge"><i class="icon-facebook"></i></div> 
+</div>
+</div>
+
+
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<div class="columns-container">
+				<div id="columns" class="container">
+											
+<!-- Breadcrumb -->
+<div class="breadcrumb clearfix">
+	<a class="home" href="../index.html" title="Volver a Inicio"><i class="icon-home"></i></a>
+			<span class="navigation-pipe" >&gt;</span>
+					<span class="navigation_page">Su carrito</span>
+			</div>
+<!-- /Breadcrumb -->
+										<div class="row">
+																		<div id="center_column" class="center_column col-xs-12 col-sm-12">
+	
+
+<h1 id="cart_title" class="page-heading">Productos en su carrito
+	</h1>
+
+
+
+
+
+
+<!-- Steps -->
+<ul class="step clearfix" id="order_step">
+	<li class="step_current  first">
+					<span><em>01.</em> Resumen</span>
+			</li>
+	<li class="step_todo second">
+					<span><em>02.</em> Iniciar sesi&oacute;n</span>
+			</li>
+	<li class="step_todo third">
+					<span><em>03.</em> Direcci&oacute;n</span>
+			</li>
+	<li class="step_todo four">
+					<span><em>04.</em> Transporte</span>
+			</li>
+	<li id="step_end" class="step_todo last">
+		<span><em>05.</em> Pago</span>
+	</li>
+</ul>
+<!-- /Steps -->
+
+
+
+
+	<p class="alert alert-warning">Su carrito est&aacute; vac&iacute;o</p>
+					</div><!-- #center_column -->
+										</div><!-- .row -->
+				</div><!-- #columns -->
+			</div><!-- .columns-container -->
+							<!-- Footer -->
+				<div class="footer-container">
+					<footer id="footer"  class="container">
+						<div class="row"><!-- Block Newsletter module-->
+<div id="newsletter_block_left" class="block">
+	<h4>Boletín</h4>
+	<div class="block_content">
+		<form action="index.html" method="post">
+			<div class="form-group" >
+				<input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Introduzca su dirección de correo electrónico" />
+                <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
+                    <span>OK</span>
+                </button>
+				<input type="hidden" name="action" value="0" />
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /Block Newsletter module-->
+
+<section id="social_block">
+	<ul>
+					<li class="facebook">
+				<a target="_blank" href="http://www.facebook.com/prestashop">
+					<span>Facebook</span>
+				</a>
+			</li>
+							<li class="twitter">
+				<a target="_blank" href="http://www.twitter.com/prestashop">
+					<span>Twitter</span>
+				</a>
+			</li>
+							<li class="rss">
+				<a target="_blank" href="http://www.prestashop.com/blog/en/">
+					<span>RSS</span>
+				</a>
+			</li>
+		                        	<li class="google-plus">
+        		<a  target="_blank" href="https://www.google.com/+prestashop">
+        			<span>Google Plus</span>
+        		</a>
+        	</li>
+                	</ul>
+    <h4>Síganos</h4>
+</section>
+<div class="clearfix"></div>
+
+<!-- Block categories module -->
+<section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
+	<h4>Categorías</h4>
+	<div class="category_footer toggle-footer">
+		<div class="list">
+			<ul class="tree dhtml">
+												
+<li >
+	<a 
+	href="12-lacinia-esta" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Lacinia esta
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="13-consequat-ante" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Consequat ante
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="14-elementum-velit" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Elementum velit
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="15-enim-adipiscing" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Enim adipiscing
+	</a>
+	</li>
+
+							
+																
+<li class="last">
+	<a 
+	href="16-proin-dictum" title=" Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Proin dictum
+	</a>
+	</li>
+
+							
+										</ul>
+		</div>
+	</div> <!-- .category_footer -->
+</section>
+<!-- /Block categories module -->
+
+	<!-- MODULE Block footer -->
+	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+		<h4>Información</h4>
+		<ul class="toggle-footer">
+							<li class="item">
+					<a href="prices-drop" title="Promociones especiales">
+						Promociones especiales
+					</a>
+				</li>
+									<li class="item">
+				<a href="new-products" title="Novedades">
+					Novedades
+				</a>
+			</li>
+										<li class="item">
+					<a href="best-sales" title="¡Lo más vendido!">
+						¡Lo más vendido!
+					</a>
+				</li>
+										<li class="item">
+					<a href="stores" title="Nuestras tiendas">
+						Nuestras tiendas
+					</a>
+				</li>
+															<li>
+				<a href="sitemap" title="Mapa del sitio">
+					Mapa del sitio
+				</a>
+			</li>
+					</ul>
+		
+	</section>
+		<section class="bottom-footer col-xs-12">
+		<div>
+			&copy; 2014 <a class="_blank" href="http://www.prestashop.com">Tienda online creada con PrestaShop™</a>
+		</div>
+	</section>
+		<!-- /MODULE Block footer -->
+
+<!-- Block myaccount module -->
+<section class="footer-block col-xs-12 col-sm-4">
+	<h4><a href="my-account" title="Administrar mi cuenta de cliente" rel="nofollow">Mi cuenta</a></h4>
+	<div class="block_content toggle-footer">
+		<ul class="bullet">
+			<li><a href="order-history" title="Mis compras" rel="nofollow">Mis compras</a></li>
+						<li><a href="order-slip" title="Mis vales descuento" rel="nofollow">Mis vales descuento</a></li>
+			<li><a href="addresses" title="Mis direcciones" rel="nofollow">Mis direcciones</a></li>
+			<li><a href="identity" title="Administrar mi información personal" rel="nofollow">Mis datos personales</a></li>
+						
+            		</ul>
+	</div>
+</section>
+<!-- /Block myaccount module -->
+
+<!-- MODULE Block contact infos -->
+<section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
+	<div>
+        <h4>Información sobre la tienda</h4>
+        <ul class="toggle-footer">
+                        	<li>
+            		<i class="icon-map-marker"></i>My Company, 42 avenue des Champs Elysées
+75000 Paris
+France            	</li>
+                                    	<li>
+            		<i class="icon-phone"></i>Llámanos ahora: 
+            		<span>0123-456-789</span>
+            	</li>
+                                    	<li>
+            		<i class="icon-envelope-alt"></i>Email: 
+            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d" >&#x73;&#x61;&#x6c;&#x65;&#x73;&#x40;&#x79;&#x6f;&#x75;&#x72;&#x63;&#x6f;&#x6d;&#x70;&#x61;&#x6e;&#x79;&#x2e;&#x63;&#x6f;&#x6d;</a></span>
+            	</li>
+                    </ul>
+    </div>
+</section>
+<!-- /MODULE Block contact infos -->
+<div class="container-popup" style="border:6px solid #7ac243;" > 
+	<div id="popup-adv"> 
+		<div class="popup-content">
+		   <div class="main-text"><h4><strong>TOP OUR WORKS</strong></h4>
+<p><a href="https://addons.prestashop.com/en/social-widgets/18380-gallery-with-images-from-mobile-photo-sharing-site.html"><img src="../img/cms/icon_instacarousel_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/visual-products/18493-product-gallery-images-with-zoom-effect.html"><img src="../img/cms/icon_zoomgallery_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/seo-natural-search-engine-optimization/19033-webmaster-tools-site-verification.html"><img src="../img/cms/icon_webmasterl_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/2_community-developer?contributor=403743"><img src="../img/cms/icon_brand_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/blocks-tabs-banners/18595-banner-manager-static-html-content-text-block.html"><img src="../img/cms/icon_banners_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/support-online-chat/18622-live-chat-by-zendesk.html"><img src="../img/cms/icon_chat_forpopup.jpg" alt="" width="80" height="80" /></a></p></div>
+		   		</div>
+         <div class="popup-footer"><a href="cart@delete=1&amp;id_product=8&amp;ipa=0&amp;id_address_delivery=0&amp;token=fd2a8a822cd49142a295063c140cc5a9#" class="btn btn-default off  button button-small"  id="dont-show"><span>Dont show again</span></a> </div> 
+	</div> 
+<a class="" href="cart@delete=1&amp;id_product=8&amp;ipa=0&amp;id_address_delivery=0&amp;token=fd2a8a822cd49142a295063c140cc5a9#" id="close"><i class="icon-remove"></i></a>
+</div> 
+<script type="text/javascript" >
+
+$('.container-popup').meerkat({
+background: '#383c47',
+opacity: '0.65',
+width: '100%',
+height: '100%',
+position: 'left',
+dontShowAgain: '#dont-show',
+close: '#close',
+animationIn: 'fade',
+animationOut: 'fade',
+animationSpeed: 800,
+timer: 77777
+});
+
+</script>
+
+<style>
+#countdown-footer.countdownHolder .digit{
+	background: #405ba8;
+}
+</style>
+<div class="countdown-title clearfix">
+<div class="customtextcountdown">
+<h4><span style="color: #e96a6a;">Special price Countdown:</span></h4>
+</div>
+<div id="countdown-footer"></div>
+<div class="customtextcountdown">
+<p>Custom text description module "Countdown Discount Timer Module"</p>
+</div>
+</div>
+ 
+<script type="text/javascript">
+$(function(){
+	var ts = new Date(2015 ,1 , 28, 00, 00 , 00 );
+	var newYear = true;
+	if((new Date()) > ts){
+		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		newYear = false;
+	}
+	$('#countdown-footer').countdown({
+		timestamp	: ts,
+		callback	: function(days, hours, minutes, seconds){
+			var message = "";
+			message += days + " jour" + ( days == 1 ? '':'s' ) + ", ";
+			message += hours + " heure" + ( hours==1 ? '':'s' ) + ", ";
+			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " et ";
+			message += seconds + " seconde" + ( seconds==1 ? '':'s' );
+		}
+	});	
+});
+</script>
+
+
+
+</div>
+					</footer>
+				</div><!-- #footer -->
+					</div><!-- #page -->
+</body></html>

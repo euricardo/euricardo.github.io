@@ -1,0 +1,24 @@
+/* Video youtube******************************************************************** */
+
+#youtube_block{ margin-bottom:20px;}
+@media screen and (max-width: 1191px){
+#youtube_block iframe,
+#youtube_block object,
+#youtube_block embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; 
+	overflow: hidden;
+}
+#center_column #youtube_block.block .title_block:after{
+	display: none;
+}
+}

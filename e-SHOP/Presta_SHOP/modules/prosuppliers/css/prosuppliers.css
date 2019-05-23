@@ -1,0 +1,88 @@
+							/* MODULE Suppliers Carousel*/
+.supp_carousel h2{ 
+color: #333;
+font-weight: normal;
+font-size: 19px;
+text-transform: uppercase;
+padding-left: 5px;
+margin-bottom: 12px;
+}
+.supp_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.supp_carousel {
+	display: block;
+	position: relative;
+	background:#fff;
+	padding-bottom:20px;
+}
+.supp_carousel #supp_wrapper a {
+	text-decoration: none;
+	display: block;
+	text-align:center;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+.supp_carousel #supp_wrapper {
+}
+.supp_carousel #supp_wrapper .inset-supp{
+	float: left;
+	display: block;
+	padding: 0 0px 0 0px;
+	border:1px solid #eee;
+	text-align:center;
+	margin: 0 5px 0 5px;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+.supp_carousel #supp_wrapper .inset-supp:hover{
+border:1px solid #ddd;
+}
+.supp_carousel #supp_wrapper a img{
+	max-width: 100%;
+}
+.supp_carousel a.prev span, .supp_carousel a.next span {
+	display: none;
+}
+.supp_carousel a.prev, 
+.supp_carousel a.next {
+	background:url(../img/slideshow_arrows.png) left 0px  no-repeat;
+	width: 18px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 53%;
+	opacity:0; 
+	filter:alpha(opacity=0); 
+	-moz-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; 
+	-webkit-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; 
+	-o-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; 
+	transition: opacity 300ms ease, left 300ms ease, right 300ms ease;
+}
+
+.supp_carousel a.prev {
+	left: 0px;
+	background-position: left top;
+}
+.supp_carousel a.next {
+	right: 0px;
+	background-position: right top;
+}
+.supp_carousel:hover a.prev{
+	opacity:1;
+	filter:alpha(opacity=100); 
+	left:10px;
+}
+.supp_carousel:hover a.next{
+	opacity: 1;
+	filter:alpha(opacity=100); 
+	right:15px;
+}

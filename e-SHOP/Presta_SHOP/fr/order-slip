@@ -1,0 +1,1144 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="fr"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="fr"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="fr"><![endif]-->
+<!--[if gt IE 8]> <html class="no-js ie9" lang="fr"><![endif]-->
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Login - Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest</title>
+		<meta name="generator" content="PrestaShop" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+
+<meta name="google-site-verification" content="TW5Bzv8Cn5rcPUMMEyclsMJCC7QtnswexvECj2XTcEU" />
+<meta name="msvalidate.01" content="44FFBB7F688CEAE3165BAC4FFE6E0C24" />
+<meta name='yandex-verification' content='5c50fdf07ff6ae5d' />
+<meta name="alexaVerifyID" content="YTYXodw5rh1QsTfgR3wiWf7VUNI"/>
+<meta name="wot-verification" content="c10c574d9e5870d26925"/>
+<meta name="norton-safeweb-site-verification" content="vo6furjobdroc5zimcfq7viqw0-pjgznqi1j-05zdn60iq5otw91gf8lzjhrj6txq0e0j6pzsgqgrr73bc86pplrcs8jfvqbe6w4hhsdm95xrg8jhpbnq3miteu13byx" />
+
+                <meta name="p:domain_verify" content="db5a1151cf72f87b7531a536a82e75d3"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<link rel="icon" type="image/vnd.microsoft.icon" href="https://newpstheme.com/img/favicon.ico?1507315106" />
+		<link rel="shortcut icon" type="image/x-icon" href="https://newpstheme.com/img/favicon.ico?1507315106" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/global.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/highdpi.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/responsive-tables.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/uniform.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="../themes/default-bootstrap/css/authentication.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/themeconfigurator/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/pronewproduct/css/pronewproduct.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prosuppliers/css/prosuppliers.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/proadvpopup/css/proadvpopup.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/propin/css/propin.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prospecial/css/prospecial.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/growl/jquery.growl.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetqrcode/css/tetqrcode.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetyoutube/css/tetyoutube.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbanner/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcountdown/css/jquery.ui.datepicker.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcountdown/css/tetcountdown.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetmap/views/css/tetmap.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbrand/views/css/tetbrand.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbtn/css/tetbtn.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcategory/css/tetcategory.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prozoom/css/prozoom.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prosearch/css/prosearch.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetfacebook/views/css/tetfacebook.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/instagrampromodule.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/owl.carousel.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/owl.theme.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tettwitter/views/css/tettwitter.css" type="text/css" media="all" />
+		<script type="text/javascript">
+var CUSTOMIZE_TEXTFIELD = 1;
+var FancyboxI18nClose = 'Fermer';
+var FancyboxI18nNext = 'Suivant';
+var FancyboxI18nPrev = 'Pr&eacute;c&eacute;dent';
+var added_to_wishlist = 'Ajouté à votre liste de cadeaux.';
+var ajax_allowed = true;
+var ajaxsearch = true;
+var baseDir = 'https://newpstheme.com/';
+var baseUri = 'https://newpstheme.com/';
+var blocksearch_type = 'top';
+var contentOnly = false;
+var countries = {"39":{"id_country":"39","id_lang":"3","name":"American Samoa","id_zone":"2","id_currency":"0","iso_code":"AS","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"American Samoa","zone":"North America"},"43":{"id_country":"43","id_lang":"3","name":"Antigua and Barbuda","id_zone":"2","id_currency":"0","iso_code":"AG","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"Antigua and Barbuda","zone":"North America"},"2":{"id_country":"2","id_lang":"3","name":"Austria","id_zone":"1","id_currency":"0","iso_code":"AT","call_prefix":"43","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Austria","zone":"Europe"},"48":{"id_country":"48","id_lang":"3","name":"Bahamas","id_zone":"2","id_currency":"0","iso_code":"BS","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"Bahamas","zone":"North America"},"51":{"id_country":"51","id_lang":"3","name":"Barbados","id_zone":"2","id_currency":"0","iso_code":"BB","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"CNNNNN","display_tax_label":"1","country":"Barbados","zone":"North America"},"3":{"id_country":"3","id_lang":"3","name":"Belgium","id_zone":"1","id_currency":"0","iso_code":"BE","call_prefix":"32","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Belgium","zone":"Europe"},"55":{"id_country":"55","id_lang":"3","name":"Bermuda","id_zone":"2","id_currency":"0","iso_code":"BM","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"Bermuda","zone":"North America"},"233":{"id_country":"233","id_lang":"3","name":"Bosnia and Herzegovina","id_zone":"1","id_currency":"0","iso_code":"BA","call_prefix":"387","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"Bosnia and Herzegovina","zone":"Europe"},"236":{"id_country":"236","id_lang":"3","name":"Bulgaria","id_zone":"1","id_currency":"0","iso_code":"BG","call_prefix":"359","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Bulgaria","zone":"Europe"},"4":{"id_country":"4","id_lang":"3","name":"Canada","id_zone":"2","id_currency":"0","iso_code":"CA","call_prefix":"1","active":"1","contains_states":"1","need_identification_number":"0","need_zip_code":"1","zip_code_format":"LNL NLN","display_tax_label":"0","country":"Canada","zone":"North America","states":[{"id_state":"89","id_country":"4","id_zone":"2","name":"Alberta","iso_code":"AB","tax_behavior":"0","active":"1"},{"id_state":"88","id_country":"4","id_zone":"2","name":"British Columbia","iso_code":"BC","tax_behavior":"0","active":"1"},{"id_state":"90","id_country":"4","id_zone":"2","name":"Manitoba","iso_code":"MB","tax_behavior":"0","active":"1"},{"id_state":"93","id_country":"4","id_zone":"2","name":"New Brunswick","iso_code":"NB","tax_behavior":"0","active":"1"},{"id_state":"94","id_country":"4","id_zone":"2","name":"Newfoundland and Labrador","iso_code":"NL","tax_behavior":"0","active":"1"},{"id_state":"96","id_country":"4","id_zone":"2","name":"Northwest Territories","iso_code":"NT","tax_behavior":"0","active":"1"},{"id_state":"92","id_country":"4","id_zone":"2","name":"Nova Scotia","iso_code":"NS","tax_behavior":"0","active":"1"},{"id_state":"98","id_country":"4","id_zone":"2","name":"Nunavut","iso_code":"NU","tax_behavior":"0","active":"1"},{"id_state":"86","id_country":"4","id_zone":"2","name":"Ontario","iso_code":"ON","tax_behavior":"0","active":"1"},{"id_state":"95","id_country":"4","id_zone":"2","name":"Prince Edward Island","iso_code":"PE","tax_behavior":"0","active":"1"},{"id_state":"87","id_country":"4","id_zone":"2","name":"Quebec","iso_code":"QC","tax_behavior":"0","active":"1"},{"id_state":"91","id_country":"4","id_zone":"2","name":"Saskatchewan","iso_code":"SK","tax_behavior":"0","active":"1"},{"id_state":"97","id_country":"4","id_zone":"2","name":"Yukon","iso_code":"YT","tax_behavior":"0","active":"1"}]},"76":{"id_country":"76","id_lang":"3","name":"Cyprus","id_zone":"1","id_currency":"0","iso_code":"CY","call_prefix":"357","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Cyprus","zone":"Europe"},"16":{"id_country":"16","id_lang":"3","name":"Czech Republic","id_zone":"1","id_currency":"0","iso_code":"CZ","call_prefix":"420","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNN NN","display_tax_label":"1","country":"Czech Republic","zone":"Europe"},"20":{"id_country":"20","id_lang":"3","name":"Denmark","id_zone":"1","id_currency":"0","iso_code":"DK","call_prefix":"45","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Denmark","zone":"Europe"},"86":{"id_country":"86","id_lang":"3","name":"Estonia","id_zone":"1","id_currency":"0","iso_code":"EE","call_prefix":"372","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Estonia","zone":"Europe"},"7":{"id_country":"7","id_lang":"3","name":"Finland","id_zone":"1","id_currency":"0","iso_code":"FI","call_prefix":"358","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Finland","zone":"Europe"},"8":{"id_country":"8","id_lang":"3","name":"France","id_zone":"1","id_currency":"0","iso_code":"FR","call_prefix":"33","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"France","zone":"Europe"},"1":{"id_country":"1","id_lang":"3","name":"Germany","id_zone":"1","id_currency":"0","iso_code":"DE","call_prefix":"49","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Germany","zone":"Europe"},"9":{"id_country":"9","id_lang":"3","name":"Greece","id_zone":"1","id_currency":"0","iso_code":"GR","call_prefix":"30","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Greece","zone":"Europe"},"143":{"id_country":"143","id_lang":"3","name":"Hungary","id_zone":"1","id_currency":"0","iso_code":"HU","call_prefix":"36","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Hungary","zone":"Europe"},"26":{"id_country":"26","id_lang":"3","name":"Ireland","id_zone":"1","id_currency":"0","iso_code":"IE","call_prefix":"353","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"0","zip_code_format":"","display_tax_label":"1","country":"Ireland","zone":"Europe"},"10":{"id_country":"10","id_lang":"3","name":"Italy","id_zone":"1","id_currency":"0","iso_code":"IT","call_prefix":"39","active":"1","contains_states":"1","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Italy","zone":"Europe","states":[{"id_state":"123","id_country":"10","id_zone":"1","name":"Agrigento","iso_code":"AG","tax_behavior":"0","active":"1"},{"id_state":"124","id_country":"10","id_zone":"1","name":"Alessandria","iso_code":"AL","tax_behavior":"0","active":"1"},{"id_state":"125","id_country":"10","id_zone":"1","name":"Ancona","iso_code":"AN","tax_behavior":"0","active":"1"},{"id_state":"126","id_country":"10","id_zone":"1","name":"Aosta","iso_code":"AO","tax_behavior":"0","active":"1"},{"id_state":"127","id_country":"10","id_zone":"1","name":"Arezzo","iso_code":"AR","tax_behavior":"0","active":"1"},{"id_state":"128","id_country":"10","id_zone":"1","name":"Ascoli Piceno","iso_code":"AP","tax_behavior":"0","active":"1"},{"id_state":"129","id_country":"10","id_zone":"1","name":"Asti","iso_code":"AT","tax_behavior":"0","active":"1"},{"id_state":"130","id_country":"10","id_zone":"1","name":"Avellino","iso_code":"AV","tax_behavior":"0","active":"1"},{"id_state":"131","id_country":"10","id_zone":"1","name":"Bari","iso_code":"BA","tax_behavior":"0","active":"1"},{"id_state":"132","id_country":"10","id_zone":"1","name":"Barletta-Andria-Trani","iso_code":"BT","tax_behavior":"0","active":"1"},{"id_state":"133","id_country":"10","id_zone":"1","name":"Belluno","iso_code":"BL","tax_behavior":"0","active":"1"},{"id_state":"134","id_country":"10","id_zone":"1","name":"Benevento","iso_code":"BN","tax_behavior":"0","active":"1"},{"id_state":"135","id_country":"10","id_zone":"1","name":"Bergamo","iso_code":"BG","tax_behavior":"0","active":"1"},{"id_state":"136","id_country":"10","id_zone":"1","name":"Biella","iso_code":"BI","tax_behavior":"0","active":"1"},{"id_state":"137","id_country":"10","id_zone":"1","name":"Bologna","iso_code":"BO","tax_behavior":"0","active":"1"},{"id_state":"138","id_country":"10","id_zone":"1","name":"Bolzano","iso_code":"BZ","tax_behavior":"0","active":"1"},{"id_state":"139","id_country":"10","id_zone":"1","name":"Brescia","iso_code":"BS","tax_behavior":"0","active":"1"},{"id_state":"140","id_country":"10","id_zone":"1","name":"Brindisi","iso_code":"BR","tax_behavior":"0","active":"1"},{"id_state":"141","id_country":"10","id_zone":"1","name":"Cagliari","iso_code":"CA","tax_behavior":"0","active":"1"},{"id_state":"142","id_country":"10","id_zone":"1","name":"Caltanissetta","iso_code":"CL","tax_behavior":"0","active":"1"},{"id_state":"143","id_country":"10","id_zone":"1","name":"Campobasso","iso_code":"CB","tax_behavior":"0","active":"1"},{"id_state":"144","id_country":"10","id_zone":"1","name":"Carbonia-Iglesias","iso_code":"CI","tax_behavior":"0","active":"1"},{"id_state":"145","id_country":"10","id_zone":"1","name":"Caserta","iso_code":"CE","tax_behavior":"0","active":"1"},{"id_state":"146","id_country":"10","id_zone":"1","name":"Catania","iso_code":"CT","tax_behavior":"0","active":"1"},{"id_state":"147","id_country":"10","id_zone":"1","name":"Catanzaro","iso_code":"CZ","tax_behavior":"0","active":"1"},{"id_state":"148","id_country":"10","id_zone":"1","name":"Chieti","iso_code":"CH","tax_behavior":"0","active":"1"},{"id_state":"149","id_country":"10","id_zone":"1","name":"Como","iso_code":"CO","tax_behavior":"0","active":"1"},{"id_state":"150","id_country":"10","id_zone":"1","name":"Cosenza","iso_code":"CS","tax_behavior":"0","active":"1"},{"id_state":"151","id_country":"10","id_zone":"1","name":"Cremona","iso_code":"CR","tax_behavior":"0","active":"1"},{"id_state":"152","id_country":"10","id_zone":"1","name":"Crotone","iso_code":"KR","tax_behavior":"0","active":"1"},{"id_state":"153","id_country":"10","id_zone":"1","name":"Cuneo","iso_code":"CN","tax_behavior":"0","active":"1"},{"id_state":"154","id_country":"10","id_zone":"1","name":"Enna","iso_code":"EN","tax_behavior":"0","active":"1"},{"id_state":"155","id_country":"10","id_zone":"1","name":"Fermo","iso_code":"FM","tax_behavior":"0","active":"1"},{"id_state":"156","id_country":"10","id_zone":"1","name":"Ferrara","iso_code":"FE","tax_behavior":"0","active":"1"},{"id_state":"157","id_country":"10","id_zone":"1","name":"Firenze","iso_code":"FI","tax_behavior":"0","active":"1"},{"id_state":"158","id_country":"10","id_zone":"1","name":"Foggia","iso_code":"FG","tax_behavior":"0","active":"1"},{"id_state":"159","id_country":"10","id_zone":"1","name":"Forl\u00ec-Cesena","iso_code":"FC","tax_behavior":"0","active":"1"},{"id_state":"160","id_country":"10","id_zone":"1","name":"Frosinone","iso_code":"FR","tax_behavior":"0","active":"1"},{"id_state":"161","id_country":"10","id_zone":"1","name":"Genova","iso_code":"GE","tax_behavior":"0","active":"1"},{"id_state":"162","id_country":"10","id_zone":"1","name":"Gorizia","iso_code":"GO","tax_behavior":"0","active":"1"},{"id_state":"163","id_country":"10","id_zone":"1","name":"Grosseto","iso_code":"GR","tax_behavior":"0","active":"1"},{"id_state":"164","id_country":"10","id_zone":"1","name":"Imperia","iso_code":"IM","tax_behavior":"0","active":"1"},{"id_state":"165","id_country":"10","id_zone":"1","name":"Isernia","iso_code":"IS","tax_behavior":"0","active":"1"},{"id_state":"166","id_country":"10","id_zone":"1","name":"L'Aquila","iso_code":"AQ","tax_behavior":"0","active":"1"},{"id_state":"167","id_country":"10","id_zone":"1","name":"La Spezia","iso_code":"SP","tax_behavior":"0","active":"1"},{"id_state":"168","id_country":"10","id_zone":"1","name":"Latina","iso_code":"LT","tax_behavior":"0","active":"1"},{"id_state":"169","id_country":"10","id_zone":"1","name":"Lecce","iso_code":"LE","tax_behavior":"0","active":"1"},{"id_state":"170","id_country":"10","id_zone":"1","name":"Lecco","iso_code":"LC","tax_behavior":"0","active":"1"},{"id_state":"171","id_country":"10","id_zone":"1","name":"Livorno","iso_code":"LI","tax_behavior":"0","active":"1"},{"id_state":"172","id_country":"10","id_zone":"1","name":"Lodi","iso_code":"LO","tax_behavior":"0","active":"1"},{"id_state":"173","id_country":"10","id_zone":"1","name":"Lucca","iso_code":"LU","tax_behavior":"0","active":"1"},{"id_state":"174","id_country":"10","id_zone":"1","name":"Macerata","iso_code":"MC","tax_behavior":"0","active":"1"},{"id_state":"175","id_country":"10","id_zone":"1","name":"Mantova","iso_code":"MN","tax_behavior":"0","active":"1"},{"id_state":"176","id_country":"10","id_zone":"1","name":"Massa","iso_code":"MS","tax_behavior":"0","active":"1"},{"id_state":"177","id_country":"10","id_zone":"1","name":"Matera","iso_code":"MT","tax_behavior":"0","active":"1"},{"id_state":"178","id_country":"10","id_zone":"1","name":"Medio Campidano","iso_code":"VS","tax_behavior":"0","active":"1"},{"id_state":"179","id_country":"10","id_zone":"1","name":"Messina","iso_code":"ME","tax_behavior":"0","active":"1"},{"id_state":"180","id_country":"10","id_zone":"1","name":"Milano","iso_code":"MI","tax_behavior":"0","active":"1"},{"id_state":"181","id_country":"10","id_zone":"1","name":"Modena","iso_code":"MO","tax_behavior":"0","active":"1"},{"id_state":"182","id_country":"10","id_zone":"1","name":"Monza e della Brianza","iso_code":"MB","tax_behavior":"0","active":"1"},{"id_state":"183","id_country":"10","id_zone":"1","name":"Napoli","iso_code":"NA","tax_behavior":"0","active":"1"},{"id_state":"184","id_country":"10","id_zone":"1","name":"Novara","iso_code":"NO","tax_behavior":"0","active":"1"},{"id_state":"185","id_country":"10","id_zone":"1","name":"Nuoro","iso_code":"NU","tax_behavior":"0","active":"1"},{"id_state":"186","id_country":"10","id_zone":"1","name":"Ogliastra","iso_code":"OG","tax_behavior":"0","active":"1"},{"id_state":"187","id_country":"10","id_zone":"1","name":"Olbia-Tempio","iso_code":"OT","tax_behavior":"0","active":"1"},{"id_state":"188","id_country":"10","id_zone":"1","name":"Oristano","iso_code":"OR","tax_behavior":"0","active":"1"},{"id_state":"189","id_country":"10","id_zone":"1","name":"Padova","iso_code":"PD","tax_behavior":"0","active":"1"},{"id_state":"190","id_country":"10","id_zone":"1","name":"Palermo","iso_code":"PA","tax_behavior":"0","active":"1"},{"id_state":"191","id_country":"10","id_zone":"1","name":"Parma","iso_code":"PR","tax_behavior":"0","active":"1"},{"id_state":"192","id_country":"10","id_zone":"1","name":"Pavia","iso_code":"PV","tax_behavior":"0","active":"1"},{"id_state":"193","id_country":"10","id_zone":"1","name":"Perugia","iso_code":"PG","tax_behavior":"0","active":"1"},{"id_state":"194","id_country":"10","id_zone":"1","name":"Pesaro-Urbino","iso_code":"PU","tax_behavior":"0","active":"1"},{"id_state":"195","id_country":"10","id_zone":"1","name":"Pescara","iso_code":"PE","tax_behavior":"0","active":"1"},{"id_state":"196","id_country":"10","id_zone":"1","name":"Piacenza","iso_code":"PC","tax_behavior":"0","active":"1"},{"id_state":"197","id_country":"10","id_zone":"1","name":"Pisa","iso_code":"PI","tax_behavior":"0","active":"1"},{"id_state":"198","id_country":"10","id_zone":"1","name":"Pistoia","iso_code":"PT","tax_behavior":"0","active":"1"},{"id_state":"199","id_country":"10","id_zone":"1","name":"Pordenone","iso_code":"PN","tax_behavior":"0","active":"1"},{"id_state":"200","id_country":"10","id_zone":"1","name":"Potenza","iso_code":"PZ","tax_behavior":"0","active":"1"},{"id_state":"201","id_country":"10","id_zone":"1","name":"Prato","iso_code":"PO","tax_behavior":"0","active":"1"},{"id_state":"202","id_country":"10","id_zone":"1","name":"Ragusa","iso_code":"RG","tax_behavior":"0","active":"1"},{"id_state":"203","id_country":"10","id_zone":"1","name":"Ravenna","iso_code":"RA","tax_behavior":"0","active":"1"},{"id_state":"204","id_country":"10","id_zone":"1","name":"Reggio Calabria","iso_code":"RC","tax_behavior":"0","active":"1"},{"id_state":"205","id_country":"10","id_zone":"1","name":"Reggio Emilia","iso_code":"RE","tax_behavior":"0","active":"1"},{"id_state":"206","id_country":"10","id_zone":"1","name":"Rieti","iso_code":"RI","tax_behavior":"0","active":"1"},{"id_state":"207","id_country":"10","id_zone":"1","name":"Rimini","iso_code":"RN","tax_behavior":"0","active":"1"},{"id_state":"208","id_country":"10","id_zone":"1","name":"Roma","iso_code":"RM","tax_behavior":"0","active":"1"},{"id_state":"209","id_country":"10","id_zone":"1","name":"Rovigo","iso_code":"RO","tax_behavior":"0","active":"1"},{"id_state":"210","id_country":"10","id_zone":"1","name":"Salerno","iso_code":"SA","tax_behavior":"0","active":"1"},{"id_state":"211","id_country":"10","id_zone":"1","name":"Sassari","iso_code":"SS","tax_behavior":"0","active":"1"},{"id_state":"212","id_country":"10","id_zone":"1","name":"Savona","iso_code":"SV","tax_behavior":"0","active":"1"},{"id_state":"213","id_country":"10","id_zone":"1","name":"Siena","iso_code":"SI","tax_behavior":"0","active":"1"},{"id_state":"214","id_country":"10","id_zone":"1","name":"Siracusa","iso_code":"SR","tax_behavior":"0","active":"1"},{"id_state":"215","id_country":"10","id_zone":"1","name":"Sondrio","iso_code":"SO","tax_behavior":"0","active":"1"},{"id_state":"216","id_country":"10","id_zone":"1","name":"Taranto","iso_code":"TA","tax_behavior":"0","active":"1"},{"id_state":"217","id_country":"10","id_zone":"1","name":"Teramo","iso_code":"TE","tax_behavior":"0","active":"1"},{"id_state":"218","id_country":"10","id_zone":"1","name":"Terni","iso_code":"TR","tax_behavior":"0","active":"1"},{"id_state":"219","id_country":"10","id_zone":"1","name":"Torino","iso_code":"TO","tax_behavior":"0","active":"1"},{"id_state":"220","id_country":"10","id_zone":"1","name":"Trapani","iso_code":"TP","tax_behavior":"0","active":"1"},{"id_state":"221","id_country":"10","id_zone":"1","name":"Trento","iso_code":"TN","tax_behavior":"0","active":"1"},{"id_state":"222","id_country":"10","id_zone":"1","name":"Treviso","iso_code":"TV","tax_behavior":"0","active":"1"},{"id_state":"223","id_country":"10","id_zone":"1","name":"Trieste","iso_code":"TS","tax_behavior":"0","active":"1"},{"id_state":"224","id_country":"10","id_zone":"1","name":"Udine","iso_code":"UD","tax_behavior":"0","active":"1"},{"id_state":"225","id_country":"10","id_zone":"1","name":"Varese","iso_code":"VA","tax_behavior":"0","active":"1"},{"id_state":"226","id_country":"10","id_zone":"1","name":"Venezia","iso_code":"VE","tax_behavior":"0","active":"1"},{"id_state":"227","id_country":"10","id_zone":"1","name":"Verbano-Cusio-Ossola","iso_code":"VB","tax_behavior":"0","active":"1"},{"id_state":"228","id_country":"10","id_zone":"1","name":"Vercelli","iso_code":"VC","tax_behavior":"0","active":"1"},{"id_state":"229","id_country":"10","id_zone":"1","name":"Verona","iso_code":"VR","tax_behavior":"0","active":"1"},{"id_state":"230","id_country":"10","id_zone":"1","name":"Vibo Valentia","iso_code":"VV","tax_behavior":"0","active":"1"},{"id_state":"231","id_country":"10","id_zone":"1","name":"Vicenza","iso_code":"VI","tax_behavior":"0","active":"1"},{"id_state":"232","id_country":"10","id_zone":"1","name":"Viterbo","iso_code":"VT","tax_behavior":"0","active":"1"}]},"125":{"id_country":"125","id_lang":"3","name":"Latvia","id_zone":"1","id_currency":"0","iso_code":"LV","call_prefix":"371","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"C-NNNN","display_tax_label":"1","country":"Latvia","zone":"Europe"},"130":{"id_country":"130","id_lang":"3","name":"Liechtenstein","id_zone":"1","id_currency":"0","iso_code":"LI","call_prefix":"423","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Liechtenstein","zone":"Europe"},"131":{"id_country":"131","id_lang":"3","name":"Lithuania","id_zone":"1","id_currency":"0","iso_code":"LT","call_prefix":"370","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Lithuania","zone":"Europe"},"12":{"id_country":"12","id_lang":"3","name":"Luxemburg","id_zone":"1","id_currency":"0","iso_code":"LU","call_prefix":"352","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN","display_tax_label":"1","country":"Luxemburg","zone":"Europe"},"139":{"id_country":"139","id_lang":"3","name":"Malta","id_zone":"1","id_currency":"0","iso_code":"MT","call_prefix":"356","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"LLL NNNN","display_tax_label":"1","country":"Malta","zone":"Europe"},"145":{"id_country":"145","id_lang":"3","name":"Mexico","id_zone":"2","id_currency":"0","iso_code":"MX","call_prefix":"52","active":"1","contains_states":"1","need_identification_number":"1","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Mexico","zone":"North America","states":[{"id_state":"54","id_country":"145","id_zone":"2","name":"Aguascalientes","iso_code":"AGS","tax_behavior":"0","active":"1"},{"id_state":"55","id_country":"145","id_zone":"2","name":"Baja California","iso_code":"BCN","tax_behavior":"0","active":"1"},{"id_state":"56","id_country":"145","id_zone":"2","name":"Baja California Sur","iso_code":"BCS","tax_behavior":"0","active":"1"},{"id_state":"57","id_country":"145","id_zone":"2","name":"Campeche","iso_code":"CAM","tax_behavior":"0","active":"1"},{"id_state":"58","id_country":"145","id_zone":"2","name":"Chiapas","iso_code":"CHP","tax_behavior":"0","active":"1"},{"id_state":"59","id_country":"145","id_zone":"2","name":"Chihuahua","iso_code":"CHH","tax_behavior":"0","active":"1"},{"id_state":"60","id_country":"145","id_zone":"2","name":"Coahuila","iso_code":"COA","tax_behavior":"0","active":"1"},{"id_state":"61","id_country":"145","id_zone":"2","name":"Colima","iso_code":"COL","tax_behavior":"0","active":"1"},{"id_state":"62","id_country":"145","id_zone":"2","name":"Distrito Federal","iso_code":"DIF","tax_behavior":"0","active":"1"},{"id_state":"63","id_country":"145","id_zone":"2","name":"Durango","iso_code":"DUR","tax_behavior":"0","active":"1"},{"id_state":"68","id_country":"145","id_zone":"2","name":"Estado de M\u00e9xico","iso_code":"MEX","tax_behavior":"0","active":"1"},{"id_state":"64","id_country":"145","id_zone":"2","name":"Guanajuato","iso_code":"GUA","tax_behavior":"0","active":"1"},{"id_state":"65","id_country":"145","id_zone":"2","name":"Guerrero","iso_code":"GRO","tax_behavior":"0","active":"1"},{"id_state":"66","id_country":"145","id_zone":"2","name":"Hidalgo","iso_code":"HID","tax_behavior":"0","active":"1"},{"id_state":"67","id_country":"145","id_zone":"2","name":"Jalisco","iso_code":"JAL","tax_behavior":"0","active":"1"},{"id_state":"69","id_country":"145","id_zone":"2","name":"Michoac\u00e1n","iso_code":"MIC","tax_behavior":"0","active":"1"},{"id_state":"70","id_country":"145","id_zone":"2","name":"Morelos","iso_code":"MOR","tax_behavior":"0","active":"1"},{"id_state":"71","id_country":"145","id_zone":"2","name":"Nayarit","iso_code":"NAY","tax_behavior":"0","active":"1"},{"id_state":"72","id_country":"145","id_zone":"2","name":"Nuevo Le\u00f3n","iso_code":"NLE","tax_behavior":"0","active":"1"},{"id_state":"73","id_country":"145","id_zone":"2","name":"Oaxaca","iso_code":"OAX","tax_behavior":"0","active":"1"},{"id_state":"74","id_country":"145","id_zone":"2","name":"Puebla","iso_code":"PUE","tax_behavior":"0","active":"1"},{"id_state":"75","id_country":"145","id_zone":"2","name":"Quer\u00e9taro","iso_code":"QUE","tax_behavior":"0","active":"1"},{"id_state":"76","id_country":"145","id_zone":"2","name":"Quintana Roo","iso_code":"ROO","tax_behavior":"0","active":"1"},{"id_state":"77","id_country":"145","id_zone":"2","name":"San Luis Potos\u00ed","iso_code":"SLP","tax_behavior":"0","active":"1"},{"id_state":"78","id_country":"145","id_zone":"2","name":"Sinaloa","iso_code":"SIN","tax_behavior":"0","active":"1"},{"id_state":"79","id_country":"145","id_zone":"2","name":"Sonora","iso_code":"SON","tax_behavior":"0","active":"1"},{"id_state":"80","id_country":"145","id_zone":"2","name":"Tabasco","iso_code":"TAB","tax_behavior":"0","active":"1"},{"id_state":"81","id_country":"145","id_zone":"2","name":"Tamaulipas","iso_code":"TAM","tax_behavior":"0","active":"1"},{"id_state":"82","id_country":"145","id_zone":"2","name":"Tlaxcala","iso_code":"TLA","tax_behavior":"0","active":"1"},{"id_state":"83","id_country":"145","id_zone":"2","name":"Veracruz","iso_code":"VER","tax_behavior":"0","active":"1"},{"id_state":"84","id_country":"145","id_zone":"2","name":"Yucat\u00e1n","iso_code":"YUC","tax_behavior":"0","active":"1"},{"id_state":"85","id_country":"145","id_zone":"2","name":"Zacatecas","iso_code":"ZAC","tax_behavior":"0","active":"1"}]},"13":{"id_country":"13","id_lang":"3","name":"Netherlands","id_zone":"1","id_currency":"0","iso_code":"NL","call_prefix":"31","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN LL","display_tax_label":"1","country":"Netherlands","zone":"Europe"},"14":{"id_country":"14","id_lang":"3","name":"Poland","id_zone":"1","id_currency":"0","iso_code":"PL","call_prefix":"48","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NN-NNN","display_tax_label":"1","country":"Poland","zone":"Europe"},"15":{"id_country":"15","id_lang":"3","name":"Portugal","id_zone":"1","id_currency":"0","iso_code":"PT","call_prefix":"351","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNN-NNN","display_tax_label":"1","country":"Portugal","zone":"Europe"},"36":{"id_country":"36","id_lang":"3","name":"Romania","id_zone":"1","id_currency":"0","iso_code":"RO","call_prefix":"40","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNNN","display_tax_label":"1","country":"Romania","zone":"Europe"},"37":{"id_country":"37","id_lang":"3","name":"Slovakia","id_zone":"1","id_currency":"0","iso_code":"SK","call_prefix":"421","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNN NN","display_tax_label":"1","country":"Slovakia","zone":"Europe"},"193":{"id_country":"193","id_lang":"3","name":"Slovenia","id_zone":"1","id_currency":"0","iso_code":"SI","call_prefix":"386","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"C-NNNN","display_tax_label":"1","country":"Slovenia","zone":"Europe"},"6":{"id_country":"6","id_lang":"3","name":"Spain","id_zone":"1","id_currency":"0","iso_code":"ES","call_prefix":"34","active":"1","contains_states":"0","need_identification_number":"1","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Spain","zone":"Europe"},"18":{"id_country":"18","id_lang":"3","name":"Sweden","id_zone":"1","id_currency":"0","iso_code":"SE","call_prefix":"46","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNN NN","display_tax_label":"1","country":"Sweden","zone":"Europe"},"216":{"id_country":"216","id_lang":"3","name":"Ukraine","id_zone":"1","id_currency":"0","iso_code":"UA","call_prefix":"380","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"1","country":"Ukraine","zone":"Europe"},"17":{"id_country":"17","id_lang":"3","name":"United Kingdom","id_zone":"1","id_currency":"0","iso_code":"GB","call_prefix":"44","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"United Kingdom","zone":"Europe"},"21":{"id_country":"21","id_lang":"3","name":"United States","id_zone":"2","id_currency":"0","iso_code":"US","call_prefix":"1","active":"1","contains_states":"1","need_identification_number":"0","need_zip_code":"1","zip_code_format":"NNNNN","display_tax_label":"0","country":"United States","zone":"North America","states":[{"id_state":"1","id_country":"21","id_zone":"2","name":"Alabama","iso_code":"AL","tax_behavior":"0","active":"1"},{"id_state":"2","id_country":"21","id_zone":"2","name":"Alaska","iso_code":"AK","tax_behavior":"0","active":"1"},{"id_state":"3","id_country":"21","id_zone":"2","name":"Arizona","iso_code":"AZ","tax_behavior":"0","active":"1"},{"id_state":"4","id_country":"21","id_zone":"2","name":"Arkansas","iso_code":"AR","tax_behavior":"0","active":"1"},{"id_state":"5","id_country":"21","id_zone":"2","name":"California","iso_code":"CA","tax_behavior":"0","active":"1"},{"id_state":"6","id_country":"21","id_zone":"2","name":"Colorado","iso_code":"CO","tax_behavior":"0","active":"1"},{"id_state":"7","id_country":"21","id_zone":"2","name":"Connecticut","iso_code":"CT","tax_behavior":"0","active":"1"},{"id_state":"8","id_country":"21","id_zone":"2","name":"Delaware","iso_code":"DE","tax_behavior":"0","active":"1"},{"id_state":"53","id_country":"21","id_zone":"2","name":"District of Columbia","iso_code":"DC","tax_behavior":"0","active":"1"},{"id_state":"9","id_country":"21","id_zone":"2","name":"Florida","iso_code":"FL","tax_behavior":"0","active":"1"},{"id_state":"10","id_country":"21","id_zone":"2","name":"Georgia","iso_code":"GA","tax_behavior":"0","active":"1"},{"id_state":"11","id_country":"21","id_zone":"2","name":"Hawaii","iso_code":"HI","tax_behavior":"0","active":"1"},{"id_state":"12","id_country":"21","id_zone":"2","name":"Idaho","iso_code":"ID","tax_behavior":"0","active":"1"},{"id_state":"13","id_country":"21","id_zone":"2","name":"Illinois","iso_code":"IL","tax_behavior":"0","active":"1"},{"id_state":"14","id_country":"21","id_zone":"2","name":"Indiana","iso_code":"IN","tax_behavior":"0","active":"1"},{"id_state":"15","id_country":"21","id_zone":"2","name":"Iowa","iso_code":"IA","tax_behavior":"0","active":"1"},{"id_state":"16","id_country":"21","id_zone":"2","name":"Kansas","iso_code":"KS","tax_behavior":"0","active":"1"},{"id_state":"17","id_country":"21","id_zone":"2","name":"Kentucky","iso_code":"KY","tax_behavior":"0","active":"1"},{"id_state":"18","id_country":"21","id_zone":"2","name":"Louisiana","iso_code":"LA","tax_behavior":"0","active":"1"},{"id_state":"19","id_country":"21","id_zone":"2","name":"Maine","iso_code":"ME","tax_behavior":"0","active":"1"},{"id_state":"20","id_country":"21","id_zone":"2","name":"Maryland","iso_code":"MD","tax_behavior":"0","active":"1"},{"id_state":"21","id_country":"21","id_zone":"2","name":"Massachusetts","iso_code":"MA","tax_behavior":"0","active":"1"},{"id_state":"22","id_country":"21","id_zone":"2","name":"Michigan","iso_code":"MI","tax_behavior":"0","active":"1"},{"id_state":"23","id_country":"21","id_zone":"2","name":"Minnesota","iso_code":"MN","tax_behavior":"0","active":"1"},{"id_state":"24","id_country":"21","id_zone":"2","name":"Mississippi","iso_code":"MS","tax_behavior":"0","active":"1"},{"id_state":"25","id_country":"21","id_zone":"2","name":"Missouri","iso_code":"MO","tax_behavior":"0","active":"1"},{"id_state":"26","id_country":"21","id_zone":"2","name":"Montana","iso_code":"MT","tax_behavior":"0","active":"1"},{"id_state":"27","id_country":"21","id_zone":"2","name":"Nebraska","iso_code":"NE","tax_behavior":"0","active":"1"},{"id_state":"28","id_country":"21","id_zone":"2","name":"Nevada","iso_code":"NV","tax_behavior":"0","active":"1"},{"id_state":"29","id_country":"21","id_zone":"2","name":"New Hampshire","iso_code":"NH","tax_behavior":"0","active":"1"},{"id_state":"30","id_country":"21","id_zone":"2","name":"New Jersey","iso_code":"NJ","tax_behavior":"0","active":"1"},{"id_state":"31","id_country":"21","id_zone":"2","name":"New Mexico","iso_code":"NM","tax_behavior":"0","active":"1"},{"id_state":"32","id_country":"21","id_zone":"2","name":"New York","iso_code":"NY","tax_behavior":"0","active":"1"},{"id_state":"33","id_country":"21","id_zone":"2","name":"North Carolina","iso_code":"NC","tax_behavior":"0","active":"1"},{"id_state":"34","id_country":"21","id_zone":"2","name":"North Dakota","iso_code":"ND","tax_behavior":"0","active":"1"},{"id_state":"35","id_country":"21","id_zone":"2","name":"Ohio","iso_code":"OH","tax_behavior":"0","active":"1"},{"id_state":"36","id_country":"21","id_zone":"2","name":"Oklahoma","iso_code":"OK","tax_behavior":"0","active":"1"},{"id_state":"37","id_country":"21","id_zone":"2","name":"Oregon","iso_code":"OR","tax_behavior":"0","active":"1"},{"id_state":"38","id_country":"21","id_zone":"2","name":"Pennsylvania","iso_code":"PA","tax_behavior":"0","active":"1"},{"id_state":"51","id_country":"21","id_zone":"2","name":"Puerto Rico","iso_code":"PR","tax_behavior":"0","active":"1"},{"id_state":"39","id_country":"21","id_zone":"2","name":"Rhode Island","iso_code":"RI","tax_behavior":"0","active":"1"},{"id_state":"40","id_country":"21","id_zone":"2","name":"South Carolina","iso_code":"SC","tax_behavior":"0","active":"1"},{"id_state":"41","id_country":"21","id_zone":"2","name":"South Dakota","iso_code":"SD","tax_behavior":"0","active":"1"},{"id_state":"42","id_country":"21","id_zone":"2","name":"Tennessee","iso_code":"TN","tax_behavior":"0","active":"1"},{"id_state":"43","id_country":"21","id_zone":"2","name":"Texas","iso_code":"TX","tax_behavior":"0","active":"1"},{"id_state":"52","id_country":"21","id_zone":"2","name":"US Virgin Islands","iso_code":"VI","tax_behavior":"0","active":"1"},{"id_state":"44","id_country":"21","id_zone":"2","name":"Utah","iso_code":"UT","tax_behavior":"0","active":"1"},{"id_state":"45","id_country":"21","id_zone":"2","name":"Vermont","iso_code":"VT","tax_behavior":"0","active":"1"},{"id_state":"46","id_country":"21","id_zone":"2","name":"Virginia","iso_code":"VA","tax_behavior":"0","active":"1"},{"id_state":"47","id_country":"21","id_zone":"2","name":"Washington","iso_code":"WA","tax_behavior":"0","active":"1"},{"id_state":"48","id_country":"21","id_zone":"2","name":"West Virginia","iso_code":"WV","tax_behavior":"0","active":"1"},{"id_state":"49","id_country":"21","id_zone":"2","name":"Wisconsin","iso_code":"WI","tax_behavior":"0","active":"1"},{"id_state":"50","id_country":"21","id_zone":"2","name":"Wyoming","iso_code":"WY","tax_behavior":"0","active":"1"}]},"223":{"id_country":"223","id_lang":"3","name":"Virgin Islands (British)","id_zone":"2","id_currency":"0","iso_code":"VG","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"CNNNN","display_tax_label":"1","country":"Virgin Islands (British)","zone":"North America"},"224":{"id_country":"224","id_lang":"3","name":"Virgin Islands (U.S.)","id_zone":"2","id_currency":"0","iso_code":"VI","call_prefix":"0","active":"1","contains_states":"0","need_identification_number":"0","need_zip_code":"1","zip_code_format":"","display_tax_label":"1","country":"Virgin Islands (U.S.)","zone":"North America"}};
+var customizationIdMessage = 'Personnalisation';
+var delete_txt = 'Supprimer';
+var displayList = false;
+var email_create = false;
+var freeProductTranslation = 'Offert !';
+var freeShippingTranslation = 'Livraison gratuite !';
+var generated_date = 1558573015;
+var idSelectedCountry = false;
+var idSelectedState = false;
+var id_lang = 3;
+var img_dir = 'https://newpstheme.com/themes/default-bootstrap/img/';
+var instantsearch = false;
+var isGuest = 0;
+var isLogged = 0;
+var loggin_required = 'Vous devez être connecté pour gérer votre liste de cadeaux';
+var mywishlist_url = 'https://newpstheme.com/fr/module/blockwishlist/mywishlist';
+var page_name = 'authentication';
+var placeholder_blocknewsletter = 'Saisissez votre adresse e-mail';
+var priceDisplayMethod = 1;
+var priceDisplayPrecision = 2;
+var quickView = true;
+var removingLinkText = 'supprimer cet article du panier';
+var roundMode = 2;
+var search_url = 'https://newpstheme.com/fr/search';
+var static_token = 'fd2a8a822cd49142a295063c140cc5a9';
+var token = '16ea7d68797fcf2913e80bdbc9ef6b03';
+var usingSecureMode = true;
+var wishlistProductsIds = false;
+</script>
+
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.easing.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/tools.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/global.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/10-bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/16-jquery.vimeo.api.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/products-comparison.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.typewatch.js"></script>
+		<script type="text/javascript" src="../themes/default-bootstrap/js/tools/vatManagement.js"></script>
+		<script type="text/javascript" src="../themes/default-bootstrap/js/tools/statesManagement.js"></script>
+		<script type="text/javascript" src="../themes/default-bootstrap/js/authentication.js"></script>
+		<script type="text/javascript" src="../js/validate.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.serialScroll.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/tools/treeManagement.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/pronewproduct/js/flexslider.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prosuppliers/js/jquery.carouFredSel-6.1.0.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prosuppliers/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/proadvpopup/js/jquery.meerkat.1.3.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prospecial/js/prospecial-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/growl/jquery.growl.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcountdown/js/tetcountdown.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcountdown/js/tetcountdown-main.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.carouFredSel-6.2.1.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcategory/js/tetcategory-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prozoom/js/prozoom.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetfacebook/views/js/facebook-wid-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/instagrampromodule/views/js/instagrampromodule-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tettwitter/views/js/tettwitter.js"></script>
+	
+		<script type="text/javascript">
+
+window.$zopim||(function(d,s){
+var z=$zopim=function(c){
+z._.push(c)},$=z.s=d.createElement(s),
+e=d.getElementsByTagName(s)[0];
+z.set=function(o){
+z.set._.push(o)
+};
+z._=[];
+z.set._=[];
+$.async=!0;
+$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2RAMebWHGvG4ifBjKkTUtnYkv94EhUfO';
+z.t=+new Date;
+$.type='text/javascript';
+e.parentNode.insertBefore($,e)
+})(document,'script');
+
+</script><!--Start of Facebook Open Graph-->
+<meta property="fb:app_id" content="870003573031200" />
+<meta property="og:site_name" content="Prestashop Top Module Codecanyon"/>
+<meta property="og:url" content="http://newpstheme.com/en/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Prestashop Module"/>
+<meta property="og:description" content="Prestashop Top Module Codecanyon.  Best Evanto Prestashop Module.  Addon Prestashop module 1.6 and 1.5"/>
+<meta property="og:image" content="https://0.s3.envato.com/files/106534342/2.jpg"/>
+<meta property="og:locale" content="fr"/>
+<!--End of Facebook Open Graph-->
+<script>			
+	var zoom_type = "window";
+	var zoom_lens_size  = "150";
+	var zoom_cursor_type = "cursor";
+	var zoom_lens_opacity = "0.5";
+	var zoom_scroll = "1";
+	var zoom_easing = "1";
+	var zoom_fade_in = "1400";
+    var zoom_fade_out = "500";
+    var zoom_lens_shape = "square";
+	var zoom_win_width = "400";
+    var zoom_win_height = "600";  
+	var zoom_win_border = "1";  
+</script>
+<script>
+	function applyElevateZoom(){
+		var src = $('.thickbox.shown').attr('href');
+		var bigimage = $('.fancybox.shown').attr('href'); 
+		$('#bigpic').elevateZoom({
+			zoomType: zoom_type,
+			cursor: zoom_cursor_type,
+			zoomWindowFadeIn: zoom_fade_in,
+			zoomWindowFadeOut: zoom_fade_out,
+			scrollZoom: zoom_scroll,
+			easing: zoom_easing,
+			lensOpacity: zoom_lens_opacity,
+			lensShape: zoom_lens_shape,
+			lensSize: zoom_lens_size,
+			zoomImage: bigimage,
+			zoomWindowWidth: zoom_win_width,
+			zoomWindowHeight: zoom_win_height,
+			borderSize: zoom_win_border,
+	   });
+	}
+
+	$(document).ready(function(){
+		applyElevateZoom();
+		$('#color_to_pick_list').click(
+			function(){
+				restartElevateZoom();
+			}
+		);
+
+		$('#color_to_pick_list').hover(
+			function(){
+				restartElevateZoom();
+			}
+		);
+
+
+		$('#views_block li a').hover(
+			function(){
+			restartElevateZoom();
+			}
+		);
+	});
+
+	function restartElevateZoom(){
+		$(".zoomContainer").remove();
+		applyElevateZoom();
+	}
+</script>
+	<script type="text/javascript">
+    var sc_project="11748747" 
+    var sc_invisible=0; 
+    var sc_security="82bcd203"; 
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics
+    Made Easy - StatCounter" href="http://statcounter.com/"
+    target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/11748693/0/868b86fb/0/" alt="Web
+    Analytics Made Easy - StatCounter"></a></div></noscript>
+<style>
+ .statcounter {
+	 display:none;
+	}
+</style>
+ 
+	<script type="text/javascript">
+    var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+    {
+		widgetcode:"c893587ca91f9e3a938a656fe3e36aef36baf3d4552f7cfda8679367dc251c1a174804d331f7712f24d598d7bcfa0ed2", values:{},ready:function(){
+	}};
+    var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+    s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+    </script>
+
+
+
+
+	
+		<!--[if IE 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body onload="initialize()"  id="authentication" class="authentication hide-left-column hide-right-column lang_fr">
+					<div id="page">
+			<div class="header-container">
+				<header id="header">
+					<div class="banner">
+						<div class="container">
+							<div class="row">
+								<style>
+#countdown-banner.countdownHolder .digit{
+	background: #3a3a3a;
+}
+</style>
+<div class="countdown-title clearfix">
+	<div class="customtextcountdown">
+   		<h4><span style="color: #f5a623;">This Limited offer ends in:</span></h4>
+    </div>
+	<div id="countdown-banner"></div>
+    <div class="customtextcountdown">
+   		<p>Custom text description module "Countdown Discount Timer Module"</p>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+$(function(){
+	var ts = new Date(2015 ,1 , 25, 00, 00 , 00 );
+	var newYear = true;
+	if((new Date()) > ts){
+		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		newYear = false;
+	}
+	$('#countdown-banner').countdown({
+		timestamp	: ts,
+		callback	: function(days, hours, minutes, seconds){
+			var message = "";
+			message += days + " jour" + ( days == 1 ? '':'s' ) + ", ";
+			message += hours + " heure" + ( hours==1 ? '':'s' ) + ", ";
+			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " et ";
+			message += seconds + " seconde" + ( seconds==1 ? '':'s' );
+		}
+	});	
+});
+</script>
+
+							</div>
+						</div>
+					</div>
+					<div class="nav">
+						<div class="container">
+							<div class="row">
+								<nav><!-- Block user information module NAV  -->
+<div class="header_user_info">
+			<a class="login" href="my-account" rel="nofollow" title="Identifiez-vous">
+			Connexion
+		</a>
+	</div>
+<!-- /Block usmodule NAV -->
+<!-- Block currencies module -->
+	<div id="currencies-block-top">
+		<form id="setCurrency" action="order-slip" method="post">
+			<div class="current">
+				<input type="hidden" name="id_currency" id="id_currency" value=""/>
+				<input type="hidden" name="SubmitCurrency" value="" />
+				<span class="cur-label">Devise :</span>
+																		<strong>USD</strong>																</div>
+			<ul id="first-currencies" class="currencies_ul toogle_content">
+									<li >
+						<a href="javascript:setCurrency(3);" rel="nofollow" title="Dollar">
+							Dollar
+						</a>
+					</li>
+									<li class="selected">
+						<a href="javascript:setCurrency(1);" rel="nofollow" title="Dollar">
+							Dollar
+						</a>
+					</li>
+									<li >
+						<a href="javascript:setCurrency(2);" rel="nofollow" title="Euro">
+							Euro
+						</a>
+					</li>
+							</ul>
+		</form>
+	</div>
+<!-- /Block currencies module --><!-- Block languages module -->
+	<div id="languages-block-top" class="languages-block">
+																			<div class="current">
+					<span>Français</span>
+				</div>
+							<ul id="first-languages" class="languages-block_ul toogle_content">
+							<li >
+																				<a href="../en/order-slip" title="English (English)">
+															<span>English</span>
+									</a>
+								</li>
+							<li >
+																				<a href="../es/order-slip" title="Español (Spanish)">
+															<span>Español</span>
+									</a>
+								</li>
+							<li class="selected">
+										<span>Français</span>
+								</li>
+					</ul>
+	</div>
+<!-- /Block languages module -->
+<div id="contact-link">
+	<a href="contact-us" title="Contactez-nous">Contactez-nous</a>
+</div>
+	<span class="shop-phone">
+		<i class="icon-phone"></i>Appelez-nous au : <strong>0123-456-789</strong>
+	</span>
+</nav>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="container">
+							<div class="row">
+								<div id="header_logo">
+									<a href="../index.html" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+										<img class="logo img-responsive" src="../img/logo.jpg" alt="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest" width="350" height="99"/>
+									</a>
+								</div>
+								<div id="search_block_top" class="col-sm-4 clearfix">
+	<form id="searchbox" method="get" action="https://newpstheme.com/fr/search" >
+		<input type="hidden" name="controller" value="search" />
+		<input type="hidden" name="orderby" value="position" />
+		<input type="hidden" name="orderway" value="desc" />
+		<input class="search_query form-control" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" />
+		<button type="submit" name="submit_search" class="btn btn-default button-search">
+			<span>Search</span>
+		</button>
+	</form>
+</div>  
+
+  <div id="search_autocomplete" class="search-autocomplete"></div>
+	
+		<script type="text/javascript">
+		$('document').ready( function() {
+			$("#search_query_top")
+				.autocomplete(
+					       '/modules/prosearch/prosearchAjax.php',{
+						minChars: 3,
+						max: 10,
+						width: 270,
+						selectFirst: false,
+						scroll: false,
+						dataType: "json",
+						formatItem: function(data, i, max, value, term) {
+							return value;
+						},
+						parse: function(data) {
+							var mytab = new Array();
+							for (var i = 0; i < data.length; i++)
+								mytab[mytab.length] = { data: data[i], value:' <img src="https://newpstheme.com/fr/'+&#32;data[i].ajaxsearchimage&#32;+&#32;'" />' + data[i].pname };
+							return mytab;
+						},
+						extraParams: {
+							ajaxSearch: 1,
+							id_lang: 3
+						}
+					}
+				)
+				.result(function(event, data, formatted) {
+					$('#search_query_top').val(data.pname);
+					document.location.href = data.product_link;
+				})
+		});
+	</script>
+
+			
+<!-- MODULE Block cart -->
+<div class="col-sm-4 clearfix">
+	<div class="shopping_cart">
+		<a href="order" title="Voir mon panier" rel="nofollow">
+			<b>Panier</b>
+			<span class="ajax_cart_quantity">30</span>
+			<span class="ajax_cart_product_txt unvisible">Produit</span>
+			<span class="ajax_cart_product_txt_s">Produits</span>
+			<span class="ajax_cart_total">
+																					$10,348.20
+												</span>
+			<span class="ajax_cart_no_product unvisible">(vide)</span>
+					</a>
+					<div class="cart_block block exclusive">
+				<div class="block_content">
+					<!-- block list of products -->
+					<div class="cart_block_list">
+													<dl class="products">
+																																			<dt data-id="cart_block_product_7_0_0" class="first_item">
+										<a class="cart-images" href="7-raelyn-tribal-print-flippy-shorts.html" title="Raelyn Tribal Print Flippy Shorts"><img src="../41-cart_default/raelyn-tribal-print-flippy-shorts.jpg" alt="Raelyn Tribal Print Flippy Shorts" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="7-raelyn-tribal-print-flippy-shorts.html" title="Raelyn Tribal Print Flippy Shorts">Raelyn...</a>
+											</div>
+																						<span class="price">
+																									$1,854.72																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_6_0_0" class="item">
+										<a class="cart-images" href="6-evangaline-long-sleeve-wrap-playsuit.html" title="Evangaline Long Sleeve Wrap Playsuit"><img src="../34-cart_default/evangaline-long-sleeve-wrap-playsuit.jpg" alt="Evangaline Long Sleeve Wrap Playsuit" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="6-evangaline-long-sleeve-wrap-playsuit.html" title="Evangaline Long Sleeve Wrap Playsuit">Evangaline...</a>
+											</div>
+																						<span class="price">
+																									$1,301.91																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_3_0_0" class="item">
+										<a class="cart-images" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html" title="Suzie Lace Detail Peplum Bandeau Midi Dress"><img src="../15-cart_default/suzie-lace-detail-peplum-bandeau-midi-dress.jpg" alt="Suzie Lace Detail Peplum Bandeau Midi Dress" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html" title="Suzie Lace Detail Peplum Bandeau Midi Dress">Suzie Lace...</a>
+											</div>
+																						<span class="price">
+																									$1,257.03																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_4_0_0" class="item">
+										<a class="cart-images" href="4-emilie-basic-halter-neck-bodysuit.html" title="Emilie Basic Halter Neck Bodysuit"><img src="../23-cart_default/emilie-basic-halter-neck-bodysuit.jpg" alt="Emilie Basic Halter Neck Bodysuit" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="4-emilie-basic-halter-neck-bodysuit.html" title="Emilie Basic Halter Neck Bodysuit">Emilie...</a>
+											</div>
+																						<span class="price">
+																									$974.01																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_1_0_0" class="item">
+										<a class="cart-images" href="1-sarah-sweetheart-peplum-dress.html" title="Sarah Sweetheart Peplum Dress"><img src="../2-cart_default/sarah-sweetheart-peplum-dress.jpg" alt="Sarah Sweetheart Peplum Dress" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="1-sarah-sweetheart-peplum-dress.html" title="Sarah Sweetheart Peplum Dress">Sarah...</a>
+											</div>
+																						<span class="price">
+																									$945.00																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_2_0_0" class="item">
+										<a class="cart-images" href="2-jen-solid-colour-open-shoulder-shift-dress.html" title="Jen Solid Colour Open Shoulder Shift Dress"><img src="../7-cart_default/jen-solid-colour-open-shoulder-shift-dress.jpg" alt="Jen Solid Colour Open Shoulder Shift Dress" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="2-jen-solid-colour-open-shoulder-shift-dress.html" title="Jen Solid Colour Open Shoulder Shift Dress">Jen Solid...</a>
+											</div>
+																						<span class="price">
+																									$924.00																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_8_0_0" class="item">
+										<a class="cart-images" href="8-malawi-stripe-twist-front-bandeau-bikini.html" title="Malawi Stripe Twist Front Bandeau Bikini"><img src="../46-cart_default/malawi-stripe-twist-front-bandeau-bikini.jpg" alt="Malawi Stripe Twist Front Bandeau Bikini" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="8-malawi-stripe-twist-front-bandeau-bikini.html" title="Malawi Stripe Twist Front Bandeau Bikini">Malawi...</a>
+											</div>
+																						<span class="price">
+																									$690.69																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_10_1_0" class="item">
+										<a class="cart-images" href="10-bahamas-enhance-triangle-bikini.html" title="Bahamas Enhance Triangle Bikini"><img src="../58-cart_default/bahamas-enhance-triangle-bikini.jpg" alt="Bahamas Enhance Triangle Bikini" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="10-bahamas-enhance-triangle-bikini.html#/-" title="Bahamas Enhance Triangle Bikini">Bahamas...</a>
+											</div>
+																							<div class="product-atributes">
+													<a href="10-bahamas-enhance-triangle-bikini.html#/-" title="Détails de l'article">green</a>
+												</div>
+																						<span class="price">
+																									$655.17																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																			<dd data-id="cart_block_combination_of_10_1_0" class="item">
+																		<!-- Customizable datas -->
+																		</dd>																																			<dt data-id="cart_block_product_9_0_0" class="item">
+										<a class="cart-images" href="9-bahamas-enhance-triangle-bikini.html" title="Bahamas Enhance Triangle Bikini"><img src="../52-cart_default/bahamas-enhance-triangle-bikini.jpg" alt="Bahamas Enhance Triangle Bikini" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="9-bahamas-enhance-triangle-bikini.html" title="Bahamas Enhance Triangle Bikini">Bahamas...</a>
+											</div>
+																						<span class="price">
+																									$366.00																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_5_0_0" class="last_item">
+										<a class="cart-images" href="5-clarissa-cut-out-front-playsuit.html" title="Clarissa Cut Out Front Playsuit"><img src="../29-cart_default/clarissa-cut-out-front-playsuit.jpg" alt="Clarissa Cut Out Front Playsuit" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">3</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="5-clarissa-cut-out-front-playsuit.html" title="Clarissa Cut Out Front Playsuit">Clarissa...</a>
+											</div>
+																						<span class="price">
+																									$1,379.67																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="supprimer cet article du panier">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																	</dl>
+												<p class="cart_block_no_products unvisible">
+							Aucun produit
+						</p>
+												<div class="cart-prices">
+							<div class="cart-prices-line first-line">
+								<span class="price cart_block_shipping_cost ajax_cart_shipping_cost">
+																			$7.00
+																	</span>
+								<span>
+									Livraison
+								</span>
+							</div>
+																					<div class="cart-prices-line last-line">
+								<span class="price cart_block_total ajax_block_cart_total">$10,355.20</span>
+								<span>Total</span>
+							</div>
+													</div>
+						<p class="cart-buttons">
+							<a id="button_order_cart" class="btn btn-default button button-small" href="order" title="Commander" rel="nofollow">
+								<span>
+									Commander<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div><!-- .cart_block -->
+			</div>
+</div>
+
+	<div id="layer_cart">
+		<div class="clearfix">
+			<div class="layer_cart_product col-xs-12 col-md-6">
+				<span class="cross" title="Fermer la fenêtre"></span>
+				<h2>
+					<i class="icon-ok"></i>Produit ajouté au panier avec succès
+				</h2>
+				<div class="product-image-container layer_cart_img">
+				</div>
+				<div class="layer_cart_product_info">
+					<span id="layer_cart_product_title" class="product-name"></span>
+					<span id="layer_cart_product_attributes"></span>
+					<div>
+						<strong class="dark">Quantité</strong>
+						<span id="layer_cart_product_quantity"></span>
+					</div>
+					<div>
+						<strong class="dark">Total</strong>
+						<span id="layer_cart_product_price"></span>
+					</div>
+				</div>
+			</div>
+			<div class="layer_cart_cart col-xs-12 col-md-6">
+				<h2>
+					<!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt_s ">
+						Il y a <span class="ajax_cart_quantity">30</span> produits dans votre panier.
+					</span>
+					<!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt  unvisible">
+						Il y a 1 produit dans votre panier.
+					</span>
+				</h2>
+	
+				<div class="layer_cart_row">
+					<strong class="dark">
+						Total produits
+											</strong>
+					<span class="ajax_block_products_total">
+													$10,348.20
+											</span>
+				</div>
+	
+								<div class="layer_cart_row">
+					<strong class="dark">
+						Frais de port&nbsp;					</strong>
+					<span class="ajax_cart_shipping_cost">
+													$7.00
+											</span>
+				</div>
+								<div class="layer_cart_row">	
+					<strong class="dark">
+						Total
+											</strong>
+					<span class="ajax_block_cart_total">
+																					$10,355.20
+																		</span>
+				</div>
+				<div class="button-container">	
+					<span class="continue btn btn-default button exclusive-medium" title="Continuer mes achats">
+						<span>
+							<i class="icon-chevron-left left"></i>Continuer mes achats
+						</span>
+					</span>
+					<a class="btn btn-default button button-medium"	href="order" title="Commander" rel="nofollow">
+						<span>
+							Commander<i class="icon-chevron-right right"></i>
+						</span>
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="crossseling"></div>
+	</div> <!-- #layer_cart -->
+	<div class="layer_cart_overlay"></div>
+
+<!-- /MODULE Block cart -->	<!-- Menu -->
+	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
+		<div class="cat-title">Catégories</div>
+		<ul class="sf-menu clearfix menu-content">
+			<li><a href="12-lacinia-esta" title="Lacinia esta">Lacinia esta</a></li><li><a href="13-consequat-ante" title="Consequat ante">Consequat ante</a></li><li><a href="14-elementum-velit" title="Elementum velit">Elementum velit</a></li><li><a href="15-enim-adipiscing" title="Enim adipiscing">Enim adipiscing</a></li><li><a href="16-proin-dictum" title="Proin dictum">Proin dictum</a></li>
+					</ul>
+	</div>
+	<!--/ Menu -->
+<script>
+	
+		(function($){
+			$(document).ready(function(){
+				var $dur = "medium"; 
+				$("#fbplikebox").css({left: -370 , top : 150 })
+				$("#fbplikebox").hover(function () {
+					$(this).stop().animate({
+					left: 0
+					}, $dur);
+				}, function () {
+					$(this).stop().animate({
+					   left: -370
+					}, $dur);
+				});
+				$("#fbplikebox").show();
+			});
+		})(jQuery);
+			
+	</script>
+<style>
+.block-top-tab{
+	width: 370px;	
+}
+@media (max-width: 768px) {
+.block-top-tab{
+	width: 260px;
+}
+}	
+.block_content_animation_tab{
+	background: #ffffff;
+	height: 290
+	border-radius: 0 0 10px  0;
+}
+#facebook_block_likebox{
+	height: 290
+}
+#fbplikebox{
+	right: inherit!important;
+}
+@media (max-width: 768px) {
+#fbplikebox {
+	left: -260px!important;
+	right: inherit!important;
+}
+#fbplikebox:hover{
+	left: 0px!important;
+	right: inherit!important;
+} 
+}
+.title_block_custom{
+	color: ;
+	font: 300 px/22px "Open Sans",sans-serif;
+	background: ;
+}
+.fbplbadge {
+	color: #ffffff;
+	background: #3B5998;
+	right: -49px;
+	left: inherit;
+	border-radius: 0 10px 10px 0;		
+}
+#overlay {
+	height: 290
+}
+.submitbutton{
+	background: #3B5998;
+}
+</style>
+
+<div id="fb-root"></div>
+<div id="fbplikebox" style="display:none;">
+<div id="facebook_block_likebox" class="block-top-tab" style=" height:290px">
+    <div class="block_content_animation_tab" >
+    <div class="fb-page" 
+    data-href="https://www.facebook.com/webtet.modules" 
+    data-tabs="timeline" 
+    data-small-header="0" 
+    data-adapt-container-width="true" 
+    data-hide-cover="1" 
+    data-show-facepile="1"
+    data-height="290"
+    >
+</div> 
+</div>
+	<div class="fbplbadge"><i class="icon-facebook"></i></div> 
+</div>
+</div>
+
+
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<div class="columns-container">
+				<div id="columns" class="container">
+											
+<!-- Breadcrumb -->
+<div class="breadcrumb clearfix">
+	<a class="home" href="../index.html" title="retour &agrave; Accueil"><i class="icon-home"></i></a>
+			<span class="navigation-pipe" >&gt;</span>
+					<span class="navigation_page">	Identifiez-vous</span>
+			</div>
+<!-- /Breadcrumb -->
+										<div class="row">
+																		<div id="center_column" class="center_column col-xs-12 col-sm-12">
+	<h1 class="page-heading">Identifiez-vous</h1>
+
+
+	<!---->
+	<div class="row">
+		<div class="col-xs-12 col-sm-6">
+			<form action="login" method="post" id="create-account_form" class="box">
+				<h3 class="page-subheading">Cr&eacute;ez votre compte</h3>
+				<div class="form_content clearfix">
+					<p>Saisissez votre adresse e-mail pour cr&eacute;er votre compte.</p>
+					<div class="alert alert-danger" id="create_account_error" style="display:none"></div>
+					<div class="form-group">
+						<label for="email_create">Adresse e-mail</label>
+						<input type="text" class="is_required validate account_input form-control" data-validate="isEmail" id="email_create" name="email_create" value="" />
+					</div>
+					<div class="submit">
+						<input type="hidden" class="hidden" name="back" value="order-slip" />						<button class="btn btn-default button button-medium exclusive" type="submit" id="SubmitCreate" name="SubmitCreate">
+							<span>
+								<i class="icon-user left"></i>
+								Cr&eacute;ez votre compte
+							</span>
+						</button>
+						<input type="hidden" class="hidden" name="SubmitCreate" value="Cr&eacute;ez votre compte" />
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-xs-12 col-sm-6">
+			<form action="login" method="post" id="login_form" class="box">
+				<h3 class="page-subheading">D&eacute;j&agrave; inscrit?</h3>
+				<div class="form_content clearfix">
+					<div class="form-group">
+						<label for="email">Adresse e-mail</label>
+						<input class="is_required validate account_input form-control" data-validate="isEmail" type="text" id="email" name="email" value="" />
+					</div>
+					<div class="form-group">
+						<label for="passwd">Mot de passe</label>
+						<span><input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="" /></span>
+					</div>
+					<p class="lost_password form-group"><a href="password-recovery" title="R&eacute;cup&eacute;rez votre mot de passe" rel="nofollow">Mot de passe oubli&eacute; ?</a></p>
+					<p class="submit">
+						<input type="hidden" class="hidden" name="back" value="order-slip" />						<button type="submit" id="SubmitLogin" name="SubmitLogin" class="button btn btn-default button-medium">
+							<span>
+								<i class="icon-lock left"></i>
+								Connexion
+							</span>
+						</button>
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+						</div><!-- #center_column -->
+										</div><!-- .row -->
+				</div><!-- #columns -->
+			</div><!-- .columns-container -->
+							<!-- Footer -->
+				<div class="footer-container">
+					<footer id="footer"  class="container">
+						<div class="row"><!-- Block Newsletter module-->
+<div id="newsletter_block_left" class="block">
+	<h4>Lettre d'informations</h4>
+	<div class="block_content">
+		<form action="index.html" method="post">
+			<div class="form-group" >
+				<input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Saisissez votre adresse e-mail" />
+                <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
+                    <span>ok</span>
+                </button>
+				<input type="hidden" name="action" value="0" />
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /Block Newsletter module-->
+
+<section id="social_block">
+	<ul>
+					<li class="facebook">
+				<a target="_blank" href="http://www.facebook.com/prestashop">
+					<span>Facebook</span>
+				</a>
+			</li>
+							<li class="twitter">
+				<a target="_blank" href="http://www.twitter.com/prestashop">
+					<span>Twitter</span>
+				</a>
+			</li>
+							<li class="rss">
+				<a target="_blank" href="http://www.prestashop.com/blog/en/">
+					<span>RSS</span>
+				</a>
+			</li>
+		                        	<li class="google-plus">
+        		<a  target="_blank" href="https://www.google.com/+prestashop">
+        			<span>Google Plus</span>
+        		</a>
+        	</li>
+                	</ul>
+    <h4>Nous suivre</h4>
+</section>
+<div class="clearfix"></div>
+
+<!-- Block categories module -->
+<section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
+	<h4>Catégories</h4>
+	<div class="category_footer toggle-footer">
+		<div class="list">
+			<ul class="tree dhtml">
+												
+<li >
+	<a 
+	href="12-lacinia-esta" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Lacinia esta
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="13-consequat-ante" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Consequat ante
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="14-elementum-velit" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Elementum velit
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="15-enim-adipiscing" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Enim adipiscing
+	</a>
+	</li>
+
+							
+																
+<li class="last">
+	<a 
+	href="16-proin-dictum" title=" Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Proin dictum
+	</a>
+	</li>
+
+							
+										</ul>
+		</div>
+	</div> <!-- .category_footer -->
+</section>
+<!-- /Block categories module -->
+
+	<!-- MODULE Block footer -->
+	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+		<h4>Informations</h4>
+		<ul class="toggle-footer">
+							<li class="item">
+					<a href="prices-drop" title="Promotions">
+						Promotions
+					</a>
+				</li>
+									<li class="item">
+				<a href="new-products" title="Nouveaux produits">
+					Nouveaux produits
+				</a>
+			</li>
+										<li class="item">
+					<a href="best-sales" title="Meilleures ventes">
+						Meilleures ventes
+					</a>
+				</li>
+										<li class="item">
+					<a href="stores" title="Nos magasins">
+						Nos magasins
+					</a>
+				</li>
+															<li>
+				<a href="sitemap" title="sitemap">
+					sitemap
+				</a>
+			</li>
+					</ul>
+		
+	</section>
+		<section class="bottom-footer col-xs-12">
+		<div>
+			&copy; 2014 <a class="_blank" href="http://www.prestashop.com">Logiciel e-commerce par PrestaShop™</a>
+		</div>
+	</section>
+		<!-- /MODULE Block footer -->
+
+<!-- Block myaccount module -->
+<section class="footer-block col-xs-12 col-sm-4">
+	<h4><a href="my-account" title="Gérer mon compte client" rel="nofollow">Mon compte</a></h4>
+	<div class="block_content toggle-footer">
+		<ul class="bullet">
+			<li><a href="order-history" title="Mes commandes" rel="nofollow">Mes commandes</a></li>
+						<li><a href="order-slip" title="Mes avoirs" rel="nofollow">Mes avoirs</a></li>
+			<li><a href="addresses" title="Mes adresses" rel="nofollow">Mes adresses</a></li>
+			<li><a href="identity" title="Gérer mes informations personnelles" rel="nofollow">Mes informations personnelles</a></li>
+						
+            		</ul>
+	</div>
+</section>
+<!-- /Block myaccount module -->
+
+<!-- MODULE Block contact infos -->
+<section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
+	<div>
+        <h4>Informations sur votre boutique</h4>
+        <ul class="toggle-footer">
+                        	<li>
+            		<i class="icon-map-marker"></i>My Company, 42 avenue des Champs Elysées
+75000 Paris
+France            	</li>
+                                    	<li>
+            		<i class="icon-phone"></i>Appelez-nous au : 
+            		<span>0123-456-789</span>
+            	</li>
+                                    	<li>
+            		<i class="icon-envelope-alt"></i>E-mail : 
+            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d" >&#x73;&#x61;&#x6c;&#x65;&#x73;&#x40;&#x79;&#x6f;&#x75;&#x72;&#x63;&#x6f;&#x6d;&#x70;&#x61;&#x6e;&#x79;&#x2e;&#x63;&#x6f;&#x6d;</a></span>
+            	</li>
+                    </ul>
+    </div>
+</section>
+<!-- /MODULE Block contact infos -->
+<div class="container-popup" style="border:6px solid #7ac243;" > 
+	<div id="popup-adv"> 
+		<div class="popup-content">
+		   <div class="main-text"><h4><strong>TOP OUR WORKS</strong></h4>
+<p><a href="https://addons.prestashop.com/en/social-widgets/18380-gallery-with-images-from-mobile-photo-sharing-site.html"><img src="../img/cms/icon_instacarousel_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/visual-products/18493-product-gallery-images-with-zoom-effect.html"><img src="../img/cms/icon_zoomgallery_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/seo-natural-search-engine-optimization/19033-webmaster-tools-site-verification.html"><img src="../img/cms/icon_webmasterl_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/2_community-developer?contributor=403743"><img src="../img/cms/icon_brand_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/blocks-tabs-banners/18595-banner-manager-static-html-content-text-block.html"><img src="../img/cms/icon_banners_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/support-online-chat/18622-live-chat-by-zendesk.html"><img src="../img/cms/icon_chat_forpopup.jpg" alt="" width="80" height="80" /></a></p></div>
+		   		</div>
+         <div class="popup-footer"><a href="order-slip#" class="btn btn-default off  button button-small"  id="dont-show"><span>Dont show again</span></a> </div> 
+	</div> 
+<a class="" href="order-slip#" id="close"><i class="icon-remove"></i></a>
+</div> 
+<script type="text/javascript" >
+
+$('.container-popup').meerkat({
+background: '#383c47',
+opacity: '0.65',
+width: '100%',
+height: '100%',
+position: 'left',
+dontShowAgain: '#dont-show',
+close: '#close',
+animationIn: 'fade',
+animationOut: 'fade',
+animationSpeed: 800,
+timer: 77777
+});
+
+</script>
+
+<style>
+#countdown-footer.countdownHolder .digit{
+	background: #405ba8;
+}
+</style>
+<div class="countdown-title clearfix">
+<div class="customtextcountdown">
+<h4><span style="color: #e96a6a;">Special price Countdown:</span></h4>
+</div>
+<div id="countdown-footer"></div>
+<div class="customtextcountdown">
+<p>Custom text description module "Countdown Discount Timer Module"</p>
+</div>
+</div>
+ 
+<script type="text/javascript">
+$(function(){
+	var ts = new Date(2015 ,1 , 28, 00, 00 , 00 );
+	var newYear = true;
+	if((new Date()) > ts){
+		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		newYear = false;
+	}
+	$('#countdown-footer').countdown({
+		timestamp	: ts,
+		callback	: function(days, hours, minutes, seconds){
+			var message = "";
+			message += days + " jour" + ( days == 1 ? '':'s' ) + ", ";
+			message += hours + " heure" + ( hours==1 ? '':'s' ) + ", ";
+			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " et ";
+			message += seconds + " seconde" + ( seconds==1 ? '':'s' );
+		}
+	});	
+});
+</script>
+
+
+
+</div>
+					</footer>
+				</div><!-- #footer -->
+					</div><!-- #page -->
+</body></html>

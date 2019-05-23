@@ -1,0 +1,1867 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="en"><![endif]-->
+<!--[if gt IE 8]> <html class="no-js ie9" lang="en"><![endif]-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Modules for Prestashop, Prestashop addons -  http://codecanyon.net/user/Webtet - Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest</title>
+		<meta name="description" content="Modules for Prestashop, Prestashop addons, Pinterest feed, Responsive Facebook Like Box, Navigation Previous and Next Product,  News Popup for Prestashop, Responsive Facebook Comments, Prestashop Twitter Widget -  http://codecanyon.net/user/Webtet" />
+		<meta name="keywords" content="prestashop store modules,theme prestashop,buy prestashop module,codecanyon prestashop module,envato market, themeforest prestashop module" />
+		<meta name="generator" content="PrestaShop" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+
+<meta name="google-site-verification" content="TW5Bzv8Cn5rcPUMMEyclsMJCC7QtnswexvECj2XTcEU" />
+<meta name="msvalidate.01" content="44FFBB7F688CEAE3165BAC4FFE6E0C24" />
+<meta name='yandex-verification' content='5c50fdf07ff6ae5d' />
+<meta name="alexaVerifyID" content="YTYXodw5rh1QsTfgR3wiWf7VUNI"/>
+<meta name="wot-verification" content="c10c574d9e5870d26925"/>
+<meta name="norton-safeweb-site-verification" content="vo6furjobdroc5zimcfq7viqw0-pjgznqi1j-05zdn60iq5otw91gf8lzjhrj6txq0e0j6pzsgqgrr73bc86pplrcs8jfvqbe6w4hhsdm95xrg8jhpbnq3miteu13byx" />
+
+                <meta name="p:domain_verify" content="db5a1151cf72f87b7531a536a82e75d3"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<link rel="icon" type="image/vnd.microsoft.icon" href="https://newpstheme.com/img/favicon.ico?1507315106" />
+		<link rel="shortcut icon" type="image/x-icon" href="https://newpstheme.com/img/favicon.ico?1507315106" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/global.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/highdpi.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/responsive-tables.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/autoload/uniform.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="../themes/default-bootstrap/css/sitemap.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/themeconfigurator/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/pronewproduct/css/pronewproduct.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prosuppliers/css/prosuppliers.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/proadvpopup/css/proadvpopup.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/propin/css/propin.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prospecial/css/prospecial.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/growl/jquery.growl.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetqrcode/css/tetqrcode.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetyoutube/css/tetyoutube.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbanner/css/hooks.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcountdown/css/jquery.ui.datepicker.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcountdown/css/tetcountdown.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetmap/views/css/tetmap.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbrand/views/css/tetbrand.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetbtn/css/tetbtn.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetcategory/css/tetcategory.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prozoom/css/prozoom.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/prosearch/css/prosearch.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tetfacebook/views/css/tetfacebook.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/instagrampromodule.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/owl.carousel.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/instagrampromodule/views/css/owl.theme.default.css" type="text/css" media="all" />
+			<link rel="stylesheet" href="https://newpstheme.com/modules/tettwitter/views/css/tettwitter.css" type="text/css" media="all" />
+		<script type="text/javascript">
+var CUSTOMIZE_TEXTFIELD = 1;
+var FancyboxI18nClose = 'Close';
+var FancyboxI18nNext = 'Next';
+var FancyboxI18nPrev = 'Previous';
+var added_to_wishlist = 'Added to your wishlist.';
+var ajax_allowed = true;
+var ajaxsearch = true;
+var baseDir = 'https://newpstheme.com/';
+var baseUri = 'https://newpstheme.com/';
+var blocksearch_type = 'top';
+var contentOnly = false;
+var customizationIdMessage = 'Customization #';
+var delete_txt = 'Delete';
+var displayList = false;
+var freeProductTranslation = 'Free!';
+var freeShippingTranslation = 'Free shipping!';
+var generated_date = 1558572656;
+var id_lang = 1;
+var img_dir = 'https://newpstheme.com/themes/default-bootstrap/img/';
+var instantsearch = false;
+var isGuest = 0;
+var isLogged = 0;
+var loggin_required = 'You must be logged in to manage your wishlist.';
+var mywishlist_url = 'https://newpstheme.com/en/module/blockwishlist/mywishlist';
+var page_name = 'sitemap';
+var placeholder_blocknewsletter = 'Enter your e-mail';
+var priceDisplayMethod = 1;
+var priceDisplayPrecision = 2;
+var quickView = true;
+var removingLinkText = 'remove this product from my cart';
+var roundMode = 2;
+var search_url = 'https://newpstheme.com/en/search';
+var static_token = 'fd2a8a822cd49142a295063c140cc5a9';
+var token = '16ea7d68797fcf2913e80bdbc9ef6b03';
+var usingSecureMode = true;
+var wishlistProductsIds = false;
+</script>
+
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.easing.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/tools.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/global.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/10-bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/autoload/16-jquery.vimeo.api.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/products-comparison.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/tools/treeManagement.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/jquery.serialScroll.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/pronewproduct/js/flexslider.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prosuppliers/js/jquery.carouFredSel-6.1.0.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prosuppliers/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/proadvpopup/js/jquery.meerkat.1.3.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prospecial/js/prospecial-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/growl/jquery.growl.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcountdown/js/tetcountdown.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcountdown/js/tetcountdown-main.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.carouFredSel-6.2.1.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetbrand/views/js/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetcategory/js/tetcategory-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/prozoom/js/prozoom.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tetfacebook/views/js/facebook-wid-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/instagrampromodule/views/js/instagrampromodule-script.js"></script>
+		<script type="text/javascript" src="https://newpstheme.com/modules/tettwitter/views/js/tettwitter.js"></script>
+	
+		<script type="text/javascript">
+
+window.$zopim||(function(d,s){
+var z=$zopim=function(c){
+z._.push(c)},$=z.s=d.createElement(s),
+e=d.getElementsByTagName(s)[0];
+z.set=function(o){
+z.set._.push(o)
+};
+z._=[];
+z.set._=[];
+$.async=!0;
+$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2RAMebWHGvG4ifBjKkTUtnYkv94EhUfO';
+z.t=+new Date;
+$.type='text/javascript';
+e.parentNode.insertBefore($,e)
+})(document,'script');
+
+</script><!--Start of Facebook Open Graph-->
+<meta property="fb:app_id" content="870003573031200" />
+<meta property="og:site_name" content="Prestashop Top Module Codecanyon"/>
+<meta property="og:url" content="http://newpstheme.com/en/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Prestashop Module"/>
+<meta property="og:description" content="Prestashop Top Module Codecanyon.  Best Evanto Prestashop Module.  Addon Prestashop module 1.6 and 1.5"/>
+<meta property="og:image" content="https://0.s3.envato.com/files/106534342/2.jpg"/>
+<meta property="og:locale" content="en"/>
+<!--End of Facebook Open Graph-->
+<script>			
+	var zoom_type = "window";
+	var zoom_lens_size  = "150";
+	var zoom_cursor_type = "cursor";
+	var zoom_lens_opacity = "0.5";
+	var zoom_scroll = "1";
+	var zoom_easing = "1";
+	var zoom_fade_in = "1400";
+    var zoom_fade_out = "500";
+    var zoom_lens_shape = "square";
+	var zoom_win_width = "400";
+    var zoom_win_height = "600";  
+	var zoom_win_border = "1";  
+</script>
+<script>
+	function applyElevateZoom(){
+		var src = $('.thickbox.shown').attr('href');
+		var bigimage = $('.fancybox.shown').attr('href'); 
+		$('#bigpic').elevateZoom({
+			zoomType: zoom_type,
+			cursor: zoom_cursor_type,
+			zoomWindowFadeIn: zoom_fade_in,
+			zoomWindowFadeOut: zoom_fade_out,
+			scrollZoom: zoom_scroll,
+			easing: zoom_easing,
+			lensOpacity: zoom_lens_opacity,
+			lensShape: zoom_lens_shape,
+			lensSize: zoom_lens_size,
+			zoomImage: bigimage,
+			zoomWindowWidth: zoom_win_width,
+			zoomWindowHeight: zoom_win_height,
+			borderSize: zoom_win_border,
+	   });
+	}
+
+	$(document).ready(function(){
+		applyElevateZoom();
+		$('#color_to_pick_list').click(
+			function(){
+				restartElevateZoom();
+			}
+		);
+
+		$('#color_to_pick_list').hover(
+			function(){
+				restartElevateZoom();
+			}
+		);
+
+
+		$('#views_block li a').hover(
+			function(){
+			restartElevateZoom();
+			}
+		);
+	});
+
+	function restartElevateZoom(){
+		$(".zoomContainer").remove();
+		applyElevateZoom();
+	}
+</script>
+	<script type="text/javascript">
+    var sc_project="11748747" 
+    var sc_invisible=0; 
+    var sc_security="82bcd203"; 
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="Web Analytics
+    Made Easy - StatCounter" href="http://statcounter.com/"
+    target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/11748693/0/868b86fb/0/" alt="Web
+    Analytics Made Easy - StatCounter"></a></div></noscript>
+<style>
+ .statcounter {
+	 display:none;
+	}
+</style>
+ 
+	<script type="text/javascript">
+    var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+    {
+		widgetcode:"c893587ca91f9e3a938a656fe3e36aef36baf3d4552f7cfda8679367dc251c1a174804d331f7712f24d598d7bcfa0ed2", values:{},ready:function(){
+	}};
+    var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+    s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+    </script>
+
+
+
+
+	
+		<!--[if IE 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body onload="initialize()"  id="sitemap" class="sitemap hide-right-column lang_en">
+					<div id="page">
+			<div class="header-container">
+				<header id="header">
+					<div class="banner">
+						<div class="container">
+							<div class="row">
+								<style>
+#countdown-banner.countdownHolder .digit{
+	background: #3a3a3a;
+}
+</style>
+<div class="countdown-title clearfix">
+	<div class="customtextcountdown">
+   		<h4><span style="color: #f5a623;">This Limited offer ends in:</span></h4>
+    </div>
+	<div id="countdown-banner"></div>
+    <div class="customtextcountdown">
+   		<p>Custom text description module "Countdown Discount Timer Module"</p>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+$(function(){
+	var ts = new Date(2015 ,1 , 25, 00, 00 , 00 );
+	var newYear = true;
+	if((new Date()) > ts){
+		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		newYear = false;
+	}
+	$('#countdown-banner').countdown({
+		timestamp	: ts,
+		callback	: function(days, hours, minutes, seconds){
+			var message = "";
+			message += days + " jour" + ( days == 1 ? '':'s' ) + ", ";
+			message += hours + " heure" + ( hours==1 ? '':'s' ) + ", ";
+			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " et ";
+			message += seconds + " seconde" + ( seconds==1 ? '':'s' );
+		}
+	});	
+});
+</script>
+
+							</div>
+						</div>
+					</div>
+					<div class="nav">
+						<div class="container">
+							<div class="row">
+								<nav><!-- Block user information module NAV  -->
+<div class="header_user_info">
+			<a class="login" href="my-account" rel="nofollow" title="Log in to your customer account">
+			Sign in
+		</a>
+	</div>
+<!-- /Block usmodule NAV -->
+<!-- Block currencies module -->
+	<div id="currencies-block-top">
+		<form id="setCurrency" action="sitemap" method="post">
+			<div class="current">
+				<input type="hidden" name="id_currency" id="id_currency" value=""/>
+				<input type="hidden" name="SubmitCurrency" value="" />
+				<span class="cur-label">Currency :</span>
+																		<strong>USD</strong>																</div>
+			<ul id="first-currencies" class="currencies_ul toogle_content">
+									<li >
+						<a href="javascript:setCurrency(3);" rel="nofollow" title="Dollar">
+							Dollar
+						</a>
+					</li>
+									<li class="selected">
+						<a href="javascript:setCurrency(1);" rel="nofollow" title="Dollar">
+							Dollar
+						</a>
+					</li>
+									<li >
+						<a href="javascript:setCurrency(2);" rel="nofollow" title="Euro">
+							Euro
+						</a>
+					</li>
+							</ul>
+		</form>
+	</div>
+<!-- /Block currencies module --><!-- Block languages module -->
+	<div id="languages-block-top" class="languages-block">
+									<div class="current">
+					<span>English</span>
+				</div>
+																	<ul id="first-languages" class="languages-block_ul toogle_content">
+							<li class="selected">
+										<span>English</span>
+								</li>
+							<li >
+																				<a href="../es/sitemap" title="Español (Spanish)">
+															<span>Español</span>
+									</a>
+								</li>
+							<li >
+																				<a href="../fr/sitemap" title="Français (French)">
+															<span>Français</span>
+									</a>
+								</li>
+					</ul>
+	</div>
+<!-- /Block languages module -->
+<div id="contact-link">
+	<a href="contact-us" title="Contact Us">Contact us</a>
+</div>
+	<span class="shop-phone">
+		<i class="icon-phone"></i>Call us now: <strong>0123-456-789</strong>
+	</span>
+</nav>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="container">
+							<div class="row">
+								<div id="header_logo">
+									<a href="../index.html" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+										<img class="logo img-responsive" src="../img/logo.jpg" alt="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest" width="350" height="99"/>
+									</a>
+								</div>
+								<div id="search_block_top" class="col-sm-4 clearfix">
+	<form id="searchbox" method="get" action="https://newpstheme.com/en/search" >
+		<input type="hidden" name="controller" value="search" />
+		<input type="hidden" name="orderby" value="position" />
+		<input type="hidden" name="orderway" value="desc" />
+		<input class="search_query form-control" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" />
+		<button type="submit" name="submit_search" class="btn btn-default button-search">
+			<span>Search</span>
+		</button>
+	</form>
+</div>  
+
+  <div id="search_autocomplete" class="search-autocomplete"></div>
+	
+		<script type="text/javascript">
+		$('document').ready( function() {
+			$("#search_query_top")
+				.autocomplete(
+					       '/modules/prosearch/prosearchAjax.php',{
+						minChars: 3,
+						max: 10,
+						width: 270,
+						selectFirst: false,
+						scroll: false,
+						dataType: "json",
+						formatItem: function(data, i, max, value, term) {
+							return value;
+						},
+						parse: function(data) {
+							var mytab = new Array();
+							for (var i = 0; i < data.length; i++)
+								mytab[mytab.length] = { data: data[i], value:' <img src="https://newpstheme.com/en/'+&#32;data[i].ajaxsearchimage&#32;+&#32;'" />' + data[i].pname };
+							return mytab;
+						},
+						extraParams: {
+							ajaxSearch: 1,
+							id_lang: 1
+						}
+					}
+				)
+				.result(function(event, data, formatted) {
+					$('#search_query_top').val(data.pname);
+					document.location.href = data.product_link;
+				})
+		});
+	</script>
+
+			
+<!-- MODULE Block cart -->
+<div class="col-sm-4 clearfix">
+	<div class="shopping_cart">
+		<a href="order" title="View my shopping cart" rel="nofollow">
+			<b>Cart</b>
+			<span class="ajax_cart_quantity">10</span>
+			<span class="ajax_cart_product_txt unvisible">Product</span>
+			<span class="ajax_cart_product_txt_s">Products</span>
+			<span class="ajax_cart_total">
+																					$3,449.40
+												</span>
+			<span class="ajax_cart_no_product unvisible">(empty)</span>
+					</a>
+					<div class="cart_block block exclusive">
+				<div class="block_content">
+					<!-- block list of products -->
+					<div class="cart_block_list">
+													<dl class="products">
+																																			<dt data-id="cart_block_product_7_0_0" class="first_item">
+										<a class="cart-images" href="7-raelyn-tribal-print-flippy-shorts.html" title="Raelyn Tribal Print Flippy Shorts"><img src="../41-cart_default/raelyn-tribal-print-flippy-shorts.jpg" alt="Raelyn Tribal Print Flippy Shorts" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="7-raelyn-tribal-print-flippy-shorts.html" title="Raelyn Tribal Print Flippy Shorts">Raelyn...</a>
+											</div>
+																						<span class="price">
+																									$618.24																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_6_0_0" class="item">
+										<a class="cart-images" href="6-evangaline-long-sleeve-wrap-playsuit.html" title="Evangaline Long Sleeve Wrap Playsuit"><img src="../34-cart_default/evangaline-long-sleeve-wrap-playsuit.jpg" alt="Evangaline Long Sleeve Wrap Playsuit" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="6-evangaline-long-sleeve-wrap-playsuit.html" title="Evangaline Long Sleeve Wrap Playsuit">Evangaline...</a>
+											</div>
+																						<span class="price">
+																									$433.97																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_3_0_0" class="item">
+										<a class="cart-images" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html" title="Suzie Lace Detail Peplum Bandeau Midi Dress"><img src="../15-cart_default/suzie-lace-detail-peplum-bandeau-midi-dress.jpg" alt="Suzie Lace Detail Peplum Bandeau Midi Dress" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html" title="Suzie Lace Detail Peplum Bandeau Midi Dress">Suzie Lace...</a>
+											</div>
+																						<span class="price">
+																									$419.01																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_4_0_0" class="item">
+										<a class="cart-images" href="4-emilie-basic-halter-neck-bodysuit.html" title="Emilie Basic Halter Neck Bodysuit"><img src="../23-cart_default/emilie-basic-halter-neck-bodysuit.jpg" alt="Emilie Basic Halter Neck Bodysuit" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="4-emilie-basic-halter-neck-bodysuit.html" title="Emilie Basic Halter Neck Bodysuit">Emilie...</a>
+											</div>
+																						<span class="price">
+																									$324.67																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_1_0_0" class="item">
+										<a class="cart-images" href="1-sarah-sweetheart-peplum-dress.html" title="Sarah Sweetheart Peplum Dress"><img src="../2-cart_default/sarah-sweetheart-peplum-dress.jpg" alt="Sarah Sweetheart Peplum Dress" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="1-sarah-sweetheart-peplum-dress.html" title="Sarah Sweetheart Peplum Dress">Sarah...</a>
+											</div>
+																						<span class="price">
+																									$315.00																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_2_0_0" class="item">
+										<a class="cart-images" href="2-jen-solid-colour-open-shoulder-shift-dress.html" title="Jen Solid Colour Open Shoulder Shift Dress"><img src="../7-cart_default/jen-solid-colour-open-shoulder-shift-dress.jpg" alt="Jen Solid Colour Open Shoulder Shift Dress" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="2-jen-solid-colour-open-shoulder-shift-dress.html" title="Jen Solid Colour Open Shoulder Shift Dress">Jen Solid...</a>
+											</div>
+																						<span class="price">
+																									$308.00																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_8_0_0" class="item">
+										<a class="cart-images" href="8-malawi-stripe-twist-front-bandeau-bikini.html" title="Malawi Stripe Twist Front Bandeau Bikini"><img src="../46-cart_default/malawi-stripe-twist-front-bandeau-bikini.jpg" alt="Malawi Stripe Twist Front Bandeau Bikini" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="8-malawi-stripe-twist-front-bandeau-bikini.html" title="Malawi Stripe Twist Front Bandeau Bikini">Malawi...</a>
+											</div>
+																						<span class="price">
+																									$230.23																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_10_1_0" class="item">
+										<a class="cart-images" href="10-bahamas-enhance-triangle-bikini.html" title="Bahamas Enhance Triangle Bikini"><img src="../58-cart_default/bahamas-enhance-triangle-bikini.jpg" alt="Bahamas Enhance Triangle Bikini" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="10-bahamas-enhance-triangle-bikini.html#/-" title="Bahamas Enhance Triangle Bikini">Bahamas...</a>
+											</div>
+																							<div class="product-atributes">
+													<a href="10-bahamas-enhance-triangle-bikini.html#/-" title="Product detail">green</a>
+												</div>
+																						<span class="price">
+																									$218.39																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																			<dd data-id="cart_block_combination_of_10_1_0" class="item">
+																		<!-- Customizable datas -->
+																		</dd>																																			<dt data-id="cart_block_product_9_0_0" class="item">
+										<a class="cart-images" href="9-bahamas-enhance-triangle-bikini.html" title="Bahamas Enhance Triangle Bikini"><img src="../52-cart_default/bahamas-enhance-triangle-bikini.jpg" alt="Bahamas Enhance Triangle Bikini" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="9-bahamas-enhance-triangle-bikini.html" title="Bahamas Enhance Triangle Bikini">Bahamas...</a>
+											</div>
+																						<span class="price">
+																									$122.00																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																																					<dt data-id="cart_block_product_5_0_0" class="last_item">
+										<a class="cart-images" href="5-clarissa-cut-out-front-playsuit.html" title="Clarissa Cut Out Front Playsuit"><img src="../29-cart_default/clarissa-cut-out-front-playsuit.jpg" alt="Clarissa Cut Out Front Playsuit" /></a>
+										<div class="cart-info">
+											<div class="product-name">
+												<span class="quantity-formated"><span class="quantity">1</span>&nbsp;x&nbsp;</span><a class="cart_block_product_name" href="5-clarissa-cut-out-front-playsuit.html" title="Clarissa Cut Out Front Playsuit">Clarissa...</a>
+											</div>
+																						<span class="price">
+																									$459.89																							</span>
+										</div>
+										<span class="remove_link">
+																							<a class="ajax_cart_block_remove_link" href="cart@delete%253D1%2526id_product%253D%257B%2524product_id_product%257D%2526ipa%253D%257B%2524product_id_product_attribute%257D%2526id_address_delivery%253D%257B%2524product_id_address_delivery%257D%2526token%253D%257B%2524static_token%257D=" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+																					</span>
+									</dt>
+																		<!-- Customizable datas -->
+																																	</dl>
+												<p class="cart_block_no_products unvisible">
+							No products
+						</p>
+												<div class="cart-prices">
+							<div class="cart-prices-line first-line">
+								<span class="price cart_block_shipping_cost ajax_cart_shipping_cost">
+																			$7.00
+																	</span>
+								<span>
+									Shipping
+								</span>
+							</div>
+																					<div class="cart-prices-line last-line">
+								<span class="price cart_block_total ajax_block_cart_total">$3,456.40</span>
+								<span>Total</span>
+							</div>
+													</div>
+						<p class="cart-buttons">
+							<a id="button_order_cart" class="btn btn-default button button-small" href="order" title="Check out" rel="nofollow">
+								<span>
+									Check out<i class="icon-chevron-right right"></i>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div><!-- .cart_block -->
+			</div>
+</div>
+
+	<div id="layer_cart">
+		<div class="clearfix">
+			<div class="layer_cart_product col-xs-12 col-md-6">
+				<span class="cross" title="Close window"></span>
+				<h2>
+					<i class="icon-ok"></i>Product successfully added to your shopping cart
+				</h2>
+				<div class="product-image-container layer_cart_img">
+				</div>
+				<div class="layer_cart_product_info">
+					<span id="layer_cart_product_title" class="product-name"></span>
+					<span id="layer_cart_product_attributes"></span>
+					<div>
+						<strong class="dark">Quantity</strong>
+						<span id="layer_cart_product_quantity"></span>
+					</div>
+					<div>
+						<strong class="dark">Total</strong>
+						<span id="layer_cart_product_price"></span>
+					</div>
+				</div>
+			</div>
+			<div class="layer_cart_cart col-xs-12 col-md-6">
+				<h2>
+					<!-- Plural Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt_s ">
+						There are <span class="ajax_cart_quantity">10</span> items in your cart.
+					</span>
+					<!-- Singular Case [both cases are needed because page may be updated in Javascript] -->
+					<span class="ajax_cart_product_txt  unvisible">
+						There is 1 item in your cart.
+					</span>
+				</h2>
+	
+				<div class="layer_cart_row">
+					<strong class="dark">
+						Total products
+											</strong>
+					<span class="ajax_block_products_total">
+													$3,449.40
+											</span>
+				</div>
+	
+								<div class="layer_cart_row">
+					<strong class="dark">
+						Total shipping&nbsp;					</strong>
+					<span class="ajax_cart_shipping_cost">
+													$7.00
+											</span>
+				</div>
+								<div class="layer_cart_row">	
+					<strong class="dark">
+						Total
+											</strong>
+					<span class="ajax_block_cart_total">
+																					$3,456.40
+																		</span>
+				</div>
+				<div class="button-container">	
+					<span class="continue btn btn-default button exclusive-medium" title="Continue shopping">
+						<span>
+							<i class="icon-chevron-left left"></i>Continue shopping
+						</span>
+					</span>
+					<a class="btn btn-default button button-medium"	href="order" title="Proceed to checkout" rel="nofollow">
+						<span>
+							Proceed to checkout<i class="icon-chevron-right right"></i>
+						</span>
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="crossseling"></div>
+	</div> <!-- #layer_cart -->
+	<div class="layer_cart_overlay"></div>
+
+<!-- /MODULE Block cart -->	<!-- Menu -->
+	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
+		<div class="cat-title">Categories</div>
+		<ul class="sf-menu clearfix menu-content">
+			<li><a href="12-lacinia-esta" title="Lacinia esta">Lacinia esta</a></li><li><a href="13-consequat-ante" title="Consequat ante">Consequat ante</a></li><li><a href="14-elementum-velit" title="Elementum velit">Elementum velit</a></li><li><a href="15-enim-adipiscing" title="Enim adipiscing">Enim adipiscing</a></li><li><a href="16-proin-dictum" title="Proin dictum">Proin dictum</a></li>
+					</ul>
+	</div>
+	<!--/ Menu -->
+<script>
+	
+		(function($){
+			$(document).ready(function(){
+				var $dur = "medium"; 
+				$("#fbplikebox").css({left: -370 , top : 150 })
+				$("#fbplikebox").hover(function () {
+					$(this).stop().animate({
+					left: 0
+					}, $dur);
+				}, function () {
+					$(this).stop().animate({
+					   left: -370
+					}, $dur);
+				});
+				$("#fbplikebox").show();
+			});
+		})(jQuery);
+			
+	</script>
+<style>
+.block-top-tab{
+	width: 370px;	
+}
+@media (max-width: 768px) {
+.block-top-tab{
+	width: 260px;
+}
+}	
+.block_content_animation_tab{
+	background: #ffffff;
+	height: 290
+	border-radius: 0 0 10px  0;
+}
+#facebook_block_likebox{
+	height: 290
+}
+#fbplikebox{
+	right: inherit!important;
+}
+@media (max-width: 768px) {
+#fbplikebox {
+	left: -260px!important;
+	right: inherit!important;
+}
+#fbplikebox:hover{
+	left: 0px!important;
+	right: inherit!important;
+} 
+}
+.title_block_custom{
+	color: ;
+	font: 300 px/22px "Open Sans",sans-serif;
+	background: ;
+}
+.fbplbadge {
+	color: #ffffff;
+	background: #3B5998;
+	right: -49px;
+	left: inherit;
+	border-radius: 0 10px 10px 0;		
+}
+#overlay {
+	height: 290
+}
+.submitbutton{
+	background: #3B5998;
+}
+</style>
+
+<div id="fb-root"></div>
+<div id="fbplikebox" style="display:none;">
+<div id="facebook_block_likebox" class="block-top-tab" style=" height:290px">
+    <div class="block_content_animation_tab" >
+    <div class="fb-page" 
+    data-href="https://www.facebook.com/webtet.modules" 
+    data-tabs="timeline" 
+    data-small-header="0" 
+    data-adapt-container-width="true" 
+    data-hide-cover="1" 
+    data-show-facepile="1"
+    data-height="290"
+    >
+</div> 
+</div>
+	<div class="fbplbadge"><i class="icon-facebook"></i></div> 
+</div>
+</div>
+
+
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<div class="columns-container">
+				<div id="columns" class="container">
+											
+<!-- Breadcrumb -->
+<div class="breadcrumb clearfix">
+	<a class="home" href="../index.html" title="Return to Home"><i class="icon-home"></i></a>
+			<span class="navigation-pipe" >&gt;</span>
+					<span class="navigation_page">Sitemap</span>
+			</div>
+<!-- /Breadcrumb -->
+										<div class="row">
+												<div id="left_column" class="column col-xs-12 col-sm-3"><!-- Block categories module -->
+<div id="categories_block_left" class="block">
+	<h2 class="title_block">
+					Categories
+			</h2>
+	<div class="block_content">
+		<ul class="tree dhtml">
+												
+<li >
+	<a 
+	href="12-lacinia-esta" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Lacinia esta
+	</a>
+	</li>
+
+																
+<li >
+	<a 
+	href="13-consequat-ante" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Consequat ante
+	</a>
+	</li>
+
+																
+<li >
+	<a 
+	href="14-elementum-velit" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Elementum velit
+	</a>
+	</li>
+
+																
+<li >
+	<a 
+	href="15-enim-adipiscing" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Enim adipiscing
+	</a>
+	</li>
+
+																
+<li class="last">
+	<a 
+	href="16-proin-dictum" title=" Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Proin dictum
+	</a>
+	</li>
+
+									</ul>
+	</div>
+</div>
+<!-- /Block categories module -->
+
+<div class="clearfix"></div>
+<div class="pro-new block">
+    <p class="title_block">New products</p>
+		<div class="flexslider-new carousel row">
+			<ul class="slides">
+                  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="10-bahamas-enhance-triangle-bikini.html"  title="Bahamas Enhance Triangle Bikini" >
+                      <img src="../58-home_default/bahamas-enhance-triangle-bikini.jpg" alt="Bahamas Enhance Triangle Bikini"  alt="Bahamas Enhance Triangle Bikini" /></a>
+                      
+                      							<a class="quick-view" href="10-bahamas-enhance-triangle-bikini.html" rel="https://newpstheme.com/en/10-bahamas-enhance-triangle-bikini.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="10-bahamas-enhance-triangle-bikini.html"  title="Bahamas Enhance Triangle Bikini" >
+                               Bahamas Enhance...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $218.39                                 </span>
+                                                             <span class="old_price">
+                                 $279.99                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_10" data-id-product="10" href="cart@add=1&amp;id_product=10&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="10-bahamas-enhance-triangle-bikini.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="9-bahamas-enhance-triangle-bikini.html"  title="Bahamas Enhance Triangle Bikini" >
+                      <img src="../52-home_default/bahamas-enhance-triangle-bikini.jpg" alt="Bahamas Enhance Triangle Bikini"  alt="Bahamas Enhance Triangle Bikini" /></a>
+                      
+                      							<a class="quick-view" href="9-bahamas-enhance-triangle-bikini.html" rel="https://newpstheme.com/en/9-bahamas-enhance-triangle-bikini.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="9-bahamas-enhance-triangle-bikini.html"  title="Bahamas Enhance Triangle Bikini" >
+                               Bahamas Enhance...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $122.00                                 </span>
+                                                             <span class="old_price">
+                                 $125.77                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_9" data-id-product="9" href="cart@add=1&amp;id_product=9&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="9-bahamas-enhance-triangle-bikini.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="8-malawi-stripe-twist-front-bandeau-bikini.html"  title="Malawi Stripe Twist Front Bandeau Bikini" >
+                      <img src="../46-home_default/malawi-stripe-twist-front-bandeau-bikini.jpg" alt="Malawi Stripe Twist Front Bandeau Bikini"  alt="Malawi Stripe Twist Front Bandeau Bikini" /></a>
+                      
+                      							<a class="quick-view" href="8-malawi-stripe-twist-front-bandeau-bikini.html" rel="https://newpstheme.com/en/8-malawi-stripe-twist-front-bandeau-bikini.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="8-malawi-stripe-twist-front-bandeau-bikini.html"  title="Malawi Stripe Twist Front Bandeau Bikini" >
+                               Malawi Stripe...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $230.23                                 </span>
+                                                             <span class="old_price">
+                                 $250.25                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_8" data-id-product="8" href="cart@add=1&amp;id_product=8&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="8-malawi-stripe-twist-front-bandeau-bikini.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="7-raelyn-tribal-print-flippy-shorts.html"  title="Raelyn Tribal Print Flippy Shorts" >
+                      <img src="../41-home_default/raelyn-tribal-print-flippy-shorts.jpg" alt="Raelyn Tribal Print Flippy Shorts"  alt="Raelyn Tribal Print Flippy Shorts" /></a>
+                      
+                      							<a class="quick-view" href="7-raelyn-tribal-print-flippy-shorts.html" rel="https://newpstheme.com/en/7-raelyn-tribal-print-flippy-shorts.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="7-raelyn-tribal-print-flippy-shorts.html"  title="Raelyn Tribal Print Flippy Shorts" >
+                               Raelyn Tribal...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $618.24                                 </span>
+                                                             <span class="old_price">
+                                 $650.78                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_7" data-id-product="7" href="cart@add=1&amp;id_product=7&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="7-raelyn-tribal-print-flippy-shorts.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="6-evangaline-long-sleeve-wrap-playsuit.html"  title="Evangaline Long Sleeve Wrap Playsuit" >
+                      <img src="../34-home_default/evangaline-long-sleeve-wrap-playsuit.jpg" alt="Evangaline Long Sleeve Wrap Playsuit"  alt="Evangaline Long Sleeve Wrap Playsuit" /></a>
+                      
+                      							<a class="quick-view" href="6-evangaline-long-sleeve-wrap-playsuit.html" rel="https://newpstheme.com/en/6-evangaline-long-sleeve-wrap-playsuit.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="6-evangaline-long-sleeve-wrap-playsuit.html"  title="Evangaline Long Sleeve Wrap Playsuit" >
+                               Evangaline Long...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $433.97                                 </span>
+                                                             <span class="old_price">
+                                 $510.55                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_6" data-id-product="6" href="cart@add=1&amp;id_product=6&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="6-evangaline-long-sleeve-wrap-playsuit.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="5-clarissa-cut-out-front-playsuit.html"  title="Clarissa Cut Out Front Playsuit" >
+                      <img src="../29-home_default/clarissa-cut-out-front-playsuit.jpg" alt="Clarissa Cut Out Front Playsuit"  alt="Clarissa Cut Out Front Playsuit" /></a>
+                      
+                      							<a class="quick-view" href="5-clarissa-cut-out-front-playsuit.html" rel="https://newpstheme.com/en/5-clarissa-cut-out-front-playsuit.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+												                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="5-clarissa-cut-out-front-playsuit.html"  title="Clarissa Cut Out Front Playsuit" >
+                               Clarissa Cut Out...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $459.89                                 </span>
+                                                             <span class="old_price">
+                                 $459.89                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_5" data-id-product="5" href="cart@add=1&amp;id_product=5&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="5-clarissa-cut-out-front-playsuit.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="4-emilie-basic-halter-neck-bodysuit.html"  title="Emilie Basic Halter Neck Bodysuit" >
+                      <img src="../23-home_default/emilie-basic-halter-neck-bodysuit.jpg" alt="Emilie Basic Halter Neck Bodysuit"  alt="Emilie Basic Halter Neck Bodysuit" /></a>
+                      
+                      							<a class="quick-view" href="4-emilie-basic-halter-neck-bodysuit.html" rel="https://newpstheme.com/en/4-emilie-basic-halter-neck-bodysuit.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="4-emilie-basic-halter-neck-bodysuit.html"  title="Emilie Basic Halter Neck Bodysuit" >
+                               Emilie Basic...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $324.67                                 </span>
+                                                             <span class="old_price">
+                                 $356.78                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_4" data-id-product="4" href="cart@add=1&amp;id_product=4&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="4-emilie-basic-halter-neck-bodysuit.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html"  title="Suzie Lace Detail Peplum Bandeau Midi Dress" >
+                      <img src="../15-home_default/suzie-lace-detail-peplum-bandeau-midi-dress.jpg" alt="Suzie Lace Detail Peplum Bandeau Midi Dress"  alt="Suzie Lace Detail Peplum Bandeau Midi Dress" /></a>
+                      
+                      							<a class="quick-view" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html" rel="https://newpstheme.com/en/3-suzie-lace-detail-peplum-bandeau-midi-dress.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html"  title="Suzie Lace Detail Peplum Bandeau Midi Dress" >
+                               Suzie Lace Detail...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	Welcome to our demonstration site with PrestaShop premium...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $419.01                                 </span>
+                                                             <span class="old_price">
+                                 $450.55                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_3" data-id-product="3" href="cart@add=1&amp;id_product=3&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="3-suzie-lace-detail-peplum-bandeau-midi-dress.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="2-jen-solid-colour-open-shoulder-shift-dress.html"  title="Jen Solid Colour Open Shoulder Shift Dress" >
+                      <img src="../7-home_default/jen-solid-colour-open-shoulder-shift-dress.jpg" alt="Jen Solid Colour Open Shoulder Shift Dress"  alt="Jen Solid Colour Open Shoulder Shift Dress" /></a>
+                      
+                      							<a class="quick-view" href="2-jen-solid-colour-open-shoulder-shift-dress.html" rel="https://newpstheme.com/en/2-jen-solid-colour-open-shoulder-shift-dress.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="2-jen-solid-colour-open-shoulder-shift-dress.html"  title="Jen Solid Colour Open Shoulder Shift Dress" >
+                               Jen Solid Colour...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	 Welcome to our demonstration site with PrestaShop...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $308.00                                 </span>
+                                                             <span class="old_price">
+                                 $350.00                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_2" data-id-product="2" href="cart@add=1&amp;id_product=2&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="2-jen-solid-colour-open-shoulder-shift-dress.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	  
+                 <li class="ajax_block_product">
+ <div class="item-inner-wrap clearfix">
+                    <div class="item-inner">
+                    <div class="box-new-images">
+                      <a  class="product-image product_img_link" href="1-sarah-sweetheart-peplum-dress.html"  title="Sarah Sweetheart Peplum Dress" >
+                      <img src="../2-home_default/sarah-sweetheart-peplum-dress.jpg" alt="Sarah Sweetheart Peplum Dress"  alt="Sarah Sweetheart Peplum Dress" /></a>
+                      
+                      							<a class="quick-view" href="1-sarah-sweetheart-peplum-dress.html" rel="https://newpstheme.com/en/1-sarah-sweetheart-peplum-dress.html">
+								<span>Quick view</span>
+							</a>
+						                        							<span class="new-box">
+								<span class="new-label">New</span>
+							</span>
+																			<span class="sale-box">
+								<span class="sale-label">Sale!</span>
+							</span>
+						                        </div>
+                      <h5>
+                          <a  class="product-image product_img_link" href="1-sarah-sweetheart-peplum-dress.html"  title="Sarah Sweetheart Peplum Dress" >
+                               Sarah Sweetheart...
+                          </a>
+                      </h5>
+                      
+                      
+                      
+                                                 <p class="product_desc">
+                      	  	 Welcome to our demonstration site with PrestaShop...</a>
+                          </p>
+                                            
+                      
+                   	                            <div class="content_price">
+                                                              <span class="price" style="display: inline;">
+                                     $315.00                                 </span>
+                                                             <span class="old_price">
+                                 $350.00                               </span>
+                            </div>
+                                  
+                                                   
+                                              
+                                                                                                                                                         <a class="button ajax_add_to_cart_button  exclusive btn" rel="ajax_id_product_1" data-id-product="1" href="cart@add=1&amp;id_product=1&amp;token=fd2a8a822cd49142a295063c140cc5a9" title="Add to cart"><span>Add to cart</span></a>
+                                   						
+                                                                                      <a itemprop="url" class="button lnk_view btn btn-default" href="1-sarah-sweetheart-peplum-dress.html" title="View">
+							<span>View</span>
+						</a>
+                       </div>
+                </li>
+       	 		</ul>
+	</div>
+</div>
+<script>
+
+$(document).ready(function() {
+		$(".pro-new .flexslider-new").flexslider({
+			slideshow: 1,
+			itemWidth: 298,
+			minItems: 1,
+			maxItems: 8,
+			slideshowSpeed:  3000,
+			animationSpeed: 400,
+			directionNav: 1,
+			animation: "slide",
+                        controlNav: 1,
+		});
+});
+		
+</script><div class="clearfix"></div>
+<div id="propin" class="block">
+  <p class="title_block">Latest Pins</p>
+  <div class="block_content">
+	<a data-pin-do="embedUser" href="https://www.pinterest.com/goshan999/" data-pin-scale-width="247" data-pin-scale-height="235" data-pin-board-width="2000"></a>
+    <!-- Please call pinit.js only once per page -->
+    <script type="text/javascript" async src="https://assets.pinterest.com/js/pinit.js"></script>
+  </div>
+</div>
+
+
+
+<div id="tetqrcode" class="block blocktetqrcode">
+		<h4 class="title_block">QR code</h4>
+		<div class="block_content">
+			<img src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&choe=UTF-8&chld=L|1&chl=https://newpstheme.com/en/sitemap" />
+        </div>
+</div>
+<div id="html-content"  class="html-top-column banner-column clearfix">
+       <ul class="clearfix">
+                	<li>
+                         	                	<a href="home/10-bahamas-enhance-triangle-bikini.html" >
+                	            		                	<img src="../modules/tetbanner/images/aa3aeae1da0cfbda85b9957e54c35888.png"  alt="" />
+	                	            		            		                	<div class="html-content">
+                        	<h1>New Collection!</h1>
+<h2>Save up to 15%</h2>
+<span>Shop Now<i class="icon-long-arrow-right"></i>
+</span>                            
+                        </div>
+	                            	                	</a>
+                            </li>
+                	<li>
+                         	                	<a href="home/8-malawi-stripe-twist-front-bandeau-bikini.html" >
+                	            		                	<img src="../modules/tetbanner/images/80281133ede9cc4025308f7d69618816.png"  alt="" />
+	                	            		            		                	<div class="html-content">
+                        	<h1>New Arrivals!</h1>
+<h2>Get 45% off</h2>
+<span>Shop Now<i class="icon-long-arrow-right"></i>
+</span>                            
+                        </div>
+	                            	                	</a>
+                            </li>
+            </ul>
+</div>
+
+    <div id="fb-root"></div>
+    <div id="facebook_block_likebox" class="block">
+        <p class="title_block">Follow us on Facebook</p>
+                        <div class="block_content">
+                <div class="block_content_animation_tab2">
+                    <div class="facebook-fanbox">
+                         <div class="fb-page" 
+                            data-href="https://www.facebook.com/webtet.modules" 
+                            data-tabs="messages" 
+                            data-small-header="1" 
+                            data-adapt-container-width="true" 
+                            data-hide-cover="1" 
+                            data-show-facepile="1"
+                            data-height="350"
+                            >
+                        </div>
+                    </div> 
+                </div>
+            </div>
+    </div>
+<div class="twblock" style="width:270px;">
+<a class="twitter-timeline" 
+  data-tweet-limit="1"
+  href="https://twitter.com/PrestaShop_WT"
+  data-theme="light"
+  data-link-color="#2ec8fa"
+  data-border-color="#2ec8fa"
+   data-width="270"
+   data-height="270"
+  data-lang="en-us">
+	Tweets by @PrestaShop_WT
+</a>
+</div>
+<div class="clearfix"></div>
+<div class="button-container twitter-btn-tet">
+  <div class="buttom-twit">
+    <a href="https://twitter.com/PrestaShop_WT" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @PrestaShop_WT</a>
+  </div>
+  <div class="cover">
+    <div class="innie"></div>
+    <div class="spine"></div>
+    <div class="outie"></div>
+</div>
+  <div class="shadow"></div>
+</div>
+</div>
+																		<div id="center_column" class="center_column col-xs-12 col-sm-9">
+	
+
+<h1 class="page-heading">
+    Sitemap
+</h1>
+<div id="sitemap_content" class="row">
+	<div class="col-xs-12 col-sm-6">
+		<div class="sitemap_block box">
+    		<h3 class="page-subheading">Our offers</h3>
+    		<ul>
+    			<li>
+                    <a 
+                    href="new-products" 
+                    title="View a new product">
+                        New products
+                    </a>
+                </li>
+    			    			        			<li>
+                        <a 
+                        href="best-sales" 
+                        title="View top-selling products">
+                            Best sellers
+                        </a>
+                    </li>
+                        			<li>
+                        <a 
+                        href="prices-drop" 
+                        title="View products with a price drop">
+                            Price drop
+                        </a>
+                    </li>
+    			    			                    <li>
+                        <a 
+                        href="manufacturers" 
+                        title="View a list of manufacturers">
+                            Manufacturers
+                        </a>
+                    </li>
+                    			                    <li>
+                        <a 
+                        href="supplier" 
+                        title="View a list of suppliers">
+                            Suppliers
+                        </a>
+                    </li>
+                    		</ul>
+	   </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+		<div class="sitemap_block box">
+    		<h3 class="page-subheading">
+                Your Account
+            </h3>
+    		<ul>
+        		        			<li>
+                        <a 
+                        href="login" 
+                        rel="nofollow"
+                        title="Authentication" >
+                            Authentication
+                        </a>
+                    </li>
+        			<li>
+                        <a 
+                        href="login"
+                        rel="nofollow" 
+                        title="Create new account" >
+                            Create new account
+                        </a>
+                    </li>
+        		        		    		</ul>
+    	</div>
+    </div>
+</div>
+<div id="listpage_content" class="row">
+	<div class="col-xs-12 col-sm-6">
+		<div class="categTree box">
+            <h3 class="page-subheading">Categories</h3>
+            <div class="tree_top">
+                <a href="../index.html" title="Home"></a>
+            </div>
+            <ul class="tree">
+                                                                        
+<li >
+	<a href="12-lacinia-esta"  title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">Lacinia esta</a>
+	</li>
+                                                                                
+<li >
+	<a href="13-consequat-ante"  title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">Consequat ante</a>
+	</li>
+                                                                                
+<li >
+	<a href="14-elementum-velit"  title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">Elementum velit</a>
+	</li>
+                                                                                
+<li >
+	<a href="15-enim-adipiscing"  title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">Enim adipiscing</a>
+	</li>
+                                                                                
+<li class="last">
+	<a href="16-proin-dictum"  title=" Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">Proin dictum</a>
+	</li>
+                                                            </ul>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+		<div class="sitemap_block box">
+            <h3 class="page-subheading">Pages</h3>
+            <ul>
+            	<li>
+                    <a href="content/category/1-home" title="Home">
+                        Home
+                    </a>
+                </li>
+                                                    <li>
+                        <a href="content/1-delivery" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+                            Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="content/2-legal-notice" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+                            Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="content/3-terms-and-conditions-of-use" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+                            Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="content/4-about-us" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+                            Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="content/5-secure-payment" title="Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest">
+                            Modules Prestashop  Addons -  Slider Brand, Zoom, Category, Instagram, Pinterest, Facebook, Codecanyon, Evanto, Themeforest
+                        </a>
+                    </li>
+                                <li>
+                    <a href="contact-us" title="Contact">
+                        Contact
+                    </a>
+                </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+					</div><!-- #center_column -->
+										</div><!-- .row -->
+				</div><!-- #columns -->
+			</div><!-- .columns-container -->
+							<!-- Footer -->
+				<div class="footer-container">
+					<footer id="footer"  class="container">
+						<div class="row"><!-- Block Newsletter module-->
+<div id="newsletter_block_left" class="block">
+	<h4>Newsletter</h4>
+	<div class="block_content">
+		<form action="index.html" method="post">
+			<div class="form-group" >
+				<input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Enter your e-mail" />
+                <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
+                    <span>Ok</span>
+                </button>
+				<input type="hidden" name="action" value="0" />
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /Block Newsletter module-->
+
+<section id="social_block">
+	<ul>
+					<li class="facebook">
+				<a target="_blank" href="http://www.facebook.com/prestashop">
+					<span>Facebook</span>
+				</a>
+			</li>
+							<li class="twitter">
+				<a target="_blank" href="http://www.twitter.com/prestashop">
+					<span>Twitter</span>
+				</a>
+			</li>
+							<li class="rss">
+				<a target="_blank" href="http://www.prestashop.com/blog/en/">
+					<span>RSS</span>
+				</a>
+			</li>
+		                        	<li class="google-plus">
+        		<a  target="_blank" href="https://www.google.com/+prestashop">
+        			<span>Google Plus</span>
+        		</a>
+        	</li>
+                	</ul>
+    <h4>Follow us</h4>
+</section>
+<div class="clearfix"></div>
+
+<!-- Block categories module -->
+<section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
+	<h4>Categories</h4>
+	<div class="category_footer toggle-footer">
+		<div class="list">
+			<ul class="tree dhtml">
+												
+<li >
+	<a 
+	href="12-lacinia-esta" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Lacinia esta
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="13-consequat-ante" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Consequat ante
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="14-elementum-velit" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands. We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Elementum velit
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="15-enim-adipiscing" title="Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Enim adipiscing
+	</a>
+	</li>
+
+							
+																
+<li class="last">
+	<a 
+	href="16-proin-dictum" title=" Welcome to our demonstration site with PrestaShop premium modules. Valuable modules for enhance and customize of your shop. You can find our newest Prestashop modules, here. Browse through our demo, and you will surely find a module that meets your needs and demands.  We offer wide range of extensions with frontend, social networks, administration features, etc.">
+		Proin dictum
+	</a>
+	</li>
+
+							
+										</ul>
+		</div>
+	</div> <!-- .category_footer -->
+</section>
+<!-- /Block categories module -->
+
+	<!-- MODULE Block footer -->
+	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+		<h4>Information</h4>
+		<ul class="toggle-footer">
+							<li class="item">
+					<a href="prices-drop" title="Specials">
+						Specials
+					</a>
+				</li>
+									<li class="item">
+				<a href="new-products" title="New products">
+					New products
+				</a>
+			</li>
+										<li class="item">
+					<a href="best-sales" title="Best sellers">
+						Best sellers
+					</a>
+				</li>
+										<li class="item">
+					<a href="stores" title="Our stores">
+						Our stores
+					</a>
+				</li>
+															<li>
+				<a href="sitemap" title="Sitemap">
+					Sitemap
+				</a>
+			</li>
+					</ul>
+		
+	</section>
+		<section class="bottom-footer col-xs-12">
+		<div>
+			&copy; 2014 <a class="_blank" href="http://www.prestashop.com">Ecommerce software by PrestaShop™</a>
+		</div>
+	</section>
+		<!-- /MODULE Block footer -->
+
+<!-- Block myaccount module -->
+<section class="footer-block col-xs-12 col-sm-4">
+	<h4><a href="my-account" title="Manage my customer account" rel="nofollow">My account</a></h4>
+	<div class="block_content toggle-footer">
+		<ul class="bullet">
+			<li><a href="order-history" title="My orders" rel="nofollow">My orders</a></li>
+						<li><a href="order-slip" title="My credit slips" rel="nofollow">My credit slips</a></li>
+			<li><a href="addresses" title="My addresses" rel="nofollow">My addresses</a></li>
+			<li><a href="identity" title="Manage my personal information" rel="nofollow">My personal info</a></li>
+						
+            		</ul>
+	</div>
+</section>
+<!-- /Block myaccount module -->
+
+<!-- MODULE Block contact infos -->
+<section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
+	<div>
+        <h4>Store Information</h4>
+        <ul class="toggle-footer">
+                        	<li>
+            		<i class="icon-map-marker"></i>My Company, 42 avenue des Champs Elysées
+75000 Paris
+France            	</li>
+                                    	<li>
+            		<i class="icon-phone"></i>Call us now: 
+            		<span>0123-456-789</span>
+            	</li>
+                                    	<li>
+            		<i class="icon-envelope-alt"></i>Email: 
+            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d" >&#x73;&#x61;&#x6c;&#x65;&#x73;&#x40;&#x79;&#x6f;&#x75;&#x72;&#x63;&#x6f;&#x6d;&#x70;&#x61;&#x6e;&#x79;&#x2e;&#x63;&#x6f;&#x6d;</a></span>
+            	</li>
+                    </ul>
+    </div>
+</section>
+<!-- /MODULE Block contact infos -->
+<div class="container-popup" style="border:6px solid #7ac243;" > 
+	<div id="popup-adv"> 
+		<div class="popup-content">
+		   <div class="main-text"><h4><strong>TOP OUR WORKS</strong></h4>
+<p><a href="https://addons.prestashop.com/en/social-widgets/18380-gallery-with-images-from-mobile-photo-sharing-site.html"><img src="../img/cms/icon_instacarousel_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/visual-products/18493-product-gallery-images-with-zoom-effect.html"><img src="../img/cms/icon_zoomgallery_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/seo-natural-search-engine-optimization/19033-webmaster-tools-site-verification.html"><img src="../img/cms/icon_webmasterl_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/2_community-developer?contributor=403743"><img src="../img/cms/icon_brand_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/blocks-tabs-banners/18595-banner-manager-static-html-content-text-block.html"><img src="../img/cms/icon_banners_forpopup.jpg" alt="" width="80" height="80" /></a> <a href="https://addons.prestashop.com/en/support-online-chat/18622-live-chat-by-zendesk.html"><img src="../img/cms/icon_chat_forpopup.jpg" alt="" width="80" height="80" /></a></p></div>
+		   		</div>
+         <div class="popup-footer"><a href="sitemap#" class="btn btn-default off  button button-small"  id="dont-show"><span>Dont show again</span></a> </div> 
+	</div> 
+<a class="" href="sitemap#" id="close"><i class="icon-remove"></i></a>
+</div> 
+<script type="text/javascript" >
+
+$('.container-popup').meerkat({
+background: '#383c47',
+opacity: '0.65',
+width: '100%',
+height: '100%',
+position: 'left',
+dontShowAgain: '#dont-show',
+close: '#close',
+animationIn: 'fade',
+animationOut: 'fade',
+animationSpeed: 800,
+timer: 77777
+});
+
+</script>
+
+<style>
+#countdown-footer.countdownHolder .digit{
+	background: #405ba8;
+}
+</style>
+<div class="countdown-title clearfix">
+<div class="customtextcountdown">
+<h4><span style="color: #e96a6a;">Special price Countdown:</span></h4>
+</div>
+<div id="countdown-footer"></div>
+<div class="customtextcountdown">
+<p>Custom text description module "Countdown Discount Timer Module"</p>
+</div>
+</div>
+ 
+<script type="text/javascript">
+$(function(){
+	var ts = new Date(2015 ,1 , 28, 00, 00 , 00 );
+	var newYear = true;
+	if((new Date()) > ts){
+		ts = (new Date()).getTime() + 10*24*60*60*1000;
+		newYear = false;
+	}
+	$('#countdown-footer').countdown({
+		timestamp	: ts,
+		callback	: function(days, hours, minutes, seconds){
+			var message = "";
+			message += days + " jour" + ( days == 1 ? '':'s' ) + ", ";
+			message += hours + " heure" + ( hours==1 ? '':'s' ) + ", ";
+			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " et ";
+			message += seconds + " seconde" + ( seconds==1 ? '':'s' );
+		}
+	});	
+});
+</script>
+
+
+
+</div>
+					</footer>
+				</div><!-- #footer -->
+					</div><!-- #page -->
+</body></html>

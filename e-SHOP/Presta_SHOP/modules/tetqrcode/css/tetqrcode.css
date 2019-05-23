@@ -1,0 +1,13 @@
+.blocktetqrcode .block_content{ 
+
+}
+
+.blocktetqrcode .block_content img{
+	box-shadow: 0px 0px 7px rgba(185, 185, 185, 1);
+	margin: 20px 0 20px 0;
+	max-width: 100%;
+	height: auto;
+}
+#left_column #tetqrcode{
+display: none!important;
+}

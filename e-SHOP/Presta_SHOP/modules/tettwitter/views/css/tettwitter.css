@@ -1,0 +1,61 @@
+.twblock{  display:block; margin:auto; margin-top:10px; margin-bottom:10px;}
+.button-container.twitter-btn-tet.twitter-btn-tet, .button-container.twitter-btn-tet div {transition-duration: .6s;}
+.button-container.twitter-btn-tet, .buttom-twit { transition-timing-function: ease; }
+.button-container.twitter-btn-tet {
+  display: inline-block;
+  position: relative;
+  padding: .375rem .375rem 3rem;
+  height: 2.5rem;
+  background: #A9ADB6;
+  border-radius: .25rem;
+  perspective: 300px;
+  box-shadow: 0 -1px 2px #fff, inset 0 1px 2px rgba(0,0,0,.2), inset 0 .25rem 1rem rgba(0,0,0,.1);
+  width: 100%;
+  text-align: center;
+}
+.button-container.twitter-button-tet{
+	width: auto;
+}
+.home-bg-twitter{
+	padding: 0 29px;
+	min-height: 400px;
+	background: #f2f2f2;
+}
+.button-container.twitter-btn-tet .buttom-twit { opacity: 0; }
+.button-container.twitter-btn-tet .cover {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  transform-origin: center bottom;
+  transform-style: preserve-3d;
+  font: 1.25em/2 "icon";
+  color: white;
+  text-align: center;
+  pointer-events: none;
+  z-index: 100;
+}
+.button-container.twitter-btn-tet .innie,.button-container.twitter-btn-tet .outie,.button-container.twitter-btn-tet .spine, .button-container.twitter-btn-tet .shadow { position: absolute; width: 100%; }
+.button-container.twitter-btn-tet .innie, .button-container.twitter-btn-tet .outie {
+  height: 100%;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,.1) 100%);
+  border-radius: .25rem;
+}
+.button-container.twitter-btn-tet .innie:after, .button-container.twitter-btn-tet .outie:after { content:"twitter"; }
+.button-container.twitter-btn-tet .innie {background-color: #67E2FE;text-shadow: 0 -2px 4px rgba(0,0,0,.2);}
+.button-container.twitter-btn-tet .spine {top: .25rem;background: #20C7F3;height: .25rem;transform: rotateX(90deg);transform-origin: center top;}
+.button-container.twitter-btn-tet .shadow {top: 100%;left: 0;height: 3.5rem;transform-origin: center top;transform: rotateX(90deg);opacity: 0;z-index: 0;background-image: -webkit-linear-gradient(top, rgba(0,0,0,.6) 0%, transparent 100%);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.6) 0%, transparent 100%);border-radius: .4rem;
+}
+.button-container.twitter-btn-tet .outie {background-color: #2EC8FA;transform: translateZ(.25rem);text-shadow: 0 2px 4px rgba(0,0,0,.2);}
+.button-container.twitter-btn-tet:hover { background: #EBEFF2; }
+.button-container.twitter-btn-tet:hover .buttom-twit { opacity: 1; }
+.button-container.twitter-btn-tet:hover .cover, .button-container.twitter-btn-tet:hover .innie, .button-container.twitter-btn-tet:hover .spine, .button-container.twitter-btn-tet:hover .outie, .button-container.twitter-btn-tet:hover .spine { transition-timing-function: cubic-bezier(.2,.7,.1,1.1); }
+.button-container.twitter-btn-tet:hover .cover { transform: rotateX(-120deg);  }
+.button-container.twitter-btn-tet:hover .innie { background-color: #3ADAFC; }
+.button-container.twitter-btn-tet:hover .spine { background-color: #52B1E0; }
+.button-container.twitter-btn-tet:hover .outie { background-color: #2174A0; color: rgba(255,255,255,0); }
+.button-container.twitter-btn-tet:hover .shadow { opacity: 1;transform: rotateX(45deg) scale(.95);}
+.button-container.twitter-btn-tet small {font: .8rem/1 sans-serif;padding-top: 4rem;color: #777;}
+.button-container.twitter-btn-tet small a { color: #222; text-decoration: none; border-bottom: thin solid #ccc; }
+.button-container.twitter-btn-tet small a:hover { border-bottom-color: #222; }
+
+

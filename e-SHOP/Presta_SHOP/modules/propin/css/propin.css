@@ -1,0 +1,27 @@
+#propin .title_block{
+	margin-bottom: 10px;
+}
+
+#propin span.PIN_1414277336896_embed_grid span.PIN_1414277336896_embed_grid_bd {
+    border-radius: 2px !important;
+    display: block !important;
+    height: auto !important;
+    margin: 0 10px !important;
+    overflow: hidden;
+    position: relative !important;
+    width: 96% !important;
+}
+#propin span.PIN_1414277336896_embed_grid {
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    position: relative !important;
+    text-align: center;
+    width: 100% !important;
+}
+#propin .block_content{
+ padding: 1px!important;
+}
+#propin .title_block:after{
+display: none;
+}

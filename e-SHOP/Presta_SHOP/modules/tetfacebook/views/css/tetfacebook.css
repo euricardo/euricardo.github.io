@@ -1,0 +1,200 @@
+/* Box facebook ******************************************************************** */
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+  min-width: 200px;
+
+}
+#overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255, 0.85);
+}
+
+.fb-like-box{
+	display:none;
+}
+#overlay img {
+ display: block;
+ width: 70px;
+ height: 70px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin: 0px 0 0 -32px;
+ padding: 10px;
+ background: #fff;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+#facebook_block_likebox{
+	position: relative;
+}
+#facebook_block_likebox .block_content {
+	margin-top:10px;
+}
+.fb_like{
+	margin-bottom: 14px;
+}
+.bootstrap.panel .fb-like-box{
+	display: block!important;
+}
+
+.block_content_animation_tab{
+	padding: 12px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	border: 1px solid #f1f1f1;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+#fbplikebox:hover .fbplbadge{
+		opacity: 0.85;
+}
+
+
+        /*-----------------------------------------------------------------------------------*/
+        /*   Facebook Likebox popup For Blogger Version 2.0
+        /*-----------------------------------------------------------------------------------*/
+        #subscribe {
+            font: 12px/1.2 Arial,Helvetica,san-serif; color:#666;
+        }
+        #subscribe a,
+        #subscribe a:hover,
+        #subscribe a:visited {
+            text-decoration:none;
+        }
+        .box-title {
+           color: #336699;
+           font-size: 18px !important;
+           font-weight: bold;
+           margin: 10px 0;
+        border:6px solid #ddd;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+        border-radius:6px;
+        box-shadow: 7px 7px 7px #CCCCCC;
+        padding:10px;
+        line-height:25px; font-family:arial !important;
+        }
+#rbfblikebox{
+margin:10px 10px 0 0;
+text-align:left;
+float:left;
+overflow:hidden
+}
+.emailbutton{
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+padding:6px 12px;
+margin:0;
+color:#f6f6f6 !important;
+font: 12px/1.2 Arial,Helvetica,san-serif; 
+line-height:1.2;
+cursor:pointer;
+font-size:13px;
+font-weight:bold;
+text-decoration:none !important
+}
+.emailbutton:hover{
+text-decoration:none !important;
+background: #fe9126!important;
+}
+.email{
+clear:both;
+width:100%;
+margin:10px 0
+}
+.emailform{
+position:relative;
+width:250px;
+background:#fff;
+margin: 0;
+-webkit-box-shadow:1px 1px 2px #dfdfdf;
+-moz-box-shadow:1px 1px 2px #dfdfdf;
+box-shadow:1px 1px 2px #dfdfdf;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;border:1px solid #ddd
+}
+.emailinput{
+width:200px;
+height:18px;
+margin:0 auto;
+padding:8px 40px 8px 10px;
+border:none;
+background:none;
+font-size:12px;
+color:#777;
+}
+.secured-fb em{
+	color: #d00;
+}
+.emailbutton{
+-webkit-border-top-right-radius:4px;
+-webkit-border-bottom-right-radius:4px;
+-moz-border-radius-topright:4px;
+-moz-border-radius-bottomright:4px;
+border-top-right-radius:4px;
+border-bottom-right-radius:4px;
+-webkit-border-top-left-radius:0px;
+-webkit-border-bottom-left-radius:0px;
+-moz-border-radius-topleft:0px;
+-moz-border-radius-bottomleft:0px;
+border-top-left-radius:0px;
+border-bottom-left-radius:0px;
+padding:9px;
+position:absolute;
+right:-1px;
+top:0;
+bottom:0;
+display:block;
+line-height:16px
+}
+.emailbutton{
+padding:8px !important
+}
+.emailinput{
+padding-right:70px !important;
+width:170px !important
+}
+.emailform, .emailinput {
+width: 100%;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing: border-box;
+height:auto;
+}
+
+	
+#fbplikebox {
+    display: block;
+    padding: 0;
+    z-index: 99999;
+    position: fixed;
+}
+.title_block_custom{
+	margin-bottom: 15px;
+	padding: 6px 12px;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15);
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.fbplbadge {
+    display: block;
+    height: 55px;
+    top: 0;
+    position: absolute;
+    width: 50px;
+	line-height: 57px;
+	font-size: 28px;
+	text-align: center;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.fbplbadge:hover{
+	cursor: pointer;
+}

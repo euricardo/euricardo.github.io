@@ -1,0 +1,448 @@
+/*HTML HOME*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700,500italic,500,700italic,400italic,300italic,300,100italic,100&subset=latin,greek-ext,greek,vietnamese,latin-ext,cyrillic-ext);
+
+#html-content ul li a{
+	display: block;
+}
+#html-content ul li img{
+	height: auto;
+	max-width: 100%;
+}
+.html-footer{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#html-content.html-top{
+	margin: 30px 0;
+}
+#html-content.html-top {
+	padding: 0 10px;
+}
+#html-content.html-top ul li{
+	padding: 5px;
+}
+#html-content.html-top ul li.item-1{
+
+}
+#html-content.html-top ul li.item-2{
+	float: right;
+}
+#html-content.html-top ul li.item-3{
+	float: right;
+}
+#html-content.html-top ul li.item-4{
+}
+#html-content.html-top ul li.item-5{
+   float: right;
+    clear: right;
+}
+#html-content.html-top-column {
+	margin: 30px -15px;
+}
+#html-content ul{
+	list-style: none;
+	margin: 0;
+	clear: both;
+    display: block;
+}
+#html-content ul li{
+	width: 33.333%;
+	float: left;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0 15px 0 15px;
+}
+#html-content ul li .html-content{
+    position: absolute;
+	left: 0;
+	bottom: -65px;
+	display: block;
+	width:100%;
+	text-align: center;
+	 background: rgba(0, 0, 0, 0.55);
+	padding: 12px 0 17px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#html-content ul li a:hover .html-content{
+	bottom: 0;
+	 background: rgba(0, 0, 0, 0.65);
+	padding: 5.5em 0  3em;
+}
+#html-content ul li a:hover .html-content h1{
+	font-size: 30px;
+
+}
+#html-content ul li a:hover .html-content h2{
+	font-size: 24px;
+
+}
+#html-content ul li .html-content h1,
+#html-content ul li .html-content h2{
+	color: #fff;
+	line-height: 1.3em;
+	letter-spacing: 0.09em;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#html-content ul li .html-content h1{
+	font-size: 25px;
+	font-weight: 300;
+}
+#html-content ul li .html-content h2{
+	font-size: 18px;
+	margin-bottom: 28px;
+	font-weight: 300;
+}
+#html-content ul li a span{
+	display: inline-block;
+	padding: 8px 10px 8px 20px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.2em;
+	letter-spacing: 0.15em;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#html-content ul li a span i{
+	font-size: 13px;
+	vertical-align: -1px;
+	margin: 0 5px 0 10px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#html-content ul li a span:hover  i{
+	margin: 0 0 0 15px;
+}
+#html-content ul li a span:hover{
+	border: 2px solid #fba75c;
+	color: #fba75c;
+}
+#html-content ul li a{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#html-content ul li a img{
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#html-content ul li a:hover img{
+	-moz-transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+	-o-transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+
+#html-content ul li a:hover h5{
+	animation: 300ms ease-in-out 0s normal none 1 moveFromLeft;
+}
+#html-content ul li a:hover .html-content p{
+	animation: 300ms ease-in-out 0s normal none 1 moveFromRight;
+}
+
+
+/*HTML RIGHT*/
+#html-columnt{
+}
+#html-content.colunm-box ul{
+	list-style: none;
+	clear: both;
+    display: block;
+}
+#html-content.colunm-box ul li{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0 0 20px 0;
+        width: 100%;
+}
+
+#html-content.html-top-column.banner-column ul li{
+	width: 100%;
+	margin-bottom: 30px;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content h1,
+#html-content.html-top-column.banner-column ul li a .html-content h1{
+	font-size: 25px;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content h2,
+#html-content.html-top-column.banner-column ul li a .html-content h2{
+	font-size: 17px;
+}
+#html-content.html-top-column.banner-column  ul li a .html-content{
+	padding: 15px 0 10px;
+	bottom: -60px;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content{
+	bottom: 0;
+	padding: 20px 0 20px;
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 1199px) {
+
+#html-content.html-top-column.banner-column  ul li  a:hover .html-content,
+#html-content.html-top-column.banner-column  ul li  a .html-content{
+	padding: 27px 0 27px;
+	background: rgba(0, 0, 0, 0.35);
+	bottom: 0;
+}
+#html-content ul li .html-content{
+	bottom: 0;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content h1,
+#html-content.html-top-column.banner-column ul li a .html-content h1{
+	font-size: 21px;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content h2,
+#html-content.html-top-column.banner-column ul li a .html-content h2{
+	font-size: 15px;
+}
+
+
+
+
+#html-content ul li a:hover .html-content,
+#html-content ul li a .html-content{
+	padding: 65px 0 50px;
+	background: rgba(0, 0, 0, 0.35);
+}
+#html-content ul li a:hover .html-content h1,
+#html-content ul li a .html-content h1{
+	font-size: 25px;
+}
+#html-content ul li a:hover .html-content h2,
+#html-content ul li a .html-content h2{
+	font-size: 17px;
+}
+#html-content ul li a span{
+	font-size: 11px;
+	padding: 0;
+	border: none;
+}
+#html-content ul li a span:hover{
+	border: none;
+}
+#html-content ul li .html-content h2{
+	margin-bottom: 5px;
+}
+#html-content.html-top ul li.item-3 a:hover .html-content, #html-content.html-top ul li.item-3 a .html-content {
+    padding: 22px 0 30px;
+}
+#html-content.html-top ul li a:hover .html-content, #html-content.html-top ul li a .html-content {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.35);
+    padding: 15px 0 10px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+#html-content.html-top-column.banner-column  ul li  a:hover .html-content,
+#html-content.html-top-column.banner-column  ul li  a .html-content{
+	padding: 18px 0 18px;
+	background: rgba(0, 0, 0, 0.35);
+	bottom: 0;
+}
+#html-content ul li .html-content{
+	bottom: 0;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content h1,
+#html-content.html-top-column.banner-column ul li a .html-content h1{
+	font-size: 15px;
+}
+#html-content.html-top-column.banner-column ul li a:hover .html-content h2,
+#html-content.html-top-column.banner-column ul li a .html-content h2{
+	font-size: 12px;
+}
+	
+	
+	
+	
+	
+#html-content ul li .html-content{
+	bottom: 0;
+}
+#html-content ul li a:hover .html-content,
+#html-content ul li a .html-content{
+	padding: 65px 0 30px;
+	background: rgba(0, 0, 0, 0.35);
+}
+#html-content ul li a:hover .html-content h1,
+#html-content ul li a .html-content h1{
+	font-size: 17px;
+}
+#html-content ul li a:hover .html-content h2,
+#html-content ul li a .html-content h2{
+	font-size: 13px;
+}
+#html-content ul li a span{
+	font-size: 10px;
+	padding: 0;
+	border: none;
+}
+#html-content ul li a span:hover{
+	border: none;
+}
+#html-content ul li .html-content h2{
+	margin-bottom: 5px;
+}
+#html-content.html-top ul li.item-3 a:hover .html-content, #html-content.html-top ul li.item-3 a .html-content {
+    padding: 18px 0 20px;
+}
+}
+
+@media (max-width: 768px) {
+#html-content.html-top-column.banner-column ul li .html-content h2{
+	margin-bottom: 15px;
+}
+#html-content.html-top-column.banner-column  ul li  a:hover .html-content,
+#html-content.html-top-column.banner-column  ul li  a .html-content{
+	padding: 18px 0 18px;
+	background: rgba(0, 0, 0, 0.35);
+	bottom: 0;
+}
+#html-content ul li .html-content{
+	bottom: 0;
+}
+	#html-content.html-top ul li{
+		margin-bottom: 20px;
+		margin-top: 0!important;
+	}
+	#html-content ul li{	
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#html-content ul li .html-content{
+		bottom: 0;
+	}
+	#html-content ul li a:hover .html-content{
+		padding: 12px 0 17px;
+	}
+	#html-content ul li a:hover .html-content h1{
+		font-size: 25px;
+	}
+	#html-content ul li a:hover .html-content h2{
+		font-size: 18px;
+	}
+	#html-content ul li .html-content h2{
+	margin-bottom: 10px;
+	}
+}
+@media (max-width: 480px) {
+#html-content ul li a:hover .html-content,
+#html-content ul li a .html-content{
+		padding: 5px 0 10px;
+	}
+#html-content ul li a span{
+	border: none;
+	padding: 0;
+}
+#html-content ul li .html-content h2{
+	margin-bottom: 10px;
+}
+#html-content ul li a span{
+	font-size: 11px;
+}
+#html-content ul li a span:hover{
+	border: none;
+}
+#html-content ul li a:hover .html-content h1,
+#html-content ul li a .html-content h1{
+	font-size: 20px;
+}
+#html-content ul li a:hover .html-content h2,
+#html-content ul li a .html-content h2{
+	font-size: 15px;
+}
+}
+@keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200%); }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%); } }
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200%); }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%); } }
+@keyframes moveFromLeftIcon {
+  0% {
+    opacity: 0;
+    transform: translateX(-200%); }
+
+  50% {
+    opacity: 0;
+    transform: translateX(-200%), rotateY(-180deg); }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%), rotateY(-180deg); } }
+@keyframes moveFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%); }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(-100%); }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(200%); }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(100%); }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%); } }
+@keyframes ScaleFromLargeEffect {
+  0% {
+    opacity: 0;
+    transform: scale(1.1) rotate(0deg); }
+
+  50% {
+    opacity: 0.5;
+    border-radius: 270px;
+    transform: scale(0) rotate(-360deg); }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(360deg); } }

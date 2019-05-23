@@ -1,0 +1,96 @@
+.countDiv:before,
+.countDiv:after{
+	position:absolute;
+	width:5px;
+	height:5px;
+	background-color:#444;
+	border-radius:50%;
+	left:50%;
+	margin-left:-3px;
+	top:0.5em;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+	content:'';
+}
+.countDiv:after{
+	top:0.9em;
+}
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;
+}
+.countdown-title {
+	clear: both;
+	position: relative;
+	text-align:center;
+}
+.customtextcountdown a,
+#header .banner .customtextcountdown a{
+	display: inline-block;
+}
+.customtextcountdown a  span,
+#header .banner .customtextcountdown a  span{
+	text-decoration: underline;
+}
+.customtextcountdown a:hover span,
+#header .banner .customtextcountdown a:hover span{
+	text-decoration: none;
+}
+.countdownHolder{
+	width:280px;
+	margin:20px auto 12px;
+	font:  22px/1.5 'Open Sans Condensed',sans-serif;
+	text-align:center;
+	letter-spacing:-4px;
+}
+.countdownHolder .position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 1.05em;
+	margin-right:2px;
+}
+.countdownHolder .digit{
+	position:absolute;
+	display:block;
+	width:1em;
+	background-color:#3a3a3a;
+	border-radius:0.2em;
+	text-align:center;
+	color:#fff;
+	letter-spacing:-1px;
+}
+.okom_countdown-product-messagep {
+	clear: both;
+	position: relative;
+	text-align:center;
+	padding: 10px;
+	margin:5px 0 5px 0;
+}
+.countdownHolderp{
+	width:250px;
+	margin:0 auto;
+	font:  18px/1.5 'Open Sans Condensed',sans-serif;
+	text-align:center;
+	letter-spacing:-4px;
+}
+.countdownHolderp .position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 1.05em;
+	margin-right:2px;
+}
+.countdownHolderp .digit{
+	position:absolute;
+	display:block;
+	width:1em;
+	background-color:#444;
+	border-radius:0.2em;
+	text-align:center;
+	color:#fff;
+	letter-spacing:-1px;
+}
