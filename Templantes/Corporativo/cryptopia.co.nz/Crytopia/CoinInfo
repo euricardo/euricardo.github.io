@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cryptopia - CoinInfo</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="bitcoin, litecoin, dogecoin, dotcoin, crypto, exchange, mining, pools, trading, ethereum, dotcoin, btc, ltc, doge, dot, arbitrage, cryptocurrency, cryptopia">
+<meta name="description" content="Crypto-Currency Trading platform.">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico@v=2" type="image/x-icon" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="referrer" content="origin" />
+<link rel="apple-touch-icon" href="favicon.ico@v=2" />
+<link href="Content/styles@v=01TMIzgVWRsm72shA-33VwKNIUAfUekbfGj6OtExrAI1" rel="stylesheet" />
+<link href="Content/Images/Sprites/sprite_sheet.css" rel="stylesheet" />
+<link id="siteTheme" href="Content/theme-MountainMeadowLight@v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81" rel="stylesheet" />
+<script src="bundles/site-head@v=nOAFAFDuT8aAWbEjL2Noq7qTCT6qaWEoALl6lxep4D41" type="4225d5183426918c7a5116de-text/javascript"></script>
+</head>
+<body>
+<input name="__RequestVerificationToken" type="hidden" value="Cc35UIBT3toDLwXQ_FpNh-04HOlmpja_XzQF6r-LLneb97zD7dYkmnV73DkcRqujfIKtxVfeMXjCLcnzBv1_3U5aTabzjgECZgVtTgdO3ZA1" />
+<div id="cryptopia-nav">
+
+<ul class="mobile-menu pull-right hidden-lg">
+<li class="nohover"><a href="Home.1"><div class="main-logo"></div></a></li>
+<li class="has-sub">
+<a href="CoinInfo#" style="min-width:70px !important;">
+<div style="margin-top:4px;margin-bottom:-4px">
+<i class="fa fa-2x fa-bars"></i>
+</div>
+</a>
+<ul>
+
+<li style="clear: both;"><a href="Login.1" class="parent-nav nohover"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
+<li style="clear: both;"><a href="Exchange.2" class="parent-nav nohover"><i class="fa icon-barchartasc"></i> Exchange</a></li>
+
+<li><a href="CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+<li><a href="CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li><a href="Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="visible-lg">
+<li class="nohover"><a href="Home.1"><div class="main-logo"></div></a></li>
+<li class="nav-exchange has-sub has-sub-right has-sub-2 has-top-sub">
+<a href="Exchange.2"><i class="fa icon-barchartasc"></i> Exchange</a>
+</li>
+<li class="nav-coin-listings"><a data-automation-id="coin_listings" href="CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li class="nav-coininfo"><a href="CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li class="nav-arbitrage"><a href="Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+<li class="nav-news"><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+</ul>
+
+<ul class="pull-right hidden-xs">
+<li class="pull-right"><a href="Login/Register">Register</a></li>
+<li class="pull-right leftborder"><a href="Login.1">Login</a></li>
+</ul>
+</div>
+<style>
+	td {
+		vertical-align: middle !important;
+	}
+</style>
+<div id="wrapper">
+<div class="coininfo-content user-tabtarget" data-action="/CoinInfo/GetCoinSummary" data-update="/CoinInfo/UpdateInfo" data-peerinfo="/CoinInfo/PeerInfo" data-view="" data-coin="DOT">
+<div class="coininfo-sidebar hidden-xs hidden-sm col-md-3">
+<div id="currencyTarget" class="coininfo-target">
+</div>
+</div>
+</div>
+<div id="table-panel" class="coininfo-table-target col-md-offset-3 col-md-9">
+<div class="coininfo-table-container">
+<div class="table-header-container">
+<h3 class="table-header">Coin Information</h3>
+<hr class="table-seperator" />
+</div>
+<div class="table-search-seperator"></div>
+<div class="table-search-seperator-mobile visible-xs"></div>
+<table id="currencyInfo" class="table table-striped table-hover table-condensed" data-action="/CoinInfo/GetCoinInfo">
+<thead>
+<tr>
+<th></th>
+<th>Name</th>
+<th>Symbol</th>
+<th>Rating</th>
+<th>Algo</th>
+<th>Network</th>
+<th>Connections</th>
+<th style="white-space:nowrap">Block Height</th>
+<th style="white-space:nowrap">Wallet Status</th>
+<th style="white-space:nowrap">Status Message</th>
+<th style="white-space:nowrap">Listing Status</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+</div>
+</div>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI4AdA7FBCuc1j6ASe5o0wL39Krec-VMs" type="4225d5183426918c7a5116de-text/javascript"></script>
+<script id="currencyTemplate" type="text/html">
+	<div class="user-tabtarget">
+
+		<div class="coininfo-coin-header">
+			<img style="width: 25%" src="https://cryptopia.co.nz/Content/Images/Coins/{{symbol}}-large.png" />
+			<div class="title">
+				<b>{{name}}({{symbol}})</b>
+			</div>
+			<div class="rating view-rating-btn">
+				{{{starRating}}}
+			</div>
+			<small><i>{{ratingSummary}}</i></small>
+		</div>
+
+		{{#statusMessage}}
+		<div class="coininfo-coin-status {{#hasWarningBackground}}alert-warning{{/hasWarningBackground}}{{#hasDangerBackground}}alert-danger{{/hasDangerBackground}}">
+			<h4>Status:</h4>
+			<p>{{statusMessage}}</p>
+		</div>
+		{{/statusMessage}}
+
+		<div class="coininfo-coin-content">
+			<div class="view-info">
+
+				<ul class="breadcrumb" style="margin-bottom: 0px">
+					<li class="active">Information</li>
+					<li><a class="view-links-btn">Links</a></li>
+					<li><a class="view-rating-btn">Rating</a></li>
+					<li><a class="view-settings-btn">Settings</a></li>
+				</ul>
+
+				<div style="padding: 10px">
+					<h4>{{name}} Information</h4>
+					<table class="table table-condensed">
+						<tr>
+							<td>Algorithm:</td>
+							<td>{{algo}}</td>
+						</tr>
+						<tr>
+							<td>Network:</td>
+							<td>{{network}}</td>
+						</tr>
+						<tr>
+							<td>Block Time:</td>
+							<td>{{blockTime}}</td>
+						</tr>
+						<tr>
+							<td>Block Reward:</td>
+							<td>{{blockReward}}</td>
+						</tr>
+						<tr>
+							<td>Difficulty Retarget:</td>
+							<td>{{diffRetarget}}</td>
+						</tr>
+						<tr>
+							<td>Total Coins:</td>
+							<td>{{totalCoin}}</td>
+						</tr>
+						<tr>
+							<td>Annual POS Rate:</td>
+							<td>{{posRate}}%</td>
+						</tr>
+						<tr>
+							<td>Minimum Stake Age:</td>
+							<td>{{minStakeAge}}</td>
+						</tr>
+						<tr>
+							<td>Maximum Stake Age:</td>
+							<td>{{maxStakeAge}}</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div class="view-links" style="display: none">
+				<ul class="breadcrumb" style="margin-bottom: 0px">
+					<li><a class="view-info-btn">Information</a></li>
+					<li class="active">Links</li>
+					<li><a class="view-rating-btn">Rating</a></li>
+					<li><a class="view-settings-btn">Settings</a></li>
+				</ul>
+				<div style="padding: 10px">
+					<h4>{{name}} Links</h4>
+					<table class="table table-condensed">
+						<tr>
+							<td>Website:</td>
+							<td><a target="_blank" rel="noopener noreferrer" href="https://cryptopia.co.nz/{{website}}">{{website}}</a></td>
+						</tr>
+						<tr>
+							<td>Explorer:</td>
+							<td><a target="_blank" rel="noopener noreferrer" href="https://cryptopia.co.nz/{{blockExplorer}}">{{blockExplorer}}</a></td>
+						</tr>
+						<tr>
+							<td>Source Code:</td>
+							<td><a target="_blank" rel="noopener noreferrer" href="https://cryptopia.co.nz/{{source}}">{{source}}</a></td>
+						</tr>
+						<tr>
+							<td>Launch Forum:</td>
+							<td><a target="_blank" rel="noopener noreferrer" href="https://cryptopia.co.nz/{{launchForum}}">{{launchForum}}</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div class="view-rating" style="display: none">
+				<ul class="breadcrumb" style="margin-bottom: 0px">
+					<li><a class="view-info-btn">Information</a></li>
+					<li><a class="view-links-btn">Links</a></li>
+					<li class="active">Rating</li>
+					<li><a class="view-settings-btn">Settings</a></li>
+				</ul>
+				<div style="padding: 10px">
+
+					<h4>{{name}} Rating</h4>
+					<table class="table table-condensed">
+						<tr>
+							<td>Windows Wallet:</td>
+							<td>{{walletWindows}}</td>
+						</tr>
+						<tr>
+							<td>Linux Wallet:</td>
+							<td>{{walletLinux}}</td>
+						</tr>
+						<tr>
+							<td>Mac Wallet:</td>
+							<td>{{walletMac}}</td>
+						</tr>
+						<tr>
+							<td>Mobile Wallet:</td>
+							<td>{{walletMobile}}</td>
+						</tr>
+						<tr>
+							<td>Web/Paper Wallet:</td>
+							<td>{{walletWeb}}</td>
+						</tr>
+						<tr>
+							<td>Premine:</td>
+							<td>{{totalPremine}}%</td>
+						</tr>
+						<tr>
+							<td>Website:</td>
+							<td>{{ratingWebsite}}</td>
+						</tr>
+						<tr>
+							<td>Block Explorer:</td>
+							<td>{{ratingBlockEx}}</td>
+						</tr>
+						<tr>
+							<td><b>Total:</b></td>
+							<td>{{totalRating}}/{{maxRating}}</td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+
+			<div class="view-settings" style="display: none">
+				<ul class="breadcrumb" style="margin-bottom: 0px">
+					<li><a class="view-info-btn">Information</a></li>
+					<li><a class="view-links-btn">Links</a></li>
+					<li><a class="view-rating-btn">Rating</a></li>
+					<li class="active">Settings</li>
+				</ul>
+				<div style="padding: 10px">
+					<h4>{{name}} Settings</h4>
+					<table class="table table-condensed">
+						<tr>
+							<td>Trade Fee:</td>
+							<td>{{tradeFee}}%</td>
+						</tr>
+						<tr>
+							<td>Pool Fee:</td>
+							<td>{{poolFee}}%</td>
+						</tr>
+						<tr>
+							<td>Deposit Confirmations:</td>
+							<td>{{minConfirmations}} blocks</td>
+						</tr>
+						<tr>
+							<td>Withdrawal Fee:</td>
+							<td>{{withdrawFee}} {{symbol}}</td>
+						</tr>
+						<tr>
+							<td>Minimum Withdrawal:</td>
+							<td>{{withdrawMin}} {{symbol}}</td>
+						</tr>
+						<tr>
+							<td>Maximum Withdrawal:</td>
+							<td>{{withdrawMax}} {{symbol}}</td>
+						</tr>
+						<tr>
+							<td>Tipping Expires:</td>
+							<td>{{tippingExpires}}</td>
+						</tr>
+						<tr>
+							<td>Minimum Tip Amount:</td>
+							<td>{{tipMin}} {{symbol}}</td>
+						</tr>
+						
+						<tr>
+							<td>Reward Expires:</td>
+							<td>{{rewardExpires}}</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="text-center">
+				<small><i>If you believe any of this data is inaccurate please contact <a href='Support' target='_self'>Cryptopia Support</a>.</i></small>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script type="4225d5183426918c7a5116de-text/javascript">
+_atrk_opts = { atrk_acct:"evhun1QolK10fn", domain:"cryptopia.co.nz",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=evhun1QolK10fn" style="display:none" height="1" width="1" alt="" /></noscript>
+
+<script id="notificationTemplate" type="text/html">
+	<table class="notification-table">
+		<tr>
+			<td class="notification-header" colspan="2">{{header}}</td>
+		</tr>
+		<tr>
+			<td>
+				<i class="fa {{icon}} fa-4x notification-{{type}}"></i>
+			</td>
+			<td>
+				<p class="notification-message">{{message}}</p>
+			</td>
+		</tr>
+	</table>
+</script>
+<script type="4225d5183426918c7a5116de-text/javascript">
+		var cdnImagePath = '';
+		var authenticated = 'False';
+		var authenticatedUserName = '';
+		var authenticatedChatHandle = '';
+		var authenticatedAdmin = 'False';
+		var signalrPingInterval = parseInt('300000') || null;
+		var themeHrefs = {"MountainMeadowLight":"/Content/theme-MountainMeadowLight?v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81","MountainMeadowDark":"/Content/theme-MountainMeadowDark?v=_qBt2wtqaWTzTfq1ExRtXm-tW6Ha4JnayPP4J5JXh-A1"};
+
+		var Resources = Resources || {};
+		Resources.General = {
+			OK: 'OK',
+			Cancel: 'Cancel',
+			Yes: 'Yes',
+			No: 'No',
+			NotAvailable: 'N/A',
+			SendingMessage: 'Sending...',
+			Next: 'Next',
+			Previous: 'Previous',
+			ProcessingMessage: 'Processing...',
+			CryptopiaSupportLink: 'Cryptopia Support',
+			LoadingMessage: 'Loading...'
+		};
+		Resources.Layout = {
+			BlockCancelOrderMessage: 'Canceling order...',
+			BlockCancelAllOrdersMessage: 'Canceling all orders...',
+			ConfirmCancelAllOrdersTitle: 'Cancel All Orders?',
+			ConfirmCancelAllOrdersMessage: 'Are you ABSOLUTELY sure you want to cancel ALL your orders for ALL currencies?',
+			ConfirmCancelTradePairTitle: 'Cancel All Orders?',
+			ConfirmCancelTradePairTitleMessage: 'Are you ABSOLUTELY sure you want to cancel ALL orders in this list?',
+			BlockCancelTradePairMessage: 'Canceling orders...',
+			ThemeLightHint: 'Light Mode',
+			ThemeDarkHint: 'Dark Mode',
+			RatingUnrated: 'Unrated',
+			RatingRated: 'Rated',
+			ErrorContactSupportText: 'An error occurred while processing your request. If problems persist please contact {0}Cryptopia Support{1}.',
+			MenuNoNotification: 'No new notifications',
+
+			ExportCsvButton: 'Export page to csv',
+			ExportExcelButton: 'Export page to Excel',
+			ExportPdfButton: 'Export page to pdf',
+			ExportClipboardButton: 'Copy Page',
+			ExportPrintButton: 'Print Page',
+
+			ModalLoadingMessage: 'Loading...',
+			ModalInvalidRequestTitle: 'Invalid Request',
+			modalInvalidRequestMessage1: 'Your request was not formed properly. Please refresh the page and try again.',
+			modalInvalidRequestMessage2: 'If the problem continues, please contact support.'
+		};
+	</script>
+<script src="bundles/site@v=Z4DqHOHA17oP5e4qG6RnFMl6RLLVTEjXlwVJ5A883Bs1" type="4225d5183426918c7a5116de-text/javascript"></script>
+<script src="signalr/hubs" type="4225d5183426918c7a5116de-text/javascript"></script>
+<script type="4225d5183426918c7a5116de-text/javascript">
+		var externalChatWindow;
+		var notificationHub = $.connection.notificationHub;
+		initializeWebsocket();
+		setSelectedNavOption('nav-coininfo');
+	</script>
+<script src="bundles/pages@v=4l3WiI2AO3YvFx46Q1PpHH4x4t-HJDabP9PhK8s8WzE1" type="4225d5183426918c7a5116de-text/javascript"></script>
+<script type="4225d5183426918c7a5116de-text/javascript">
+		var Resources = Resources || {};
+		Resources.CoinInfo = {
+			InfoRatingText: 'Currently Rated {0}/5',
+			InfoRatingUnratedText: 'Currently Unrated',
+			PageTitle: 'CoinInfo',
+			InfoCurrencyListEmptyMessage: 'No currencies found.',
+			InfoWalletStatusMaintenanceMessage: 'Wallet is currently in maintenance mode.',
+			InfoWalletStatusMessageTitle: 'Status Message',
+			ConnectionsButtonLabel: 'Connections: {0}',
+		    DataTablesLanguage: {"emptyTable":"No data available.","info":"Showing _START_ to _END_ of _TOTAL_ entries","infoEmpty":"0 entries","infoFiltered":"(filtered from _MAX_ total entries)","infoThousands":",","lengthMenu":"Show _MENU_ entries","loadingRecords":"Loading...","processing":"Processing...","search":"Search:","zeroRecords":"No records found","paginate":{"first":"First","last":"Last","previous":"Prev","next":"Next"}}
+
+
+		};
+		Resources.CoinInfo.DataTablesLanguage.emptyTable =  'No currencies found.';
+		$(function () {
+			CryptopiaPages.CoinInfo();
+		});
+	</script>
+<script type="4225d5183426918c7a5116de-text/javascript">
+		var SecurityWarningModalUrl = '/TwoFactor/SecurityWarningModal';
+
+		var SecurityWarningModalShowWarning = false;
+		var SecurityWarningModalIsSevere = false;
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="4225d5183426918c7a5116de-|49" defer=""></script></body>
+</html>

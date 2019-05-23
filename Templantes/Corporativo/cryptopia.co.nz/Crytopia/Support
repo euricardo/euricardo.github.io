@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cryptopia - Contact Us</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="bitcoin, litecoin, dogecoin, dotcoin, crypto, exchange, mining, pools, trading, ethereum, dotcoin, btc, ltc, doge, dot, arbitrage, cryptocurrency, cryptopia">
+<meta name="description" content="Crypto-Currency Trading platform.">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico@v=2" type="image/x-icon" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="referrer" content="origin" />
+<link rel="apple-touch-icon" href="favicon.ico@v=2" />
+<link href="Content/styles@v=01TMIzgVWRsm72shA-33VwKNIUAfUekbfGj6OtExrAI1" rel="stylesheet" />
+<link href="Content/Images/Sprites/sprite_sheet.css" rel="stylesheet" />
+<link id="siteTheme" href="Content/theme-MountainMeadowLight@v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81" rel="stylesheet" />
+<script src="bundles/site-head@v=nOAFAFDuT8aAWbEjL2Noq7qTCT6qaWEoALl6lxep4D41" type="c0a04eec3c4a619389e113f8-text/javascript"></script>
+</head>
+<body class="support-page">
+<input name="__RequestVerificationToken" type="hidden" value="YJYskU1ZzEk7sHyoyXU9vRlu2c697XhcCL2EnhwqQHknT3RkYqDBs5CJ0nnc_KhTcnk-tZXTQpNhfctMnBuz4gLfG_hkYOLQWTtYVnDdTY81" />
+<div id="cryptopia-nav">
+
+<ul class="mobile-menu pull-right hidden-lg">
+<li class="nohover"><a href="Home.1"><div class="main-logo"></div></a></li>
+<li class="has-sub">
+<a href="Support#" style="min-width:70px !important;">
+<div style="margin-top:4px;margin-bottom:-4px">
+<i class="fa fa-2x fa-bars"></i>
+</div>
+</a>
+<ul>
+
+<li style="clear: both;"><a href="Login.1" class="parent-nav nohover"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
+<li style="clear: both;"><a href="Exchange.2" class="parent-nav nohover"><i class="fa icon-barchartasc"></i> Exchange</a></li>
+
+<li><a href="CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+<li><a href="CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li><a href="Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="visible-lg">
+<li class="nohover"><a href="Home.1"><div class="main-logo"></div></a></li>
+<li class="nav-exchange has-sub has-sub-right has-sub-2 has-top-sub">
+<a href="Exchange.2"><i class="fa icon-barchartasc"></i> Exchange</a>
+</li>
+<li class="nav-coin-listings"><a data-automation-id="coin_listings" href="CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li class="nav-coininfo"><a href="CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li class="nav-arbitrage"><a href="Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+<li class="nav-news"><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+</ul>
+
+<ul class="pull-right hidden-xs">
+<li class="pull-right"><a href="Login/Register">Register</a></li>
+<li class="pull-right leftborder"><a href="Login.1">Login</a></li>
+</ul>
+</div>
+<div class="content-nofooter">
+<div class="wrapper-nolist">
+<div>
+<div class="col-xs-12">
+<h3>Cryptopia Support - Email Contacts</h3>
+Email contacts should be used only for issues where you can not log in to your Cryptopia account.<br />
+<b>If you can log in, please create a support ticket regarding your issue:</b> <a href="UserSupport" class="btn btn-success btn-xs">Login & Create Ticket</a> or visit <a href="UserSupport">https://www.cryptopia.co.nz/Usersupport</a>.<br />
+Tickets are required for resolving most issues, as it enables all Cryptopia staff to have secure access to your ticket in order to investigate and escalate the matter to the appropriate team
+<p style="margin-top:1em">
+Other useful information can be found at <a href="https://support.cryptopia.co.nz/csm" class="btn btn-success btn-xs">Help Centre &amp; FAQ</a> or <a href="https://support.cryptopia.co.nz/csm?id=kb_category&kb_category=1b23f18bdbeddf009990f6fcbf961948" class="btn btn-success btn-xs">News</a>
+</p>
+</div>
+<div class="col-md-12">
+<div class="text-center" style="margin-bottom:20px">
+<hr style="margin-bottom:5px" />
+<span>If you are <b>unable</b> to log into your account, please choose one of the contact options below.</span>
+</div>
+</div>
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading">Two Factor Authentication (2FA)</div>
+<div class="panel-body">
+<p>All Cryptopia accounts start with email 2FA. A dynamic code is emailed to you when needed for login or other secure areas of the site.</p>
+<p>Once you have logged in you are encouraged to set up a 2FA method of your choice from the <a href="Security">Security page</a> on your Account. We recommend an authenticator app such as Google Authenticator or Authy.</p>
+<p>Please note that if you decide to change your 2FA settings, you will need to first remove the current 2FA before you can select and apply other types.</p>
+<p>If you are having an issue with invalid 2FA codes, please first check what type is being requested:</p>
+<ul>
+<li><b>PIN Code</b>: This is a 4&ndash;8 digit PIN which you set yourself when you first registered. <em>(Note that these only exist on accounts created prior to April 2018. We are phasing out PIN codes and they can no longer be set.)</em></li>
+<li><b>Email Code</b>: An email with the subject "Two Factor Login" will be sent to your registered email address. Email Code 2FA tokens expire in 15 minutes after being generated, so please use the most recent one received.</li>
+<li>Other options are <b>authenticator apps (Google, Authy)</b> and the <b>Cryptopia Authenticator</b> device.</li>
+<li>Like PIN codes, <b>Secret Question</b> and <b>Password</b> methods have been discontinued and you are encouraged to upgrade these 2FA methods.</li>
+</ul>
+<p>If you need assistance with your Two Factor security (lost phone/device or email issues), please contact us from your registered email address on <a class="btn btn-xs btn-info" href="cdn-cgi/l/email-protection#8bf9eef8eefff8cbe8f9f2fbffe4fbe2eaa5e8e4a5e5f1"><span class="__cf_email__" data-cfemail="344651475140477457464d44405b445d551a575b1a5a4e">[email&#160;protected]</span></a></p>
+<p>Please describe some account activity to help us verify ownership, such as the following:</p>
+<ul>
+<li>Trades, balances, withdrawals, deposits and addresses</li>
+<li>Login dates and IP addresses</li>
+<li>Photo identification for verified customers</li>
+</ul>
+<small>We will not reset your 2FA without this information and unrelated emails sent to this address may not be responded to.</small>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">Locked account</div>
+<div class="panel-body">
+User accounts generally only get locked as a result of these actions:
+<ul>
+<li>3 failed login attempts will result in a temporary account lock, which will automatically unlock after 15 minutes.</li>
+<li>Lock account email button, this is “at your request”, and will lock your account for 24 hours. After this time it will automatically unlock.</li>
+</ul>
+<small>Please do not contact Cryptopia Support to unlock your account, unless you are sure it has remained locked for over 24 hours.</small>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading">Wallet/Coin Updates</div>
+<div class="panel-body">
+<b>*Coin Developers ONLY (others ignored)*</b><br />
+For any urgent wallet updates for coins we already have listed, please contact us on <a class="btn btn-xs btn-info" href="cdn-cgi/l/email-protection#b0d3dfd9dec7d1dcdcd5c4c3f0d3c2c9c0c4dfc0d9d19ed3df9edeca"><span class="__cf_email__" data-cfemail="4c2f2325223b2d202029383f0c2f3e353c38233c252d622f23622236">[email&#160;protected]</span></a>
+<br />
+<br />
+When submitting wallet information please provide the following:
+<ul>
+<li>Version</li>
+<li>Github link</li>
+<li>Mandatory or Optional</li>
+<li>Info on any special details/changes</li>
+</ul>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">Emails</div>
+<div class="panel-body">
+Our automated emails are always sent to the address your Cryptopia account is registered with.
+<br />
+<br />
+If you’re not receiving expected emails to your registered address:
+<ul>
+<li>Your account may not be activated yet via the verification email sent to your address after registration. Emails are not generated for an account until it is activated.</li>
+<li>Emails may be filtered into a folder other than your Inbox, (ie Junk/Spam), which doesn’t get synced with mobile apps or email clients. You should log into webmail if possible and perform a thorough search.</li>
+<li>Some email providers may block our automated emails as spam, or you may lose access to the email address registered with your account. The most common providers we have issues with are AOL, Verizon, Comcast, and other ISPs, as well as personalised domain accounts.</li>
+</ul>
+<br />
+For any ongoing issues receiving our emails, please contact us on <a class="btn btn-xs btn-info" href="cdn-cgi/l/email-protection#93e1f6e0f6e7e0d3f0e1eae3e7fce3faf2bdf0fcbdfde9"><span class="__cf_email__" data-cfemail="b9cbdccadccdcaf9dacbc0c9cdd6c9d0d897dad697d7c3">[email&#160;protected]</span></a><br />
+Please specify your currently registered email address and account name, and please describe the email you’re expecting, but not receiving.
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">General Enquiries</div>
+<div class="panel-body">
+For all other general enquiries and requests for further information should be sent to:
+<a class="btn btn-xs btn-info" href="cdn-cgi/l/email-protection#47343237372835330724353e373328372e2669242869293d"><span class="__cf_email__" data-cfemail="e5969095958a9791a586979c95918a958c84cb868acb8b9f">[email&#160;protected]</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="clear: both; height: 195px;"></div>
+</div>
+<footer id="footer" style="min-height: 195px; border-top: 1px solid rgba(0, 0, 0, 0.2);" class="panelBg">
+<div class="col-xs-12">
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">Information</h4>
+<a href="Home/Privacy" style="display: block">Privacy Policy</a>
+<a href="Home/Terms" style="display: block">Terms &amp; Conditions</a>
+<a href="Home/RiskStatement" style="display: block">Risk Statement</a>
+<a href="https://support.cryptopia.co.nz/csm/?id=kb_article&sys_id=b53f0f1ddb2d1f009990f6fcbf961920" style="display: block">Fees</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>Support</h4>
+<a href="https://support.cryptopia.co.nz/" style="display: block">Create Ticket</a>
+<a href="Support" style="display: block">Contact Us</a>
+<a href="https://support.cryptopia.co.nz/csm" style="display: block">Help Centre &amp; FAQ</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948" style="display: block">News</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">API</h4>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=40e9c310dbf9130084ed147a3a9619eb" style="display: block">Public API</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=a75703dcdbb9130084ed147a3a9619bc" style="display: block">Private API</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">Social</h4>
+<a href="https://twitter.com/Cryptopia_NZ" style="display: block"><span><i class="fa fa-twitter-square"></i> Twitter</span></a>
+<a href="https://www.facebook.com/cryptopiaexchange" style="display: block"><span><i class="fa fa-facebook-square"></i> Facebook</span></a>
+<a href="https://www.linkedin.com/company/cryptopia-limited" style="display: block"><span><i class="fa fa-linkedin-square"></i> LinkedIn</span></a>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="col-lg-12 col-md-10 col-sm-12 col-xs-12 text-center footer-summary" style="line-height: 1.5em; font-size: 0.8em; margin-bottom: 5px">
+<div class="col-lg-1"></div>
+<div class="col-lg-10 col-md-11 col-sm-11" style="">
+<br>
+Usage of Cryptopia.co.nz indicates acceptance of the Cryptopia Ltd. <a href='Home/Terms' target='_self'>Terms & Conditions</a>.
+<br>
+Cryptopia Ltd. is not responsible for losses caused by outages, network volatility, wallet forks/maintenance or market conditions.
+<br>
+Copyright 2019 Cryptopia Ltd. - All Rights Reserved
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 pull-right" style="z-index: 2; text-align: right;">
+</div>
+</div>
+<div class="clearfix"></div>
+</footer>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script id="notificationTemplate" type="text/html">
+	<table class="notification-table">
+		<tr>
+			<td class="notification-header" colspan="2">{{header}}</td>
+		</tr>
+		<tr>
+			<td>
+				<i class="fa {{icon}} fa-4x notification-{{type}}"></i>
+			</td>
+			<td>
+				<p class="notification-message">{{message}}</p>
+			</td>
+		</tr>
+	</table>
+</script>
+<script type="c0a04eec3c4a619389e113f8-text/javascript">
+		var cdnImagePath = '';
+		var authenticated = 'False';
+		var authenticatedUserName = '';
+		var authenticatedChatHandle = '';
+		var authenticatedAdmin = 'False';
+		var signalrPingInterval = parseInt('300000') || null;
+		var themeHrefs = {"MountainMeadowLight":"/Content/theme-MountainMeadowLight?v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81","MountainMeadowDark":"/Content/theme-MountainMeadowDark?v=_qBt2wtqaWTzTfq1ExRtXm-tW6Ha4JnayPP4J5JXh-A1"};
+
+		var Resources = Resources || {};
+		Resources.General = {
+			OK: 'OK',
+			Cancel: 'Cancel',
+			Yes: 'Yes',
+			No: 'No',
+			NotAvailable: 'N/A',
+			SendingMessage: 'Sending...',
+			Next: 'Next',
+			Previous: 'Previous',
+			ProcessingMessage: 'Processing...',
+			CryptopiaSupportLink: 'Cryptopia Support',
+			LoadingMessage: 'Loading...'
+		};
+		Resources.Layout = {
+			BlockCancelOrderMessage: 'Canceling order...',
+			BlockCancelAllOrdersMessage: 'Canceling all orders...',
+			ConfirmCancelAllOrdersTitle: 'Cancel All Orders?',
+			ConfirmCancelAllOrdersMessage: 'Are you ABSOLUTELY sure you want to cancel ALL your orders for ALL currencies?',
+			ConfirmCancelTradePairTitle: 'Cancel All Orders?',
+			ConfirmCancelTradePairTitleMessage: 'Are you ABSOLUTELY sure you want to cancel ALL orders in this list?',
+			BlockCancelTradePairMessage: 'Canceling orders...',
+			ThemeLightHint: 'Light Mode',
+			ThemeDarkHint: 'Dark Mode',
+			RatingUnrated: 'Unrated',
+			RatingRated: 'Rated',
+			ErrorContactSupportText: 'An error occurred while processing your request. If problems persist please contact {0}Cryptopia Support{1}.',
+			MenuNoNotification: 'No new notifications',
+
+			ExportCsvButton: 'Export page to csv',
+			ExportExcelButton: 'Export page to Excel',
+			ExportPdfButton: 'Export page to pdf',
+			ExportClipboardButton: 'Copy Page',
+			ExportPrintButton: 'Print Page',
+
+			ModalLoadingMessage: 'Loading...',
+			ModalInvalidRequestTitle: 'Invalid Request',
+			modalInvalidRequestMessage1: 'Your request was not formed properly. Please refresh the page and try again.',
+			modalInvalidRequestMessage2: 'If the problem continues, please contact support.'
+		};
+	</script>
+<script src="bundles/site@v=Z4DqHOHA17oP5e4qG6RnFMl6RLLVTEjXlwVJ5A883Bs1" type="c0a04eec3c4a619389e113f8-text/javascript"></script>
+<script src="signalr/hubs" type="c0a04eec3c4a619389e113f8-text/javascript"></script>
+<script type="c0a04eec3c4a619389e113f8-text/javascript">
+		var externalChatWindow;
+		var notificationHub = $.connection.notificationHub;
+		initializeWebsocket();
+		setSelectedNavOption('');
+	</script>
+<script type="c0a04eec3c4a619389e113f8-text/javascript">
+		var SecurityWarningModalUrl = '/TwoFactor/SecurityWarningModal';
+
+		var SecurityWarningModalShowWarning = false;
+		var SecurityWarningModalIsSevere = false;
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="c0a04eec3c4a619389e113f8-|49" defer=""></script></body>
+</html>

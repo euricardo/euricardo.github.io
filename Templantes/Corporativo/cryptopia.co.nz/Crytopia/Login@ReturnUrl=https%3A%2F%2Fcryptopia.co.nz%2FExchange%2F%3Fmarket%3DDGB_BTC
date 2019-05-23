@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cryptopia - Login</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="bitcoin, litecoin, dogecoin, dotcoin, crypto, exchange, mining, pools, trading, ethereum, dotcoin, btc, ltc, doge, dot, arbitrage, cryptocurrency, cryptopia">
+<meta name="description" content="Crypto-Currency Trading platform.">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico@v=2" type="image/x-icon" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="referrer" content="origin" />
+<link rel="apple-touch-icon" href="favicon.ico@v=2" />
+<link href="Content/styles@v=01TMIzgVWRsm72shA-33VwKNIUAfUekbfGj6OtExrAI1" rel="stylesheet" />
+<link href="Content/Images/Sprites/sprite_sheet.css" rel="stylesheet" />
+<link id="siteTheme" href="Content/theme-MountainMeadowLight@v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81" rel="stylesheet" />
+<script src="bundles/site-head@v=nOAFAFDuT8aAWbEjL2Noq7qTCT6qaWEoALl6lxep4D41" type="675486069499e79a9ac9fb83-text/javascript"></script>
+</head>
+<body class="panel-page">
+<input name="__RequestVerificationToken" type="hidden" value="6DI_5MICmA-1Tbcd3NPX0De-4oPKiKg48E1j2yGhPdXyLXv3pIQPXk9v-O1NBJcxkcQPAserpCDTrPtORLCs0uhGZSqYsIL2iuhByJzzcN01" />
+<div id="cryptopia-nav">
+
+<ul class="mobile-menu pull-right hidden-lg">
+<li class="nohover"><a href="Home.1"><div class="main-logo"></div></a></li>
+<li class="has-sub">
+<a href="Login@ReturnUrl=https%253A%252F%252Fcryptopia.co.nz%252FExchange%252F%253Fmarket%253DDGB_BTC#" style="min-width:70px !important;">
+<div style="margin-top:4px;margin-bottom:-4px">
+<i class="fa fa-2x fa-bars"></i>
+</div>
+</a>
+<ul>
+
+<li style="clear: both;"><a href="Login.1" class="parent-nav nohover"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
+<li style="clear: both;"><a href="Exchange.2" class="parent-nav nohover"><i class="fa icon-barchartasc"></i> Exchange</a></li>
+
+<li><a href="CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+<li><a href="CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li><a href="Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="visible-lg">
+<li class="nohover"><a href="Home.1"><div class="main-logo"></div></a></li>
+<li class="nav-exchange has-sub has-sub-right has-sub-2 has-top-sub">
+<a href="Exchange.2"><i class="fa icon-barchartasc"></i> Exchange</a>
+</li>
+<li class="nav-coin-listings"><a data-automation-id="coin_listings" href="CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li class="nav-coininfo"><a href="CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li class="nav-arbitrage"><a href="Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+<li class="nav-news"><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+</ul>
+
+<ul class="pull-right hidden-xs">
+<li class="pull-right"><a href="Login/Register">Register</a></li>
+<li class="pull-right leftborder"><a href="Login.1">Login</a></li>
+</ul>
+</div>
+<div class="content-fullpage">
+<div class="text-center panel-container" style="padding-top: 100px">
+<div class="panel panel-primary" style="width:353px;display:inline-block; text-align:left">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-sign-in panel-icon"></i>Login</span>
+</div>
+<div class="panel-body">
+<form action="Login@ReturnUrl=https%253A%252F%252Fcryptopia.co.nz%252FExchange%252F%253Fmarket%253DDGB_BTC" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="IPRcVeRVnamZrcOGM3xctPtgn996bmoDb4tz3Er3mt2M7NF9-BfFRXN15EvEVDAYyNRncTRmgwYNC2WMwat8nWMlwe-hEik3e8UuWkLn_V01" /> <div class="form-margin">
+<div class="small" style="margin-bottom: 2em">
+<p>
+Avoid phishing, make sure your address bar says <strong>https://www.cryptopia.co.nz</strong>&emsp;(<a href='https://support.cryptopia.co.nz/csm?id=kb_article&amp;sys_id=6ff72e77dbf9534032a664a14a961983' target='_blank'>Learn more</a>)
+<br />
+<img src="Content/Images/secure_address_bar.png" alt="Secure green-lock icon address bar" />
+</p>
+</div>
+<div>
+<label class="control-label" for="EmailAddress">Email Address</label>
+<input autofocus="autofocus" class="form-control  input-sm" data-val="true" data-val-email="Please enter a valid email address." data-val-required="The Email Address field is required." id="EmailAddress" name="EmailAddress" type="text" value="" />
+<span class="field-validation-valid text-danger" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+</div>
+<div>
+<label class="control-label" for="Password">Password</label>
+<input class="form-control  input-sm" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password" />
+<span class="field-validation-valid text-danger" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+</div>
+<br />
+<div class="text-center">
+<div class='g-recaptcha' data-sitekey='6LfGaP4SAAAAANUTvdad4FnCJGbnij6d-q598E7h'></div><script src='https://www.google.com/recaptcha/api.js?hl=en' type="675486069499e79a9ac9fb83-text/javascript"></script>
+</div>
+</div>
+<br />
+<div class="text-center">
+<div class="form-group">
+<input type="submit" value="Log in" class="btn btn-info btnhalfwidth" />
+</div>
+<p>
+<a href='Register' target='_self'>Register</a> if you don't have an account
+</p>
+<p>
+<a href="Login/ForgotPassword">Forgot your password?</a>
+</p>
+</div>
+</form> </div>
+</div>
+</div>
+<script src="bundles/validation@v=Gu5e5qgd2qQ-yHU7L7b9MVbsnsjFD0eHAeVHaprLM881" type="675486069499e79a9ac9fb83-text/javascript"></script>
+</div>
+<div class="clearfix"></div>
+<footer id="footer" style="min-height: 195px; border-top: 1px solid rgba(0, 0, 0, 0.2);" class="panelBg">
+<div class="col-xs-12">
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">Information</h4>
+<a href="Home/Privacy" style="display: block">Privacy Policy</a>
+<a href="Home/Terms" style="display: block">Terms &amp; Conditions</a>
+<a href="Home/RiskStatement" style="display: block">Risk Statement</a>
+<a href="https://support.cryptopia.co.nz/csm/?id=kb_article&sys_id=b53f0f1ddb2d1f009990f6fcbf961920" style="display: block">Fees</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>Support</h4>
+<a href="https://support.cryptopia.co.nz/" style="display: block">Create Ticket</a>
+<a href="Support" style="display: block">Contact Us</a>
+<a href="https://support.cryptopia.co.nz/csm" style="display: block">Help Centre &amp; FAQ</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948" style="display: block">News</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">API</h4>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=40e9c310dbf9130084ed147a3a9619eb" style="display: block">Public API</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=a75703dcdbb9130084ed147a3a9619bc" style="display: block">Private API</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">Social</h4>
+<a href="https://twitter.com/Cryptopia_NZ" style="display: block"><span><i class="fa fa-twitter-square"></i> Twitter</span></a>
+<a href="https://www.facebook.com/cryptopiaexchange" style="display: block"><span><i class="fa fa-facebook-square"></i> Facebook</span></a>
+<a href="https://www.linkedin.com/company/cryptopia-limited" style="display: block"><span><i class="fa fa-linkedin-square"></i> LinkedIn</span></a>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="col-lg-12 col-md-10 col-sm-12 col-xs-12 text-center footer-summary" style="line-height: 1.5em; font-size: 0.8em; margin-bottom: 5px">
+<div class="col-lg-1"></div>
+<div class="col-lg-10 col-md-11 col-sm-11" style="">
+<br>
+Usage of Cryptopia.co.nz indicates acceptance of the Cryptopia Ltd. <a href='Home/Terms' target='_self'>Terms & Conditions</a>.
+<br>
+Cryptopia Ltd. is not responsible for losses caused by outages, network volatility, wallet forks/maintenance or market conditions.
+<br>
+Copyright 2019 Cryptopia Ltd. - All Rights Reserved
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 pull-right" style="z-index: 2; text-align: right;">
+</div>
+</div>
+<div class="clearfix"></div>
+</footer>
+<script id="notificationTemplate" type="text/html">
+	<table class="notification-table">
+		<tr>
+			<td class="notification-header" colspan="2">{{header}}</td>
+		</tr>
+		<tr>
+			<td>
+				<i class="fa {{icon}} fa-4x notification-{{type}}"></i>
+			</td>
+			<td>
+				<p class="notification-message">{{message}}</p>
+			</td>
+		</tr>
+	</table>
+</script>
+<script type="675486069499e79a9ac9fb83-text/javascript">
+		var cdnImagePath = '';
+		var authenticated = 'False';
+		var authenticatedUserName = '';
+		var authenticatedChatHandle = '';
+		var authenticatedAdmin = 'False';
+		var signalrPingInterval = parseInt('300000') || null;
+		var themeHrefs = {"MountainMeadowLight":"/Content/theme-MountainMeadowLight?v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81","MountainMeadowDark":"/Content/theme-MountainMeadowDark?v=_qBt2wtqaWTzTfq1ExRtXm-tW6Ha4JnayPP4J5JXh-A1"};
+
+		var Resources = Resources || {};
+		Resources.General = {
+			OK: 'OK',
+			Cancel: 'Cancel',
+			Yes: 'Yes',
+			No: 'No',
+			NotAvailable: 'N/A',
+			SendingMessage: 'Sending...',
+			Next: 'Next',
+			Previous: 'Previous',
+			ProcessingMessage: 'Processing...',
+			CryptopiaSupportLink: 'Cryptopia Support',
+			LoadingMessage: 'Loading...'
+		};
+		Resources.Layout = {
+			BlockCancelOrderMessage: 'Canceling order...',
+			BlockCancelAllOrdersMessage: 'Canceling all orders...',
+			ConfirmCancelAllOrdersTitle: 'Cancel All Orders?',
+			ConfirmCancelAllOrdersMessage: 'Are you ABSOLUTELY sure you want to cancel ALL your orders for ALL currencies?',
+			ConfirmCancelTradePairTitle: 'Cancel All Orders?',
+			ConfirmCancelTradePairTitleMessage: 'Are you ABSOLUTELY sure you want to cancel ALL orders in this list?',
+			BlockCancelTradePairMessage: 'Canceling orders...',
+			ThemeLightHint: 'Light Mode',
+			ThemeDarkHint: 'Dark Mode',
+			RatingUnrated: 'Unrated',
+			RatingRated: 'Rated',
+			ErrorContactSupportText: 'An error occurred while processing your request. If problems persist please contact {0}Cryptopia Support{1}.',
+			MenuNoNotification: 'No new notifications',
+
+			ExportCsvButton: 'Export page to csv',
+			ExportExcelButton: 'Export page to Excel',
+			ExportPdfButton: 'Export page to pdf',
+			ExportClipboardButton: 'Copy Page',
+			ExportPrintButton: 'Print Page',
+
+			ModalLoadingMessage: 'Loading...',
+			ModalInvalidRequestTitle: 'Invalid Request',
+			modalInvalidRequestMessage1: 'Your request was not formed properly. Please refresh the page and try again.',
+			modalInvalidRequestMessage2: 'If the problem continues, please contact support.'
+		};
+	</script>
+<script src="bundles/site@v=Z4DqHOHA17oP5e4qG6RnFMl6RLLVTEjXlwVJ5A883Bs1" type="675486069499e79a9ac9fb83-text/javascript"></script>
+<script src="signalr/hubs" type="675486069499e79a9ac9fb83-text/javascript"></script>
+<script type="675486069499e79a9ac9fb83-text/javascript">
+		var externalChatWindow;
+		var notificationHub = $.connection.notificationHub;
+		initializeWebsocket();
+		setSelectedNavOption('');
+	</script>
+<script type="675486069499e79a9ac9fb83-text/javascript">
+		var SecurityWarningModalUrl = '/TwoFactor/SecurityWarningModal';
+
+		var SecurityWarningModalShowWarning = false;
+		var SecurityWarningModalIsSevere = false;
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="675486069499e79a9ac9fb83-|49" defer=""></script></body>
+</html>

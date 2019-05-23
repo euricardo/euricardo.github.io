@@ -1,0 +1,1477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cryptopia - Exchange</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="bitcoin, litecoin, dogecoin, dotcoin, crypto, exchange, mining, pools, trading, ethereum, dotcoin, btc, ltc, doge, dot, arbitrage, cryptocurrency, cryptopia">
+<meta name="description" content="Crypto-Currency Trading platform.">
+<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../favicon.ico@v=2" type="image/x-icon" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="referrer" content="origin" />
+<link rel="apple-touch-icon" href="../favicon.ico@v=2" />
+<link href="../Content/styles@v=01TMIzgVWRsm72shA-33VwKNIUAfUekbfGj6OtExrAI1" rel="stylesheet" />
+<link href="../Content/Images/Sprites/sprite_sheet.css" rel="stylesheet" />
+<link id="siteTheme" href="../Content/theme-MountainMeadowLight@v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81" rel="stylesheet" />
+<script src="../bundles/site-head@v=nOAFAFDuT8aAWbEjL2Noq7qTCT6qaWEoALl6lxep4D41" type="ffefd9a56b5b133c310bea44-text/javascript"></script>
+</head>
+<body class="exchange-page">
+<input name="__RequestVerificationToken" type="hidden" value="QN3yoJnF72SpgQ0qydaONPI2kWoinflH30fddIYTbn4Y1QbzTSXSlyCONYeK7B-4hganxZXEHrJ4KhJAyLchiNuz0itgc9sU4jV_AJLtNU81" />
+<div id="cryptopia-nav">
+
+<ul class="mobile-menu pull-right hidden-lg">
+<li class="nohover"><a href="../Home.1"><div class="main-logo"></div></a></li>
+<li class="has-sub">
+<a href="index.html@baseMarket=DOGE#" style="min-width:70px !important;">
+<div style="margin-top:4px;margin-bottom:-4px">
+<i class="fa fa-2x fa-bars"></i>
+</div>
+</a>
+<ul>
+
+<li style="clear: both;"><a href="../Login.1" class="parent-nav nohover"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
+<li style="clear: both;"><a href="../Exchange.2" class="parent-nav nohover"><i class="fa icon-barchartasc"></i> Exchange</a></li>
+
+<li><a href="../CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+<li><a href="../CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li><a href="../Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="visible-lg">
+<li class="nohover"><a href="../Home.1"><div class="main-logo"></div></a></li>
+<li class="nav-exchange has-sub has-sub-right has-sub-2 has-top-sub">
+<a href="../Exchange.2"><i class="fa icon-barchartasc"></i> Exchange</a>
+</li>
+<li class="nav-coin-listings"><a data-automation-id="coin_listings" href="../CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li class="nav-coininfo"><a href="../CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li class="nav-arbitrage"><a href="../Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+<li class="nav-news"><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+</ul>
+
+<ul class="pull-right hidden-xs">
+<li class="pull-right"><a href="../Login/Register">Register</a></li>
+<li class="pull-right leftborder"><a href="../Login.1">Login</a></li>
+</ul>
+</div>
+<div id="wrapper">
+<div id="vertical-menu">
+<div id="vertical-menu-social">
+<div class="btn-group btn-group-vertical btn-group-sm">
+<a class="btn btn-default vertical-btn" title="Cryptopia Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Cryptopia_NZ">
+<i class="fa fa-2x fa-twitter"></i>
+</a>
+<a class="btn btn-default vertical-btn" title="Cryptopia Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cryptopiaexchange">
+<i class="fa fa-2x fa-facebook "></i>
+</a>
+<a class="btn btn-default vertical-btn" title="Cryptopia Linked-in" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/cryptopia-limited">
+<i class="fa fa-2x fa-linkedin"></i>
+</a>
+<a class="btn btn-default vertical-btn" title="Cryptopia Discord" target="_blank" rel="noopener noreferrer" href="https://discord.gg/2kMgEgw">
+<i class="fa fa-2x fa-comment-o"></i>
+</a>
+</div>
+</div>
+<div id="vertical-menu-options">
+<div class="btn-group btn-group-vertical btn-group-sm">
+<a class="btn btn-default stackmenu-menu-btn vertical-btn menu-btn" title="Hide/Show Sidebar">
+<i class="fa fa-2x fa-bars"></i>
+</a>
+<a class="btn btn-default stackmenu-menu-btn exchange-menu-btn vertical-btn" title="Markets">
+<div class="vertical-text"><i class="fa fa-area-chart"></i>Markets</div>
+</a>
+<a class="btn btn-default stackmenu-menu-btn chat-menu-btn vertical-btn" title="Trollbox">
+<div class="vertical-text"><i class="fa fa-comments-o"></i>Chat</div>
+</a>
+</div>
+</div>
+</div>
+<div id="sidebar-wrapper" class="panelBg">
+<div id="sidebar">
+<div class="stackmenu-container">
+<div class="stackmenu-header">
+<div id="exchange-menu" class="exchange-menu">
+<div>
+<div class="stackmenu-btns btn-group btn-group-justified btn-group-sm basecurrency-btn-group">
+<a class="btn btn-default currencyData-btn currencyData-btn-BTC" data-currency="BTC">
+<div class="sprite-small sprite-BTC-small-png"></div>
+<span>BTC</span>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-USDT" data-currency="USDT">
+<div class="sprite-small sprite-USDT-small-png"></div>
+<span>USDT</span>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-NZDT" data-currency="NZDT">
+<div class="sprite-small sprite-NZDT-small-png"></div>
+<span>NZDT</span>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-LTC" data-currency="LTC">
+<div class="sprite-small sprite-LTC-small-png"></div>
+<span>LTC</span>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-DOGE" data-currency="DOGE">
+<div class="sprite-small sprite-DOGE-small-png"></div>
+<span>DOGE</span>
+</a>
+</div>
+<div id="market-options" class="input-group">
+<div class="input-group-btn">
+<div class="btn-group">
+<a class="btn btn-default btn-sm dropdown-toggle" aria-expanded="false" href="index.html@baseMarket=DOGE#" data-toggle="dropdown">
+<i class="fa fa-cog" aria-hidden="true"></i>
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li>
+<div style="margin-left:10px">
+<i class="fa fa-ellipsis-v market-favorite-active" aria-hidden="true" style="font-size:18px"></i>
+<input id="market-favorite-chk" type="checkbox" value="" />
+<label style="font-size:12px;vertical-align:text-top">
+Favorites only
+</label>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<input type="text" id="markets-search" class="form-control input-sm" placeholder="Search markets..." />
+</div>
+</div>
+</div>
+<div class="balance-menu">
+<div id="balance-options" class="input-group" style="margin:5px">
+<div class="input-group-btn">
+<div class="btn-group">
+<a class="btn btn-default btn-sm dropdown-toggle" aria-expanded="false" href="index.html@baseMarket=DOGE#" data-toggle="dropdown">
+<i class="fa fa-cog" aria-hidden="true"></i>
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li>
+<div style="margin-left:10px">
+<input id="sideMenu-balance-hidezero" name="hide" type="checkbox" value="true" /><input name="hide" type="hidden" value="false" />
+<label style="font-size:12px;vertical-align:text-top">
+Hide Zero Balances
+</label>
+</div>
+</li>
+<li>
+<div style="margin-left:10px">
+<input id="sideMenu-balance-favorites" name="favorites" type="checkbox" value="true" /><input name="favorites" type="hidden" value="false" />
+<label style="font-size:12px;vertical-align:text-top">
+Show Favorites Only
+</label>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<input type="text" id="balance-search" class="form-control input-sm" placeholder="Search balances..." />
+</div>
+</div>
+<div class="orders-menu">
+<div id="orders-options" class="input-group">
+<div class="input-group-btn">
+<div class="btn-group">
+<a class="btn btn-default btn-sm dropdown-toggle" aria-expanded="false" href="index.html@baseMarket=DOGE#" data-toggle="dropdown">
+<i class="fa fa-cog" aria-hidden="true"></i>
+<span class="caret"></span>
+</a>
+</div>
+</div>
+<input type="text" id="openorders-search" class="form-control input-sm" placeholder="Search orders..." />
+</div>
+</div>
+<div class="chat-menu">
+<div class="chat-header">
+<div class="chat-title-container">
+<div>
+<span class="chat-title"><i class="fa fa-comments-o"></i>Trollbox</span>
+</div>
+<div class="chat-usersonline">
+<small>Users Online: <span class="chat-online-count">0</span></small>
+</div>
+</div>
+<div class="chat-options">
+<div class="btn-group btn-group-justified btn-group-sm basecurrency-btn-group">
+<a class="btn btn-default" title="Trollbox Rules" onclick="if (!window.__cfRLUnblockHandlers) return false; openModalGet('/Chat/ChatRules')" data-cf-modified-ffefd9a56b5b133c310bea44-="">
+<i class="fa fa-list-ol"></i>
+</a>
+<a class="btn btn-default chat-popout" title="Open Trollbox Window">
+<i class="fa fa-external-link-square"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="stackmenu-body">
+<div class="stackmenu-content">
+<div class="exchange-menu">
+<table class="table table-condensed table-striped" id="market-list" style="width:100%;font-size: 11px!important;cursor:pointer ">
+<thead>
+<tr>
+<th width="5px" style="max-width:5px;padding:0"></th>
+<th></th>
+<th></th>
+<th>Market</th>
+<th style="text-align:right" title="Price of last successful trade">Last price</th>
+<th style="text-align:right" title="24hr base volume">Vol</th>
+<th style="text-align:right" title="24hr price change %">+/-</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="balance-menu" style="overflow:hidden;">
+<table id="userBalances" class="table table-striped table-hover table-condensed" style="font-size: 10px!important; padding: 0px; ">
+<thead>
+<tr>
+<th width="5px" style="max-width:5px;padding:0"></th>
+<th>Coin</th>
+<th style="text-align:right" title="Amount available to trade">Available</th>
+<th style="text-align:right" title="Amount held for open orders">Orders</th>
+<th style="text-align:right" title="Estimated BTC value">Est.</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+<div class="orders-menu" style="overflow-x:hidden">
+<table id="sideMenuOpenOrders" class="table table-striped table-hover table-condensed" style="font-size: 10px!important; padding: 0px;max-width:100% !important">
+<thead>
+<tr>
+<th>Pair</th>
+<th>Type</th>
+<th style="text-align:right" title="Price of order">Rate</th>
+<th style="text-align:right" title="Coins remaining in order">Remaining</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+<div class="chat-menu" style="overflow:hidden;">
+<div class="chat-container">
+<table class="chat-messages table table-striped table-hover tablefixed table-condensed">
+<tbody>
+<tr>
+<td class="text-center">
+<h4><i class="fa fa-spinner fa-pulse fa-fw"></i> Loading...</h4>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="chat-footer">
+<div class="login-label text-center">
+<strong class="stronglargerfont"><a href="../Login@ReturnUrl=https%253A%252F%252Fcryptopia.co.nz%252FExchange%252F%253FbaseMarket%253DDOGE">Please login to troll</a></strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="stackmenu-footer">
+</div>
+</div>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main" style="overflow: visible">
+<div id="market-main" style="display:none">
+<div class="row">
+<div class="col-md-12">
+<div class="exchangeinfo-container pull-left">
+<img class="exchangeinfo-title-logo" src="../Content/Images/Coins/BTC-medium.png" />
+<div class="exchangeinfo-title-container">
+<div class="exchangeinfo-title"> </div>
+<div class="exchangeinfo-sub"> <span class="tradepair-symbol"></span> / <span class="tradepair-basesymbol"></span></div>
+</div>
+</div>
+<div class="exchangeinfo-ticker-container">
+<table class="exchangeinfo-ticker-table table-bordered tablefixed">
+<tr>
+<td>
+<b>24 Hours</b>
+<div class="ticker-label">
+<b>Statistics</b>
+</div>
+</td>
+<td>
+Last price
+<div class="ticker-label">
+<b class="ticker-last">0.00000000</b>
+</div>
+</td>
+<td>
+Change
+<div class="ticker-label">
+<b class="ticker-change">0.00</b>
+<b>%</b>
+</div>
+</td>
+<td>
+High
+<div class="ticker-label">
+<b class="ticker-high">0.00000000</b>
+</div>
+</td>
+<td>
+Low
+<div class="ticker-label">
+<b class="ticker-low">0.00000000</b>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:2px" colspan="5">
+<span>Volume: </span>
+<b class="ticker-basevolume">0.00000000</b>
+<span class="tradepair-basesymbol"></span>
+<span> / </span>
+<b class="ticker-volume">0.00000000</b>
+<span class="tradepair-symbol"></span>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="col-xs-12 hidden-xs" id="chart-container">
+<div id="chart-options" class="chart-options-group btn-group btn-group-sm">
+<a class="btn btn-default dropdown-toggle" href="index.html@baseMarket=DOGE#" data-toggle="dropdown" style="border-right:none">
+<i class="fa fa-cog" aria-hidden="true"></i>
+ <span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="text-center">Chart Settings</div>
+<hr style="margin:3px" />
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="2">
+<input id="chart-extras-volume" class="chart-extras" type="checkbox" checked="checked" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+Volume
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="0">
+<input id="chart-extras-stockprice" class="chart-extras" type="checkbox" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+StockPrice
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="1">
+<input id="chart-extras-candlestick" class="chart-extras" type="checkbox" checked="checked" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+Candlestick
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="6">
+<input id="chart-extras-macd" class="chart-extras" type="checkbox" checked="checked" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+MACD
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="7">
+<input id="chart-extras-signal" class="chart-extras" type="checkbox" checked="checked" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+Signal
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="8">
+<input id="chart-extras-histogram" class="chart-extras" type="checkbox" checked="checked" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+Histogram
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="9">
+<input id="chart-extras-fibonacci" class="chart-extras" type="checkbox" checked="checked" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+Fibonacci Lines
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="3">
+<input id="chart-extras-sma" class="chart-extras" type="checkbox" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+SMA period:
+</label>
+<input id="chart-extras-sma-value" class="chart-extras-value" type="text" value="50" disabled="disabled" />
+<button class="chart-extras-update btn btn-default btn-sm" disabled="disabled">
+<i class="fa fa-refresh" aria-hidden="true"></i>
+</button>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="4">
+<input id="chart-extras-ema1" class="chart-extras" type="checkbox" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+EMA 1 period:
+</label>
+<input id="chart-extras-ema1-value" class="chart-extras-value" type="text" value="30" disabled="disabled" />
+<button class="chart-extras-update btn btn-default btn-sm" disabled="disabled">
+<i class="fa fa-refresh" aria-hidden="true"></i>
+</button>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-trade">
+<div class="chart-extras-container" data-series="5">
+<input id="chart-extras-ema2" class="chart-extras" type="checkbox" />
+<label class="chart-extras-label">
+<i class="fa fa-circle" aria-hidden="true"></i>
+EMA 2 period:
+</label>
+<input id="chart-extras-ema2-value" class="chart-extras-value" type="text" value="20" disabled="disabled" />
+<button class="chart-extras-update btn btn-default btn-sm" disabled="disabled">
+<i class="fa fa-refresh" aria-hidden="true"></i>
+</button>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-distribution" style="display:none">
+<div class="text-center">Balance Distribution</div>
+<hr style="margin:3px" />
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-distribution" style="display:none">
+<input id="chart-distribution-10" type="radio" name="chart-distribution-options" value="10">
+<label class="chart-extras-label" style="vertical-align:middle">
+Top 10;
+</label>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-distribution" style="display:none">
+<input id="chart-distribution-100" type="radio" name="chart-distribution-options" value="100" checked="checked">
+<label class="chart-extras-label" style="vertical-align:middle">
+Top 100;
+</label>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-distribution" style="display:none">
+<div class="chart-extras-container">
+<input id="chart-distribution-1000" type="radio" name="chart-distribution-options" value="1000">
+<label class="chart-extras-label" style="vertical-align:middle">
+Top 1000;
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-distribution" style="display:none">
+<input id="chart-distribution-10000" type="radio" name="chart-distribution-options" value="10000">
+<label class="chart-extras-label" style="vertical-align:middle">
+Top 10000;
+</label>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-orderbook" style="display:none">
+<div class="text-center">Depth Calculation</div>
+<hr style="margin:3px" />
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-orderbook" style="display:none">
+<input type="radio" name="chart-orderbook-options" value="0" checked="checked">
+<label class="chart-extras-label" style="vertical-align:middle">
+Auto
+</label>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-orderbook" style="display:none">
+<div class="chart-extras-container">
+<input type="radio" name="chart-orderbook-options" value="100">
+<label class="chart-extras-label" style="vertical-align:middle">
+100%
+</label>
+</div>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-orderbook" style="display:none">
+<input type="radio" name="chart-orderbook-options" value="50">
+<label class="chart-extras-label" style="vertical-align:middle">
+50%
+</label>
+</li>
+<li class="chart-options-dropdown chart-options-dropdown-orderbook" style="display:none">
+<input type="radio" name="chart-orderbook-options" value="25">
+<label class="chart-extras-label" style="vertical-align:middle">
+ 25%
+</label>
+</li>
+</ul>
+<a class="btn btn-default chart-option-btn chart-option-chart active">Chart</a>
+<a class="btn btn-default chart-option-btn chart-option-orderbook">OrderBook</a>
+<a class="btn btn-default chart-option-btn chart-option-distribution">Distribution</a>
+</div>
+<div id="chart-trade" class="panel panel-default nopad">
+<div class="chart-container" style="height:365px">
+<table id="chart-info-date-container">
+<tr>
+<td class="chart-item-label">Date:</td>
+<td class="chart-item-value">
+<span id="chart-info-date">0.00000000</span>
+</td>
+<td class="chart-item-label chart-stockprice-item">Price: </td>
+<td class="chart-item-value chart-stockprice-item">
+<span id="chart-info-price">0.00000000</span>
+</td>
+<td class="chart-item-label chart-volume-item">Vol:</td>
+<td class="chart-item-value chart-volume-item">
+<span id="chart-info-volume">0.00000000</span>
+</td>
+<td class="chart-item-label chart-volume-item">Base:</td>
+<td class="chart-item-value chart-volume-item">
+<span id="chart-info-basevolume">0.00000000</span>
+</td>
+</tr>
+</table>
+<table id="chart-info-candlestick-container" class="chart-candlestick-item">
+<tr>
+<td class="chart-item-label">Open:</td>
+<td class="chart-item-value">
+<span id="chart-info-open">0.00000000</span>
+</td>
+<td class="chart-item-label">Close:</td>
+<td class="chart-item-value">
+<span id="chart-info-close">0.00000000</span>
+</td>
+<td class="chart-item-label">High:</td>
+<td class="chart-item-value">
+<span id="chart-info-high">0.00000000</span>
+</td>
+<td class="chart-item-label">Low:</td>
+<td class="chart-item-value">
+<span id="chart-info-low">0.00000000</span>
+</td>
+</tr>
+</table>
+<table id="chart-info-macd-container">
+<tr>
+<td class="chart-item-label chart-macd-item">MACD:</td>
+<td class="chart-item-value chart-macd-item">
+<span id="chart-info-macd">0.00000000</span>
+</td>
+<td class="chart-item-label chart-signal-item">Sig::</td>
+<td class="chart-item-value chart-signal-item">
+<span id="chart-info-signal">0.00000000</span>
+</td>
+<td class="chart-item-label chart-histogram-item">Hist:</td>
+<td class="chart-item-value chart-histogram-item">
+<span id="chart-info-histogram">0.00000000</span>
+</td>
+</tr>
+</table>
+<div class="chart-range-group btn-group btn-group-sm">
+<a class="btn btn-default chart-range-btn0" data-range="0">1d</a>
+<a class="btn btn-default chart-range-btn1" data-range="1">2d</a>
+<a class="btn btn-default chart-range-btn2" data-range="2">1w</a>
+<a class="btn btn-default chart-range-btn3" data-range="3">2w</a>
+<a class="btn btn-default chart-range-btn4" data-range="4">1m</a>
+<a class="btn btn-default chart-range-btn5" data-range="5">3m</a>
+<a class="btn btn-default chart-range-btn6" data-range="6">6m</a>
+<a class="btn btn-default chart-range-btn7" data-range="7">1y</a>
+</div>
+<div class="chart-candles-group btn-group btn-group-sm">
+<a class="btn btn-default chart-candles-btn15" data-candles="15">15m</a>
+<a class="btn btn-default chart-candles-btn30" data-candles="30">30m</a>
+<a class="btn btn-default chart-candles-btn60" data-candles="60">1hr</a>
+<a class="btn btn-default chart-candles-btn120" data-candles="120">2hr</a>
+<a class="btn btn-default chart-candles-btn240" data-candles="240">4hr</a>
+<a class="btn btn-default chart-candles-btn720" data-candles="720">12hr</a>
+<a class="btn btn-default chart-candles-btn1440" data-candles="1440">1d</a>
+<a class="btn btn-default chart-candles-btn10080" data-candles="10080">1w</a>
+</div>
+<div id="chartdata">
+</div>
+<div class="chart-loading">
+<b><i class="fa fa-spinner fa-pulse fa-fw"></i> Loading...</b>
+</div>
+<div class="chart-nodata">
+<b>No Data Available</b>
+</div>
+</div>
+</div>
+<div id="chart-orderbook" class="panel panel-default nopad" style="display:none;height:365px">
+<div class="chart-container">
+<div class="text-center" style="position:absolute;width:100%;">
+<h4 style="margin-top:5px"><span class="tradepair-symbol"></span>/<span class="tradepair-basesymbol"></span> Orderbook Depth</h4>
+</div>
+<div id="depthdata">
+</div>
+</div>
+</div>
+<div id="chart-distribution" class="panel panel-default nopad" style="display:none;height:365px">
+<div class="chart-container">
+<div class="text-center" style="position:absolute;width:100%;">
+<h4 style="margin-top:5px"><span class="tradepair-symbol"></span> Balance Distribution</h4>
+</div>
+<div id="distributiondata" style="margin-top:26px">
+</div>
+</div>
+</div>
+</div>
+<div id="tradepairStatus" class="col-md-12" style="display:none">
+<div class="alert">
+<h4></h4>
+<p></p>
+</div>
+</div>
+<div class="col-md-12">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-primary exchange-form">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-plus-square panel-icon"></i>Buy <span class="tradepair-symbol"></span></span>
+</div>
+<div class="panel-body" style="padding-bottom:0">
+<div class="input-group trade-input-group">
+<span id="buy-first-amount" class="input-group-addon trade-input-group-addon cursor-pointer">Amount</span>
+<input id="buyamount" class="form-control input-sm text-right" type="text" value="0.00000000">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-symbol"></span>
+</div>
+</div>
+<div class="input-group trade-input-group">
+<span id="buy-first-price" class="input-group-addon trade-input-group-addon cursor-pointer">Price</span>
+<input id="buyprice" class="form-control input-sm text-right" type="text" value="0.00000000">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<div class="input-group trade-input-group">
+<span class="input-group-addon trade-input-group-addon cursor-default">Sum</span>
+<input id="buytotal" class="form-control input-sm  text-right trade-input-group-addon-disabled" type="text" value="0.00000000" disabled="disabled">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<div class="input-group trade-input-group">
+<span class="input-group-addon trade-input-group-addon cursor-default">Fee</span>
+<input id="buyfee" class="form-control input-sm text-right trade-input-group-addon-disabled" type="text" value="0.00000000" disabled="disabled">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<hr style="margin:5px 0px" />
+<div class="input-group trade-input-group">
+<span id="buy-total-amount" class="input-group-addon trade-input-group-addon cursor-pointer">Total</span>
+<input id="buynettotal" class="form-control input-sm text-right" type="text" value="0.00000000">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<div class="buttons" style="padding-top:15px">
+</div>
+</div>
+</div>
+</div>
+<div class="nopad col-lg-4 col-md-0 col-sm-0 col-xs-0">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-primary exchange-form">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-minus-square panel-icon"></i>Sell <span class="tradepair-symbol"></span></span>
+</div>
+<div class="panel-body" style="padding-bottom:0px">
+<div class="input-group trade-input-group">
+<span id="sell-first-amount" class="input-group-addon trade-input-group-addon cursor-pointer">Amount</span>
+<input id="sellamount" class="form-control input-sm text-right" type="text" value="0.00000000">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-symbol"></span>
+</div>
+</div>
+<div class="input-group trade-input-group">
+<span id="sell-first-price" class="input-group-addon trade-input-group-addon cursor-pointer">Price</span>
+<input id="sellprice" class="form-control input-sm text-right" type="text" value="0.00000000">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<div class="input-group trade-input-group">
+<span class="input-group-addon trade-input-group-addon cursor-default">Sum</span>
+<input id="selltotal" class="form-control input-sm  text-right trade-input-group-addon-disabled" type="text" value="0.00000000" disabled="disabled">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<div class="input-group trade-input-group">
+<span class="input-group-addon trade-input-group-addon cursor-default">Fee</span>
+<input id="sellfee" class="form-control input-sm text-right trade-input-group-addon-disabled" type="text" value="0.00000000" disabled="disabled">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<hr style="margin:5px 0px" />
+<div class="input-group trade-input-group">
+<span id="sell-total-amount" class="input-group-addon trade-input-group-addon cursor-pointer">Total</span>
+<input id="sellnettotal" class="form-control input-sm text-right" type="text" value="0.00000000">
+<div class="input-group-addon trade-input-group-addon cursor-default">
+<span class="tradepair-basesymbol"></span>
+</div>
+</div>
+<div class="buttons" style="padding-top:15px">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="panel panel-primary">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-list-ol panel-icon"></i>Sell Orders</span>
+<small style="font-size:11px" class="pull-right"><span id="orderbook-total-sell">0.00000000</span> <span class="tradepair-symbol"></span></small>
+</div>
+<div class="panel-body" style="padding: 0px;height:282px">
+<div class="buysellorders panel-container-sell">
+<table id="sellorders" class="table table-striped table-condensed orderbook-table">
+<thead>
+<tr>
+<th width="15px" style="max-width:15px;padding:0"></th>
+<th style="text-align:right" class="table-header">Price (<span class="tradepair-basesymbol"></span>)</th>
+<th style="text-align:right" class="table-header">Amount (<span class="tradepair-symbol"></span>)</th>
+<th style="text-align:right" class="table-header">Total (<span class="tradepair-basesymbol"></span>)</th>
+<th style="text-align:right" class="table-header">Sum (<span class="tradepair-basesymbol"></span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="5" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="panel panel-primary">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-list-ol panel-icon"></i>Buy Orders</span>
+<small style="font-size:11px" class="pull-right"><span id="orderbook-total-buy">0.00000000</span> <span class="tradepair-basesymbol"></span></small>
+</div>
+<div class="panel-body" style="padding: 0px;height:282px;">
+<div class="buysellorders panel-container-buy">
+<table id="buyorders" class="table table-striped table-condensed orderbook-table">
+<thead>
+<tr>
+<th width="15px" style="max-width:15px;padding:0"></th>
+<th style="text-align:right" class="table-header">Price (<span class="tradepair-basesymbol"></span>)</th>
+<th style="text-align:right" class="table-header">Amount (<span class="tradepair-symbol"></span>)</th>
+<th style="text-align:right" class="table-header">Total (<span class="tradepair-basesymbol"></span>)</th>
+<th style="text-align:right" class="table-header">Sum (<span class="tradepair-basesymbol"></span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="5" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="panel panel-primary">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-history panel-icon"></i>Market History</span>
+</div>
+<div class="panel-body panel-container-markethistory" style="padding: 0px">
+<table id="markethistory" class="table table-striped table-condensed">
+<thead>
+<tr>
+<th class="table-header">Timestamp</th>
+<th class="table-header">Type</th>
+<th style="text-align:right" class="table-header">Price (<span class="tradepair-basesymbol"></span>)</th>
+<th style="text-align:right" class="table-header">Amount (<span class="tradepair-symbol"></span>)</th>
+<th style="text-align:right" class="table-header">Total (<span class="tradepair-basesymbol"></span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="5" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="market-summary">
+<div id="summary-wrapper" class="col-xs-12" style="margin-top:8px" data-basemarket="DOGE">
+<div class="row">
+<div class="col-md-4  col-sm-12 col-xs-12">
+<div class="panel panel-primary">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-star panel-icon"></i>Featured Markets</span>
+</div>
+<div class="panel-body" style="padding-top: 0px; padding-bottom: 0px; font-size: 12px;min-height:190px" id="featured-currency">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<h4>
+<img src="../Content/Images/Coins/DOT-medium.png" />
+Dotcoin(DOT)
+</h4>
+<div><b>Info: </b><a href="../CoinInfo@coin=DOT">Dotcoin</a></div>
+<div><b>Website: </b><a href="https://www.cryptopia.co.nz" target="_blank" rel="noopener noreferrer">https://www.cryptopia.co.nz</a></div>
+<p class="ellipsis2" style="max-height: 70px !important;white-space:pre-line"><i>Dotcoin is Cryptopia&#39;s currency, and can be used to pay for various services offered by Cryptopia.
+Get your offline wallet: https://ubiqsmart.com/</i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center" style="font-size:10px;position:absolute;bottom:22px;right:22px;">
+<a href="../CoinListings">Promoted Coin</a>
+</div>
+</div>
+</div>
+<div class="col-md-8  col-sm-12 col-xs-12">
+<div class="panel panel-primary">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-trophy panel-icon"></i>Top Markets</span>
+</div>
+<div class="panel-body" style="padding: 0px; margin: 0px;min-height:190px" id="top-currency">
+<table class="table table-striped table-hover table-condensed" style="font-size: 12px">
+<thead>
+<tr>
+<th>Market</th>
+<th style="text-align:right">Change</th>
+<th style="text-align:right">Total</th>
+<th style="text-align:right">Volume</th>
+<th style="text-align:right">High</th>
+<th style="text-align:right">Low</th>
+</tr>
+</thead>
+<tbody id="top-stats">
+<tr class="currencyData-tradepair-5662">
+<td>
+<div style="display:inline-block">
+<div class="sprite-small sprite-ETN-small-png"></div>
+<a href="../Exchange@market=ETN_BTC">
+ETN/BTC
+</a>
+</div>
+</td>
+<td class="text-right text-success">1.49%</td>
+<td class="text-right">5.69222752</td>
+<td class="text-right">8476762.95201529</td>
+<td class="text-right">0.00000073</td>
+<td class="text-right">0.00000062</td>
+</tr>
+<tr class="currencyData-tradepair-5664">
+<td>
+<div style="display:inline-block">
+<div class="sprite-small sprite-ETN-small-png"></div>
+<a href="../Exchange@market=ETN_DOGE">
+ETN/DOGE
+</a>
+</div>
+</td>
+<td class="text-right text-success">3.23%</td>
+<td class="text-right">1043637.09196943</td>
+<td class="text-right">637977.42347840</td>
+<td class="text-right">1.72567534</td>
+<td class="text-right">1.50990000</td>
+</tr>
+<tr class="currencyData-tradepair-5571">
+<td>
+<div style="display:inline-block">
+<div class="sprite-small sprite-CEFS-small-png"></div>
+<a href="../Exchange@market=CEFS_LTC">
+CEFS/LTC
+</a>
+</div>
+</td>
+<td class="text-right text-success">33.89%</td>
+<td class="text-right">37.02105661</td>
+<td class="text-right">17.50267815</td>
+<td class="text-right">2.52400725</td>
+<td class="text-right">1.39999999</td>
+</tr>
+<tr class="currencyData-tradepair-5082">
+<td>
+<div style="display:inline-block">
+<div class="sprite-small sprite-BTC-small-png"></div>
+<a href="../Exchange@market=BTC_NZDT">
+BTC/NZDT
+</a>
+</div>
+</td>
+<td class="text-right ">0.00%</td>
+<td class="text-right">0.00000000</td>
+<td class="text-right">0.00000000</td>
+<td class="text-right">7399.97339899</td>
+<td class="text-right">7399.97339899</td>
+</tr>
+<tr class="currencyData-tradepair-6160">
+<td>
+<div style="display:inline-block">
+<div class="sprite-small sprite-LGS-small-png"></div>
+<a href="../Exchange@market=LGS_USDT">
+LGS/USDT
+</a>
+</div>
+</td>
+<td class="text-right ">0.00%</td>
+<td class="text-right">0.00000000</td>
+<td class="text-right">0.00000000</td>
+<td class="text-right">0.46280000</td>
+<td class="text-right">0.46280000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-xs-12">
+<div class="panel panel-primary" style="min-height: 900px">
+<div class="panel-heading" style="padding: 5px">
+<span><i class="fa fa-bars panel-icon"></i>Market Summary (24hr)</span>
+<div class="pull-right hidden-xs" style="margin-top:-5px">
+<small style="display:block;font-size:10px">Total Trades: 3616</small>
+<small style="display:block;font-size:10px">Total Markets: 1386</small>
+</div>
+</div>
+<div class="panel-body" style="margin:0;padding:0">
+<div class="btn-group btn-group-justified btn-group basecurrency-btn-group">
+<a class="btn btn-default currencyData-btn currencyData-btn-BTC" data-currency="BTC" data-currencyid="1">
+<div style="margin-top:3px !important">
+<div style="margin-top:2px" class="sprite-small sprite-BTC-small-png"></div>
+<span>BTC</span>
+</div>
+<small style="font-size:10px">
+<span id="summary-total-BTC">23.58821119</span>
+</small>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-USDT" data-currency="USDT" data-currencyid="469">
+<div style="margin-top:3px !important">
+<div style="margin-top:2px" class="sprite-small sprite-USDT-small-png"></div>
+<span>USDT</span>
+</div>
+<small style="font-size:10px">
+<span id="summary-total-USDT">0.00000000</span>
+</small>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-NZDT" data-currency="NZDT" data-currencyid="514">
+<div style="margin-top:3px !important">
+<div style="margin-top:2px" class="sprite-small sprite-NZDT-small-png"></div>
+<span>NZDT</span>
+</div>
+<small style="font-size:10px">
+<span id="summary-total-NZDT">0.00000000</span>
+</small>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-LTC" data-currency="LTC" data-currencyid="3">
+<div style="margin-top:3px !important">
+<div style="margin-top:2px" class="sprite-small sprite-LTC-small-png"></div>
+<span>LTC</span>
+</div>
+<small style="font-size:10px">
+<span id="summary-total-LTC">80.99917154</span>
+</small>
+</a>
+<a class="btn btn-default currencyData-btn currencyData-btn-DOGE" data-currency="DOGE" data-currencyid="4">
+<div style="margin-top:3px !important">
+<div style="margin-top:2px" class="sprite-small sprite-DOGE-small-png"></div>
+<span>DOGE</span>
+</div>
+<small style="font-size:10px">
+<span id="summary-total-DOGE">1256499.15450878</span>
+</small>
+</a>
+</div>
+<div id="currencyData-content-BTC" class="currencyData-content" style="display:none">
+<table id="currencyData-BTC" class="table table-striped table-hover table-condensed " style="overflow:hidden;font-size:12px;table-layout:auto;">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Currency</th>
+<th>Market</th>
+<th style="text-align:right">Change</th>
+<th style="text-align:right">BTC Volume</th>
+<th style="text-align:right">Volume</th>
+<th style="text-align:right">High</th>
+<th style="text-align:right">Low</th>
+<th style="text-align:right">Last</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="currencyData-content-USDT" class="currencyData-content" style="display:none">
+<table id="currencyData-USDT" class="table table-striped table-hover table-condensed " style="overflow:hidden;font-size:12px;table-layout:auto;">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Currency</th>
+<th>Market</th>
+<th style="text-align:right">Change</th>
+<th style="text-align:right">USDT Volume</th>
+<th style="text-align:right">Volume</th>
+<th style="text-align:right">High</th>
+<th style="text-align:right">Low</th>
+<th style="text-align:right">Last</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="currencyData-content-NZDT" class="currencyData-content" style="display:none">
+<table id="currencyData-NZDT" class="table table-striped table-hover table-condensed " style="overflow:hidden;font-size:12px;table-layout:auto;">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Currency</th>
+<th>Market</th>
+<th style="text-align:right">Change</th>
+<th style="text-align:right">NZDT Volume</th>
+<th style="text-align:right">Volume</th>
+<th style="text-align:right">High</th>
+<th style="text-align:right">Low</th>
+<th style="text-align:right">Last</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="currencyData-content-LTC" class="currencyData-content" style="display:none">
+<table id="currencyData-LTC" class="table table-striped table-hover table-condensed " style="overflow:hidden;font-size:12px;table-layout:auto;">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Currency</th>
+<th>Market</th>
+<th style="text-align:right">Change</th>
+<th style="text-align:right">LTC Volume</th>
+<th style="text-align:right">Volume</th>
+<th style="text-align:right">High</th>
+<th style="text-align:right">Low</th>
+ <th style="text-align:right">Last</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="currencyData-content-DOGE" class="currencyData-content" style="display:none">
+<table id="currencyData-DOGE" class="table table-striped table-hover table-condensed " style="overflow:hidden;font-size:12px;table-layout:auto;">
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Currency</th>
+<th>Market</th>
+<th style="text-align:right">Change</th>
+<th style="text-align:right">DOGE Volume</th>
+<th style="text-align:right">Volume</th>
+<th style="text-align:right">High</th>
+<th style="text-align:right">Low</th>
+<th style="text-align:right">Last</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="10" class="text-center">
+<span><i class="fa fa-spinner fa-pulse"></i> Loading...</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div id="footer" style="min-height:195px;">
+<div class="col-xs-12">
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>Information</h4>
+<a href="../Home/Privacy" style="display: block">Privacy Policy</a>
+<a href="../Home/Terms" style="display: block">Terms &amp; Conditions</a>
+<a href="../Home/RiskStatement" style="display: block">Risk Statement</a>
+<a href="https://support.cryptopia.co.nz/csm/?id=kb_article&sys_id=b53f0f1ddb2d1f009990f6fcbf961920" style="display: block">Fees</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>Support</h4>
+<a href="https://support.cryptopia.co.nz/" style="display: block">Create Ticket</a>
+<a href="../Support" style="display: block">Contact Us</a>
+<a href="https://support.cryptopia.co.nz/csm" style="display: block">Help Centre &amp; FAQ</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948" style="display: block">News</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>API</h4>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=40e9c310dbf9130084ed147a3a9619eb" style="display: block">Public API</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=a75703dcdbb9130084ed147a3a9619bc" style="display: block">Private API</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>Social</h4>
+<a href="https://twitter.com/Cryptopia_NZ" style="display: block"><span><i class="fa fa-twitter-square"></i> Twitter</span></a>
+<a href="https://www.facebook.com/cryptopiaexchange" style="display: block"><span><i class="fa fa-facebook-square"></i> Facebook</span></a>
+<a href="https://www.linkedin.com/company/cryptopia-limited" style="display: block"><span><i class="fa fa-linkedin-square"></i> LinkedIn</span></a>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="col-lg-12 col-md-10 col-sm-12 col-xs-12 text-center footer-summary" style="line-height: 1.5em; font-size: 0.8em; margin-bottom: 5px">
+<div class="col-lg-1"></div>
+<div class="col-lg-10 col-md-11 col-sm-11" style="">
+<br>
+Usage of Cryptopia.co.nz indicates acceptance of the Cryptopia Ltd. <a href='../Home/Terms' target='_self'>Terms & Conditions</a>.
+<br>
+Cryptopia Ltd. is not responsible for losses caused by outages, network volatility, wallet forks/maintenance or market conditions.
+<br>
+Copyright 2019 Cryptopia Ltd. - All Rights Reserved
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 pull-right" style="z-index: 2; text-align: right;">
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+<script id="chatTipbotTemplate" type="text/html">
+	<tr class="chat-msgid-{{Id}}">
+		<td>
+			<i title="Remove Post" style="cursor:pointer;display:{{IsAdmin}}" class="text-danger fa fa-times pull-right chat-remove-message" data-messageid="{{Id}}"></i>
+			<i title="Give {{ChatHandle}} +1 karma for this" style="cursor:pointer;display:{{IsMine}}" class="text-info fa icon-thumbs-up pull-right chat-karma-tip" data-messageid="{{Id}}" data-user="{{ChatHandle}}"></i>
+			<p class="chat-item-message" style="font-size:10px;padding:0px;margin:0px"><i class="fa fa-flash text-warning"></i><b> {{UserName}}: </b>{{{Message}}}</p>
+		</td>
+	</tr>
+</script>
+<script id="chatBotTemplate" type="text/html">
+	<tr class="chat-msgid-{{Id}}">
+		<td>
+			<i title="Remove Post" style="cursor:pointer;display:{{IsAdmin}}" class="text-danger fa fa-times pull-right chat-remove-message" data-messageid="{{Id}}"></i>
+			<p class="chat-item-message" style="font-size:10px;padding:0px;margin:0px"><i class="fa fa-flash text-warning"></i><b> {{ChatHandle}}: </b>{{{Message}}}</p>
+		</td>
+	</tr>
+</script>
+<script id="chatUserTemplate" type="text/html">
+	<tr class="chat-msgid-{{Id}}">
+		<td class="{{Highlight}}">
+			<div class="chat-item-avatar-container">
+				<img src="https://cryptopia.co.nz/Exchange/{{Avatar}}" onerror="this.src='/Content/Images/Avatar.png'" class="chat-item-avatar" />
+				<div class="text-center">
+					<i title="{{ChatHandle}} has {{KarmaTotal}} karma points" style="cursor:pointer;font-size:8px" class="text-info fa icon-thumbs-up"></i>
+					<span class="karma-{{UserName}}" style="font-size:8px">{{KarmaTotal}}</span>
+				</div>
+			</div>
+			<div class="chat-item-message-container">
+				<span>
+					<span style="font-size:12px !important" class="chat-item-username">{{{Flair}}}{{ChatHandle}}</span>:
+					<span class="chat-item-time-container">
+						<i title="Give {{ChatHandle}} +1 karma for this" style="cursor:pointer;display:{{IsMine}}" class="text-info fa icon-thumbs-up chat-karma-message" data-messageid="{{Id}}" data-user="{{ChatHandle}}" ></i>
+						<i title="Remove Post" style="cursor:pointer;display:{{IsAdmin}}" class="text-danger fa fa-times pull-right chat-remove-message" data-messageid="{{Id}}"></i>
+						<i title="Ban Hammer" style="cursor:pointer;display:{{IsAdmin}}" class="text-danger icon-law chat-ban-user" data-user="{{ChatHandle}}"></i>
+						<i title="Add user to chat ignore list" style="cursor:pointer;display:{{IsMine}}" class="text-warning icon-banuseralt chat-ignore-user" data-user="{{UserName}}"></i>
+						<i title="Add user to tipping ignore list" style="cursor:pointer;display:{{IsMine}}" class="text-warning icon-value-coins chat-ignore-tip" data-user="{{UserName}}"></i>
+					</span>
+
+				</span>
+
+				<p style="font-size:11px" class="chat-item-message">{{{Message}}}</p>
+				<span class="chat-item-time-container">
+					<small data-val="{{Timestamp}}">(just now)</small>
+				</span>
+			</div>
+		</td>
+	</tr>
+</script>
+<script type="ffefd9a56b5b133c310bea44-text/javascript">
+	var Resources = Resources || {};
+	Resources.Chat = {
+		RemovePostQuestion: 'Are you sure you want to remove this post?',
+		RemovePostQuestionTitle: 'Remove Post?',
+		IgnoreNotificationTitle: 'Chat Ignore',
+		TipIgnoreNotificationTitle: 'Tip Ignore',
+		SendKarmaNotificationTitle: 'Chat Karma',
+		TipKarmaNotificationTitle: 'Tip Karma',
+
+		SinceSecondLabel: '(just now)',
+		SinceSecondsLabel: '({0} seconds ago)',
+		SinceMinuteLabel: '(a minute ago)',
+		SinceMinutesLabel: '({0} minutes ago)',
+		SinceHourLabel: '(an hour ago)',
+		SinceHoursLabel: '({0} hours ago)',
+		SinceAgesLabel: '(ages ago...)'
+	}
+</script>
+
+<script type="ffefd9a56b5b133c310bea44-text/javascript">
+_atrk_opts = { atrk_acct:"evhun1QolK10fn", domain:"cryptopia.co.nz",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=evhun1QolK10fn" style="display:none" height="1" width="1" alt="" /></noscript>
+
+<script id="orderTemplate" type="text/html">
+	<tr class="{{highlight}}">
+		<td>
+			<div class="orderbook-indicator" data-price="{{price}}"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+		</td>
+		<td><div class="text-right">{{price}}</div></td>
+		<td><div class="text-right">{{amount}}</div></td>
+		<td><div class="text-right">{{total}}</div></td>
+		<td><div class="text-right">0.00000000</div></td>
+	</tr>
+</script>
+<script id="tradeHistoryTemplate" type="text/html">
+	<tr class="{{highlight}}" role="row">
+		<td><div style="margin-left:8px;white-space: nowrap;">{{time}}</div></td>
+		<td>{{type}}</td>
+		<td><div class="text-right">{{rate}}</div></td>
+		<td><div class="text-right">{{amount}}</div></td>
+		<td><div class="text-right">{{total}}</div></td>
+	</tr>
+</script>
+<script id="orderbookTooltipTemplate" type="text/html">
+	<span style="font-size:15px;">
+		{{Symbol}}/{{BaseSymbol}} Market Depth
+	</span>
+	<br />
+	<span>
+		Price: <b>{{Price}}</b> {{BaseSymbol}}
+	</span>
+	<br />
+	<span>
+		Depth: <b>{{Depth}}</b> {{BaseSymbol}}
+	</span>
+	<br />
+	<span>
+		Volume: <b>{{Volume}}</b> {{Symbol}}
+	</span>
+	<br />
+</script>
+<script id="notificationTemplate" type="text/html">
+	<table class="notification-table">
+		<tr>
+			<td class="notification-header" colspan="2">{{header}}</td>
+		</tr>
+		<tr>
+			<td>
+				<i class="fa {{icon}} fa-4x notification-{{type}}"></i>
+			</td>
+			<td>
+				<p class="notification-message">{{message}}</p>
+			</td>
+		</tr>
+	</table>
+</script>
+<script type="ffefd9a56b5b133c310bea44-text/javascript">
+		var cdnImagePath = '';
+		var authenticated = 'False';
+		var authenticatedUserName = '';
+		var authenticatedChatHandle = '';
+		var authenticatedAdmin = 'False';
+		var signalrPingInterval = parseInt('300000') || null;
+		var themeHrefs = {"MountainMeadowLight":"/Content/theme-MountainMeadowLight?v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81","MountainMeadowDark":"/Content/theme-MountainMeadowDark?v=_qBt2wtqaWTzTfq1ExRtXm-tW6Ha4JnayPP4J5JXh-A1"};
+
+		var Resources = Resources || {};
+		Resources.General = {
+			OK: 'OK',
+			Cancel: 'Cancel',
+			Yes: 'Yes',
+			No: 'No',
+			NotAvailable: 'N/A',
+			SendingMessage: 'Sending...',
+			Next: 'Next',
+			Previous: 'Previous',
+			ProcessingMessage: 'Processing...',
+			CryptopiaSupportLink: 'Cryptopia Support',
+			LoadingMessage: 'Loading...'
+		};
+		Resources.Layout = {
+			BlockCancelOrderMessage: 'Canceling order...',
+			BlockCancelAllOrdersMessage: 'Canceling all orders...',
+			ConfirmCancelAllOrdersTitle: 'Cancel All Orders?',
+			ConfirmCancelAllOrdersMessage: 'Are you ABSOLUTELY sure you want to cancel ALL your orders for ALL currencies?',
+			ConfirmCancelTradePairTitle: 'Cancel All Orders?',
+			ConfirmCancelTradePairTitleMessage: 'Are you ABSOLUTELY sure you want to cancel ALL orders in this list?',
+			BlockCancelTradePairMessage: 'Canceling orders...',
+			ThemeLightHint: 'Light Mode',
+			ThemeDarkHint: 'Dark Mode',
+			RatingUnrated: 'Unrated',
+			RatingRated: 'Rated',
+			ErrorContactSupportText: 'An error occurred while processing your request. If problems persist please contact {0}Cryptopia Support{1}.',
+			MenuNoNotification: 'No new notifications',
+
+			ExportCsvButton: 'Export page to csv',
+			ExportExcelButton: 'Export page to Excel',
+			ExportPdfButton: 'Export page to pdf',
+			ExportClipboardButton: 'Copy Page',
+			ExportPrintButton: 'Print Page',
+
+			ModalLoadingMessage: 'Loading...',
+			ModalInvalidRequestTitle: 'Invalid Request',
+			modalInvalidRequestMessage1: 'Your request was not formed properly. Please refresh the page and try again.',
+			modalInvalidRequestMessage2: 'If the problem continues, please contact support.'
+		};
+	</script>
+<script src="../bundles/site@v=Z4DqHOHA17oP5e4qG6RnFMl6RLLVTEjXlwVJ5A883Bs1" type="ffefd9a56b5b133c310bea44-text/javascript"></script>
+<script src="../signalr/hubs" type="ffefd9a56b5b133c310bea44-text/javascript"></script>
+<script type="ffefd9a56b5b133c310bea44-text/javascript">
+		var externalChatWindow;
+		var notificationHub = $.connection.notificationHub;
+		initializeWebsocket();
+		setSelectedNavOption('nav-exchange');
+	</script>
+<script type="ffefd9a56b5b133c310bea44-text/javascript">
+		var selectedChart = 'chart'
+		var enableChartAnimations = false;
+		var candlestickChart = true;
+		var stockPriceChart = false;
+		var volumeChart = true;
+		var macdChart = false;
+		var signalChart = false;
+		var histogramChart = false;
+		var smaChart = false;
+		var smaChartValue = 50;
+		var ema1Chart = false;
+		var ema1ChartValue = 30;
+		var ema2Chart = false;
+		var ema2ChartValue = 20;
+		var fibonacciChart = false;
+		var orderBookChartPercent = 0;
+		var distributionChartCount = 100;
+
+		var actionSubmitTrade = '/Exchange/SubmitTrade';
+		var actionTradeChart = '/Exchange/GetTradePairChart';
+		var actionTradePairData = '/Exchange/GetTradePairData';
+		var actionUserOpenTrades = '/Exchange/GetUserOpenTrades';
+		var actionCurrencySummary = '/Exchange/GetCurrencySummary';
+		var actionTradePairUserData = '/Exchange/GetTradePairUserData';
+		var actionDistributionChart = '/Exchange/GetCurrencyDistribution';
+		var actionHideZeroBalances = '/UserSettings/UpdateBalanceHideZero';
+		var actionUpdateChartSettings = '/UserSettings/UpdateChartSettings';
+		var actionShowFavoriteBalances = '/UserSettings/UpdateBalanceFavoritesOnly';
+		var actionTradeBalances = '/UserBalance/GetTradeBalance';
+		var actionSetFavoriteBalance = '/UserBalance/SetFavorite';
+		var actionTradePairBalance = '/UserBalance/GetTradePairBalance';
+
+
+		var selectedMarket = '/';
+		var currentBaseMarket = 'DOGE';
+		var selectedTradePair = {
+			BaseFee: 0,
+			BaseMinTrade: 0,
+			TradePairId:  0,
+		};
+
+		var fullChart = false;
+		var marketSummaryView = true;
+		var showZeroBalances = true;
+		var showFavoriteBalances = false;
+		var isAuthenticated = false;
+
+		$(function () {
+			$('#carousel-example-generic').carousel();
+		});
+
+		var Resources = Resources || {};
+		Resources.Exchange = {
+			MarketPageTitle: 'Market',
+			MarketsLoadingMessage: 'Loading markets...',
+			MarketsEmptyListMessage: 'No markets found.',
+			MarketsSearchPlaceholder: 'Search markets...',
+			BalanceEmptyListMessage: 'No balances found.',
+			OrdersEmptyListMessage: 'You have no open orders.',
+			HistorySellOrdersEmptyList: 'No sell orders.',
+			HistoryBuyOrdersEmptyList: 'No buy orders.',
+			HistoryMarketEmtpyList: 'No market history.',
+			HistoryMyOpenOrdersEmtpyList: 'You have no open orders.',
+			HistoryMyOrdersEmtpyList: 'You have no order history.',
+			TradeNotificationTitle: 'Trade Notification',
+			TradeMinPriceError: 'Invalid trade price, minimum price is {0}',
+			TradeMinTotalError: 'Your trade total must be at least {0} {1}',
+			TradeInsufficientFundsError: 'Insufficient {0} funds.',
+			TradeBuyOrderSubmittedMessage: 'Buy order submitted',
+			TradeSellOrderSubmittedMessage: 'Sell order submitted',
+			InfoSettingsSavedMessage: 'Settings Saved',
+			InfoSettingsFailedMessage: 'Save Failed',
+			DataTablesLanguage:{"emptyTable":"No data available.","info":"Showing _START_ to _END_ of _TOTAL_ entries","infoEmpty":"0 entries","infoFiltered":"(filtered from _MAX_ total entries)","infoThousands":",","lengthMenu":"Show _MENU_ entries","loadingRecords":"Loading...","processing":"Processing...","search":"Search:","zeroRecords":"No records found","paginate":{"first":"First","last":"Last","previous":"Prev","next":"Next"}}
+
+
+		};
+		Resources.Exchange.DataTablesLanguage.emptyTable = 'Loading markets...';
+	</script>
+<script src="../bundles/exchange@v=5xWCAvuGNvO94-nXP33Tcwnr11zljYzxJATr3XH8jcs1" type="ffefd9a56b5b133c310bea44-text/javascript"></script>
+<script type="ffefd9a56b5b133c310bea44-text/javascript">
+		var SecurityWarningModalUrl = '/TwoFactor/SecurityWarningModal';
+
+		var SecurityWarningModalShowWarning = false;
+		var SecurityWarningModalIsSevere = false;
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="ffefd9a56b5b133c310bea44-|49" defer=""></script></body>
+</html>

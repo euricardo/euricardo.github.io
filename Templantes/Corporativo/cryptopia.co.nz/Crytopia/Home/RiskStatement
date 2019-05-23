@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cryptopia - Risk Statement</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="bitcoin, litecoin, dogecoin, dotcoin, crypto, exchange, mining, pools, trading, ethereum, dotcoin, btc, ltc, doge, dot, arbitrage, cryptocurrency, cryptopia">
+<meta name="description" content="Crypto-Currency Trading platform.">
+<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../favicon.ico@v=2" type="image/x-icon" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+<meta name="referrer" content="origin" />
+<link rel="apple-touch-icon" href="../favicon.ico@v=2" />
+<link href="../Content/styles@v=01TMIzgVWRsm72shA-33VwKNIUAfUekbfGj6OtExrAI1" rel="stylesheet" />
+<link href="../Content/Images/Sprites/sprite_sheet.css" rel="stylesheet" />
+<link id="siteTheme" href="../Content/theme-MountainMeadowLight@v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81" rel="stylesheet" />
+<script src="../bundles/site-head@v=nOAFAFDuT8aAWbEjL2Noq7qTCT6qaWEoALl6lxep4D41" type="816bccde2408edafb67ceb76-text/javascript"></script>
+</head>
+<body>
+<input name="__RequestVerificationToken" type="hidden" value="lJW09TgmwWmZeK-Eps2Pwn1WTXJpWu4jKXI5ghZkA1HW5IC1SJvQFWql3dUN075d5edXBjHVJHbtn8eRR6rnxdAUfyqdBo04Dqq454C1qbg1" />
+<div id="cryptopia-nav">
+
+<ul class="mobile-menu pull-right hidden-lg">
+<li class="nohover"><a href="../Home.1"><div class="main-logo"></div></a></li>
+<li class="has-sub">
+<a href="RiskStatement#" style="min-width:70px !important;">
+<div style="margin-top:4px;margin-bottom:-4px">
+<i class="fa fa-2x fa-bars"></i>
+</div>
+</a>
+<ul>
+
+<li style="clear: both;"><a href="../Login.1" class="parent-nav nohover"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
+<li style="clear: both;"><a href="../Exchange.2" class="parent-nav nohover"><i class="fa icon-barchartasc"></i> Exchange</a></li>
+
+<li><a href="../CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+<li><a href="../CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li><a href="../Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="visible-lg">
+<li class="nohover"><a href="../Home.1"><div class="main-logo"></div></a></li>
+<li class="nav-exchange has-sub has-sub-right has-sub-2 has-top-sub">
+<a href="../Exchange.2"><i class="fa icon-barchartasc"></i> Exchange</a>
+</li>
+<li class="nav-coin-listings"><a data-automation-id="coin_listings" href="../CoinListings"><i class="fa icon-value-coins"></i> Coin Listings</a></li>
+<li><a href="https://support.cryptopia.co.nz/csm"><i class="fa fa-question-circle"></i> Support</a></li>
+<li class="nav-coininfo"><a href="../CoinInfo"><i class="fa icon-info-sign"></i> Coin Info</a></li>
+<li class="nav-arbitrage"><a href="../Arbitrage"><i class="fa icon-stockup"></i> Arbitrage</a></li>
+<li class="nav-news"><a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948"><i class="fa fa-newspaper-o"></i> News</a></li>
+</ul>
+
+<ul class="pull-right hidden-xs">
+<li class="pull-right"><a href="../Login/Register">Register</a></li>
+<li class="pull-right leftborder"><a href="../Login.1">Login</a></li>
+</ul>
+</div>
+<div class="content-nofooter">
+ <div class="wrapper-nolist">
+<div class="container">
+<div class="col-lg-12">
+<div class="col-lg-offset-1 col-lg-10 ct-doc-wrapper">
+<h2>CRYPTOPIA RISK STATEMENT</h2>
+<i>Date - 20 April 2018</i>
+<hr />
+<p>
+Cryptopia Limited (<b>Cryptopia</b> or <b>we</b> or <b>us</b>) operates an exchange for trading digital assets including cryptocurrencies and tokens (together, <b>Coins</b>) at <a href="https://www.cryptopia.co.nz" target="_blank">www.cryptopia.co.nz</a> (the <b>Platform</b>).
+</p>
+<p>
+Cryptopia does not permit the trading of Coins which are “financial products” for New Zealand law purposes (also called “securities” outside New Zealand) on the Platform.
+</p>
+<p>
+Cryptopia is a registered as a financial service provider to operate a money or value transfer service (FSP580928). Cryptopia is not required to hold any licence or other registration in order to provide the Platform in New Zealand.
+</p>
+<p>
+This risk statement sets out additional information for users of the Platform. Further terms on which we provide the Platform are set out in the <b>terms and conditions</b> (available on the Platform here <a href="https://www.cryptopia.co.nz/Home/Terms" target="_blank">www.cryptopia.co.nz/Home/Terms</a>). By accessing and using our services, and each time the user (<b>you</b>) uses our services, you acknowledge having read this risk statement and agreeing to the terms and conditions.
+</p>
+<h3>Important warning </h3>
+<ol>
+<li>Buying and selling Coins is highly speculative and carries high risk. You may lose some or all of the money or Coins placed on the Platform. You use the Platform at your own risk.</li>
+<li>You must carefully read all available information, including the risks set out below, and consider your personal financial circumstances before trading on the Platform. If you are unsure about any aspect of trading in Coins, you should seek independent advice before using the Platform.</li>
+</ol>
+<h3>Support requests and complaints</h3>
+<ol start="3">
+<li>
+We offer a free complaints and IT support service in respect of the Platform. We seek to acknowledge customer requests and complaints within three business days and to resolve (where possible) complaints within 5 to 15 business days.
+</li>
+<li>
+During periods of high trading on the Platform, however, it may take us longer to respond to your request or complaint. This can occur from time to time because of the extreme volatility and sensitivity to market sentiment of Coin markets. For this reason, we do not guarantee our response times. We believe it is better that you understand upfront that there may be delays from time to time.
+</li>
+<li>
+If you are unsatisfied with our resolution of your complaint, you can, without charge, contact our approved dispute resolution scheme provider – Financial Dispute Resolution Service – using the details found on its website: <a href="https://fdrs.org.nz/" target="_blank">https://fdrs.org.nz/</a>.
+</li>
+</ol>
+<h3>Risks of using the Platform</h3>
+<i>Market risks</i>
+<ol start="6">
+<li>
+Coins can experience extreme price volatility. The exchange price of a Coin may change significantly and you may be unable to transact Coins or money at the anticipated rate or price. Changes in prices may result in large changes in value and/or losses of Coins or money.
+</li>
+<li>
+Past performance is not a reliable indicator or guarantee of future performance. Coin prices go down as well as up.
+</li>
+<li>
+The value of Coins can be affected by many other factors including (but not limited to) future sales or further issues (e.g. airdrops), negative publicity involving the Coin issuer or project, failure to deliver projects or failure of projects to meet expectations, failure of or material damage to the underlying network (including through cyber-attack), fraud or theft by or affecting the Coin issuer or project, competition in the issuer’s market, technical failures or setbacks, or general global and economic conditions and sentiments. You must research Coins that you are interested in carefully. Their whitepapers or other offer materials may list further risks which are relevant to holding them.
+</li>
+</ol>
+<i>Processing of transactions</i>
+<ol start="9">
+<li>
+There is a risk that transactions cannot be settled or are delayed at settlement, that processing times differ for each transaction, or a transaction may be incorrectly processed. These risks can result from, amongst other issues:
+<ol type="a">
+<li>user error when providing transaction details (such as providing an incorrect wallet address or other information); </li>
+<li>an error in delivering the consideration for a transaction;</li>
+<li>increases in market volume or Platform volume; or</li>
+<li>a failure in the Platform processing systems or a failure in an underlying network or software (see further information below at System risk).</li>
+</ol>
+</li>
+<li>
+It may not be possible to reverse a digital currency transaction once processing has commenced.
+</li>
+</ol>
+<i>System risks</i>
+<ol start="11">
+<li>
+All Coins, including transactions involving those Coins, rely on the operation of underlying networks and software. As this is developing technology, the networks and software may be subject to technical weaknesses, bugs, system failures, and hacks by external parties. These failures may affect the Platform network and software itself or may relate to a Coin’s underlying network and software (including, but not limited to, a weakness in the underlying blockchain). You should understand the operation of the technology underlying a digital currency and the Platform to understand these risks.
+</li>
+<li>
+For example, Coins can be subject to 51% attacks. This refers to an attack on a blockchain by a group of miners controlling more than 50% of the network’s mining hash rate, or computing power, or otherwise controlling the blockchain’s consensus mechanism in an illegitimate manner. If this happens, the attackers may be able to control new transactions, halt payments or transfer and reverse completed transactions. Cryptopia does not control the blockchain or network for Coins and cannot stop this. If we become aware of an attack, we will assess the best response on a case-by-case basis, which may include suspending or removing Coins from our exchange.
+</li>
+<li>
+Hackers are sophisticated, and you may also be targeted by ‘phishing’ attacks or other scams. Phishing includes where third parties masquerade as a legitimate Cryptopia site, social media account, telephone support number or App in order to steal your credentials. You should only access the Cryptopia Web site through its official website (<b>Cryptopia.co.nz</b>). Never click on a link or download an App from a third party. We strongly recommend that you enable two factor authentication for all transactions to prevent unauthorised account use. Your Cryptopia passwords should be unique to Cryptopia and should never be stored insecurely on any personal device. If you are a victim of such an attack or scam, the hacker may be able to get you to send them money or Coins inadvertently or they may steal money or Coins.
+</li>
+<li>
+Your ability to use the Platform, buy or sell Coins, or withdraw money, may be affected by these technical failures or attacks.
+</li>
+<li>
+We will make reasonable efforts to notify users where the Platform, or a particular Coin traded on the Platform, has been subject to a technical weakness, bug, system failure, or hack.
+</li>
+<li>
+We may also need to do maintenance or upgrades on the Platform from time to time which could affect your ability to use the Platform, buy or sell Coins, or withdraw money.
+</li>
+</ol>
+<i>Security of private keys and wallets</i>
+<ol start="17">
+<li>
+You must be careful when choosing a wallet to store or transmit your private keys relating to your Coins. If your wallet is hacked or another person learns your private key/s, you may lose some or all of your Coins. You should not give your private key or wallet passcode to any other person.
+</li>
+<li>
+If you forget or lose your passcode to your wallet/s, Cryptopia has no ability to provide a back-up or details of your private key or passcode, given the decentralised nature of Coins. This may result in the loss of any Coins stored in that wallet.
+</li>
+<li>
+You should use the highest level of security offered for any wallet that you choose.
+</li>
+</ol>
+<i>Cyber security generally</i>
+<ol start="20">
+<li>
+The transmission of information over the internet (including to or from the Platform) is not completely secure or error free. You should stop transacting when it is clear there has been a breach of security or a system failure that poses a risk to security exists (such as malware, ransomware or phishing).
+</li>
+</ol>
+<i>Consumer protection</i>
+<ol start="21">
+<li>
+The Platform does not intend to offer or market regulated financial products or securities. Therefore, the protections which apply to “regulated offers” (within the meaning in the Financial Markets Conduct Act 2013) or in relation to licensed exchanges under New Zealand law do not apply. General consumer protection law may apply, however, to buying or selling Coins on the Platform, including the services provided by us and, to the extent such consumer laws do apply we do not seek to exclude any of your rights that we cannot by law exclude.
+</li>
+</ol>
+<i>Regulatory risks</i>
+<ol start="22">
+<li>
+There is currently no specific regulation of Coins and Coin exchanges in New Zealand, and it is likely that the rules may evolve rapidly. There is also limited guidance on how existing laws and regulations can be applied to Coins and Coin exchanges. New or changing laws and regulations, or interpretations of existing laws and regulations, may adversely impact or significantly change the trading of Coins and the Platform.
+</li>
+<li>
+If we become aware that a Coin which we list is a financial product under New Zealand law, we may de-list it. We may also de-list Coins for other reasons. Delisting may mean that if you hold the Coin there may not be a ready market on which you can sell it, especially if it is not listed on another exchange. You should not assume that any Coin will always be listed by us.
+</li>
+<li>
+Users are responsible for ensuring they comply with all laws regarding the trading of digital currencies applicable in any relevant country for them when using the Platform.
+</li>
+<li>
+Equally, we have no control over whether Coin issuers have complied with laws in any relevant jurisdictions. Any action taken by regulatory authorities or other persons against a Coin issuer or any other person in relation to a Coin may prevent you from selling Coins or otherwise cause a loss in value.
+</li>
+<li>
+Regulatory issues can also cause problems with other important relationships, such as our or your relationship with banks. Many banks currently are shutting accounts which are linked to Coins or dealing in Coins. This has affected our ability to provide certain products.
+</li>
+<li>
+If you are outside of New Zealand you may be subject (or we may become subject) to laws or regulations of other countries which could prevent you from using the Platform or cause us to change the availability of the Platform in your country or how we operate or offer the Platform.
+</li>
+</ol>
+<h3>Other information</h3>
+<ol start="28">
+<li>
+Cryptopia and any person associated with us (including directors, shareholders, employees and any other related parties) may trade and hold digital currencies on our or their own account through the Platform.
+</li>
+<li>
+You need to pay fees for using the Platform. Our trading fees are shown in the trade pair base currency when you place a trade. At time of writing these are set at 0.2% of the trade. This may be subject to change. Withdrawal fees are set per Coin, and clearly shown on the withdraw page. Withdraw fees are adjusted from time to time based on the Coin network fee.
+</li>
+</ol>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+
+<script type="816bccde2408edafb67ceb76-text/javascript">
+_atrk_opts = { atrk_acct:"evhun1QolK10fn", domain:"cryptopia.co.nz",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=evhun1QolK10fn" style="display:none" height="1" width="1" alt="" /></noscript>
+
+</div>
+<div style="clear: both; height: 195px;"></div>
+</div>
+<footer id="footer" style="min-height: 195px; border-top: 1px solid rgba(0, 0, 0, 0.2);" class="panelBg">
+<div class="col-xs-12">
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">Information</h4>
+<a href="Privacy" style="display: block">Privacy Policy</a>
+<a href="Terms" style="display: block">Terms &amp; Conditions</a>
+<a href="RiskStatement" style="display: block">Risk Statement</a>
+<a href="https://support.cryptopia.co.nz/csm/?id=kb_article&sys_id=b53f0f1ddb2d1f009990f6fcbf961920" style="display: block">Fees</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4>Support</h4>
+<a href="https://support.cryptopia.co.nz/" style="display: block">Create Ticket</a>
+<a href="../Support" style="display: block">Contact Us</a>
+<a href="https://support.cryptopia.co.nz/csm" style="display: block">Help Centre &amp; FAQ</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_category&amp;kb_category=1b23f18bdbeddf009990f6fcbf961948" style="display: block">News</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">API</h4>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=40e9c310dbf9130084ed147a3a9619eb" style="display: block">Public API</a>
+<a href="https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=a75703dcdbb9130084ed147a3a9619bc" style="display: block">Private API</a>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 text-center">
+<h4 class="text-info">Social</h4>
+<a href="https://twitter.com/Cryptopia_NZ" style="display: block"><span><i class="fa fa-twitter-square"></i> Twitter</span></a>
+<a href="https://www.facebook.com/cryptopiaexchange" style="display: block"><span><i class="fa fa-facebook-square"></i> Facebook</span></a>
+<a href="https://www.linkedin.com/company/cryptopia-limited" style="display: block"><span><i class="fa fa-linkedin-square"></i> LinkedIn</span></a>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="col-lg-12 col-md-10 col-sm-12 col-xs-12 text-center footer-summary" style="line-height: 1.5em; font-size: 0.8em; margin-bottom: 5px">
+<div class="col-lg-1"></div>
+<div class="col-lg-10 col-md-11 col-sm-11" style="">
+<br>
+Usage of Cryptopia.co.nz indicates acceptance of the Cryptopia Ltd. <a href='Terms' target='_self'>Terms & Conditions</a>.
+<br>
+Cryptopia Ltd. is not responsible for losses caused by outages, network volatility, wallet forks/maintenance or market conditions.
+<br>
+Copyright 2019 Cryptopia Ltd. - All Rights Reserved
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 pull-right" style="z-index: 2; text-align: right;">
+</div>
+</div>
+<div class="clearfix"></div>
+</footer>
+<script id="notificationTemplate" type="text/html">
+	<table class="notification-table">
+		<tr>
+			<td class="notification-header" colspan="2">{{header}}</td>
+		</tr>
+		<tr>
+			<td>
+				<i class="fa {{icon}} fa-4x notification-{{type}}"></i>
+			</td>
+			<td>
+				<p class="notification-message">{{message}}</p>
+			</td>
+		</tr>
+	</table>
+</script>
+<script type="816bccde2408edafb67ceb76-text/javascript">
+		var cdnImagePath = '';
+		var authenticated = 'False';
+		var authenticatedUserName = '';
+		var authenticatedChatHandle = '';
+		var authenticatedAdmin = 'False';
+		var signalrPingInterval = parseInt('300000') || null;
+		var themeHrefs = {"MountainMeadowLight":"/Content/theme-MountainMeadowLight?v=1w9x70-wJAZDSMWQ4azpxxRBeEKnZqijw3rQnsFa0t81","MountainMeadowDark":"/Content/theme-MountainMeadowDark?v=_qBt2wtqaWTzTfq1ExRtXm-tW6Ha4JnayPP4J5JXh-A1"};
+
+		var Resources = Resources || {};
+		Resources.General = {
+			OK: 'OK',
+			Cancel: 'Cancel',
+			Yes: 'Yes',
+			No: 'No',
+			NotAvailable: 'N/A',
+			SendingMessage: 'Sending...',
+			Next: 'Next',
+			Previous: 'Previous',
+			ProcessingMessage: 'Processing...',
+			CryptopiaSupportLink: 'Cryptopia Support',
+			LoadingMessage: 'Loading...'
+		};
+		Resources.Layout = {
+			BlockCancelOrderMessage: 'Canceling order...',
+			BlockCancelAllOrdersMessage: 'Canceling all orders...',
+			ConfirmCancelAllOrdersTitle: 'Cancel All Orders?',
+			ConfirmCancelAllOrdersMessage: 'Are you ABSOLUTELY sure you want to cancel ALL your orders for ALL currencies?',
+			ConfirmCancelTradePairTitle: 'Cancel All Orders?',
+			ConfirmCancelTradePairTitleMessage: 'Are you ABSOLUTELY sure you want to cancel ALL orders in this list?',
+			BlockCancelTradePairMessage: 'Canceling orders...',
+			ThemeLightHint: 'Light Mode',
+			ThemeDarkHint: 'Dark Mode',
+			RatingUnrated: 'Unrated',
+			RatingRated: 'Rated',
+			ErrorContactSupportText: 'An error occurred while processing your request. If problems persist please contact {0}Cryptopia Support{1}.',
+			MenuNoNotification: 'No new notifications',
+
+			ExportCsvButton: 'Export page to csv',
+			ExportExcelButton: 'Export page to Excel',
+			ExportPdfButton: 'Export page to pdf',
+			ExportClipboardButton: 'Copy Page',
+			ExportPrintButton: 'Print Page',
+
+			ModalLoadingMessage: 'Loading...',
+			ModalInvalidRequestTitle: 'Invalid Request',
+			modalInvalidRequestMessage1: 'Your request was not formed properly. Please refresh the page and try again.',
+			modalInvalidRequestMessage2: 'If the problem continues, please contact support.'
+		};
+	</script>
+<script src="../bundles/site@v=Z4DqHOHA17oP5e4qG6RnFMl6RLLVTEjXlwVJ5A883Bs1" type="816bccde2408edafb67ceb76-text/javascript"></script>
+<script src="../signalr/hubs" type="816bccde2408edafb67ceb76-text/javascript"></script>
+<script type="816bccde2408edafb67ceb76-text/javascript">
+		var externalChatWindow;
+		var notificationHub = $.connection.notificationHub;
+		initializeWebsocket();
+		setSelectedNavOption('');
+	</script>
+<script type="816bccde2408edafb67ceb76-text/javascript">
+		var SecurityWarningModalUrl = '/TwoFactor/SecurityWarningModal';
+
+		var SecurityWarningModalShowWarning = false;
+		var SecurityWarningModalIsSevere = false;
+	</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="816bccde2408edafb67ceb76-|49" defer=""></script></body>
+</html>
