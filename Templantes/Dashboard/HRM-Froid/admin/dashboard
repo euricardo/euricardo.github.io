@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+<title> HRM | Login </title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="csrf-token" content="cb3bEiOBAfSjXd53kkQdGuCoJhEORQYwUPfk9kDN">
+<!-- BEGIN  STYLES -->
+<link media="all" type="text/css" rel="stylesheet" href="../assets/global/plugins/font-awesome/css/font-awesome.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="../assets/global/plugins/bootstrap/css/bootstrap.min.css">
+<link media="all" type="text/css" rel="stylesheet" href="../assets/admin/pages/css/login-soft.css">
+<link media="all" type="text/css" rel="stylesheet" href="../assets/global/css/components.css">
+<link media="all" type="text/css" rel="stylesheet" href="../assets/admin/layout/css/layout.css">
+<link media="all" type="text/css" rel="stylesheet" href="../assets/admin/layout/css/themes/darkblue.css">
+<link media="all" type="text/css" rel="stylesheet" href="../assets/global/plugins/froiden-helper/helper.css">
+<!-- END STYLES -->
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+<!-- BEGIN LOGO -->
+<div class="logo">
+	<a href="javacript:;">
+		<img src="../assets/global/img/hrm-logo.png"  width="117px" />
+	</a>
+</div>
+<!-- END LOGO -->
+<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+<div class="menu-toggler sidebar-toggler">
+</div>
+<!-- END SIDEBAR TOGGLER BUTTON -->
+<!-- BEGIN LOGIN -->
+<div class="content">
+	<!-- BEGIN LOGIN FORM -->
+	<form method="POST" action="../index.html" accept-charset="UTF-8" id="adminLogin" class="login-form"><input name="_token" type="hidden" value="cb3bEiOBAfSjXd53kkQdGuCoJhEORQYwUPfk9kDN">
+
+		<h3 class="form-title">Login to your Admin account</h3>
+		<div id="alert">
+
+		</div>
+		<div class="form-group">
+			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+			<label class="control-label visible-ie8 visible-ie9">Email</label>
+			<div class="input-icon">
+				<i class="fa fa-user"></i>
+				<input class="form-control placeholder-no-fix" id="email" type="email" autocomplete="off" placeholder="Email" name="email"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label visible-ie8 visible-ie9">Password</label>
+			<div class="input-icon">
+				<i class="fa fa-lock"></i>
+				<input class="form-control placeholder-no-fix" id="password" type="password" autocomplete="off" placeholder="Password" name="password"/>
+			</div>
+		</div>
+
+		<div class="form-actions">
+
+			<button type="submit" class="btn blue pull-right" id="submitbutton" onclick="login();return false;">
+			Login <i class="m-icon-swapright m-icon-white"></i>
+			</button>
+		</div>
+		<hr>
+		<div class="form-group text-center">
+			<a href="../index.html"><label class="btn btn-sm green ">Go to Employee Panel</label></a>
+		</div>
+
+
+	</form>
+	<!-- END LOGIN FORM -->
+	<hr>
+	<h4 class="box-title">Demo account login credentials</h4>
+	<div class="table-responsive" style="font-size: 12px">
+		<table class="table table-bordered">
+			<thead>
+			<tr>
+				<th>Email</th>
+				<th>Password</th>
+				<th>Copy</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>admin@example.com</td>
+				<td>123456</td>
+				<td><a href="javascript:;" data-email="admin@example.com" data-password="123456" class="text-muted copy-login"><i style="color: #fff;" class="fa fa-clipboard"></i></a></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+	
+	
+</div>
+<!-- END LOGIN -->
+<!-- BEGIN COPYRIGHT -->
+<div class="copyright">
+	  2019 &copy; HRM
+</div>
+<!-- END COPYRIGHT -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="https://hrm.froid.works/assets/global/plugins/respond.min.js"></script>
+<script src="https://hrm.froid.works/assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/global/plugins/jquery.min.js"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/global/plugins/backstretch/jquery.backstretch.min.js"></script>
+<script src="../assets/global/scripts/metronic.js"></script>
+<script src="../assets/admin/layout/scripts/demo.js"></script>
+<script src="../assets/global/plugins/froiden-helper/helper.js"></script>
+
+		<!-- END PAGE LEVEL SCRIPTS -->
+
+<script>
+
+jQuery(document).ready(function() {
+	$.ajaxSetup({
+		headers: {
+			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		}
+	});
+  Metronic.init(); // init metronic core components
+	
+       // init background slide images
+       $.backstretch([
+			"https://hrm.froid.works/assets/admin/pages/media/bg/1.jpg",
+			"https://hrm.froid.works/assets/admin/pages/media/bg/2.jpg",
+			"https://hrm.froid.works/assets/admin/pages/media/bg/3.jpg",
+			"https://hrm.froid.works/assets/admin/pages/media/bg/4.jpg"
+        ], {
+          fade: 1000,
+          duration: 8000
+    }
+    );
+});
+</script>
+
+
+<script>
+function login(){
+	$.easyAjax({
+		type: 'POST',
+		url: "https://hrm.froid.works/admin/login",
+		data: $('#adminLogin').serialize(),
+		container: "#adminLogin",
+		messagePosition: 'inline',
+		success: function (response) {
+			if (response.status == "success") {
+				$('#login-form')[0].reset();
+			}
+		}
+	});
+	return false;
+}
+$('.copy-login').click(function () {
+	var email = $(this).data('email');
+	var password = $(this).data('password');
+	$('#email').val(email);
+	$('#password').val(password);
+})
+    
+</script>
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

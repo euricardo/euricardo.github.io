@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>HRM | Login Page</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- CSS Global Compulsory -->
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/plugins/line-icons/line-icons.css">
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- CSS Page Style -->
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/css/pages/page_log_reg_v2.css">
+
+    <!-- CSS Theme -->
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/css/theme-colors/default.css">
+
+    <!-- CSS Customization -->
+    <link media="all" type="text/css" rel="stylesheet" href="front_assets/css/custom.css">
+    <link media="all" type="text/css" rel="stylesheet" href="assets/global/plugins/froiden-helper/helper.css">
+</head> 
+
+<body>
+<!--=== Content Part ===-->    
+<div class="container">
+    <!--Reg Block-->
+    <form method="POST" action="index.html" accept-charset="UTF-8" id="login-form"><input name="_token" type="hidden" value="cb3bEiOBAfSjXd53kkQdGuCoJhEORQYwUPfk9kDN">
+    <div class="reg-block">
+        <div class="reg-block-header">
+            <h2><img src="assets/global/img/hrm-logo.png" width="117px" /></h2>
+            <h3 class="text-center">Employee Panel</h3>
+        </div>
+
+        <div id="alert"></div>
+
+        <div class="form-group rem margin-bottom-20">
+            <div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" class="form-control" id="email" name="email"
+                           placeholder="Email" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group rem margin-bottom-20">
+            <div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" id="password" name="password"
+                           placeholder="Password"
+                           required>
+                </div>
+            </div>
+        </div>
+
+        <label style="font-weight: normal;" class="margin-bottom-20 rem">
+            <input type="checkbox" name="remember"> Always stay signed in
+        </label>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <button type="submit" class="btn-u btn-block input-group" id="submitbutton"
+                        onclick="login(); return false;">Login</button>
+            </div>
+        </div>
+        <hr>
+        <h4 class="box-title">Demo account login credentials</h4>
+        <div class="table-responsive" style="font-size: 12px">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Copy</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>employee@example.com</td>
+                    <td>123456</td>
+                    <td><a href="javascript:;" data-email="employee@example.com" data-password="123456" class="text-muted copy-login"><i class="fa fa-clipboard"></i></a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <p>Go to admin demo <a href="admin/dashboard" style="text-decoration: none;text-shadow: none;
+    color: #5b9bd1;"><b>Admin Panel</b></a> </p>
+        </div>
+    </div>
+    <!--End Reg Block-->
+    </form>
+</div><!--/container-->
+<!--=== End Content Part ===-->
+<!-- JS Global Compulsory -->
+<script src="front_assets/plugins/jquery/jquery.min.js"></script>
+<script src="front_assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="front_assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="front_assets/plugins/back-to-top.js"></script>
+<script src="front_assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+<script src="assets/global/plugins/froiden-helper/helper.js"></script>
+
+<script type="text/javascript">
+    $.backstretch([
+    "https://hrm.froid.works/front_assets/img/bg/5.jpg",
+    "https://hrm.froid.works/front_assets/img/bg/4.jpg"
+
+    ], {
+        fade: 1000,
+        duration: 7000
+    });
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://hrm.froid.works/front_assets/plugins/respond.js"></script>
+<script src="https://hrm.froid.works/front_assets/plugins/html5shiv.js"></script>
+<script src="https://hrm.froid.works/front_assets/js/plugins/placeholder-IE-fixes.js"></script>
+
+
+<![endif]-->
+<!-- JS Customization -->
+
+<script>
+    function login(){
+
+        $.easyAjax({
+            type: 'POST',
+            url: "https://hrm.froid.works/login",
+            data: $('#login-form').serialize(),
+            container: "#login-form",
+            messagePosition: 'inline',
+            success: function (response) {
+                if (response.status == "success") {
+                    $('#login-form')[0].reset();
+                }
+            }
+        });
+        return false;
+    }
+    $('.copy-login').click(function () {
+        var email = $(this).data('email');
+        var password = $(this).data('password');
+        $('#email').val(email);
+        $('#password').val(password);
+    })
+</script>
+</body>
+</html> 
