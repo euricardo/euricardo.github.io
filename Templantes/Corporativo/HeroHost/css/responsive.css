@@ -1,0 +1,48 @@
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+.demo-bg {
+  height: 162px;
+  left: 12px;
+  top: 10px;
+  width: 269px;
+}
+
+}
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.demo-bg {
+  height: 191px;
+  left: 14px;
+  top: 13px;
+  width: 317px;
+}
+
+}
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+.container {
+  width: 450px;
+}
+.demo-bg {
+  height: 232px;
+  left: 18px;
+  top: 16px;
+  width: 385px;
+}
+
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+.container {
+  width: 300px;
+}
+.demo-bg {
+  height: 150px;
+  left: 11px;
+  top: 10px;
+  width: 248px;
+}
+
+}

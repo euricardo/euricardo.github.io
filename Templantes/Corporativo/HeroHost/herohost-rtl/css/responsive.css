@@ -1,0 +1,348 @@
+/* large desktop :1400px. */
+@media (min-width: 1400px) and (max-width: 2000px) {
+    .slider-content h4 {font-size: 48px; line-height: 70px}
+    .slider-content h1.title {font-size: 40px; line-height: 40px}
+    .slider-content p { font-size: 24px; font-weight: 400; line-height: 30px;  margin-bottom: 75px}
+    .slider-button {padding: 18px 47px; margin-bottom: 130px}
+    .home-three .nivo_text .slider-content.slider-text-2 h1{ font-size: 48px}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 {font-size: 150px; margin-top: 170px}
+    .home-two .nivo_text .slider-content.slider-text-2 p {letter-spacing: 17px}
+    .support-area.home-two, .support-area.home-three {padding-top: 150px}
+    .home-two .nivo_text .slider-content.slider-text-2 p {margin-bottom: 50px;}
+    .home-two .single-support-info > h5 {margin-top: 65px}
+    .home-two .nivo_text {left: 24%}
+    .single-support-info > p {line-height: 25px}
+    .home-six .slider-content.slider-text-1 h4 {font-size: 30px}
+    .home-six .slider-content.slider-text-2 h1 {font-size: 65px}
+    .home-six .slider-content.slider-text-3 p {font-size: 24px; margin-bottom: 115px}
+    .support-area.home-three{bottom: 8%}
+    .home-three .single-service { padding: 0 23px 110px}
+    .home-three .left .single-service {margin-right: -165px}
+    .home-three .right .single-service {margin-left: -165px}
+    .left .single-service:nth-child(2) { margin-right: -110px}
+    .right .single-service:nth-child(2) { margin-left: -110px}
+    .contact-area.home-four::before {font-size: 217px; top: -117px}
+    .home-five .slider-content.slider-text-1 h1 {font-size: 150px;line-height: 130px;margin-bottom: 45px}
+    .home-five .slider-content.slider-text-2 p {margin-bottom: 100px}
+    .domain-area::before {font-size: 100px; top: 72px}
+    .banner-area.hosting::before {font-size: 150px;top: 64px}
+    .managed-img {margin-left: 100px; margin-top: 65px}
+    .managed-img img {max-width: 90%}
+    .client-info { margin-left: -4.4%}
+    .support-area.home-two {bottom: 60px}
+    .client-info { margin-top: 8.5%}
+    .home-three .client-info {margin-top: 2.8%}
+    .service-area.home-four {padding: 115px 0}
+    .support-area.home-four { bottom: -15%}
+    .home-four .nivo_text.slider-two .slider-content.slider-text-2 h1 {font-size: 150px}
+    .service-area.home-four .single-service {margin-top: 100px}
+}
+/* desktop 1200px to 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.container {width:970px}
+    .subscribe-form input[type="submit"] {margin-top: 20px}
+    .client-info{margin-left: -6%}
+    .test-info {margin-left: 66px; margin-top: 7px}
+    .home-four .nivo_text {top: 15%}
+    .home-four .enter-name > input[type="text"] {width: 445px}
+    .home-five .highlight-left-info > p {left: 78%}
+    .highlight-area.home-five {padding: 115px 0 0px}
+    .testimonial-info::after {content:""}
+    .client-info { margin-top: 15%}
+    .news-single-widget h4::after {width: 210px}
+    .single-post-meta { padding-right: 95px}
+    .single-post::before {height: 600px}
+    .zoomContainer{display: none}
+    .product-thumb ul li { width: 21.8%}
+    .single-best-service {padding: 40px 25px 20px}
+    .home-three .nivo-caption {top: 38%}
+    .home-two .nivo-caption {top: 32%}
+    .enter-name > input[type="text"], .subscribe-form input[type="text"] {width: 363px}
+    .client-info {margin-top: 12%;margin-left: -18%}
+    .single-testimonial:nth-child(2n) .client-info {margin-left: -305px}
+    .best-service-area.service-area.text-right .header-title-left::before {right: -70px}
+    .banner-area.hosting::before {font-size: 115px}
+    .home-five .slider-content.slider-text-1 h1 {font-size: 70px;line-height: 70px}
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.container {width:750px}
+    .mobile-menu-area {display:block}
+    .mainmenu {display: none}
+    .header-search {padding-top: 32px}
+    .home-five .header-search {padding-top: 40px}
+    .home-three .header-search {padding-top: 0px}
+    .header-title-left > span, .service-area .header-title-left > span { margin-left: 32%}
+    .header-title-left { float: none}
+    .single-pricing.standard { margin-top: 0px}
+    .managed-area-info {padding: 90px 60px 60px}
+    .sign-up {text-align: left; margin-bottom: 20px}
+    a.sign-up-now { margin-top: 20px}
+    .latest-news-area .header-title-left > span {margin-left: 28.3%}
+    .header-info.faq {margin-top: 30px}
+    .test-ingo { margin-left: -12%; margin-top: 170%}
+    .test-img {right: 58%; top: 125px}
+    a.get-started {float: left}  
+    .single-domain-services {margin-right: 160px}
+    .nivo_text{left:5%}
+    .header-title-left > span { margin-right: 23%}
+    .client-info { display: inline-block; margin-left: -6.2%; margin-top: 5px; width: 25%}
+    .test-img {right: 11%}
+    .test-info {margin-left: 54px;margin-top: 132px}
+    .features-area {padding-bottom: 48px}
+    .header-info.faq { margin-top: 70px}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 { margin-top: 116px}
+    .home-two .enter-name > input[type="text"] {width: 540px}
+    .home-two .client-info, .home-three .client-info { margin-top: -10.5%}
+    .home-three .left .single-service {margin-right: 0px}
+    .home-three .left .single-service { margin-right: 185px}
+    .home-four .nivo_text {top: 7%}
+    .home-four .nivo_text .slider-content.slider-text-2 h1 {font-size: 34px}
+    .support-area.home-four {bottom: -55%}
+    .contact-area.home-four::before, .our-blog-area.home-four::before, .domain-area.home-four::before, .pricing-plan-area.home-four::before {
+        font-size: 100px;top: -34px}
+    .home-four .enter-name > input[type="text"] {width: 425px}
+    .home-four .our-blog-img img{width: 100%; margin-bottom: 30px}
+    .single-instagram {  width: 16.668%}
+    .home-five .slider-content.slider-text-1 h1 {font-size: 60px;line-height: 53px}
+    .highlight-area.home-five {padding: 115px 0 0}
+    .domain-area.home-six .enter-name > input[type="text"] {width: 540px}
+    .service-area.home-six{background: #fff}
+    .testimonial-info::after {content:""}
+    .who-img img, .single-best-service-img img {width: 100%}
+    .who-info {margin-top: 65px; margin-bottom: 65px}
+    .skill-service-area .header-title-left > span {margin-right: 26%}
+    .our-team-area.service-area .header-title-left > span {margin-left: 40%}
+    a.cart-button {margin-left: 0px; margin-top: 30px}
+    .cart-area .col-md-4:nth-child(2){margin: 70px 0}
+    .single-domain-services {margin-right: 55px;margin-left: 0px;}
+    .proceed-checkout {float: right; width: 50%}
+    .single-cart-box { padding: 25px 20px 65px}
+    .inner-step h5::after, .guest-or-user h5::after{background: none}
+    .registered-user{margin-top: 30px}
+    .single-post-meta {border-right: none; padding-right: 120px}
+    .single-post-meta-wrapper {padding: 0px 0 32px}
+    .single-post::before {height: 650px}
+    .news-sidebar-widgets { margin-top: 70px}
+    .zoomContainer{display: none} 
+    .product-detail.shop-product-text {margin-bottom: 50px}
+    .best-service-area.service-area .header-title-left > span {margin-right: 18%}
+    .service-row .col-md-6:first-child .single-best-service { margin-bottom: 30px}
+    .service-row .col-md-6:nth-child(2) .single-best-service { margin-top: 30px}
+    .header-area.home-two, .header-area.home-three, .header-area.home-four, .header-area.home-five {position: inherit;background: #092137}
+    .subscribe{border-left: none;padding-left: 0px}
+    .news-area.our-blog-area.home-four .our-blog-img{margin-top: 50px}
+    .single-pricing {overflow: hidden}
+    .domain-area.text-right {padding-right: 108px}
+    .sign-up {margin-top: 20px;text-align: right;}
+    .client-info { margin-left: -14.2%}
+    .home-two .nivo-caption, .home-three .nivo-caption {height: 51%}
+    .subscribe {  border-right: none;  padding-right: 0px;}
+    .our-blog-area.home-four .row:nth-child(2) .col-md-6.col-xs-12 .our-blog-img {margin-top: 100px}
+    .contact-address-four {  margin-bottom: 50px}
+    .who-area { padding-top: 0}
+    .skill-bar-wraper { margin-top: 70px}
+    .header-title-left::before {left: auto; right: -83%}
+    .latest-news-area { padding-top: 0px}
+    .question-accordion { margin-bottom: 60px}
+    .home-two .nivo-caption, .home-three .nivo-caption { height: 55%}
+    .home-two .nivo-caption{top: 12%}
+    .home-three .nivo-caption {top: 31%}
+    .home-six .nivo_text {left: -57px}
+    .single-testimonial:nth-child(2n) .client-info { margin-left: -230px}
+    .news-area.our-blog-area.home-four .row:nth-child(2n+1) { padding-bottom: 0px}
+    .news-area.our-blog-area .page-indicator {padding-bottom: 50px}
+    .banner-area.hosting::before {font-size: 73px; top: 126px}
+    .home-four .header-right {padding: 15px 0}
+    .home-three .header-right, .home-four .header-right {float: left}
+}
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+    .mobile-menu-area {display:block}
+    .home-three .header-right, .home-four .header-right {float: left}
+    .mainmenu, .client-info, .exp-left, .testimonial-owl-two.owl-theme .owl-controls .owl-pagination div {display: none}
+    .header-search {padding-top: 32px}
+    .slider-content h4 {font-size: 12px; line-height: 30px}
+    .preview-2 .nivo-directionNav a::after {font-size: 15px; left: 0px; width: 18px}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 {font-size: 30px; margin-top: 2px}
+    .home-three .nivo_text .slider-content.slider-text-1 h3 {letter-spacing: 18px}
+    .home-three .nivo_text .slider-content.slider-text-2 h1 {font-size: 15px}
+    .home-two .nivo_text .slider-content.slider-text-2 p { margin-bottom: 4px}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 {margin-top: -6px}
+    .home-two .nivo-caption, .home-three .nivo-caption {height: 50%}
+    .slider-button {font-size: 10px; padding: 5px 5px; margin-bottom: 0}
+    .home-four .nivo_text .slider-content.slider-text-2 h1 {font-size: 18px}
+    .home-four .nivo_text.slider-two .slider-content.slider-text-2 h1 {font-size: 25px; margin-bottom: 10px}
+    .home-five .slider-content.slider-text-1 h1 {font-size: 25px; line-height: 25px; margin-bottom: 5px}
+    .home-five .slider-button {padding: 5px 10px}
+    .home-five .nivo_text {left: 10%}
+    .home-six .slider-content.slider-text-1 h4 {font-size: 15px}
+    .home-three .nivo_text.slider-two {margin-top: 12px}
+    .header-title-left > h2 {font-size: 22px}
+    .home-three .header-search, .home-four .header-search {padding-top: 10px}
+    .domain-checkbox input {margin-right: 12px; margin-left: 5px}
+    .single-domain-services {float: none; margin-bottom: 50px; margin-left: 0}
+    .domain-info {padding-top: 80px; padding-bottom: 30px}
+    .domain-search, .domain-name > input[type="submit"], .domain-checkbox, .single-fun-factor.text-center {margin-bottom: 30px}
+    .single-pricing, .single-pricing.standard { margin-top: 40px}
+    .testimonial-info > p {margin-top: 50px; padding: 30px}
+    .single-support {padding-bottom: 0}
+    .support-area{padding-bottom: 60px}
+    .enter-name > input[type="text"], .subscribe-form input[type="text"] {width: 250px}
+    .enter-name::after{background: none}
+    .enter-name > span {left: 13%}
+    .domain-area::before, .pricing-plan-area::before, .service-area::before, .testimonial-area::before {font-size: 45px}
+    .header-title-left::before {right: -95px}
+    .domain-info {padding-top: 0px}
+    .domain-area {padding-bottom: 20px; padding-top: 0px}
+    .single-pricing {padding-top: 15px}
+    .amount-per-month { top: 20%}
+    .exp-right {border-left: none; padding-left: 0px;text-align: center; width: 100%}
+    .subscribe-form input {margin-bottom: 20px}
+    .features-info li {line-height: 30px}
+    .testimonial-info {padding: 0px; width: 100%}
+    .testimonial-info::after { content: "";}
+    .testimonial-info > p {margin-top: 0px}
+    .standard::after {top: 1.5%}
+    .footer-widget {padding-bottom: 60px}
+    .footer-menu ul li { margin-right: 12px}
+    .header-title-left.questions > span{margin-left: 64%}
+    .latest-news-area .header-title-left > span{margin-left: 68%}
+    .service-area .header-title-left > span {margin-left: 69%}
+    .features-img, .header-info.faq {padding-top: 80px}
+    .managed-area-info {padding: 90px 15px 60px}
+    .header-area.home-two, .header-area.home-three, .header-area.home-four, .header-area.home-five {position: inherit}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 {font-size: 30px; margin-top: -8px}
+    .service-area.home-two .header-title h2::before, .domain-area.home-two .header-title h2::before, .pricing-plan-area.home-two .header-title h2::before {content: ""}
+    .home-two .enter-name > input[type="text"] {width: 270px}
+    .exp-right p {  padding-left: 0px}
+    .single-pricing, .single-pricing.standard { margin-top: 55px}
+    .left .single-service:nth-child(2), .home-three .left .single-service {margin-right: 0px}
+    .sign-up h2, .features-area h1 {text-align: right; display: inline-block}
+    .home-four .promotion-button, .sign-up {float: right}
+    .started-button {float: left}
+    .subscribe { padding-right: 0px}
+    .experience-area.home-four {padding: 70px 0 70px}
+    .home-four .enter-name > input[type="text"] { width: 260px}
+    .contact-area.home-four::before, .our-blog-area.home-four::before, .domain-area.home-four::before, .pricing-plan-area.home-four::before {
+    font-size: 70px; top: -30px}
+    .experience-area.home-four .header-title-info > p, .domain-area.home-four .header-title-info > p, .pricing-plan-area.home-four .header-title-info > p, .our-blog-area.home-four .header-title-info > p, .contact-area.home-four .header-title-info > p {margin-bottom: 20px}
+    .single-pricing, .pricing-plan-area.home-four .single-pricing.standard {margin-top: 60px}
+    .our-blog-area.home-four .our-blog-info.text-left:first-child > h5 {margin-top: 30px}
+    .our-blog-area.home-four .row:nth-child(2) {padding-bottom: 20px}
+    .subscribe {border-right: none}
+    .single-instagram { width: 50%} 
+    .home-five .highlight-left,.download-img > img, .download-text {padding-left: 0px; padding-right: 20px}
+    .highlight-area.home-five {padding: 115px 0 0}
+    .google-play {margin-top: 30px}
+    .home-five .filter-menu > ul > li {display: block; float: left; width: 100%}
+    .support-area.home-six .single-support {padding-bottom: 20px}
+    .domain-area.home-six .enter-name > input[type="text"] {width: 270px}
+    .service-area.home-six{background: #fff}
+    .banner-text {padding: 28px 60px 35px 0}
+    .banner-area.hosting::before, .banner-area.services::before, .skill-service-area::before, .banner-area.team::before, .banner-area.about::before, .banner-area.news::before, .banner-area.grid::before, .banner-area.detail::before, .banner-area.contact::before, .banner-area.checkout::before, .banner-area.cart::before, .banner-area.product-details::before {font-size: 55px; top: 125px}
+    .banner-area.product-details::before{font-size: 55px; top: 88px}
+    .who-info{margin-top: 60px}
+    .best-service-area.service-area .header-title-left > span, .skill-service-area .header-title-left > span { margin-left: 0%}
+    .our-team-area.service-area .header-title-left > span {margin-left: 21%}
+    .header-title-left > h2 {margin-left: 5px}
+    .single-member {margin-bottom: 40px}
+    .our-team-area.service-area .col-md-3.hidden-sm .single-member {margin-bottom: 0px}
+    .fun-factor-area .col-md-3.col-sm-4 {display: inline-block; margin-bottom: 35px}
+     .header-title-left > span {display: block; margin-right: 71%}
+    a.cart-button { margin-left: 0px; margin-bottom: 20px;float: left}
+    .cart-area .col-md-4:nth-child(2){margin: 30px 0}
+    .mul-add {margin-top: 20px}
+    .inner-step h5::after, .guest-or-user h5::after{background: none}
+    .registered-user{margin-top: 30px}
+    .banner-title > h2{font-size: 20px}
+    .single-post-meta {border-right: none; padding-right: 3px}
+    .author {float: inherit}
+    .comment_box {overflow: inherit;margin-top: 30px}
+     ul.children_comment {padding-left: 15px}
+    .single-post-meta-wrapper {padding: 0px 0 32px}
+    .home-four .post-meta ul li {border-right: none; display: block; padding: 5px 0px}
+    .news-area.our-blog-area.home-four .row {padding-bottom: 30px}
+    .single-post {margin-right: 0px;padding-right: 0px}
+    .single-post::before {background: none}
+    .zoomContainer{display: none}
+    .product-thumb ul li {width: 20%}
+    .product-detail.shop-product-text{margin-bottom: 50px}
+     #quantity-wanted-p {margin-right: 25px}
+    .product-detail.shop-product-text a.star {margin-top: 15px}
+    .filter-by {border-right: medium none}
+    .home-five.products-grid-area select {padding-left:0px}
+    .service-row .col-md-6:first-child .single-best-service { margin-bottom: 30px}
+    .service-row .col-md-6:nth-child(2) .single-best-service { margin-top: 30px}
+    .single-best-service {padding: 40px 25px 20px}
+    .header-title-right > p { padding-top: 70px}
+    .single-member-round {margin-bottom: 45px}
+    .team-member-round .col-md-3.hidden-sm .single-member-round {margin-bottom: 0px}
+    .home-four .single-fun-factor {border-right: none}
+    .home-four.support-area {padding-bottom: 0px}
+    .domain-search {text-align: center}
+    .fun-factor-area.home-six .single-fun-factor {display: block; padding-top: 58px; margin: auto }
+    .news-area.our-blog-area.home-four .our-blog-img{margin-top: 50px}
+    .newsletter-area.home-three .sign-up, .newsletter-area.home-four .sign-up {float: right}
+    .our-blog-area.home-four .row:nth-child(2) .col-md-6.col-xs-12 .our-blog-img {margin-top: 50px}
+    .our-blog-area.home-four .row:nth-child(3) .col-md-6.col-xs-12 .our-blog-info {margin-top: 50px}
+    .who-area, .latest-news-area { padding-top: 0px}
+    .skill-service-area .header-info, .question-accordion {margin-bottom: 40px;}
+    .service-area .header-title-left > span {margin-left: 0%}
+    .home-three .experience-info{margin-bottom: 45px}
+    .contact-address-four .address-info {padding-right: 5px}
+    .apple-store {margin-right: 0;}
+    .home-six .domain-search {margin-top: 70px}
+    .enter-name > input[type="text"], .subscribe-form input[type="text"] { margin-left: 0px}
+    .news-area.our-blog-area.home-four .row:nth-child(2n) .col-md-6.col-xs-12 .our-blog-info{ padding-top: 70px}
+    .single-rating-review {margin-left: 10px;padding-left: 10px}
+    .header-title-left > span {margin-right: 68%}
+    .contact-us-area.contact-area .col-md-8 > form {margin-top: 45px}
+    .pricing-plan-area.home-three .single-pricing {margin-top: 0px}
+    .pricing-plan-area.home-three .single-pricing.standard {padding-top: 72px}
+    .footer-bottom-area {padding-bottom: 20px;text-align: center}
+    .header-area.home-two, .header-area.home-three, .header-area.home-four, .header-area.home-five {background: #092137 none repeat scroll 0 0;
+  position: inherit}
+    .search {top: 94px}
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+    .mobile-menu-area {display:block}
+    .home-three .header-search {padding-top: 18px}, .home-four .header-search {padding-top: 18px}
+    .mainmenu, .header-title-right {display: none}
+    .footer-menu{float:left}.pricing-title::before, 
+    .pricing-title::after {bottom: -41px; height: 50px; width: 62%}
+    .latest-news-img.left img, member-pic a img{width: 100%}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 {font-size: 30px}
+    .cart-button.text-right:first-child a.cart-button{margin-right: 10px}
+    .filter-by {display: block; width: 100%}
+    .single-domain-services {float: right; margin-left: 0;  margin-right: 50px}
+    .header-title-left {margin-top: 100px}
+    .domain-area::before {right: 0}
+    .pricing-plan-area, .service-area, .header-info.faq, .latest-news-area, .testimonial-area {padding-top: 0px}
+    .pricing-plan-area::before, .service-area::before {top: 88px}
+    .sign-up, .home-four .promotion-button {float: right;margin-left: 25px}
+    .started-button {float: left;margin-right: 25px}
+    .header-title-left::before { right: -70px}
+    .testimonial-area.home-two{padding-top: 80px}
+    .service-area.home-six.text-right, .pricing-plan-area.home-six{padding-top: 95px}
+    .header-title-left > span { margin-right: 66%}
+    .slider-content h4 {font-size: 22px; line-height: 60px}
+    .home-two .nivo_text .slider-content.slider-text-1 h1 {font-size: 38px; letter-spacing: 10px; margin-bottom: 10px}
+    .home-two .nivo_text .slider-content.slider-text-2 p {font-size: 25px; line-height: 30px; margin-bottom: 30px}
+    .slider-button { font-size: 12px;  margi: 0; padding: 10px 20px}
+    .nivo-caption {top: 28%}
+    .home-three .nivo_text .slider-content.slider-text-1 h3 {font-size: 40px; margin-bottom: 50px}
+    .home-three .nivo_text .slider-content.slider-text-2 h1 {font-size: 30px; margin-bottom: 50px}
+    .home-four .nivo_text .slider-content.slider-text-2 h1 {font-size: 25px; margin-bottom: 35px}
+    .home-four .nivo_text {top: 30%}
+    .home-four .nivo_text.slider-two .slider-content.slider-text-2 h1 {font-size: 35px; margin-bottom: 30px}
+    .home-five .slider-content.slider-text-1 h1 {font-size: 45px; line-height: 45px; margin-bottom: 14px}
+    .home-five .nivo-caption {top: 19%}
+    .home-six .slider-content.slider-text-1 h4 {font-size: 30px; margin-bottom: 15px}
+}
