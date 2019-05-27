@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+	<html>
+			<meta charset="UTF-8">
+	<title>Bookmydoc</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../../admin/uploads/common/1493899510_fav__icon.png" type="image/jpg" sizes="16x16">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/hover-min.css">
+<!-- Select2 -->
+	<link rel="stylesheet" href="../css/select2.min.css">
+<!-- Theme style -->
+	<link rel="stylesheet" href="../css/AdminLTE.min.css">		
+	<link rel="stylesheet" href="../css/common.css"> 
+<!--  calendar --->
+	<link rel="stylesheet" href="../css/appointment/calendar.css">   
+<!--common-head-css -->
+	<link rel="stylesheet" href="../css/jquery.timepicker.css">
+	<link rel="stylesheet" href="../css/datepicker.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/responsive.css">
+
+		<body class="hold-transition  sidebar-mini">
+			<div class="wrapper">
+			<nav class="navbar navbar-default nav-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-xs-4 col-sm-12 logo-col">
+                <div class="logo animated fadeInLeft">
+                    <a href="../../index.html"><img src="../../admin/uploads/common/1493899510_logo.png"  class="img-responsive col-lg-12 col-xs-12 col-sm-3" alt=""/></a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-xs-8 col-sm-12 header-sgnin">
+                <div class="signin">
+                    <ul>
+					    							<li ><a href = "../../Login/presignup"><img src="../images/home/1.png" />Signup </a></li>
+							<li onclick="mysigninFunction()" data-toggle="modal" class="log-index" data-target="#myModal"><img src="../images/home/2.png" />Signin </li>
+											</ul>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="navbar-header navbar-header-resp">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-head animated fadeInDown">
+                        <li class="active m-1"><a href="../../index.html">Home     <span class="sr-only">(current)</span></a></li>
+                        <li><a href = "../../General/aboutus">About Us</a></li>
+                        <li><a href = "../../General/careers">Careers </a></li>
+                        <li><a href = "../../General/contact">  Contact  </a></li>
+                        <li><a href = "../../General/terms">Terms </a></li>
+                        <li><a href="javascript:void(0);"> FAQ </a></li>
+                        <li><a href="javascript:void(0);"> Blog  </a></li>
+                        <li><a href="javascript:void(0);">  Doctor Blog  </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade bac-modal" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content login-modal">
+                <button type="button"  onclick="mysigninclickFunction()" class="btn btn-default close-mdl" data-dismiss="modal"><img src="../images/login/2.png" /> </button>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="errormsg"> </div>
+						<div class="login-top">                                            
+						<div class="main-lg-new active" id="signinlist">
+							<form id="form_login" action="LANENAR-webfont.eot" method="post" data-parsley-validate="" class="validate">
+								<div class="col-lg-12">
+									<h3><span><img src="../images/home/1.png" /></span>SIGN IN</h3>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<input type="email" name="email" class="form-control" id="email" placeholder="Email" data-parsley-trigger="change" data-parsley-type="email" required="">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<input type="password" name="password" class="form-control" id="password" placeholder="Password" data-parsley-minlength="6" required="">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<div class="forget-pass">
+											<h4><a href="javascript:void(0);" class="frgt-pass">Forgot your Password?</a></h4>
+											<h4><button type="submit" class="log-in-a">Signin</button></h4>
+										</div>
+									</div>							  	
+								</div>
+							</form>
+						</div>						
+						<!---- new --->
+						<div class="main-lg-reset">
+							<form id="form_forgot" action="LANENAR-webfont.eot" method="post" data-parsley-validate="" class="validate">
+								<div class="col-lg-12">
+									<h3><span><img src="../images/home/2.png" /></span>Forgot Password</h3>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<input type="email" name="email" id="femail" class="form-control"  placeholder="Email" >
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<div class="forget-pass">
+											<h4><button type="submit" class="log-in-a">Submit</button></h4>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>					
+					</div>
+				</div>			  			  
+				<div class="col-lg-6">
+					<div class="bac-right-login">
+						<h4>I'm new in Bookmydoc</h4>
+						<h5>Sign up for a book my doc account to book an appointment right now!</h5>
+						<a href = "../../Login/presignup">Sign up Now !</a>
+					</div>
+				</div>
+			</div>
+		</div>
+        </div>
+    </div>
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Creepster|Audiowide' rel='stylesheet' type='text/css'>
+    <title>Error</title>
+</head>
+<body>
+<div class="container-fluid about-bac-another">
+    <div class="container">
+        <div class="f-f4">
+            <h1><img src="http://demo.bookmydoc.in//assets/images/home/404.png" /></h1>
+            <h2>error <span>404!</span></h2>
+            <h3>Oops! Seems like some unexpected error has occurred.</h3>
+            <h4>Please <a href="../../index.html">click here</a> to go to the home page.</h4>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-10">
+                <div class="menu-footer">
+                    <ul>
+                        <li class="active"><a href="../../index.html">الرئيسية</a>  </li>
+                        <li> <a href = "../../General/aboutus">A Propos</a> </li>
+						 <li><a href = "../../General/terms">Terms</a></li>
+                        <li><a href = "../../General/careers">Careers</a></li>
+                        <li><a href = "../../General/contact">Contact </a></li>
+						<li><a href="javascript:void(0);">FAQ </a></li>
+                        <li><a href="javascript:void(0);">Blog </a></li>
+                        <li><a href="javascript:void(0);">Doctor Blog </a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text">
+                    <h3>OUR LOCATION</h3>
+                    <p>Make appointments on the go, right from your smartphone, with our top-rated mobile app</p>
+                    <h6><span><i class="fa fa-envelope"></i> </span>By E-mail:  info@Bookmydoc.com </h6>
+                    <h6><span><i class="fa fa-phone"></i> </span>By Phone: </h6>
+                    <h6><span><i class="fa fa-map-marker"></i> </span>Address: 121, honey Street, Home City, USA</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text ">
+                    <h3>How It Works ?</h3>
+                    <ul>
+                        <li>How Bookmydoc Works</li>
+						<li>Bookmydoc in Safety</li>
+						<li>Terms & Conditions</li>
+						<li>Contact Us</li>
+						<li>Policies</li>																		
+						<li>Faqs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix hidden-lg hidden-md hidden-sm"></div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text">
+                    <h3>About Us</h3>
+                    <ul>
+						<li>Bookmydoc For Business</li>                         
+						<li>Bookmydoc Premium</li>
+						<li>Careers@Bookmydoc</li>	
+						<li>Equipe Bookmydoc </li>  
+						<li>Bookmydoc Blog</li>	
+						<li>Support</li>
+                    </ul>                    
+                </div>
+            </div>
+				
+            <div class="col-lg-12">
+                <div class="copy-right">
+				<h4>Copyright © 2015-2016 Techware Solution.</h4> All rights reserved.                  
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+<a href="LANENAR-webfont.eot#" id="back-to-top" title="Back to top"><img src="../images/home/btp.png"></a>    
+			</div>
+				<script> base_url = "http://demo.bookmydoc.in/"; </script>
+<!-- jQuery 2.1.4 -->
+    <script src="../js/jquery.js"></script>
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/script.js"></script>
+
+
+<!-- DataTables -->
+    <script src="../js/jquery.dataTables.min.js"></script>
+    <script src="../js/dataTables.bootstrap.min.js"></script>
+<!-- Select2 -->
+    <script src="../js/select2.min.js"></script>
+    <script src="../js/parsley.min.js"></script>	
+	<script src="../js/jquery.raty.min.js"></script>
+	<script src="../js/filter.js"></script>
+<!---- calendar appointment---->	
+	<script src="../js/appointment/cors.js"></script>
+	<script src="../js/appointment/bootstrap-calendar.js"></script>
+	<script src="../js/appointment/calendar.js"></script>
+<!--- time picker ---->
+	<script src="../js/jquery.timepicker.js"></script>
+	<script src="../js/bootstrap-datepicker.js"></script>
+<!--- Development ---->
+	<script src="../js/custom.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/developer.js"></script>	
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAPkwBOzGBH1V1sRBzmCWQS-7XoTgPghT0&libraries=places"></script>
+	<script src="../js/common.js"></script>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1520256354936870">
+</div>
+
+		</body>
+		
+	</html>

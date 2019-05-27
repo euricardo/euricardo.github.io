@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+	<html>
+			<meta charset="UTF-8">
+	<title>Bookmydoc</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../../admin/uploads/common/1493899510_fav__icon.png" type="image/jpg" sizes="16x16">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../assets/css/font-awesome.min.css">    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../assets/css/animate.css">
+	<link rel="stylesheet" href="../../assets/css/hover-min.css">
+<!-- Select2 -->
+	<link rel="stylesheet" href="../../assets/css/select2.min.css">
+<!-- Theme style -->
+	<link rel="stylesheet" href="../../assets/css/AdminLTE.min.css">		
+	<link rel="stylesheet" href="../../assets/css/common.css"> 
+<!--  calendar --->
+	<link rel="stylesheet" href="../../assets/css/appointment/calendar.css">   
+<!--common-head-css -->
+	<link rel="stylesheet" href="../../assets/css/jquery.timepicker.css">
+	<link rel="stylesheet" href="../../assets/css/datepicker.css">
+	<link rel="stylesheet" href="../../assets/css/style.css">
+	<link rel="stylesheet" href="../../assets/css/responsive.css">
+
+		<body class="hold-transition  sidebar-mini">
+			<div class="wrapper">
+			<nav class="navbar navbar-default nav-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-xs-4 col-sm-12 logo-col">
+                <div class="logo animated fadeInLeft">
+                    <a href="../../index.html"><img src="../../admin/uploads/common/1493899510_logo.png"  class="img-responsive col-lg-12 col-xs-12 col-sm-3" alt=""/></a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-xs-8 col-sm-12 header-sgnin">
+                <div class="signin">
+                    <ul>
+					    							<li ><a href = "../../Login/presignup"><img src="../../assets/images/home/1.png" />S'enregister</a></li>
+							<li onclick="mysigninFunction()" data-toggle="modal" class="log-index" data-target="#myModal"><img src="../../assets/images/home/2.png" />Login</li>
+												
+					</ul>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="navbar-header navbar-header-resp">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-head animated fadeInDown">
+                        <li class="active m-1"><a href="../../index.html">الرئيسية<span class="sr-only">(current)</span></a></li>
+                        <li><a href = "../../General/aboutus">A Propos</a></li>
+						<li><a href = "../../General/terms">Terms </a></li>
+                        <li><a href = "../../General/careers">Careers </a></li>
+                        <li><a href = "../../General/contact">Contact </a></li>
+						<li><a href="javascript:void(0);">FAQ  </a></li>
+                        <li><a href="javascript:void(0);">Blog  </a></li>
+                        <li><a href="javascript:void(0);">Doctor Blog  </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade bac-modal" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content login-modal">
+                <button type="button"  onclick="mysigninclickFunction()" class="btn btn-default close-mdl" data-dismiss="modal"><img src="../../assets/images/login/2.png" /> </button>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="errormsg"> </div>
+						<div class="login-top">                                            
+						<div class="main-lg-new active" id="signinlist">
+							<form id="form_login" action="1" method="post" data-parsley-validate="" class="validate">
+								<div class="col-lg-12">
+									<h3><span><img src="../../assets/images/home/1.png" /></span>SIGN IN</h3>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<input type="email" name="email" class="form-control" id="email" placeholder="Email" data-parsley-trigger="change" data-parsley-type="email" required="">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<input type="password" name="password" class="form-control" id="password" placeholder="Password" data-parsley-minlength="6" required="">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<div class="forget-pass">
+											<h4><a href="javascript:void(0);" class="frgt-pass">Forgot your Password?</a></h4>
+											<h4><button type="submit" class="log-in-a">Signin button</button></h4>
+										</div>
+									</div>							  	
+								</div>
+							</form>
+						</div>						
+						<!---- new --->
+						<div class="main-lg-reset">
+							<form id="form_forgot" action="1" method="post" data-parsley-validate="" class="validate">
+								<div class="col-lg-12">
+									<h3><span><img src="../../assets/images/home/2.png" /></span>Forgot Password</h3>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<input type="email" name="email" id="femail" class="form-control"  placeholder="Email" >
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<div class="forget-pass">
+											<h4><button type="submit" class="log-in-a">Submit</button></h4>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>					
+					</div>
+				</div>			  			  
+				<div class="col-lg-6">
+					<div class="bac-right-login">
+						<h4>I'm new in Bookmydoc</h4>
+						<h5>Sign up for a book my doc account to book an appointment right now!</h5>
+						<a href = "../../Login/presignup">I'm new in Bookmydoc</a>
+					</div>
+				</div>
+			</div>
+		</div>
+        </div>
+    </div>
+</div><!-----------------slider---------------->
+<div class="share animated zoomIn hvr-grow">
+	<img src="../../assets/images/home/share.png"  alt=""/>
+</div>
+<div class="find-main col-lg-6 nopadding">
+    <div class="find col-lg-1 nopadding">
+        <img class="hvr-grow" src="../../assets/images/home/find.png"  alt=""/>
+    </div>
+    <div class="container find-div col-lg-11 nopadding col-lg-offset-1">
+		<div class="col-lg-12 nopadding">
+            <div class="find-sub col-lg-1 nopadding">
+                <img class="hvr-grow" src="../../assets/images/home/find.png" alt=""/>
+            </div>
+            <div class="col-lg-12 tab-find ">
+                <ul class="nav nav-tabs nav-tab-find">
+                    <li class="active"><a data-toggle="tab" href="1#home"><span><img src="../../assets/images/home/form-1.png" /> </span>Doctor</a></li>
+                    <li><a data-toggle="tab" href="1#menu1"><span><img src="../../assets/images/home/form-2.png" /> </span>Clinic</a></li>
+                    <li><a data-toggle="tab" href="1#menu2"><span><img src="../../assets/images/home/form-3.png" /> </span>Medical Center</a></li>
+                    <li><a data-toggle="tab" href="1#menu3"><span><img src="../../assets/images/home/form-4.png" /> </span>Hospital</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                       <form role="form" action="http://demo.bookmydoc.in/Doctor/Search" method="post"   class="animated fadeIn" enctype="multipart/form-data"> 
+                            <div class="form-group">							
+                                <div class="row">
+                                    <div class="col-lg-2"></div>								
+                                    <div class="col-lg-8">
+										<div id="locality_finder_Doc"> 
+											<input type="text" class="form-control autocompleteDoc" name="address" required id="exampleSelect1" placeholder="search city">
+											<input type="hidden" class="lat_perfect" id="lat_doc" name="latitude">
+											<input type="hidden" class="lon_perfect" id="lon_doc" name="longitude">
+										</div>	
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>												
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select   onchange="selectReasonSearchbar(this.options[this.selectedIndex].value)" name="specialty" class="form-control" id="exampleSelect1"  >		
+											<option selected="selected" value="-1">Select specialty</option>
+																						<option value="1">Pediatrics</option>
+																						<option value="2">Audiology</option>
+																						<option value="3">General Medicine</option>
+																						<option value="4">Family Medicine</option>
+																						<option value="5">Cardiology</option>
+																						<option value="6">Chemical Pathology</option>
+																						<option value="7">Dentistry</option>
+																						<option value="8">Diagnostic Radiology</option>
+																						<option value="9">Electrodiagnostic Medicine</option>
+																						<option value="10">Gastroenterology</option>
+																						<option value="11">Hematology</option>
+																						<option value="12">Massage Therapy</option>
+																						<option value="13">Maternal-Fetal Medicine</option>
+																						<option value="14">Nephrology</option>
+																						<option value="15">Neurology</option>
+																						<option value="16">Diabetology</option>
+																						<option value="23">manu manu</option>
+																						<option value="24">rajkumar</option>
+																						<option value="33">Diabetologyy</option>
+																						<option value="35">sdf</option>
+																						<option value="36">zsdds</option>
+																					</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+							<div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="visitation" class="form-control" id="reason_Searchbar_dropdown"  >
+											<option selected="selected" value="-1">Select reason</option>                               
+										</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select name="insurance" class="form-control" id="exampleSelect1"  >
+											<option selected="selected" value="">Insurance</option>
+																						<option value="1">Aetna</option>
+																						<option value="2">Aflac</option>
+																						<option value="3">Berkshire Hathaway</option>
+																						<option value="4">CareSource</option>
+																						<option value="5">Combined Insurance</option>
+																						<option value="6">Esurance</option>
+																						<option value="7">Hanover Insurance</option>
+																						<option value="8">Ironshore</option>
+																						<option value="9">MetLife</option>
+																						<option value="10">Mutual of Omaha</option>
+																						<option value="11">Omega</option>
+																						<option value="12">Pacific Life</option>
+																						<option value="13">Apollo Munich Health Insurance</option>
+																						<option value="14">Cholamandalam MS General Insurance</option>
+																						<option value="15">Religare</option>
+																						<option value="18">dth</option>
+																						<option value="19">Religare</option>
+																						<option value="21">abc</option>
+																					</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="language" class="form-control" id="exampleSelect1"  >
+											<option selected="selected" value="">Language</option>
+																						<option value="1">tamil</option>
+																						<option value="2">malayalam</option>
+																						<option value="3">telugu</option>
+																						<option value="4">hindi</option>
+																						<option value="5">kannada</option>
+																						<option value="6">sinhala</option>
+																						<option value="7">malay</option>
+																						<option value="8">english</option>
+																						<option value="9">bengali</option>
+																						<option value="10">vietnamese</option>
+																						<option value="11">russian</option>
+																						<option value="12">korean</option>
+																						<option value="13">burmese</option>
+																						<option value="14">thai</option>
+																						<option value="15">malaysian</option>
+																						<option value="16">urdu</option>
+																						<option value="17">marathi</option>
+																						<option value="18">sindhi</option>
+																						<option value="19">sanskrit</option>
+																						<option value="20">nepali</option>
+																						<option value="21">german</option>
+																						<option value="22">french</option>
+																						<option value="23">italian</option>
+																						<option value="24">romansh</option>
+																						<option value="25">cantonesse chinese</option>
+																						<option value="26">mandarin chinese</option>
+																						<option value="27">swedish</option>
+																						<option value="28">afrikaans</option>
+																						<option value="29">xhosa</option>
+																						<option value="30">zulu</option>
+																						<option value="31">venda</option>
+																						<option value="32">abc</option>
+																						<option value="38">malayalam</option>
+																					</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>						
+							<div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+										<select class="form-control" id="exampleSelect1" name="gender" >  
+											<option selected="selected" value="">Gender</option>
+											<option >Female</option>
+											<option>Male</option>
+										</select>
+									</div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>				                            
+                            <div class="form-group">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8" style="padding:0;">
+                                    <button type="submit" class="btn btn-default btn-form"><i class="fa fa-search"></i>Find Doctors</button>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <form role="form" action="http://demo.bookmydoc.in/Clinic/Search" method="post"   class="animated fadeIn" enctype="multipart/form-data"> 
+							<div class="form-group">							
+                                <div class="row">
+                                    <div class="col-lg-2"></div>								
+                                    <div class="col-lg-8">
+										<div id="locality_finder_Clinic"> 
+											<input type="text" class="form-control autocompleteClinic" name="address" required id="exampleSelect1" placeholder="search city">
+											<input type="hidden" class="lat_perfect" id="lat_clinic" name="latitude">
+											<input type="hidden" class="lon_perfect" id="lon_clinic" name="longitude">
+										</div>	
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>                            
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select   onchange="selectReasonClinic(this.options[this.selectedIndex].value)" name="specialty" class="form-control" id="exampleSelect1"  >
+											<option selected="selected" value="-1">Select specialty</option> 
+																						<option value="1">Pediatrics</option>
+																						<option value="2">Audiology</option>
+																						<option value="3">General Medicine</option>
+																						<option value="4">Family Medicine</option>
+																						<option value="5">Cardiology</option>
+																						<option value="6">Chemical Pathology</option>
+																						<option value="7">Dentistry</option>
+																						<option value="8">Diagnostic Radiology</option>
+																						<option value="9">Electrodiagnostic Medicine</option>
+																						<option value="10">Gastroenterology</option>
+																						<option value="11">Hematology</option>
+																						<option value="12">Massage Therapy</option>
+																						<option value="13">Maternal-Fetal Medicine</option>
+																						<option value="14">Nephrology</option>
+																						<option value="15">Neurology</option>
+																						<option value="16">Diabetology</option>
+																						<option value="23">manu manu</option>
+																						<option value="24">rajkumar</option>
+																						<option value="33">Diabetologyy</option>
+																						<option value="35">sdf</option>
+																						<option value="36">zsdds</option>
+																					</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+							<div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="visitation" class="form-control" id="reason_dropdown_clinic" >
+											<option selected="selected" value="-1">Select reason</option> 
+                                 		</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div> 
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="insurance" class="form-control" id="exampleSelect1"  >
+											<option selected="selected" value="">Insurance</option>
+																						<option value="1">Aetna</option>
+																						<option value="2">Aflac</option>
+																						<option value="3">Berkshire Hathaway</option>
+																						<option value="4">CareSource</option>
+																						<option value="5">Combined Insurance</option>
+																						<option value="6">Esurance</option>
+																						<option value="7">Hanover Insurance</option>
+																						<option value="8">Ironshore</option>
+																						<option value="9">MetLife</option>
+																						<option value="10">Mutual of Omaha</option>
+																						<option value="11">Omega</option>
+																						<option value="12">Pacific Life</option>
+																						<option value="13">Apollo Munich Health Insurance</option>
+																						<option value="14">Cholamandalam MS General Insurance</option>
+																						<option value="15">Religare</option>
+																						<option value="18">dth</option>
+																						<option value="19">Religare</option>
+																						<option value="21">abc</option>
+																					</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>                                                       
+                            <div class="form-group">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8" style="padding:0;">
+                                    <button type="submit" class="btn btn-default btn-form"><i class="fa fa-search"></i>Find Clinics</button>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                       <form role="form" action="http://demo.bookmydoc.in/Medical/Search" method="post"   class="animated fadeIn" enctype="multipart/form-data"> 
+							<div class="form-group">							
+                                <div class="row">
+                                    <div class="col-lg-2"></div>								
+                                    <div class="col-lg-8">
+										<div id="locality_finder_Medical"> 
+											<input type="text" class="form-control autocompleteMedical" name="address" required id="exampleSelect1" placeholder="search city">						
+											<input type="hidden" class="lat_perfect" id="lat_medical" name="latitude">
+											<input type="hidden" class="lon_perfect" id="lon_medical" name="longitude">
+										</div>	
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>                            
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select   onchange="selectReasonMedical(this.options[this.selectedIndex].value)" name="specialty" class="form-control" id="exampleSelect1"  >
+											<option selected="selected" value="-1">Select specialty</option>
+																						<option value="1">Pediatrics</option>
+																						<option value="2">Audiology</option>
+																						<option value="3">General Medicine</option>
+																						<option value="4">Family Medicine</option>
+																						<option value="5">Cardiology</option>
+																						<option value="6">Chemical Pathology</option>
+																						<option value="7">Dentistry</option>
+																						<option value="8">Diagnostic Radiology</option>
+																						<option value="9">Electrodiagnostic Medicine</option>
+																						<option value="10">Gastroenterology</option>
+																						<option value="11">Hematology</option>
+																						<option value="12">Massage Therapy</option>
+																						<option value="13">Maternal-Fetal Medicine</option>
+																						<option value="14">Nephrology</option>
+																						<option value="15">Neurology</option>
+																						<option value="16">Diabetology</option>
+																						<option value="23">manu manu</option>
+																						<option value="24">rajkumar</option>
+																						<option value="33">Diabetologyy</option>
+																						<option value="35">sdf</option>
+																						<option value="36">zsdds</option>
+																					</select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+							<div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="visitation" class="form-control" id="reason_dropdown_medical" required =" " >
+										<option selected="selected" value="-1">Select reason</option>                                  
+						              </select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="insurance" class="form-control" id="exampleSelect1"  >
+										<option selected="selected" value="">Insurance</option>
+                                                               <option value="1">Aetna</option>
+                                                               <option value="2">Aflac</option>
+                                                               <option value="3">Berkshire Hathaway</option>
+                                                               <option value="4">CareSource</option>
+                                                               <option value="5">Combined Insurance</option>
+                                                               <option value="6">Esurance</option>
+                                                               <option value="7">Hanover Insurance</option>
+                                                               <option value="8">Ironshore</option>
+                                                               <option value="9">MetLife</option>
+                                                               <option value="10">Mutual of Omaha</option>
+                                                               <option value="11">Omega</option>
+                                                               <option value="12">Pacific Life</option>
+                                                               <option value="13">Apollo Munich Health Insurance</option>
+                                                               <option value="14">Cholamandalam MS General Insurance</option>
+                                                               <option value="15">Religare</option>
+                                                               <option value="18">dth</option>
+                                                               <option value="19">Religare</option>
+                                                               <option value="21">abc</option>
+                                  						              </select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>                            
+                            <div class="form-group">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8" style="padding:0;">
+                                    <button type="submit" class="btn btn-default btn-form"><i class="fa fa-search"></i>Find Medical Centers</button>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <form role="form" action="http://demo.bookmydoc.in/Hospital/Search" method="post"   class="animated fadeIn" enctype="multipart/form-data"> 
+							<div class="form-group">							
+                                <div class="row">
+                                    <div class="col-lg-2"></div>								
+                                    <div class="col-lg-8">
+										<div id="locality_finder_Hospital"> 
+											<input type="text" class="form-control autocompleteHospital" required name="address" id="exampleSelect1" placeholder="search city">
+											<input type="hidden" class="lat_perfect" id="lat_hospital" name="latitude">
+											<input type="hidden" class="lon_perfect" id="lon_hospital" name="longitude">
+										</div>	
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>                            
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select   onchange="selectReasonHospital(this.options[this.selectedIndex].value)" name="specialty" class="form-control" id="exampleSelect1"  >
+											<option selected="selected" value="-1">Select specialty</option>
+																						<option value="1">Pediatrics</option>
+																					<option value="2">Audiology</option>
+																					<option value="3">General Medicine</option>
+																					<option value="4">Family Medicine</option>
+																					<option value="5">Cardiology</option>
+																					<option value="6">Chemical Pathology</option>
+																					<option value="7">Dentistry</option>
+																					<option value="8">Diagnostic Radiology</option>
+																					<option value="9">Electrodiagnostic Medicine</option>
+																					<option value="10">Gastroenterology</option>
+																					<option value="11">Hematology</option>
+																					<option value="12">Massage Therapy</option>
+																					<option value="13">Maternal-Fetal Medicine</option>
+																					<option value="14">Nephrology</option>
+																					<option value="15">Neurology</option>
+																					<option value="16">Diabetology</option>
+																					<option value="23">manu manu</option>
+																					<option value="24">rajkumar</option>
+																					<option value="33">Diabetologyy</option>
+																					<option value="35">sdf</option>
+																					<option value="36">zsdds</option>
+																              </select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+							<div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="visitation" class="form-control" id="reason_dropdown_hospital"  >
+										<option selected="selected" value="-1">Select reason</option>                                 
+						              </select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                        <select    name="insurance" class="form-control" id="exampleSelect1"  >
+										<option selected="selected" value="">Insurance</option>
+																				 <option value="1">Aetna</option>
+																				 <option value="2">Aflac</option>
+																				 <option value="3">Berkshire Hathaway</option>
+																				 <option value="4">CareSource</option>
+																				 <option value="5">Combined Insurance</option>
+																				 <option value="6">Esurance</option>
+																				 <option value="7">Hanover Insurance</option>
+																				 <option value="8">Ironshore</option>
+																				 <option value="9">MetLife</option>
+																				 <option value="10">Mutual of Omaha</option>
+																				 <option value="11">Omega</option>
+																				 <option value="12">Pacific Life</option>
+																				 <option value="13">Apollo Munich Health Insurance</option>
+																				 <option value="14">Cholamandalam MS General Insurance</option>
+																				 <option value="15">Religare</option>
+																				 <option value="18">dth</option>
+																				 <option value="19">Religare</option>
+																				 <option value="21">abc</option>
+																              </select> 
+                                    </div>
+                                    <div class="col-lg-2"></div>
+                                </div>
+                            </div>                            
+                            <div class="form-group">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8" style="padding:0;">
+                                    <button type="submit" class="btn btn-default btn-form"><i class="fa fa-search"></i>Find Hospital</button>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<body onload="initialize()"><!--patient-login search-->
+<div class="container-fluid srch-patient-log" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 srch-main">			
+				<form role="form" action="1" method="post"  id="form_doctor" class="form_doctor formap" enctype="multipart/form-data">
+					<div class="row">
+						<div class="col-lg-10">
+							<div class="row row-frm">
+								<div class="col-lg-4">							
+									<div class="form-group">
+										<label for="exampleSelect1">City</label>
+										<select   name="cities_id" class="form-control filter-field" id="exampleSelect1" required ="" >
+											<option selected="selected" value="-1">select City </option>
+																						<option value="1" selected>Chennai</option> 
+																						<option value="2" >Bengaluru</option> 
+																						<option value="3" >Kolkata</option> 
+																						<option value="4" >Mumbai</option> 
+																						<option value="5" >Hyderabad</option> 
+																						<option value="7" >Pune</option> 
+																					</select>       
+									</div>
+								</div>								
+								<div class="col-lg-4">						
+									<div class="form-group">
+										<label for="exampleSelect1">Specialty</label>
+										<select   onchange="selectReason(this.options[this.selectedIndex].value)" name="specialty" class="form-control filter-field" id="exampleSelect1"  required =" ">
+											<option selected="selected" value="-1">Select specialty</option>                                 
+																						<option value="1" >Pediatrics</option> 
+																						<option value="2" >Audiology</option> 
+																						<option value="3" >General Medicine</option> 
+																						<option value="4" >Family Medicine</option> 
+																						<option value="5" >Cardiology</option> 
+																						<option value="6" >Chemical Pathology</option> 
+																						<option value="7" >Dentistry</option> 
+																						<option value="8" >Diagnostic Radiology</option> 
+																						<option value="9" >Electrodiagnostic Medicine</option> 
+																						<option value="10" >Gastroenterology</option> 
+																						<option value="11" >Hematology</option> 
+																						<option value="12" >Massage Therapy</option> 
+																						<option value="13" >Maternal-Fetal Medicine</option> 
+																						<option value="14" >Nephrology</option> 
+																						<option value="15" >Neurology</option> 
+																						<option value="16" >Diabetology</option> 
+																						<option value="23" >manu manu</option> 
+																						<option value="24" >rajkumar</option> 
+																						<option value="33" >Diabetologyy</option> 
+																						<option value="35" >sdf</option> 
+																						<option value="36" >zsdds</option> 
+											                             							
+										</select>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleSelect1">Reason</label>
+										<select    name="visitation" class="form-control filter-field" id="reason_dropdown" required =" " >
+											<option selected="selected" value="-1">Select reason</option>
+																			 
+										</select> 
+									</div>
+								</div>																
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleSelect1">Insurance</label>
+										<select    name="insurance" class="form-control filter-field" id="exampleSelect1" required =" " >
+											<option selected="selected" value="">Select Insurance</option>
+																						<option value="1" >Aetna</option> 
+																						<option value="2" >Aflac</option> 
+																						<option value="3" >Berkshire Hathaway</option> 
+																						<option value="4" >CareSource</option> 
+																						<option value="5" >Combined Insurance</option> 
+																						<option value="6" >Esurance</option> 
+																						<option value="7" >Hanover Insurance</option> 
+																						<option value="8" >Ironshore</option> 
+																						<option value="9" >MetLife</option> 
+																						<option value="10" >Mutual of Omaha</option> 
+																						<option value="11" >Omega</option> 
+																						<option value="12" >Pacific Life</option> 
+																						<option value="13" >Apollo Munich Health Insurance</option> 
+																						<option value="14" >Cholamandalam MS General Insurance</option> 
+																						<option value="15" >Religare</option> 
+																						<option value="18" >dth</option> 
+																						<option value="19" >Religare</option> 
+																						<option value="21" >abc</option> 
+																					</select> 
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleSelect1">Language</label>
+										 <select    name="language" class="form-control filter-field" id="exampleSelect1" required =" " >
+											<option selected="selected" value="">Select Language</option>
+																						<option value="1" >tamil</option> 
+																						<option value="2" >malayalam</option> 
+																						<option value="3" >telugu</option> 
+																						<option value="4" >hindi</option> 
+																						<option value="5" >kannada</option> 
+																						<option value="6" >sinhala</option> 
+																						<option value="7" >malay</option> 
+																						<option value="8" >english</option> 
+																						<option value="9" >bengali</option> 
+																						<option value="10" >vietnamese</option> 
+																						<option value="11" >russian</option> 
+																						<option value="12" >korean</option> 
+																						<option value="13" >burmese</option> 
+																						<option value="14" >thai</option> 
+																						<option value="15" >malaysian</option> 
+																						<option value="16" >urdu</option> 
+																						<option value="17" >marathi</option> 
+																						<option value="18" >sindhi</option> 
+																						<option value="19" >sanskrit</option> 
+																						<option value="20" >nepali</option> 
+																						<option value="21" >german</option> 
+																						<option value="22" >french</option> 
+																						<option value="23" >italian</option> 
+																						<option value="24" >romansh</option> 
+																						<option value="25" >cantonesse chinese</option> 
+																						<option value="26" >mandarin chinese</option> 
+																						<option value="27" >swedish</option> 
+																						<option value="28" >afrikaans</option> 
+																						<option value="29" >xhosa</option> 
+																						<option value="30" >zulu</option> 
+																						<option value="31" >venda</option> 
+																						<option value="32" >abc</option> 
+																						<option value="38" >malayalam</option> 
+											                            
+										</select> 
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="form-group">
+										<label for="exampleSelect1">Gender</label>
+										<select class="form-control filter-field" id="exampleSelect1" name="gender" required="">  
+											<option selected="selected" value="">Gender</option>								
+											<option value="Female"  >Male</option>
+											<option value="Male"  > Female</option>										
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2">
+							<div class="form-group">
+								<button type="submit" class="btn btn-primary btn-pat"><img src="../../assets/images/patient-login/10.png"> </button>
+							</div>
+						</div>
+					</div>
+				</form>
+            </div>
+            <div class="col-lg-12">
+                <div class="doctor">
+                    <h4><span><img src="../../assets/images/patient-login/11.png" > </span>Doctors near by You</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--patient-login search-->
+<div class="container-fluid mapfordoctor">
+	<div class="google-map-doctor">
+		<div class="img-responsive " id="canvas1">
+		
+				<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAPkwBOzGBH1V1sRBzmCWQS-7XoTgPghT0&&libraries=places"></script>
+			<script type="text/javascript">
+			//<![CDATA[
+			
+			var map; // Global declaration of the map
+			var lat_longs_map = new Array();
+			var markers_map = new Array();
+            var iw_map;
+			var placesService;
+			
+			iw_map = new google.maps.InfoWindow();
+				
+				 function initialize_map() {
+				
+				var myLatlng = new google.maps.LatLng(37.4419, -122.1419);
+				var myOptions = {
+			  		zoom: 13,
+					center: myLatlng,
+			  		mapTypeId: google.maps.MapTypeId.ROADMAP}
+				map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+				
+			
+			}
+		
+		
+		function createMarker_map(markerOptions) {
+			var marker = new google.maps.Marker(markerOptions);
+			markers_map.push(marker);
+			lat_longs_map.push(marker.getPosition());
+			return marker;
+		}
+		function placesCallback(results, status) {
+				if (status == google.maps.places.PlacesServiceStatus.OK) {
+					for (var i = 0; i < results.length; i++) {
+						
+						var place = results[i];
+					
+						var placeLoc = place.geometry.location;
+						var placePosition = new google.maps.LatLng(placeLoc.lat(), placeLoc.lng());
+						var markerOptions = {
+				 			map: map,
+				        	position: placePosition
+				      	};
+				      	var marker = createMarker_map(markerOptions);
+				      	marker.set("content", place.name);
+				      	google.maps.event.addListener(marker, "click", function() {
+				        	iw_map.setContent(this.get("content"));
+				        	iw_map.open(map, this);
+				      	});
+				      	
+				      	lat_longs_map.push(placePosition);
+					
+					}
+					
+				}
+			}
+			
+			google.maps.event.addDomListener(window, "load", initialize_map);
+			
+			//]]>
+			</script>		<div id="map_canvas" style="width:100%; height:450px;"></div>			
+		</div>
+    </div>
+</div>
+<!--doctor-->
+<div class="container">
+    <div class="doctor-sub">
+		<h3><img src="../../assets/images/patient-login/12.png"  ></h3>
+        <h4>Select a Speciality Doctor</h4>
+    </div>
+    <div class="doctor-pat-srch">     
+        <div class="row">
+			<input type="hidden" value='' id="actual_data">
+            <div class="evnt-mn doctor" id="updates">
+										
+				<div class="error"><h1>Sorry, No records found. Please try with different keywords. </h1></div>
+				<div class="clearfix"></div>												
+			            </div>
+		</div>		
+	</div>
+</div>
+<!--doctor-->
+<!----- modal ---->		
+<div class="modal bookingdoc fade" id="myModal-calendar" role="dialog">
+    <div class="modal-dialog">    
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Appointment Details</h4>
+			</div>
+			<div class="modal-body" id="bookingdoc" >
+			  <p>Some text in the modal.</p>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>	<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-10">
+                <div class="menu-footer">
+                    <ul>
+                        <li class="active"><a href="../../index.html">الرئيسية</a>  </li>
+                        <li> <a href = "../../General/aboutus">A Propos</a> </li>
+						 <li><a href = "../../General/terms">Terms</a></li>
+                        <li><a href = "../../General/careers">Careers</a></li>
+                        <li><a href = "../../General/contact">Contact </a></li>
+						<li><a href="javascript:void(0);">FAQ </a></li>
+                        <li><a href="javascript:void(0);">Blog </a></li>
+                        <li><a href="javascript:void(0);">Doctor Blog </a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text">
+                    <h3>OUR LOCATION</h3>
+                    <p>Make appointments on the go, right from your smartphone, with our top-rated mobile app</p>
+                    <h6><span><i class="fa fa-envelope"></i> </span>By E-mail:  info@Bookmydoc.com </h6>
+                    <h6><span><i class="fa fa-phone"></i> </span>By Phone: </h6>
+                    <h6><span><i class="fa fa-map-marker"></i> </span>Address: 121, honey Street, Home City, USA</h6>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text ">
+                    <h3>How It Works ?</h3>
+                    <ul>
+                        <li>How Bookmydoc Works</li>
+						<li>Bookmydoc in Safety</li>
+						<li>Terms & Conditions</li>
+						<li>Contact Us</li>
+						<li>Policies</li>																		
+						<li>Faqs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix hidden-lg hidden-md hidden-sm"></div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text">
+                    <h3>About Us</h3>
+                    <ul>
+						<li>Bookmydoc For Business</li>                         
+						<li>Bookmydoc Premium</li>
+						<li>Careers@Bookmydoc</li>	
+						<li>Equipe Bookmydoc </li>  
+						<li>Bookmydoc Blog</li>	
+						<li>Support</li>
+                    </ul>                    
+                </div>
+            </div>
+			            <div class="col-lg-3 col-xs-6">
+                <div class="footer-text last-footer-text">
+                    <h3>Villes</h3>
+                    <ul>
+						                        <a href="1" ><li>Chennai</li></a>
+						                        <a href="2" ><li>Bengaluru</li></a>
+						                        <a href="3" ><li>Kolkata</li></a>
+						                        <a href="4" ><li>Mumbai</li></a>
+						                        <a href="5" ><li>Hyderabad</li></a>
+						                        <a href="7" ><li>Pune</li></a>
+							
+                    </ul>                   
+                </div>
+            </div>
+				
+            <div class="col-lg-12">
+                <div class="copy-right">
+				<h4>Copyright © 2015-2016 Techware Solution.</h4> All rights reserved.                  
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+<a href="1#" id="back-to-top" title="Back to top"><img src="../../assets/images/home/btp.png"></a>    
+			</div>
+				<script> base_url = "http://demo.bookmydoc.in/"; </script>
+<!-- jQuery 2.1.4 -->
+    <script src="../../assets/js/jquery.js"></script>
+	<script src="../../assets/js/jquery-1.9.1.min.js"></script>
+	<script src="../../assets/js/bootstrap.min.js"></script>
+	<script src="../../assets/js/script.js"></script>
+<!-- DataTables -->
+    <script src="../../assets/js/jquery.dataTables.min.js"></script>
+    <script src="../../assets/js/dataTables.bootstrap.min.js"></script>
+<!-- Select2 -->
+    <script src="../../assets/js/select2.min.js"></script>
+    <script src="../../assets/js/parsley.min.js"></script>	
+	<script src="../../assets/js/jquery.raty.min.js"></script>
+	<script src="../../assets/js/filter.js"></script>
+<!---- calendar appointment---->	
+	<script src="../../assets/js/appointment/cors.js"></script>
+	<script src="../../assets/js/appointment/bootstrap-calendar.js"></script>
+	<script src="../../assets/js/appointment/calendar.js"></script>
+<!--- time picker ---->
+	<script src="../../assets/js/jquery.timepicker.js"></script>
+	<script src="../../assets/js/bootstrap-datepicker.js"></script>
+<!--- Development ---->
+	<script src="../../assets/js/custom.js"></script>
+	<script src="../../assets/js/common.js"></script>
+	<script src="../../assets/js/developer.js"></script>	
+	<script src="../../assets/js/common.js"></script>		</body>
+	</html>
