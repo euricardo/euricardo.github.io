@@ -17,7 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="https://demos.themecatcher.net/storm-wordpress/xmlrpc.php" />
-<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Storm WordPress &#8211; Full Screen Photography Theme</title>
+<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Contact &#8211; Storm WordPress</title>
 <link rel='dns-prefetch' href='https://s.w.org/' />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Feed" href="https://demos.themecatcher.net/storm-wordpress/feed" />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Comments Feed" href="comments/feed" />
@@ -53,13 +53,13 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demos.themecatcher.net/storm-wordpress/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.7.13" />
-<link rel="canonical" href="../storm-wordpress.1" />
-<link rel='shortlink' href='../storm-wordpress.1' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F&amp;format=xml" />
+<link rel="canonical" href="index.html@p=12" />
+<link rel='shortlink' href='index.html@p=12' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252Fcontact" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252Fcontact&amp;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		</head>
-<body id="top" class="home page-template page-template-template-left-note-block page-template-template-left-note-block-php page page-id-2 full-width standard-header">
+<body id="top" class="page-template page-template-template-contact page-template-template-contact-php page page-id-12 full-width standard-header">
 			<div id="nojs-background">
 			<img src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/sunrise_70.jpg" alt="" />
 		</div>
@@ -81,7 +81,7 @@ img.emoji {
 		<div id="nav-wrap-inner">
 
 			<div class="nav-wrap-hide">
-				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
+				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
 <ul class="sub-menu">
 	<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="index.html@p=93">Intro page</a></li>
 	<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="index.html@p=82">Video background (HD)</a></li>
@@ -90,7 +90,7 @@ img.emoji {
 </ul>
 </li>
 <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="blog">Blog</a></li>
-<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="../storm-wordpress.1#">Shortcodes</a>
+<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="index.html@p=12#">Shortcodes</a>
 <ul class="sub-menu">
 	<li id="menu-item-389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-389"><a href="shortcodes/blog-1-column">Blog</a>
 	<ul class="sub-menu">
@@ -136,14 +136,14 @@ img.emoji {
 	<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="index.html@p=262">Galleria</a></li>
 </ul>
 </li>
-<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="index.html@p=12">Contact</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-14"><a href="index.html@p=12">Contact</a></li>
 <li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="../buy.php@product=storm-wordpress">Buy</a></li>
 </ul></div>			</div>
 
 			<div class="nav-wrap-select"></div>
 
 							<div class="search-pop-up">
-					<a id="search-button" href="../storm-wordpress.1#" title="Search" class="search-a"></a>
+					<a id="search-button" href="index.html@p=12#" title="Search" class="search-a"></a>
 					<div class="search-container">
 						<form action="../storm-wordpress.1" method="get">
 							<div class="search-input-wrap">
@@ -162,34 +162,270 @@ img.emoji {
 		</div>
 	</div>
 
-	<div class="content-outer clearfix">
-		<div class="content-inner">
+	<div class="after-header-wrap clearfix">
 
-			
-			<div class="content-style left-note-block clearfix">
+		<div class="intro-wrap"><div class="intro-style transparent-intro"><h1 class="intro-title entry-title">Contact</h1><h2 class="intro-subtitle">We would love to hear from you</h2></div></div>
+		<div class="content-outer clearfix">
+			<div class="content-inner">
 
 				
-				<div id="content">
+				<div class="content-style plain-black clearfix">
 
 					
-						<div id="post-2" class="post-2 page type-page status-publish hentry">
-	<span class="entry-title tcr-hidden">Home</span><span class="vcard tcr-hidden"><span class="fn"><a href="author/themecatcher/index.html" title="Posts by ThemeCatcher" rel="author">ThemeCatcher</a></span></span><span class="updated tcr-hidden">2014-11-20T15:50:22+00:00</span>
-	<div class="entry-content clearfix">
-		<h1>Welcome</h1>
-<h2><a href="../buy.php@product=storm-wordpress">You can buy this theme from themeforest.net</a></h2>
-<p>Storm is a stunning full screen background theme with a custom full screen gallery, perfect for showing off your visual work or perhaps you would just like to use images to sell yourself, what ever you do!</p>
-	</div><!-- .entry-content -->
+					<div id="content">
+
+
+
+	<div id="post-12" class="post-12 page type-page status-publish hentry">
+
+		<div class="entry-content clearfix">
+					</div>
+
+		
+		<div class="contact-template-wrap clearfix">
+			<div class="contact-left-col">
+
+															<div id="iphorm-outer-5cf938de02cc7" class="iphorm-outer iphorm-outer-4 iphorm-uniform-theme-agent iphorm-theme-storm-storm" >
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+                        $('#iphorm-5cf938de02cc7').iPhorm({"id":4,"uniqueId":"5cf938de02cc7","useAjax":true,"successMessageTimeout":10,"resetFormValues":"","clElementIds":[],"clDependentElementIds":[],"centerFancybox":true,"centerFancyboxSpeed":true});
+                        if ($.isFunction($.fn.qtip)) {
+                $('.iphorm-tooltip-hover', iPhorm.instance.$form).qtip({
+                    style: {
+                        classes: 'qtip-tipsy qtip-shadow'
+                    },
+                    position: {
+                        my: 'bottom center',
+                        at: 'top center',
+                        viewport: $(window),
+                        adjust: {
+                            method: 'shift'
+                        }
+                    }
+                });
+                $('.iphorm-tooltip-click', iPhorm.instance.$form).qtip({
+                    style: {
+                        classes: 'qtip-tipsy qtip-shadow'
+                    },
+                    position: {
+                        my: 'bottom center',
+                        at: 'top center',
+                        viewport: $(window),
+                        adjust: {
+                            method: 'shift'
+                        }
+                    },
+                    show: {
+                        event: 'focus'
+                    },
+                    hide: {
+                        event: 'unfocus'
+                    }
+                });
+                $('.iphorm-tooltip-icon-hover', iPhorm.instance.$form).qtip({
+                    style: {
+                        classes: 'qtip-tipsy qtip-shadow'
+                    },
+                    position: {
+                        my: 'bottom center',
+                        at: 'top center',
+                        viewport: $(window),
+                        adjust: {
+                            method: 'shift'
+                        }
+                    },
+                    content: {
+                        text: function (api) {
+                            return $(this).find('.iphorm-tooltip-icon-content').html();
+                        }
+                    }
+                });
+                $('.iphorm-tooltip-icon-click', iPhorm.instance.$form).qtip({
+                    style: {
+                        classes: 'qtip-tipsy qtip-shadow'
+                    },
+                    position: {
+                        my: 'bottom center',
+                        at: 'top center',
+                        viewport: $(window),
+                        adjust: {
+                            method: 'shift'
+                        }
+                    },
+                    show: {
+                        event: 'click'
+                    },
+                    hide: {
+                        event: 'unfocus'
+                    },
+                    content: {
+                        text: function (api) {
+                            return $(this).find('.iphorm-tooltip-icon-content').html();
+                        }
+                    }
+                });
+                $('.iphorm-labels-inside > .iphorm-element-spacer > label').hover(function () {
+                    $(this).siblings('.iphorm-input-wrap').find('.iphorm-tooltip-hover').qtip('show');
+                }, function () {
+                    $(this).siblings('.iphorm-input-wrap').find('.iphorm-tooltip-hover').qtip('hide');
+                });
+            }
+                                    if ($.isFunction($.fn.uniform)) {
+                $('select, input:checkbox, input:radio', iPhorm.instance.$form).uniform({context: iPhorm.instance.$form, selectAutoWidth: false});
+            }
+                        if ($.isFunction($.fn.inFieldLabels)) {
+                $('.iphorm-labels-inside:not(.iphorm-element-wrap-recaptcha) > .iphorm-element-spacer > label', iPhorm.instance.$form).inFieldLabels();
+            }
+                        $('.iphorm-group-row > div:last-child:not(:first-child)', iPhorm.instance.$form).add('.iphorm-group-row:last-child', iPhorm.instance.$form).addClass('last-child');
+                    });
+    </script>
+    <form id="iphorm-5cf938de02cc7" class="iphorm iphorm-form-4" action="index.html@p=12#iphorm-5cf938de02cc7" method="post" enctype="multipart/form-data" novalidate="novalidate">
+        <div class="iphorm-inner iphorm-inner-4" >
+            <input type="hidden" name="iphorm_id" value="4" />
+            <input type="hidden" name="iphorm_uid" value="5cf938de02cc7" />
+            <input type="hidden" name="form_url" value="https://demos.themecatcher.net/storm-wordpress/contact" />
+            <input type="hidden" name="referring_url" value="https://demos.themecatcher.net/storm-wordpress/" />
+            <input type="hidden" name="post_id" value="12" />
+            <input type="hidden" name="post_title" value="Contact" />
+                                                                        <div class="iphorm-success-message iphorm-hidden" ></div>
+                                        <div class="iphorm-elements iphorm-elements-4 iphorm-clearfix" >
+                <div class="iphorm-element-wrap iphorm-element-wrap-text iphorm_4_1-element-wrap iphorm-clearfix iphorm-labels-inside iphorm-element-optional" >
+    <div class="iphorm-element-spacer iphorm-element-spacer-text iphorm_4_1-element-spacer">
+        <label for="iphorm_4_1_5cf938de02cc7" class="iphorm_4_1-outer-label" >Name</label>        <div class="iphorm-input-wrap iphorm-input-wrap-text iphorm_4_1-input-wrap" >
+            <input class="iphorm-element-text  iphorm_4_1" id="iphorm_4_1_5cf938de02cc7" type="text" name="iphorm_4_1"  value=""  />
+                    </div>
+        <div class="iphorm-errors-wrap iphorm-hidden" >
+    </div>    </div>
+    </div><div class="iphorm-element-wrap iphorm-element-wrap-text iphorm_4_2-element-wrap iphorm-clearfix iphorm-labels-inside iphorm-element-required" >
+    <div class="iphorm-element-spacer iphorm-element-spacer-text iphorm_4_2-element-spacer">
+        <label for="iphorm_4_2_5cf938de02cc7" class="iphorm_4_2-outer-label" >Email<span class="iphorm-required">*</span></label>        <div class="iphorm-input-wrap iphorm-input-wrap-text iphorm_4_2-input-wrap" >
+            <input class="iphorm-element-text iphorm-tooltip iphorm-tooltip-hover iphorm_4_2" id="iphorm_4_2_5cf938de02cc7" type="email" name="iphorm_4_2" title="We will never send you spam, we value your privacy as much as our own" value=""  />
+                    </div>
+        <div class="iphorm-errors-wrap iphorm-hidden" >
+    </div>    </div>
+    </div><div class="iphorm-element-wrap iphorm-element-wrap-text iphorm_4_5-element-wrap iphorm-clearfix iphorm-labels-inside iphorm-element-optional" >
+    <div class="iphorm-element-spacer iphorm-element-spacer-text iphorm_4_5-element-spacer">
+        <label for="iphorm_4_5_5cf938de02cc7" class="iphorm_4_5-outer-label" >Phone</label>        <div class="iphorm-input-wrap iphorm-input-wrap-text iphorm_4_5-input-wrap" >
+            <input class="iphorm-element-text  iphorm_4_5" id="iphorm_4_5_5cf938de02cc7" type="text" name="iphorm_4_5"  value=""  />
+                    </div>
+        <div class="iphorm-errors-wrap iphorm-hidden" >
+    </div>    </div>
+    </div><div class="iphorm-element-wrap iphorm-element-wrap-textarea iphorm_4_3-element-wrap iphorm-clearfix iphorm-labels-inside iphorm-element-required" >
+    <div class="iphorm-element-spacer iphorm-element-spacer-textarea iphorm_4_3-element-spacer">
+        <label for="iphorm_4_3_5cf938de02cc7" class="iphorm_4_3-outer-label" >Message<span class="iphorm-required">*</span></label>        <div class="iphorm-input-wrap iphorm-input-wrap-textarea iphorm_4_3-input-wrap" >
+            <textarea class="iphorm-element-textarea  iphorm_4_3" id="iphorm_4_3_5cf938de02cc7" name="iphorm_4_3"   rows="5" cols="25"></textarea>
+                    </div>
+        <div class="iphorm-errors-wrap iphorm-hidden" >
+    </div>    </div>
+    </div><div class="iphorm-element-wrap iphorm-element-wrap-captcha iphorm_4_4-element-wrap iphorm-clearfix iphorm-labels-inside iphorm-element-required" >
+    <div class="iphorm-element-spacer iphorm-element-spacer-captcha iphorm_4_4-element-spacer">
+        <label for="iphorm_4_4_5cf938de02cc7" class="iphorm_4_4-outer-label" >Type the characters<span class="iphorm-required">*</span></label>        <div class="iphorm-input-wrap iphorm-input-wrap-captcha iphorm_4_4-input-wrap" >
+            <input class="iphorm-element-captcha iphorm-tooltip iphorm-tooltip-hover iphorm_4_4" id="iphorm_4_4_5cf938de02cc7" type="text" name="iphorm_4_4" title="Are you human?" value=""  />
+                    </div>
+        <div class="iphorm-captcha-image-wrap iphorm-clearfix iphorm_4_4-captcha-image-wrap" >
+            <div class="ifb-captcha-image-inner">
+                <img width="115" height="40" id="iphorm-captcha-image-iphorm_4_4_5cf938de02cc7" class="iphorm-captcha-image" src="wp-content/plugins/iphorm-form-builder/includes/captcha.php@c=eyJ1bmlxSWQiOiI1Y2Y5MzhkZTAyY2M3IiwidG1wRGlyIjoiXC90bXBcLyIsIm9wdGlvbnMiOnsibGVuZ3RoIjoiNSIsIndpZHRoIjoiMTE1IiwiaGVpZ2h0IjoiNDAiLCJ" alt="CAPTCHA" />
+            </div>
+        </div>
+
+        <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('#iphorm-captcha-image-iphorm_4_4_5cf938de02cc7').hover(function () {
+                $(this).stop().fadeTo('slow', '0.3');
+            }, function () {
+                $(this).stop().fadeTo('slow', '1.0');
+            }).click(function () {
+                var newSrc = $(this).attr('src').replace(/&t=.+/, '&t=' + new Date().getTime());
+                $(this).attr('src', newSrc);
+            });
+        });
+        </script>
+        <div class="iphorm-errors-wrap iphorm-hidden" >
+    </div>    </div>
+</div><div class="iphorm-hidden">
+    <label>This field should be left blank<input type="text" name="iphorm_4_0" /></label>
+</div>                <div class="iphorm-submit-wrap iphorm-submit-wrap-4 iphorm-clearfix" >
+                    <div class="iphorm-submit-input-wrap iphorm-submit-input-wrap-4" >
+                        <button class="iphorm-submit-element" type="submit" name="iphorm_submit" ><span ><em >Send</em></span></button>
+                    </div>
+                    <div class="iphorm-loading-wrap"><span class="iphorm-loading">Please wait...</span></div>
+                </div>
+            </div>
+                                            </div>
+            </form>
+    <script type="text/javascript">
+    jQuery('#iphorm-outer-5cf938de02cc7 script').remove();
+    </script>
+</div>									
+			</div>
+
+			<div class="contact-right-col">
+				<div class="contact-info-wrap">
+
+										<div class="contact-type-wrap phone clearfix">
+						<div class="contact-type-left">
+							<span class="contact-ico"></span>
+							<h3>Phone</h3>
+						</div>
+						<div class="contact-type-right">
+							+44 (0)141 555 1234						</div>
+					</div>
+					
+										<div class="contact-type-wrap fax clearfix">
+						<div class="contact-type-left">
+							<span class="contact-ico"></span>
+							<h3>Fax</h3>
+						</div>
+						<div class="contact-type-right">
+							+44 (0)141 555 1234						</div>
+					</div>
+					
+										<div class="contact-type-wrap email clearfix">
+						<div class="contact-type-left">
+							<span class="contact-ico"></span>
+							<h3>Email</h3>
+						</div>
+						<div class="contact-type-right">
+							<a href="mailto:info@yourcompany.com">info@yourcompany.com</a>
+						</div>
+					</div>
+									</div>
+
+									<div class="contact-type-wrap address clearfix">
+						<div class="clearfix">
+							<div class="contact-type-left">
+								<span class="contact-ico"></span>
+								<h3>Location</h3>
+							</div>
+							<div class="contact-type-right">
+																	 Your Company<br />
+18 Westminster Avenue<br />
+Glasgow, G1 1AB								
+																<div class="view-map-wrap clearfix">
+									<a class="button-press view-map">Find us</a>
+								</div>
+															</div>
+						</div>
+					</div>
+
+										<div class="hidden-map" style="display: none;">
+						<img src="wp-content/themes/storm/images/mapexample.png" />					</div>
+												</div>
+
+		</div><!-- .contact-template-wrap -->
 
 	</div><!-- #post-## -->
+
+
+					</div><!-- #content -->
+
 					
-				</div><!-- #content -->
+				</div><!-- .content-style clearfix -->
 
 				
-			</div><!-- .content-style clearfix -->
-
-			
-		</div><!-- .content-inner -->
-	</div><!-- .content-outer -->
+			</div><!-- .content-inner -->
+		</div><!-- .content-outer -->
+	</div><!-- .after-header-wrap -->
 
 	
 	<!-- Begin Footer -->
@@ -204,7 +440,7 @@ img.emoji {
 					<ul class="footer-menu clearfix">
 								<li><a id="footer-widget-area-tcr_social-2" class="footer-pop-out-trigger"><span class="up-ico">Connect With Us</span></a></li>
 								<li><a id="footer-widget-area-tcr_twitter-4" class="footer-pop-out-trigger"><span class="up-ico">Twitter</span></a></li>
-												<li class="top"><a href="../storm-wordpress.1#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
+												<li class="top"><a href="index.html@p=12#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
 							</ul>
 							<div id="tcr_social-2" class="widget widget_tcr_social"><h3 class="widget-title">Connect With Us</h3>			<div class="tcr-social-widget clearfix">
 				<div class="one-icon-wrap"><a href="http://www.facebook.com/ThemeCatcher" target="_blank">
@@ -263,7 +499,7 @@ var iphormL10n = {"error_submitting_form":"An error occurred submitting the form
 <script type='text/javascript'>
 /* <![CDATA[ */
 var tcrL10n = [];
-tcrL10n = {"themeUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm","siteUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress","backgroundOptions":{"backgrounds":[{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sunrise_70.jpg","title":"Sunrise","caption":"<h1>Sunrise<\/h1>\n<p>By arturodonate<\/p>\n","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/ocean_701.jpg","title":"Sunset","caption":"<h1>Sunset on the Bluff Trail<\/h1>\n<p>By kevincole<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sand_701.jpg","title":"Like Nowhere Else","caption":"<h1>Like Nowhere Else<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/city_701.jpg","title":"New York City","caption":"<h1>New York City<\/h1>\n<p>By Paulo Barcellos Jr.<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/dovercourt_701.jpg","title":"Sunrise Over Dovercourt","caption":"<h1>Sunrise Over Dovercourt<\/h1>\n<p>By Andrew Stawarz<\/p>\n","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/stones_701.jpg","title":"Waterbending","caption":"<h1>Waterbending<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/waterfall_702.jpg","title":"Elakala Waterfalls","caption":"<h1>Elakala Waterfalls<\/h1>\n<p>By Forest Wander<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2013\/08\/sea-splash.jpg","title":"Atardecer","caption":"<h1>Atardecer<\/h1>\n<p>By Andr\u00e9s Nieto Porras<\/p>","captionPosition":""}],"speed":2000,"transition":"fade","position":"fixed","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","hideSpeed":1000,"showSpeed":1000,"controlSpeed":500,"save":true,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"random":false,"keyboard":true,"captionPosition":"right bottom","alwaysShowCaptions":true,"captionSpeed":600,"bullets":true,"lowQuality":false,"breaker":false,"breakerOnMax":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"sereneOptions":{"speed":2000,"transition":"fade","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","controlSpeed":500,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"keyboard":true,"captionPosition":"center bottom","captionSpeed":600,"bullets":true,"lowQuality":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"hideMap":"Hide map","goTo":"Go to...","font":{"type":"cufon","name":"Comfortaa_400","family":"Comfortaa","preview":"comfortaa.gif","selector":"h1, h3.widget-title, h2.intro-subtitle","fullscreen":true,"portfolio":true,"serene":true,"fancybox":true}};;
+tcrL10n = {"themeUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm","siteUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress","backgroundOptions":{"backgrounds":[{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sunrise_70.jpg","title":"Sunrise","caption":"<h1>Sunrise<\/h1>\n<p>By arturodonate<\/p>\n","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/ocean_701.jpg","title":"Sunset","caption":"<h1>Sunset on the Bluff Trail<\/h1>\n<p>By kevincole<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sand_701.jpg","title":"Like Nowhere Else","caption":"<h1>Like Nowhere Else<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/city_701.jpg","title":"New York City","caption":"<h1>New York City<\/h1>\n<p>By Paulo Barcellos Jr.<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/dovercourt_701.jpg","title":"Sunrise Over Dovercourt","caption":"<h1>Sunrise Over Dovercourt<\/h1>\n<p>By Andrew Stawarz<\/p>\n","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/stones_701.jpg","title":"Waterbending","caption":"<h1>Waterbending<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/waterfall_702.jpg","title":"Elakala Waterfalls","caption":"<h1>Elakala Waterfalls<\/h1>\n<p>By Forest Wander<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2013\/08\/sea-splash.jpg","title":"Atardecer","caption":"<h1>Atardecer<\/h1>\n<p>By Andr\u00e9s Nieto Porras<\/p>","captionPosition":""}],"speed":2000,"transition":"fade","position":"fixed","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","hideSpeed":1000,"showSpeed":1000,"controlSpeed":500,"save":true,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"random":false,"keyboard":true,"captionPosition":"right bottom","alwaysShowCaptions":false,"captionSpeed":600,"bullets":true,"lowQuality":false,"breaker":false,"breakerOnMax":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"sereneOptions":{"speed":2000,"transition":"fade","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","controlSpeed":500,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"keyboard":true,"captionPosition":"center bottom","captionSpeed":600,"bullets":true,"lowQuality":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"hideMap":"Hide map","goTo":"Go to...","font":{"type":"cufon","name":"Comfortaa_400","family":"Comfortaa","preview":"comfortaa.gif","selector":"h1, h3.widget-title, h2.intro-subtitle","fullscreen":true,"portfolio":true,"serene":true,"fancybox":true}};;
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://demos.themecatcher.net/storm-wordpress/wp-content/themes/storm/js/scripts.min.js?ver=1.4.2'></script>

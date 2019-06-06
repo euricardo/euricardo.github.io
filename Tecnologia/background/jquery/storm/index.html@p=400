@@ -17,7 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="https://demos.themecatcher.net/storm-wordpress/xmlrpc.php" />
-<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Storm WordPress &#8211; Full Screen Photography Theme</title>
+<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Lorem Ipsum Dolor Sit Amet &#8211; Storm WordPress</title>
 <link rel='dns-prefetch' href='https://s.w.org/' />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Feed" href="https://demos.themecatcher.net/storm-wordpress/feed" />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Comments Feed" href="comments/feed" />
@@ -52,14 +52,16 @@ img.emoji {
 <link rel='https://api.w.org/' href='wp-json/index.html' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demos.themecatcher.net/storm-wordpress/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Lorem Ipsum Dolor Sit Amet' href='index.html@p=398' />
+<link rel='next' title='Lorem Ipsum Dolor Sit Amet' href='index.html@p=404' />
 <meta name="generator" content="WordPress 4.7.13" />
-<link rel="canonical" href="../storm-wordpress.1" />
-<link rel='shortlink' href='../storm-wordpress.1' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F&amp;format=xml" />
+<link rel="canonical" href="index.html@p=400" />
+<link rel='shortlink' href='index.html@p=400' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F2012%252F08%252Florem-ipsum-dolor-sit-amet-4" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F2012%252F08%252Florem-ipsum-dolor-sit-amet-4&amp;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		</head>
-<body id="top" class="home page-template page-template-template-left-note-block page-template-template-left-note-block-php page page-id-2 full-width standard-header">
+<body id="top" class="post-template-default single single-post postid-400 single-format-standard right-sidebar standard-header">
 			<div id="nojs-background">
 			<img src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/sunrise_70.jpg" alt="" />
 		</div>
@@ -81,7 +83,7 @@ img.emoji {
 		<div id="nav-wrap-inner">
 
 			<div class="nav-wrap-hide">
-				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
+				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
 <ul class="sub-menu">
 	<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="index.html@p=93">Intro page</a></li>
 	<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="index.html@p=82">Video background (HD)</a></li>
@@ -89,8 +91,8 @@ img.emoji {
 	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="index.html@p=88">Audio background</a></li>
 </ul>
 </li>
-<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="blog">Blog</a></li>
-<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="../storm-wordpress.1#">Shortcodes</a>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-16"><a href="blog">Blog</a></li>
+<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="index.html@p=400#">Shortcodes</a>
 <ul class="sub-menu">
 	<li id="menu-item-389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-389"><a href="shortcodes/blog-1-column">Blog</a>
 	<ul class="sub-menu">
@@ -143,7 +145,7 @@ img.emoji {
 			<div class="nav-wrap-select"></div>
 
 							<div class="search-pop-up">
-					<a id="search-button" href="../storm-wordpress.1#" title="Search" class="search-a"></a>
+					<a id="search-button" href="index.html@p=400#" title="Search" class="search-a"></a>
 					<div class="search-container">
 						<form action="../storm-wordpress.1" method="get">
 							<div class="search-input-wrap">
@@ -162,34 +164,153 @@ img.emoji {
 		</div>
 	</div>
 
-	<div class="content-outer clearfix">
-		<div class="content-inner">
+	<div class="after-header-wrap clearfix">
 
-			
-			<div class="content-style left-note-block clearfix">
+		<div class="intro-wrap"><div class="intro-style transparent-intro"><h1 class="intro-title entry-title">Lorem Ipsum Dolor Sit Amet</h1><h2 class="intro-subtitle"><span class="updated"><a href="index.html@p=400">August 15, 2012</a></span> by <span class="vcard"><a class="url fn" href="author/themecatcher/index.html" title="View all posts by ThemeCatcher">ThemeCatcher</a></span></h2></div></div>
+		<div class="content-outer clearfix">
+			<div class="content-inner">
 
 				
-				<div id="content">
+				<div class="content-style plain-black clearfix">
 
 					
-						<div id="post-2" class="post-2 page type-page status-publish hentry">
-	<span class="entry-title tcr-hidden">Home</span><span class="vcard tcr-hidden"><span class="fn"><a href="author/themecatcher/index.html" title="Posts by ThemeCatcher" rel="author">ThemeCatcher</a></span></span><span class="updated tcr-hidden">2014-11-20T15:50:22+00:00</span>
+					<div id="content">
+
+
+
+	<div id="post-400" class="entry entry-image-full post-400 post type-post status-publish format-standard has-post-thumbnail hentry category-articles">
+
+	<div class="featured-image-helper featured-image-full"><div class="featured-image-wrap" style="width: 622px;"><img width="622" height="350" src="wp-content/uploads/2012/08/city_702-1024x576.jpg" class="attachment-large size-large" alt="" srcset="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/city_702-1024x576.jpg 1024w, https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/city_702-300x168.jpg 300w" sizes="(max-width: 622px) 100vw, 622px" /></div></div>
 	<div class="entry-content clearfix">
-		<h1>Welcome</h1>
-<h2><a href="../buy.php@product=storm-wordpress">You can buy this theme from themeforest.net</a></h2>
-<p>Storm is a stunning full screen background theme with a custom full screen gallery, perfect for showing off your visual work or perhaps you would just like to use images to sell yourself, what ever you do!</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis. Ut nec nibh quis massa ornare dapibus. In semper scelerisque quam vitae tempor. Sed ultricies, erat nec bibendum ultricies, erat lorem aliquet massa, vitae pharetra diam eros vitae purus. Phasellus sit amet felis vitae urna porttitor pellentesque.<span id="more-400"></span></p>
+<p>Nunc fermentum luctus tellus nec hendrerit. Quisque pretium justo vitae lectus mollis aliquet sagittis erat imperdiet. Phasellus velit leo, tempus nec malesuada sed, rhoncus non mi. Nunc enim augue, facilisis vitae viverra in, mattis ut dui. Proin posuere, dui vel porttitor blandit, tortor ipsum hendrerit ante, nec condimentum ligula massa vehicula orci. In porta purus aliquet lectus tempor auctor sit amet a ligula. Nam bibendum, velit ac semper euismod, elit tortor convallis ipsum, posuere tempor felis sem ut nulla. Donec velit metus, vulputate nec pellentesque nec, blandit vel massa. In hac habitasse platea dictumst. Curabitur aliquet nunc eu tortor tempor eu consequat libero auctor.</p>
+<p>Aliquam sit amet neque magna, at eleifend nisl. Quisque posuere ullamcorper risus sed placerat. Sed quis neque augue, non vulputate est. Sed pulvinar cursus neque, ut faucibus tellus interdum sed. Donec condimentum semper pretium. Aliquam tempor nibh libero. Nullam mattis egestas eleifend.</p>
+<p>Phasellus imperdiet placerat est vitae bibendum. Aliquam mollis mattis leo eget scelerisque. Pellentesque scelerisque odio felis, mattis aliquam enim. Nullam laoreet cursus lorem lacinia congue. Donec viverra ultrices tempus. Mauris placerat molestie libero eget dapibus. Maecenas tincidunt mollis nunc, et vestibulum arcu bibendum id. Mauris ac sem orci, eu adipiscing enim. Suspendisse tempus enim et ante volutpat quis mollis nulla laoreet. Morbi a dolor nibh. Vestibulum a mi nulla, sit amet vestibulum arcu.</p>
+<p>Nullam hendrerit nunc porta nisi gravida vel vehicula ipsum luctus. Nam purus lacus, venenatis sit amet adipiscing sed, placerat id tortor. Nam ac tempus ante. Morbi sapien quam, pretium ornare aliquam a, vulputate nec elit. Vestibulum orci nunc, laoreet quis egestas ornare, imperdiet non lorem. Phasellus condimentum pulvinar diam a malesuada. Maecenas bibendum sodales vulputate. Maecenas venenatis sagittis dapibus. Aenean interdum, purus eget mattis gravida, sem justo suscipit lectus, eget hendrerit quam lectus in nunc. Suspendisse imperdiet eros ut tortor elementum varius. Fusce quis urna sit amet est scelerisque sollicitudin. In sit amet turpis ipsum, ut varius erat. Curabitur cursus, odio a sodales lacinia, dolor metus interdum quam, a ultricies tellus dolor a urna. Suspendisse scelerisque nulla vitae justo posuere pharetra facilisis vitae neque. Nunc in vestibulum leo.</p>
+<p>Maecenas at viverra lectus. Duis lobortis condimentum libero, eu volutpat diam pharetra sed. Donec id turpis eget nulla dictum consequat et sit amet dolor. Curabitur ut orci at elit consequat condimentum ut eget arcu. In neque dui, egestas et tempus in, cursus eget mauris. Duis condimentum eros vel diam viverra eu fermentum tellus commodo. Sed non nisi felis. Aliquam magna urna, consequat eu cursus non, hendrerit eget nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur.</p>
 	</div><!-- .entry-content -->
 
-	</div><!-- #post-## -->
-					
-				</div><!-- #content -->
+	<div class="entry-meta clearfix">
+		<span class="entry-meta-cats-wrap"><span class="entry-meta-cats">Categories:</span> <a href="category/articles/index.html" rel="category tag">Articles</a></span>			</div><!-- .entry-meta -->
+</div><!-- #post-## -->
+
+			<div id="nav-single" class="clearfix">
+			<div class="nav-previous"><a href="index.html@p=398" rel="prev">Lorem Ipsum Dolor Sit Amet</a></div>
+			<div class="nav-next"><a href="index.html@p=404" rel="next">Lorem Ipsum Dolor Sit Amet</a></div>
+		</div><!-- #nav-single -->
+	
+	
+	<p class="nocomments">Comments are closed.</p>
+
+					</div><!-- #content -->
+
+					<div id="sidebar" class="widget-area">
+	
+	<div id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Ava</span> on <a href="index.html@p=465#comment-6">Many Comments</a></li><li class="recentcomments"><span class="comment-author-link">Andrew</span> on <a href="index.html@p=465#comment-5">Many Comments</a></li><li class="recentcomments"><span class="comment-author-link">Jane</span> on <a href="index.html@p=465#comment-4">Many Comments</a></li><li class="recentcomments"><span class="comment-author-link">John</span> on <a href="index.html@p=465#comment-3">Many Comments</a></li><li class="recentcomments"><span class="comment-author-link">ThemeCatcher</span> on <a href="index.html@p=465#comment-2">Many Comments</a></li></ul></div><div id="tcr_popular-2" class="widget widget_tcr_popular"><h3 class="widget-title">Popular Posts</h3>			<div class="widget-posts widget-popular-posts">
+									<div class="widget-post clearfix">
+													<div class="widget-post-thumb">
+								<a class="widget-post-thumb-link" href="index.html@p=465">
+																			<img src="wp-content/themes/storm/images/widget-post-thumb.png" title="Many Comments" alt="Many Comments" />																	</a>
+							</div>
+												<div class="widget-post-info">
+							<h4><a href="index.html@p=465" rel="bookmark" title="Many Comments">Many Comments</a></h4>
+															<div class="widget-post-date">August 15, 2012</div>
+																						<p class="widget-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ant...</p>
+													</div>
+					</div>
+									<div class="widget-post clearfix">
+													<div class="widget-post-thumb">
+								<a class="widget-post-thumb-link" href="index.html@p=279">
+																			<img src="wp-content/themes/storm/images/widget-post-thumb.png" title="ThemeCatcher" alt="ThemeCatcher" />																	</a>
+							</div>
+												<div class="widget-post-info">
+							<h4><a href="index.html@p=279" rel="bookmark" title="ThemeCatcher">ThemeCatcher</a></h4>
+															<div class="widget-post-date">August 13, 2012</div>
+																						<p class="widget-post-description">www.themecatcher.net</p>
+													</div>
+					</div>
+									<div class="widget-post clearfix">
+													<div class="widget-post-thumb">
+								<a class="widget-post-thumb-link" href="index.html@p=325">
+																			<img src="wp-content/themes/storm/images/widget-post-thumb.png" title="Chat" alt="Chat" />																	</a>
+							</div>
+												<div class="widget-post-info">
+							<h4><a href="index.html@p=325" rel="bookmark" title="Chat">Chat</a></h4>
+															<div class="widget-post-date">August 14, 2012</div>
+																						<p class="widget-post-description"></p>
+													</div>
+					</div>
+							</div>
+			</div><div id="tcr_twitter-3" class="widget widget_tcr_twitter"><h3 class="widget-title">Twitter</h3>				<div class="tcr-twitter-widget">
+					<div id="tcr_twitter-3-feed">
+													<ul class="tweet_list">
+																	<li>Learn what Quform is and how it can help your WordPress project <a href="https://t.co/S0W6kHkYNX" rel="nofollow">https://t.co/S0W6kHkYNX</a><span class="tweet-time"><a href="https://twitter.com/ThemeCatcher/statuses/1108514684393656321" target="_blank">about 2 months ago</a></span></li>
+																	<li>I liked a @YouTube video <a href="https://t.co/RTw7jSUn5R" rel="nofollow">https://t.co/RTw7jSUn5R</a> How to Use Web Forms on Your &quot;Property Management Website&quot; to Triple Conversion<span class="tweet-time"><a href="https://twitter.com/ThemeCatcher/statuses/1088160612864196608" target="_blank">about 4 months ago</a></span></li>
+																	<li>I liked a @YouTube video <a href="https://t.co/yxWZrHIBTp" rel="nofollow">https://t.co/yxWZrHIBTp</a> Lee Chong Wei vs Kashyap Parupalli - MS [Denmark Open 2015]<span class="tweet-time"><a href="https://twitter.com/ThemeCatcher/statuses/1086733817573007361" target="_blank">about 4 months ago</a></span></li>
+															</ul>
+											</div>
+										<div class="follow-me-button">
+						<a href="https://twitter.com/ThemeCatcher" class="button-press">Follow Me</a>
+					</div>
+									</div>
+				</div><div id="tcr_recent-3" class="widget widget_tcr_recent"><h3 class="widget-title">Recent Posts</h3>			<div class="widget-posts widget-recent-posts">
+									<div class="widget-post clearfix">
+													<div class="widget-post-thumb">
+								<a class="widget-post-thumb-link" href="index.html@p=465">
+																			<img src="wp-content/themes/storm/images/widget-post-thumb.png" title="Many Comments" alt="Many Comments" />																	</a>
+							</div>
+												<div class="widget-post-info">
+							<h4><a href="index.html@p=465" title="Many Comments">Many Comments</a></h4>
+															<div class="widget-post-date">August 15, 2012</div>
+																						<p class="widget-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ant...</p>
+													</div>
+					</div>
+									<div class="widget-post clearfix">
+													<div class="widget-post-thumb">
+								<a class="widget-post-thumb-link" href="index.html@p=445">
+																			<img width="65" height="65" src="wp-content/uploads/2012/08/stones_702-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Lorem Ipsum Dolor Sit Amet" title="Lorem Ipsum Dolor Sit Amet" />																	</a>
+							</div>
+												<div class="widget-post-info">
+							<h4><a href="index.html@p=445" title="Lorem Ipsum Dolor Sit Amet">Lorem Ipsum Dolor Si...</a></h4>
+															<div class="widget-post-date">August 15, 2012</div>
+																						<p class="widget-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ant...</p>
+													</div>
+					</div>
+									<div class="widget-post clearfix">
+													<div class="widget-post-thumb">
+								<a class="widget-post-thumb-link" href="index.html@p=443">
+																			<img width="65" height="65" src="wp-content/uploads/2012/08/ocean_702-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Lorem Ipsum Dolor Sit Amet" title="Lorem Ipsum Dolor Sit Amet" />																	</a>
+							</div>
+												<div class="widget-post-info">
+							<h4><a href="index.html@p=443" title="Lorem Ipsum Dolor Sit Amet">Lorem Ipsum Dolor Si...</a></h4>
+															<div class="widget-post-date">August 15, 2012</div>
+																						<p class="widget-post-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ant...</p>
+													</div>
+					</div>
+							</div>
+			</div><div id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-21"><a href="category/articles/index.html" >Articles</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="category/links" >Links</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="category/post-formats" >Post Formats</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="category/uncategorized" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="category/videos" >Videos</a>
+</li>
+		</ul>
+</div><div id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href='2012/08/index.html'>August 2012</a></li>
+		</ul>
+		</div>
+	</div>
+				</div><!-- .content-style clearfix -->
 
 				
-			</div><!-- .content-style clearfix -->
-
-			
-		</div><!-- .content-inner -->
-	</div><!-- .content-outer -->
+			</div><!-- .content-inner -->
+		</div><!-- .content-outer -->
+	</div><!-- .after-header-wrap -->
 
 	
 	<!-- Begin Footer -->
@@ -204,7 +325,7 @@ img.emoji {
 					<ul class="footer-menu clearfix">
 								<li><a id="footer-widget-area-tcr_social-2" class="footer-pop-out-trigger"><span class="up-ico">Connect With Us</span></a></li>
 								<li><a id="footer-widget-area-tcr_twitter-4" class="footer-pop-out-trigger"><span class="up-ico">Twitter</span></a></li>
-												<li class="top"><a href="../storm-wordpress.1#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
+												<li class="top"><a href="index.html@p=400#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
 							</ul>
 							<div id="tcr_social-2" class="widget widget_tcr_social"><h3 class="widget-title">Connect With Us</h3>			<div class="tcr-social-widget clearfix">
 				<div class="one-icon-wrap"><a href="http://www.facebook.com/ThemeCatcher" target="_blank">
@@ -263,7 +384,7 @@ var iphormL10n = {"error_submitting_form":"An error occurred submitting the form
 <script type='text/javascript'>
 /* <![CDATA[ */
 var tcrL10n = [];
-tcrL10n = {"themeUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm","siteUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress","backgroundOptions":{"backgrounds":[{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sunrise_70.jpg","title":"Sunrise","caption":"<h1>Sunrise<\/h1>\n<p>By arturodonate<\/p>\n","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/ocean_701.jpg","title":"Sunset","caption":"<h1>Sunset on the Bluff Trail<\/h1>\n<p>By kevincole<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sand_701.jpg","title":"Like Nowhere Else","caption":"<h1>Like Nowhere Else<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/city_701.jpg","title":"New York City","caption":"<h1>New York City<\/h1>\n<p>By Paulo Barcellos Jr.<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/dovercourt_701.jpg","title":"Sunrise Over Dovercourt","caption":"<h1>Sunrise Over Dovercourt<\/h1>\n<p>By Andrew Stawarz<\/p>\n","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/stones_701.jpg","title":"Waterbending","caption":"<h1>Waterbending<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/waterfall_702.jpg","title":"Elakala Waterfalls","caption":"<h1>Elakala Waterfalls<\/h1>\n<p>By Forest Wander<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2013\/08\/sea-splash.jpg","title":"Atardecer","caption":"<h1>Atardecer<\/h1>\n<p>By Andr\u00e9s Nieto Porras<\/p>","captionPosition":""}],"speed":2000,"transition":"fade","position":"fixed","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","hideSpeed":1000,"showSpeed":1000,"controlSpeed":500,"save":true,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"random":false,"keyboard":true,"captionPosition":"right bottom","alwaysShowCaptions":true,"captionSpeed":600,"bullets":true,"lowQuality":false,"breaker":false,"breakerOnMax":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"sereneOptions":{"speed":2000,"transition":"fade","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","controlSpeed":500,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"keyboard":true,"captionPosition":"center bottom","captionSpeed":600,"bullets":true,"lowQuality":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"hideMap":"Hide map","goTo":"Go to...","font":{"type":"cufon","name":"Comfortaa_400","family":"Comfortaa","preview":"comfortaa.gif","selector":"h1, h3.widget-title, h2.intro-subtitle","fullscreen":true,"portfolio":true,"serene":true,"fancybox":true}};;
+tcrL10n = {"themeUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm","siteUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress","backgroundOptions":{"backgrounds":[{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sunrise_70.jpg","title":"Sunrise","caption":"<h1>Sunrise<\/h1>\n<p>By arturodonate<\/p>\n","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/ocean_701.jpg","title":"Sunset","caption":"<h1>Sunset on the Bluff Trail<\/h1>\n<p>By kevincole<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sand_701.jpg","title":"Like Nowhere Else","caption":"<h1>Like Nowhere Else<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/city_701.jpg","title":"New York City","caption":"<h1>New York City<\/h1>\n<p>By Paulo Barcellos Jr.<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/dovercourt_701.jpg","title":"Sunrise Over Dovercourt","caption":"<h1>Sunrise Over Dovercourt<\/h1>\n<p>By Andrew Stawarz<\/p>\n","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/stones_701.jpg","title":"Waterbending","caption":"<h1>Waterbending<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/waterfall_702.jpg","title":"Elakala Waterfalls","caption":"<h1>Elakala Waterfalls<\/h1>\n<p>By Forest Wander<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2013\/08\/sea-splash.jpg","title":"Atardecer","caption":"<h1>Atardecer<\/h1>\n<p>By Andr\u00e9s Nieto Porras<\/p>","captionPosition":""}],"speed":2000,"transition":"fade","position":"fixed","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","hideSpeed":1000,"showSpeed":1000,"controlSpeed":500,"save":true,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"random":false,"keyboard":true,"captionPosition":"right bottom","alwaysShowCaptions":false,"captionSpeed":600,"bullets":true,"lowQuality":false,"breaker":false,"breakerOnMax":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"sereneOptions":{"speed":2000,"transition":"fade","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","controlSpeed":500,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"keyboard":true,"captionPosition":"center bottom","captionSpeed":600,"bullets":true,"lowQuality":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"hideMap":"Hide map","goTo":"Go to...","font":{"type":"cufon","name":"Comfortaa_400","family":"Comfortaa","preview":"comfortaa.gif","selector":"h1, h3.widget-title, h2.intro-subtitle","fullscreen":true,"portfolio":true,"serene":true,"fancybox":true}};;
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://demos.themecatcher.net/storm-wordpress/wp-content/themes/storm/js/scripts.min.js?ver=1.4.2'></script>

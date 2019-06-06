@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments for Storm WordPress</title>
+	<atom:link href="https://demos.themecatcher.net/storm-wordpress/comments/feed" rel="self" type="application/rss+xml" />
+	<link>https://demos.themecatcher.net/storm-wordpress</link>
+	<description>Full Screen Photography Theme</description>
+	<lastBuildDate>Wed, 15 Aug 2012 13:19:59 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.13</generator>
+	<item>
+		<title>Comment on Many Comments by Ava</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/many-comments#comment-6</link>
+		<dc:creator><![CDATA[Ava]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2012 13:19:59 +0000</pubDate>
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=465#comment-6</guid>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.]]></description>
+		<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Many Comments by Andrew</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/many-comments#comment-5</link>
+		<dc:creator><![CDATA[Andrew]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2012 13:18:38 +0000</pubDate>
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=465#comment-5</guid>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.]]></description>
+		<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Many Comments by Jane</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/many-comments#comment-4</link>
+		<dc:creator><![CDATA[Jane]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2012 13:11:25 +0000</pubDate>
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=465#comment-4</guid>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.]]></description>
+		<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Many Comments by John</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/many-comments#comment-3</link>
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2012 13:10:54 +0000</pubDate>
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=465#comment-3</guid>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.]]></description>
+		<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Many Comments by ThemeCatcher</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/many-comments#comment-2</link>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+		<pubDate>Wed, 15 Aug 2012 13:10:20 +0000</pubDate>
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=465#comment-2</guid>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.]]></description>
+		<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque ante, commodo eget blandit sed, aliquet vitae elit. Quisque iaculis ligula nec nulla feugiat eget semper orci suscipit. Aenean id diam ac leo tincidunt sagittis.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

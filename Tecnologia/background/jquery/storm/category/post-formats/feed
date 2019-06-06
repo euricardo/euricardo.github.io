@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Post Formats &#8211; Storm WordPress</title>
+	<atom:link href="https://demos.themecatcher.net/storm-wordpress/category/post-formats/feed" rel="self" type="application/rss+xml" />
+	<link>https://demos.themecatcher.net/storm-wordpress</link>
+	<description>Full Screen Photography Theme</description>
+	<lastBuildDate>Fri, 20 Jan 2017 17:01:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.13</generator>
+	<item>
+		<title>Image</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/image</link>
+		<pubDate>Tue, 14 Aug 2012 12:51:36 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=354</guid>
+		<description><![CDATA[This is an example of the Image post format.]]></description>
+				<content:encoded><![CDATA[<p><img src="http://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/rays_701.jpg" width="622" alt="" /></p>
+<p>This is an example of the Image post format.</p>
+<div class="accordion toggle">
+<h3><a>Get code</a></h3>
+<div class="accordion-content-wrap">
+<div class="accordion-content clearfix">
+<pre>[image width="622"]http://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/rays_701.jpg[/image]</pre>
+</div>
+</div>
+</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Quote</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/quote</link>
+		<pubDate>Tue, 14 Aug 2012 12:47:49 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=351</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<blockquote>
+<div class="blockquote-inner">
+<p>Simplicity is the ultimate sophistication.</p>
+<div class="cite">&ndash; Leonardo da Vinci</div>
+</div>
+</blockquote>
+<div class="accordion toggle">
+<h3><a>Get code</a></h3>
+<div class="accordion-content-wrap">
+<div class="accordion-content clearfix">
+<pre>[blockquote cite="Leonardo da Vinci"]Simplicity is the ultimate sophistication.[/blockquote]</pre>
+</div>
+</div>
+</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Status</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/status</link>
+		<pubDate>Tue, 14 Aug 2012 12:46:08 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=349</guid>
+		<description><![CDATA[This is an example of the Status post format.]]></description>
+				<content:encoded><![CDATA[<p>This is an example of the Status post format.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Gallery</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/gallery</link>
+		<pubDate>Tue, 14 Aug 2012 12:26:53 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=337</guid>
+		<description><![CDATA[This post is an example of the Gallery post format using the built-in WordPress gallery.]]></description>
+				<content:encoded><![CDATA[<p>This post is an example of the Gallery post format using the built-in WordPress gallery.</p>
+<p><a href='https://demos.themecatcher.net/storm-wordpress/2012/08/gallery/dovercourt_70-4'><img width="150" height="150" src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/dovercourt_702-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a><br />
+<a href='https://demos.themecatcher.net/storm-wordpress/2012/08/gallery/sunset-at-montaa%c2%b1a-de-oro-sunday-december-13-2009-4'><img width="150" height="150" src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/ocean_702-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a><br />
+<a href='https://demos.themecatcher.net/storm-wordpress/2012/08/gallery/rays_70-4'><img width="150" height="150" src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/rays_701-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a><br />
+<a href='https://demos.themecatcher.net/storm-wordpress/2012/08/gallery/sunrise_70-5'><img width="150" height="150" src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/sunrise_702-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a><br />
+<a href='https://demos.themecatcher.net/storm-wordpress/2012/08/gallery/city_70-4'><img width="150" height="150" src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/city_702-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a><br />
+<a href='https://demos.themecatcher.net/storm-wordpress/2012/08/gallery/stones_70-4'><img width="150" height="150" src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/stones_702-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Aside</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/aside</link>
+		<pubDate>Tue, 14 Aug 2012 12:24:37 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=335</guid>
+		<description><![CDATA[This post is an example of an Aside post format.]]></description>
+				<content:encoded><![CDATA[<p>This post is an example of an Aside post format.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Chat</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/chat</link>
+		<pubDate>Tue, 14 Aug 2012 12:10:24 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=325</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<blockquote>
+<div class="blockquote-inner">
+<p>Bob: This is a Chat post format</p>
+<p>Alice: Wow, doesn&#8217;t this look great?</p>
+<p>Bob: Yeah, wait till you see what else you can do with this theme.</p>
+</div>
+</blockquote>
+<div class="accordion toggle">
+<h3><a>Get code</a></h3>
+<div class="accordion-content-wrap">
+<div class="accordion-content clearfix">
+<pre>[blockquote]Bob: This is a Chat post format
+
+Alice: Wow, doesn't this look great?
+
+Bob: Yeah, wait till you see what else you can do with this theme.[/blockquote]</pre>
+</div>
+</div>
+</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>ThemeCatcher</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/themecatcher</link>
+		<pubDate>Mon, 13 Aug 2012 22:40:19 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[Post Formats]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=279</guid>
+		<description><![CDATA[www.themecatcher.net]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.themecatcher.net">www.themecatcher.net</a></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Have Mercy Las Vegas</title>
+		<link>https://demos.themecatcher.net/storm-wordpress/2012/08/have-mercy-las-vegas</link>
+		<pubDate>Mon, 13 Aug 2012 22:15:23 +0000</pubDate>
+		<dc:creator><![CDATA[ThemeCatcher]]></dc:creator>
+				<category><![CDATA[Post Formats]]></category>
+		<category><![CDATA[Videos]]></category>
+
+		<guid isPermaLink="false">http://demos.themecatcher.net/storm-wordpress/?p=270</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><iframe width="622" height="350" src="http://www.youtube.com/embed/ri8HASlS8Ng?rel=0" frameborder="0" allowfullscreen></iframe></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

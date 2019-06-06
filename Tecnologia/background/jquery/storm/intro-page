@@ -17,7 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="https://demos.themecatcher.net/storm-wordpress/xmlrpc.php" />
-<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Storm WordPress &#8211; Full Screen Photography Theme</title>
+<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Intro page &#8211; Storm WordPress</title>
 <link rel='dns-prefetch' href='https://s.w.org/' />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Feed" href="https://demos.themecatcher.net/storm-wordpress/feed" />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Comments Feed" href="comments/feed" />
@@ -53,13 +53,13 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demos.themecatcher.net/storm-wordpress/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.7.13" />
-<link rel="canonical" href="../storm-wordpress.1" />
-<link rel='shortlink' href='../storm-wordpress.1' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F&amp;format=xml" />
+<link rel="canonical" href="index.html@p=93" />
+<link rel='shortlink' href='index.html@p=93' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252Fintro-page" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252Fintro-page&amp;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		</head>
-<body id="top" class="home page-template page-template-template-left-note-block page-template-template-left-note-block-php page page-id-2 full-width standard-header">
+<body id="top" class="page-template page-template-template-intro-page page-template-template-intro-page-php page page-id-93 full-width standard-header">
 			<div id="nojs-background">
 			<img src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/sunrise_70.jpg" alt="" />
 		</div>
@@ -68,134 +68,10 @@ img.emoji {
 		
 <div id="outside">
 
-	
-	<div id="header-outer">
-		<div class="header-background">
-			<div id="header-inner" class="clearfix">
-
-				<div class="logo">
-		<a href="../storm-wordpress.1">
-							<img src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/12/logo.png" alt="Logo" />
-					</a>
-	</div><div id="nav-wrap" class="clearfix">
-		<div id="nav-wrap-inner">
-
-			<div class="nav-wrap-hide">
-				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
-<ul class="sub-menu">
-	<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="index.html@p=93">Intro page</a></li>
-	<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="index.html@p=82">Video background (HD)</a></li>
-	<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="index.html@p=365">Video background (SD)</a></li>
-	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="index.html@p=88">Audio background</a></li>
-</ul>
-</li>
-<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="blog">Blog</a></li>
-<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="../storm-wordpress.1#">Shortcodes</a>
-<ul class="sub-menu">
-	<li id="menu-item-389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-389"><a href="shortcodes/blog-1-column">Blog</a>
-	<ul class="sub-menu">
-		<li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390"><a href="index.html@p=387">Blog 1 column</a></li>
-		<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="index.html@p=410">Blog 2 columns</a></li>
-		<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="index.html@p=26">Blog 3 columns</a></li>
-		<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="index.html@p=417">Blog 4 columns</a></li>
-		<li id="menu-item-462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462"><a href="index.html@p=453">Blog 5 columns</a></li>
-		<li id="menu-item-461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-461"><a href="index.html@p=457">Blog 6 columns</a></li>
-	</ul>
-</li>
-	<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="index.html@p=40">Buttons &#038; images</a></li>
-	<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="index.html@p=36">Columns</a></li>
-	<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="index.html@p=38">Content display</a></li>
-	<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="index.html@p=30">Dynamic content</a></li>
-	<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="index.html@p=34">Headings</a></li>
-</ul>
-</li>
-<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15"><a href="index.html@p=9">Portfolio</a>
-<ul class="sub-menu">
-	<li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-161"><a href="index.html@p=143">Full screen</a>
-	<ul class="sub-menu">
-		<li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href="index.html@p=143">1 column</a></li>
-		<li id="menu-item-158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158"><a href="index.html@p=147">2 columns</a></li>
-		<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="index.html@p=162">3 columns</a></li>
-		<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="index.html@p=164">4 columns</a></li>
-		<li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="index.html@p=172">5 columns</a></li>
-		<li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178"><a href="index.html@p=175">6 columns</a></li>
-		<li id="menu-item-230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a href="index.html@p=205">Grid</a></li>
-	</ul>
-</li>
-	<li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257"><a href="portfolio/fancybox-1-column">FancyBox</a>
-	<ul class="sub-menu">
-		<li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-256"><a href="index.html@p=231">1 column</a></li>
-		<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="index.html@p=233">2 columns</a></li>
-		<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="index.html@p=235">3 columns</a></li>
-		<li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="index.html@p=237">4 columns</a></li>
-		<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="index.html@p=240">5 columns</a></li>
-		<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="index.html@p=242">6 columns</a></li>
-		<li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-250"><a href="index.html@p=244">Grid</a></li>
-	</ul>
-</li>
-	<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="index.html@p=262">Galleria</a></li>
-</ul>
-</li>
-<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="index.html@p=12">Contact</a></li>
-<li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="../buy.php@product=storm-wordpress">Buy</a></li>
-</ul></div>			</div>
-
-			<div class="nav-wrap-select"></div>
-
-							<div class="search-pop-up">
-					<a id="search-button" href="../storm-wordpress.1#" title="Search" class="search-a"></a>
-					<div class="search-container">
-						<form action="../storm-wordpress.1" method="get">
-							<div class="search-input-wrap">
-								<input id="search-input" class="search-input" name="s" placeholder="Search" />
-							</div>
-							<div class="search-button-wrap">
-								<input name="go" type="submit" value="Go" />
-							</div>
-						</form>
-					</div>
-				</div><!-- .search-pop-up -->
-			
-		</div><!-- #nav-wrap-inner -->
-	</div><!-- #nav-wrap -->
-			</div>
-		</div>
-	</div>
-
-	<div class="content-outer clearfix">
-		<div class="content-inner">
-
-			
-			<div class="content-style left-note-block clearfix">
-
-				
-				<div id="content">
-
-					
-						<div id="post-2" class="post-2 page type-page status-publish hentry">
-	<span class="entry-title tcr-hidden">Home</span><span class="vcard tcr-hidden"><span class="fn"><a href="author/themecatcher/index.html" title="Posts by ThemeCatcher" rel="author">ThemeCatcher</a></span></span><span class="updated tcr-hidden">2014-11-20T15:50:22+00:00</span>
-	<div class="entry-content clearfix">
-		<h1>Welcome</h1>
-<h2><a href="../buy.php@product=storm-wordpress">You can buy this theme from themeforest.net</a></h2>
-<p>Storm is a stunning full screen background theme with a custom full screen gallery, perfect for showing off your visual work or perhaps you would just like to use images to sell yourself, what ever you do!</p>
-	</div><!-- .entry-content -->
-
-	</div><!-- #post-## -->
-					
-				</div><!-- #content -->
-
-				
-			</div><!-- .content-style clearfix -->
-
-			
-		</div><!-- .content-inner -->
-	</div><!-- .content-outer -->
-
-	
 	<!-- Begin Footer -->
 	<div id="footer">
-		<div class="footer-left-edge"></div>
-		<div class="footer-right-edge"></div>
+        <div class="footer-left-edge"></div>
+        <div class="footer-right-edge"></div>
 		<div class="footer-inside clearfix">
 			<div class="foot-left-col">
 		<a href="../buy.php@product=storm-wordpress">Storm</a> by ThemeCatcher &copy; 2017	</div><!-- .foot-left-col -->
@@ -204,7 +80,7 @@ img.emoji {
 					<ul class="footer-menu clearfix">
 								<li><a id="footer-widget-area-tcr_social-2" class="footer-pop-out-trigger"><span class="up-ico">Connect With Us</span></a></li>
 								<li><a id="footer-widget-area-tcr_twitter-4" class="footer-pop-out-trigger"><span class="up-ico">Twitter</span></a></li>
-												<li class="top"><a href="../storm-wordpress.1#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
+												<li class="top"><a href="index.html@p=93#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
 							</ul>
 							<div id="tcr_social-2" class="widget widget_tcr_social"><h3 class="widget-title">Connect With Us</h3>			<div class="tcr-social-widget clearfix">
 				<div class="one-icon-wrap"><a href="http://www.facebook.com/ThemeCatcher" target="_blank">
@@ -231,7 +107,8 @@ img.emoji {
 					</div>
 	</div>
 
-	
+	<div id="intro-page-skip"><a href="../storm-wordpress.1">Skip intro &raquo;</a></div>
+
 </div><!-- #outside -->
 
 <script type='text/javascript' src='https://demos.themecatcher.net/storm-wordpress/wp-content/plugins/iphorm-form-builder/js/swfupload.min.js?ver=1.7.10'></script>

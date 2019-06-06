@@ -1,0 +1,27 @@
+.logo {
+	margin-top: 32px;
+	margin-left: 0px;
+}
+body, .serene-overlay, .fullscreen-slide {background-color: #575757;}
+
+a:link, a:visited {color: #ffa200;}
+
+.search-button-wrap input, .search-button-wrap input, .pagination-wrapper ul li a, .pagination-wrapper ul li.on span, .comment-reply .submit-button-input-wrapper input, ul.footer-menu li a, a.button-press, .email a, ul.primary-menu li a, .primary-menu ul li a, .primary-menu ul li a ul a, .primary-menu ul li span, .primary-menu ul li a ul span, ul.vert-nav-ul li a, .comment-meta a, a.comment-reply-link, a.white-link, ul#comment-tabs-nav li a, a.basic-button, .fancy-button-style1 a, .fancy-button-style2 a, .fancy-button-style3 a, .fancy-button-style4 a, .tagcloud a, .fancy-list ul li a {color:#f7f7f7;}/*RESETS THE LINK/BUTTON COLOURS*/
+
+a.button-link:hover, .post .read-more-link .more-link:hover, .more-link:hover, .search-button-wrap input:hover, .pagination-wrapper ul li a:hover,
+.pagination-wrapper ul li.on span:hover, .comment-reply .submit-button-input-wrapper input:hover, ul.footer-menu li a:hover, a.button-press:hover, .email a:hover, ul.primary-menu li a:hover, .primary-menu ul li a:hover, .primary-menu ul li a ul a:hover, .primary-menu ul li span:hover, .primary-menu ul li a ul span:hover, ul.vert-nav-ul li a:hover,.iphorm-inner .submit-button-input-wrapper input:hover, a.comment-reply-link:hover, ul#comment-tabs-nav li a:hover, ul#comment-tabs-nav li a.current, a.basic-button:hover, .portfolio-filter a.active-filter, .accordion > h3.active, .toggle.active, .accordion > h3:hover, .tabs ul.tabs-nav li a:hover, .tabs ul.tabs-nav li.active a, .fancy-button-style1 a:hover, .fancy-button-style2 a:hover, fancy-button-style3 a:hover, .tagcloud a:hover,  .fancy-button-style3 a:hover, .fancy-button-style4 a:hover, ul.vert-nav-ul li a:hover, #sidebar .widget_pages ul li a:hover, #sidebar .widget_recent_entries ul li a:hover, #sidebar .widget_meta ul li a:hover, #sidebar .widget_archive ul li a:hover, #sidebar .widget_categories ul li a:hover, a.comment-edit-link:hover, .accordion > h3:hover a, .fancy-list.fancy-menu.inline ul li a:hover, .pagination-wrapper ul li a:hover, .page-link a:hover , .pagination-wrapper ul li.on span:hover, #nav-single a:hover, .wp-pagenavi a:hover, .comments-pagination-wrap a:hover, .form-submit input:hover, #searchform input#searchsubmit:hover, a.comment-reply-link:hover, ul#comment-tabs-nav li a:hover, ul#comment-tabs-nav li a.current, ul.footer-menu li a:hover, ul.footer-menu li a.footer-pop-out-trigger.footer-pop-active, .impact-header-link-wrap a.impact-link:hover, .fancy-list ul li a:hover, .contact-details .details a, #sidebar ul.menu li:hover ul li a, #sidebar ul.menu li ul li:hover a
+{color: #ffa200;}
+
+.contact-details .details a:hover, .entry-meta a:hover, .widget-post-info h4 a:hover, h4.portfolio-item-title a:hover, .breadcrumbs-plus a:hover, #sidebar ul.menu > li:hover > ul > li a:hover {color:#f7f7f7!important;}/*WHITE HOVER*/
+
+.cycle-controls-wrap a:hover {background-color:#ffa200!important; }
+.image-frame.style2 img, .email a {border-color:#ffa200;}
+
+h2, h5, h2.entry-title a, h2.intro-subtitle > a, h1.fancy-header-style1, .impact-header h1, h4.portfolio-item-title a, h4.widget-post-info a,
+h1.entry-title a, .date .day h2, .fullscreen-caption h1, .fs-slider-caption h1, .serene-caption h1
+{color: #ffa200;}
+
+h1 {color: #ffffff;}
+
+
+#nav-wrap-inner { padding-right: 60px;}

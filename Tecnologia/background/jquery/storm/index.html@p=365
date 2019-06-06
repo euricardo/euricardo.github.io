@@ -17,7 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="https://demos.themecatcher.net/storm-wordpress/xmlrpc.php" />
-<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Storm WordPress &#8211; Full Screen Photography Theme</title>
+<script>if(top!==self){top.location.assign(self.location.href);}</script><title>Video background (SD) &#8211; Storm WordPress</title>
 <link rel='dns-prefetch' href='https://s.w.org/' />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Feed" href="https://demos.themecatcher.net/storm-wordpress/feed" />
 <link rel="alternate" type="application/rss+xml" title="Storm WordPress &raquo; Comments Feed" href="comments/feed" />
@@ -53,17 +53,17 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php@rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demos.themecatcher.net/storm-wordpress/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.7.13" />
-<link rel="canonical" href="../storm-wordpress.1" />
-<link rel='shortlink' href='../storm-wordpress.1' />
-<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F" />
-<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252F&amp;format=xml" />
+<link rel="canonical" href="index.html@p=365" />
+<link rel='shortlink' href='index.html@p=365' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252Fvideo-background-sd" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed@url=https%253A%252F%252Fdemos.themecatcher.net%252Fstorm-wordpress%252Fvideo-background-sd&amp;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		</head>
-<body id="top" class="home page-template page-template-template-left-note-block page-template-template-left-note-block-php page page-id-2 full-width standard-header">
+<body id="top" class="page-template page-template-template-left-note-block page-template-template-left-note-block-php page page-id-365 full-width standard-header">
 			<div id="nojs-background">
 			<img src="https://demos.themecatcher.net/storm-wordpress/wp-content/uploads/2012/08/sunrise_70.jpg" alt="" />
 		</div>
-		
+		<div id="video-background-wrap"><iframe id="video-background" src="https://player.vimeo.com/video/23438996?title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;api=1&amp;player_id=video-background" width="1920" height="1080" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 			<div class="background-overlay"><div class="diagonal"></div></div>
 		
 <div id="outside">
@@ -81,16 +81,16 @@ img.emoji {
 		<div id="nav-wrap-inner">
 
 			<div class="nav-wrap-hide">
-				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
+				<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-6"><a href="../storm-wordpress.1">Home</a>
 <ul class="sub-menu">
 	<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="index.html@p=93">Intro page</a></li>
 	<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="index.html@p=82">Video background (HD)</a></li>
-	<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="index.html@p=365">Video background (SD)</a></li>
+	<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-365 current_page_item menu-item-372"><a href="index.html@p=365">Video background (SD)</a></li>
 	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="index.html@p=88">Audio background</a></li>
 </ul>
 </li>
 <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="blog">Blog</a></li>
-<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="../storm-wordpress.1#">Shortcodes</a>
+<li id="menu-item-546" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-546"><a href="index.html@p=365#">Shortcodes</a>
 <ul class="sub-menu">
 	<li id="menu-item-389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-389"><a href="shortcodes/blog-1-column">Blog</a>
 	<ul class="sub-menu">
@@ -143,7 +143,7 @@ img.emoji {
 			<div class="nav-wrap-select"></div>
 
 							<div class="search-pop-up">
-					<a id="search-button" href="../storm-wordpress.1#" title="Search" class="search-a"></a>
+					<a id="search-button" href="index.html@p=365#" title="Search" class="search-a"></a>
 					<div class="search-container">
 						<form action="../storm-wordpress.1" method="get">
 							<div class="search-input-wrap">
@@ -172,12 +172,13 @@ img.emoji {
 				<div id="content">
 
 					
-						<div id="post-2" class="post-2 page type-page status-publish hentry">
-	<span class="entry-title tcr-hidden">Home</span><span class="vcard tcr-hidden"><span class="fn"><a href="author/themecatcher/index.html" title="Posts by ThemeCatcher" rel="author">ThemeCatcher</a></span></span><span class="updated tcr-hidden">2014-11-20T15:50:22+00:00</span>
+						<div id="post-365" class="post-365 page type-page status-publish hentry">
+	<span class="entry-title tcr-hidden">Video background (SD)</span><span class="vcard tcr-hidden"><span class="fn"><a href="author/themecatcher/index.html" title="Posts by ThemeCatcher" rel="author">ThemeCatcher</a></span></span><span class="updated tcr-hidden">2014-11-20T15:52:42+00:00</span>
 	<div class="entry-content clearfix">
-		<h1>Welcome</h1>
-<h2><a href="../buy.php@product=storm-wordpress">You can buy this theme from themeforest.net</a></h2>
-<p>Storm is a stunning full screen background theme with a custom full screen gallery, perfect for showing off your visual work or perhaps you would just like to use images to sell yourself, what ever you do!</p>
+		<h1>Video</h1>
+<h2>Add some stunning background video</h2>
+<p>Embed any YouTube or Vimeo video as a background. This page uses the <em>Left note block</em> page template.</p>
+<p>Video &#8211; <a href="http://vimeo.com/23438996" class="popup-link">High Hopes</a> by Team Ghost</p>
 	</div><!-- .entry-content -->
 
 	</div><!-- #post-## -->
@@ -204,7 +205,7 @@ img.emoji {
 					<ul class="footer-menu clearfix">
 								<li><a id="footer-widget-area-tcr_social-2" class="footer-pop-out-trigger"><span class="up-ico">Connect With Us</span></a></li>
 								<li><a id="footer-widget-area-tcr_twitter-4" class="footer-pop-out-trigger"><span class="up-ico">Twitter</span></a></li>
-												<li class="top"><a href="../storm-wordpress.1#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
+												<li class="top"><a href="index.html@p=365#top" class="scroll-top" title="Scroll to top"><span class="up-ico">Top</span></a></li>
 							</ul>
 							<div id="tcr_social-2" class="widget widget_tcr_social"><h3 class="widget-title">Connect With Us</h3>			<div class="tcr-social-widget clearfix">
 				<div class="one-icon-wrap"><a href="http://www.facebook.com/ThemeCatcher" target="_blank">
@@ -228,12 +229,14 @@ img.emoji {
 				</div>		
 	</div><!-- .foot-right-col -->
 	<div id="fs-controls"><span class="label">Background</span></div>
+			<div id="video-controls"><span class="label">Video</span></div>
 					</div>
 	</div>
 
 	
 </div><!-- #outside -->
 
+<script type='text/javascript' src='wp-includes/js/mediaelement/froogaloop.min.js@ver=2.0'></script>
 <script type='text/javascript' src='https://demos.themecatcher.net/storm-wordpress/wp-content/plugins/iphorm-form-builder/js/swfupload.min.js?ver=1.7.10'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -263,7 +266,7 @@ var iphormL10n = {"error_submitting_form":"An error occurred submitting the form
 <script type='text/javascript'>
 /* <![CDATA[ */
 var tcrL10n = [];
-tcrL10n = {"themeUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm","siteUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress","backgroundOptions":{"backgrounds":[{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sunrise_70.jpg","title":"Sunrise","caption":"<h1>Sunrise<\/h1>\n<p>By arturodonate<\/p>\n","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/ocean_701.jpg","title":"Sunset","caption":"<h1>Sunset on the Bluff Trail<\/h1>\n<p>By kevincole<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sand_701.jpg","title":"Like Nowhere Else","caption":"<h1>Like Nowhere Else<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/city_701.jpg","title":"New York City","caption":"<h1>New York City<\/h1>\n<p>By Paulo Barcellos Jr.<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/dovercourt_701.jpg","title":"Sunrise Over Dovercourt","caption":"<h1>Sunrise Over Dovercourt<\/h1>\n<p>By Andrew Stawarz<\/p>\n","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/stones_701.jpg","title":"Waterbending","caption":"<h1>Waterbending<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/waterfall_702.jpg","title":"Elakala Waterfalls","caption":"<h1>Elakala Waterfalls<\/h1>\n<p>By Forest Wander<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2013\/08\/sea-splash.jpg","title":"Atardecer","caption":"<h1>Atardecer<\/h1>\n<p>By Andr\u00e9s Nieto Porras<\/p>","captionPosition":""}],"speed":2000,"transition":"fade","position":"fixed","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","hideSpeed":1000,"showSpeed":1000,"controlSpeed":500,"save":true,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"random":false,"keyboard":true,"captionPosition":"right bottom","alwaysShowCaptions":true,"captionSpeed":600,"bullets":true,"lowQuality":false,"breaker":false,"breakerOnMax":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"sereneOptions":{"speed":2000,"transition":"fade","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","controlSpeed":500,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"keyboard":true,"captionPosition":"center bottom","captionSpeed":600,"bullets":true,"lowQuality":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"hideMap":"Hide map","goTo":"Go to...","font":{"type":"cufon","name":"Comfortaa_400","family":"Comfortaa","preview":"comfortaa.gif","selector":"h1, h3.widget-title, h2.intro-subtitle","fullscreen":true,"portfolio":true,"serene":true,"fancybox":true}};;
+tcrL10n = {"themeUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm","siteUrl":"https:\/\/demos.themecatcher.net\/storm-wordpress","backgroundOptions":{"backgrounds":[{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sunrise_70.jpg","title":"Sunrise","caption":"<h1>Sunrise<\/h1>\n<p>By arturodonate<\/p>\n","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/ocean_701.jpg","title":"Sunset","caption":"<h1>Sunset on the Bluff Trail<\/h1>\n<p>By kevincole<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/sand_701.jpg","title":"Like Nowhere Else","caption":"<h1>Like Nowhere Else<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/city_701.jpg","title":"New York City","caption":"<h1>New York City<\/h1>\n<p>By Paulo Barcellos Jr.<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/dovercourt_701.jpg","title":"Sunrise Over Dovercourt","caption":"<h1>Sunrise Over Dovercourt<\/h1>\n<p>By Andrew Stawarz<\/p>\n","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/stones_701.jpg","title":"Waterbending","caption":"<h1>Waterbending<\/h1>\n<p>By Zach Dischner<\/p>","captionPosition":""},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2012\/08\/waterfall_702.jpg","title":"Elakala Waterfalls","caption":"<h1>Elakala Waterfalls<\/h1>\n<p>By Forest Wander<\/p>","captionPosition":"left bottom"},{"image":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/uploads\/2013\/08\/sea-splash.jpg","title":"Atardecer","caption":"<h1>Atardecer<\/h1>\n<p>By Andr\u00e9s Nieto Porras<\/p>","captionPosition":""}],"speed":2000,"transition":"fade","position":"fixed","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","hideSpeed":1000,"showSpeed":1000,"controlSpeed":500,"save":true,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"random":false,"keyboard":true,"captionPosition":"right bottom","alwaysShowCaptions":true,"captionSpeed":600,"bullets":true,"lowQuality":false,"breaker":false,"breakerOnMax":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"sereneOptions":{"speed":2000,"transition":"fade","fitLandscape":false,"fitPortrait":true,"fitAlways":false,"positionX":"center","positionY":"center","easing":"swing","controlSpeed":500,"slideshow":true,"slideshowAuto":true,"slideshowSpeed":7000,"keyboard":true,"captionPosition":"center bottom","captionSpeed":600,"bullets":true,"lowQuality":false,"errorBackground":"https:\/\/demos.themecatcher.net\/storm-wordpress\/wp-content\/themes\/storm\/images\/backgrounds\/error.jpg"},"hideMap":"Hide map","goTo":"Go to...","video":{"type":"vimeo","url":"http:\/\/vimeo.com\/23438996","id":23438996,"html":"<div id=\"video-background-wrap\"><iframe id=\"video-background\" src="https://demos.themecatcher.net/storm-wordpress/\&quot;https:\/\/player.vimeo.com\/video\/23438996?title=0&amp;byline=0&amp;portrait=0&amp;controls=0&amp;api=1&amp;player_id=video-background\&quot;" width=\"1920\" height=\"1080\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen><\/iframe><\/div>","autostart":true,"complete":"restart","width":"640","height":"360","start":0,"redirect":"","fullScreen":true,"fullScreenOverlay":true},"font":{"type":"cufon","name":"Comfortaa_400","family":"Comfortaa","preview":"comfortaa.gif","selector":"h1, h3.widget-title, h2.intro-subtitle","fullscreen":true,"portfolio":true,"serene":true,"fancybox":true}};;
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://demos.themecatcher.net/storm-wordpress/wp-content/themes/storm/js/scripts.min.js?ver=1.4.2'></script>
