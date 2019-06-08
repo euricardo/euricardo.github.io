@@ -1,0 +1,917 @@
+@media (max-width:1680px){
+    .currency_converter_area .converter_left {
+        width: calc(50% - 103px);
+        overflow: hidden;
+    }
+    .currency_converter_area .converter_right{
+        width: calc(50% + 103px);
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    .nice-select .list{
+        left: auto;
+        right: 0;
+    }
+    .hero_banner_three .img_two img {
+        max-width: 100%;
+    }
+}
+@media (max-width:1440px){
+    .coin_img{
+        right: 0;
+    }
+    .pad_screen img{
+        max-width: 130%;
+    }
+    .hero_banner_area .video_img {
+        margin-right: 0;
+    }
+    .commingsoon_section .timer{
+        margin: 50px 0px 40px;
+    }
+    .commingsoon_section p{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:1199px){
+    .navbar .nav .nav-item + li {
+        margin-left: 15px;
+    }
+    .about_img img{
+        max-width: 100%;
+    }
+    .testimonial_item{
+        padding: 35px 20px 25px 25px;
+    }
+    .lt_blog_item img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .latest_news {
+        padding: 25px 20px 20px 20px;
+    }
+    .lt_blog_item .img_blog_text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .expertise_item_two .expertise_content.bottom_text {
+        top: 66%;
+    }
+    .expertise_item_two .expertise_content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .expertise_item_two .expertise_content p{
+        font-size: 14px;
+    }
+    .team_member .team_img_inner img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .network_content{
+        padding-top: 0px;
+    }
+    .growing_facts {
+        padding: 48px 20px;
+        overflow: hidden;
+    }
+	.video_screen img{
+		width: 100%;
+	}
+	.work_step.work_first::after {
+		right: -115px;
+		width: 206px;
+		background-size: contain;
+	}
+	.work_step.work_middle::after {
+		right: -115px;
+		width: 206px;
+		background-size: contain;
+	}
+	.link_widget {
+		padding-left: 30px;
+	}
+	.two_column_sample .two_column_item {
+		max-width: 100%;
+		float: left;
+		width: calc(100% / 2);
+		margin-left: 0px;
+		padding-right: 10px;
+	}
+	.two_column_sample .two_column_item + .two_column_item {
+		margin-left: 0px;
+		padding-left: 10px;
+		padding-right: 0px;
+	}
+	.bixcoin_table tbody tr td h5, .bixcoin_table tbody tr th h5 {
+		white-space: nowrap;
+	}
+	.bixcoin_table tbody tr td h6, .bixcoin_table tbody tr th h6 {
+		white-space: nowrap;
+	}
+	.bixcoin_table tbody tr td h6 br {
+		display: none;
+	}
+	.bixcoin_table tbody tr td .read_btn {
+		width: 165px;
+	}
+	.broker_area img{
+		width: 100%;
+	}
+    .h_bannr_content h2{
+        font-size: 48px;
+    }
+    .recent_market_area .btcwdgt{
+        margin-right: 0px !important;
+    }
+    .speakers_event_item .s_event_content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .learning_content{
+        padding: 70px 25px 0px 25px;
+    }
+    .learning_content h2 {
+        font-size: 24px;
+    }
+    .book_img img{
+        max-width: 100%;
+    }
+    .get_subscribe_area{
+        padding: 70px 0px 100px;
+    }
+    .invest_area .contact_info a{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .invest_area .contact_info a i {
+        padding-right: 10px;
+    }
+    .invest_area .contact_info a + a{
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .invest_area .investor {
+        padding-right: 25px;
+    }
+    .invest_area .title_s{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .invest_area .info_text {
+        padding-right: 0;
+    }
+	.row_reverse img{
+		width: 100%;
+	}
+    .team_item .team_content {
+        padding-left: 0px;
+    }
+    .faq-accordion .card .card-header .btn-accordion{
+        padding-right: 0;
+    }
+}
+
+@media (max-width:991px){
+    .about_currency_area .about_img{
+        margin-top: 50px;
+    }
+    .crypto-prices-item{
+        margin-bottom: 30px;   
+    }
+    .expertise_item_two .expertise_content{
+        padding: 12px 15px 33px;
+    }
+    .expertise_item_two{
+        margin-bottom: 30px;
+    }
+    .service_item{
+        padding: 35px 20px;
+    }
+    .get_more_two .text-right{
+        text-align: left !important;
+        margin-top: 20px;
+    }
+    .latest_blog_area .lt_title_info .read_all{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .latest_news {
+        padding: 25px 35px 20px 40px;
+    }
+    .get_more{
+        padding: 50px 30px;
+    }
+    .get_more .read_btn{
+        margin-top: 30px;
+    }
+    .get_more_two{
+        padding: 0px;
+    }
+    .expertise_item_two img{
+        width: 100%;
+    }
+    .link_widget {
+        padding-left: 0;
+    }
+    .f_widget{
+        margin-bottom: 30px;
+    }
+    .navbar .navbar-brand{
+        padding: 20px 0px;
+    }
+    .navbar .nav{
+        background: rgba(0, 0, 0, 0.85);
+        padding: 10px 20px 0px;
+    }
+    .navbar .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar .nav .nav-item a,.navbar_fixed.main_header_area_three .navbar .nav .nav-item > a{
+        line-height: 35px;
+    }
+    .navbar .nav .nav-item + li{
+        margin-left: 0px;
+    }
+    .navbar .nav.navbar-right{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .search_dropdown .nav-link i{
+        padding-left: 5px;
+    }
+    .navbar .nav .search_dropdown a:before{
+        display: none;
+    }
+    .navbar .nav .nav-item.submenu ul li a{
+        color: #fff;
+    }
+    .navbar .nav .nav-item.submenu ul li{
+        border-bottom: 1px solid rgba(237, 237, 237, 0.15);
+    }
+    .team_member .team_img_inner{
+        display: block;
+    }
+    .growing_facts ul li{
+        width: calc(100% / 2);
+        float: left;
+    }
+    .growing_facts {
+        padding: 48px 48px 28px;
+        margin-top: 50px;
+    }
+    .growing_facts ul li{
+        padding-bottom: 20px;
+    }
+    .growing_facts ul li + li{
+        padding-top: 0px;
+    }
+    .network_area{
+        padding: 60px 0px;
+    }
+    .work_step.work_first:after,.work_step.work_middle:after{
+        display: none;
+    }
+    .work_step .work_icon:before{
+        left: 53%;
+    }
+    .pad_screen{
+        margin-top: 40px;
+    }
+    .about_info{
+        margin-bottom: -30px;
+    }
+    .about_info .about_item{
+        margin-bottom: 30px;
+    }
+    .network_content{
+        padding-right: 0px;
+    }
+    .currency_converter_area{
+        display: block;
+    }
+    .currency_converter_area .converter_left,.currency_converter_area .converter_right,.currency_converter_area .converter_left img{
+        width: 100%;
+    }
+    .currency_converter_area .converter_right{
+        padding-bottom: 150px;
+    }
+    .lt_blog_item{
+        margin-bottom: 30px;
+    }
+    .pad_screen img {
+        max-width: 100%;
+    }
+	.welcome_content {
+		padding: 0px 0px;
+	}
+	.video_screen {
+		margin-left: 0px;
+		margin-top: 40px;
+	}
+	.how_work_area .row{
+		margin-bottom: -50px;
+	}
+	.blog_lift_sidebar {
+		padding-right: 15px;
+	}
+	.blog_right_sidebar{
+		margin-top: 50px;
+	}
+	.w_content_two p br {
+		display: none;
+	}
+	.welcome_area .col-md-6{
+		margin-bottom: 30px;
+	}
+	.welcome_area .row{
+		margin-bottom: -30px;
+	}
+	.welcome_item .title_color br {
+		display: none;
+	}
+	.video_img_two {
+		margin-right: 0px;
+	}
+	.video_img_two img {
+		width: 100%;
+	}
+	.recent_market_text{
+		margin-top: 40px;
+	}
+	.broker_area .col-md-4{
+		margin-bottom: 30px;
+	}
+	.broker_area .row{
+		margin-bottom: -30px;
+	}
+    .work_step{
+        margin-bottom: 50px;
+    }
+    .hero_banner_area .video_img{
+        margin-top: 50px;
+    }
+    .expertise_text{
+        margin-top: 60px;   
+    }
+    .welcome_area_two .expertise_item{
+        margin-bottom: 50px;
+    }
+    .welcome_area_two .expertise_area{
+        margin-bottom: -50px;
+    }
+    .speakers_event_item{
+        margin-bottom: 30px;
+    }
+    .learning_img img{
+        width: 100%;
+    }
+    .learning_content{
+        padding: 70px 25px;
+        margin-left: 0px;
+    }
+    .invest_area .media{
+        display: block;
+    }
+    .invest_area .investor{
+        padding-right: 0px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .invest_area .media-body{
+        padding-top: 60px;
+    }
+    .invest_area .title_s{
+        text-align: left;
+        padding-bottom: 15px;
+    }
+    .speakers_event_item img{
+        width: 100%;
+    }
+    .exchange_area .row{
+        margin-bottom: -30px;
+    }
+    .exchange_area .exchange_item{
+        margin-bottom: 30px;
+    }
+    .error_content h2{
+        font-size: 42px;
+    }
+    .coin_slider_img{
+        display: none !important;
+    }
+    .navbar-collapse{
+        max-height: 280px;
+        overflow-y: scroll;
+    }
+    .navbar .nav .search_dropdown .search{
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+        top: 0;
+        right: auto;
+        left: 0;
+        width: 100%;
+        margin: 0px;
+    }
+    .navbar_fixed .navbar .nav .nav-item > a{
+        color: #fff;
+        line-height: 40px;
+    }
+    .commingsoon_section .timer{
+        max-width: 100%;
+    }
+    .commingsoon_section .timer__section .timer__label{
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 5px;
+    }
+    .commingsoon_section .timer__section .timer__number {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .commingsoon_section .timer__section {
+        width: 140px;
+        height: 140px;
+    }
+    .commingsoon_section p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:767px){
+    .header_top .header_top_inner ul li a:before{
+        left: -10px;
+    }
+    .header_top .header_top_inner ul li + li {
+        margin-left: 15px;
+    }
+    .header_top .header_top_inner{
+        font-size: 12px;
+    }
+    .sell_content{
+        margin-bottom: 40px;
+    }
+    .expertise_item_two .expertise_content.bottom_text {
+        top: 77%;
+    }
+    .get_more_two .media{
+        display: block;
+    }
+    .get_more_two .media h2{
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .get_more_two .media .media-body{
+        padding-left: 0px;
+        border: 0px;
+    }
+    .get_more_area{
+        padding: 60px 0px;
+    }
+    .section_title_two .title_p{
+        padding-top: 30px;
+    }
+	.blog_items .breadcrumb li {
+		font: 700 15px/29px "Lato", sans-serif;
+	}
+    .blog_items h6 {
+		font: 600 15px/20px "Poppins", sans-serif;
+	}
+	.title_h2 {
+		font: 700 28px/40px "Poppins", sans-serif;
+	}
+	.choose_form .input-form + .input-form {
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+	.choose_form .input-form label {
+		display: block;
+	}
+	.choose_form .input-form {
+		display: block;
+		margin-bottom: 30px;
+	}
+	.choose_f {
+		margin-left: 0px;
+	}
+	.first_input {
+		width: 100%;
+	}
+	.second_input {
+		width: 100%;
+	}
+	.recent_market_text h2 {
+		margin-top: 20px;
+	}
+    .h_bannr_content h2 br{
+        display: none;
+    }
+    .invest_area .contact_info a{
+        display: block;
+    }
+    .invest_area .contact_info a + a{
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .h_info a + a,.h_social_icon a{
+        margin-left: 5px;
+    }
+    .career_item {
+		margin-top: 35px;
+	}
+	.get_more {
+		margin-top: 50px;
+	}
+	.collaterial_content h4 {
+		padding: 30px 0px 40px;
+	}
+    .team_item .team_content {
+        padding-top: 40px;
+    }
+    .bixcoin_table thead tr th{
+        padding: 20px 20px 20px 35px;
+    }
+    .expertise_item_three {
+        margin-bottom: 46px;
+    }
+    .welcome_area_three .expertise_area {
+        margin-bottom: -46px;
+    }
+    .video_item img{
+        width: 100%;
+    }
+    .video_item{
+        margin-bottom: 30px;
+    }
+    .collateral_area .video_item{
+        margin-bottom: 0px;
+    }
+    .r_forums .item{
+        margin-bottom: 30px;
+    }
+    .masternodes .maternodes_item + .maternodes_item {
+        margin-top: 0px;
+    }
+    .masternodes .maternodes_item{
+        margin-bottom: 30px;
+    }
+    .network_status .theme_btn_two{
+        margin-bottom: 20px;
+    }
+    .mining_text p{
+        padding: 0px 0px 40px;
+    }
+    .mining_text .theme_btn_two{
+        margin-top: 15px;
+    }
+    .faq-accordion .card .panel-body{
+        padding-right: 0px;
+    }
+    .get_more_two{
+        margin-top: 0px;
+    }
+    .contact_address{
+        margin-top: 50px;
+    }
+    .contact_address .c_address_item + .c_address_item {
+        margin-top: 30px;
+    }
+    .commingsoon_section{
+        min-height: 100%;
+    }
+    .commingsoon_section h2{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .commingsoon_section .timer__section{
+        margin: 0 auto 30px;
+    }
+    .commingsoon_section .timer{
+        margin-bottom: 0px;
+    }
+    .commingsoon_section p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .commingsoon_section p br{
+        display: none;
+    }
+    .commingsoon_section{
+        padding: 100px 0px;
+    }
+}
+@media (max-width:576px){
+    .navbar-collapse{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .get_more .media{
+        display: block;
+        text-align: center;
+    }
+    .get_more .media .media-body{
+        padding-left: 0px;
+        border: 0px;
+        padding-top: 25px;
+    }
+    .get_more_two{
+        padding: 0px;
+    }
+    .get_more_two .media .media-body{
+        padding-top: 0px;
+    }
+    .get_more_two .text-right,.clients_slider{
+        text-align: center !important;
+    }
+    .sell_content_two h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .get_more .media .media-body h2{
+        font-size: 28px;
+        line-height: 45px;
+    }
+	.banner_content .br_title {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.section_title h2 {
+		font: 600 26px/36px "Poppins", sans-serif;
+	}
+	.welcome_content .p_text {
+		font: 400 14px/26px "Open Sans", sans-serif;
+	}
+	.welcome_area {
+		padding: 70px 0px;
+	}
+	.title_p {
+		font: 400 18px/26px "Lora", serif;
+		font-style: italic;
+	}
+	.video_area {
+		padding: 70px 0px;
+	}
+	.team_member {
+		max-width: 270px;
+		margin: 0px auto 30px;
+	}
+	.blog_items h6 {
+		display: block;
+	}
+	.blog_items .breadcrumb {
+		float: none;
+		padding-left: 0px;
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+	.blog_area {
+		padding: 70px 0px;
+	}
+	.s_comment_list_inner .media .media-body .media {
+		margin-left: -99px;
+	}
+	.s_comment_list_inner .media {
+		padding: 25px 15px 20px 25px;
+	}
+	.blog_items .blog_tittle {
+		font: 600 20px/30px "Poppins", sans-serif;
+	}
+	.recent_market_area {
+		padding: 70px 0px;
+	}
+	.broker_area .col-md-4{
+		max-width: 200px;
+		display: block;
+		margin: 0px auto 30px;
+	}
+	.broker_area {
+		padding: 70px 0px;
+	}
+    .h_bannr_content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .h_bannr_content h5{
+        font-size: 18px;
+    }
+    .hero_banner_area {
+        padding: 180px 0px 100px;
+    }
+	.banner_content .br_title {
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.career_value_area {
+		padding: 70px 0px 70px;
+	}
+	.video_items {
+		max-width: 370px;
+		margin: 0px auto 45px;
+	}
+    .r_forums .item,.ex_logo{
+        text-align: center;
+    }
+    .exchange_item{
+        padding: 60px 15px;
+    }
+    .network_status p {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .hire_content{
+        margin-bottom: 20px;   
+    }
+    .error_content h1{
+        font-size: 180px;
+        line-height: 120px;
+    }
+    .error_page_area {
+        min-height: 650px;
+    }
+    .slider_button_two .slider_btn.theme_btn{
+        display: none;
+    }
+    .theme_btn_three{
+        margin-left: 10px;
+    }
+    .slider_button_two .video_btn{
+        margin-left: 0px;
+    }
+    .currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(3),.currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(2),.currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(5),.currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(6){
+        width: 48%;
+    }
+    .currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(4){
+        display: none;
+    }
+    .currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(6){
+        top: 75px;
+        left: 0;
+    }
+    .currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(2){
+        top: 75px;
+    }
+    .currency_converter_area .converter_right .converter_info .HS1mainContainer tbody tr td:nth-child(5){
+        left:auto;
+        right: 0;
+        font-size: 18px;
+    }
+    .currency_converter_area .converter_right{
+        padding: 90px 15px 220px;
+    }
+    .about_widget .widget_inner{
+        display: block;
+    }
+    .f_widget {
+        margin-bottom: 50px;
+    }
+    .f_widget .f_title{
+        margin-bottom: 20px;
+    }
+    .footer_widget {
+        padding: 80px 0px 33px;
+    }
+}
+
+@media (max-width:480px){
+    .clients_logo_area .clients_slider{
+        text-align: center;
+    }
+    .expertise_item_two .expertise_content.bottom_text {
+        top: 68%;
+    }
+    .get_more .read_btn{
+        padding: 0px 14px;
+    }
+    .testimonial_item .media{
+        display: block;
+    }
+    .testimonial_item .media .media-left{
+        text-align: left;
+        padding-bottom: 25px;
+    }
+    .converter{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .growing_facts ul li{
+        width: 100%;
+        float: none;
+    }
+    .header_top .header_top_inner{
+        display: none;
+    }
+	.welcome_content .read_btn {
+		margin-left: 0px;
+		display: block;
+	}
+	.welcome_content .theme_btn {
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.two_column_sample .two_column_item {
+		max-width: 100%;
+		float: none;
+		width: calc(100% / 1);
+		margin-left: 0px;
+		padding-right: 0px;
+	}
+	.two_column_sample .two_column_item + .two_column_item {
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.blog_items .breadcrumb li {
+		display: block;
+	}
+	.breadcrumb_date .breadcrumb{
+		display: block;
+	}
+	.breadcrumb-item + .breadcrumb-item::before,.header_top_two{
+		display: none;
+	}
+	.s_comment_list_inner .media {
+		display: block;
+	}
+	.s_comment_list_inner .media .media-body {
+		padding-left: 0px;
+		margin-top: 20px;
+	}
+	.s_comment_list_inner .media .media-body .media {
+		margin-left: 0px;
+	}
+    .h_bannr_content .video{
+        margin-left: 0px;
+    }
+    .get_subscrib_form{
+        display: block;
+    }
+    .get_subscrib_form .form-control{
+        width: 100%;
+        border-radius: 3px !important;
+    }
+    .get_subscrib_form .submit_btn_b{
+        width: 100%;
+        margin-top: 15px !important;
+        border-radius: 3px !important;
+    }
+    .breadcrumb_area {
+		padding: 135px 0px 62px;
+	}
+    .banner_content .bread_cumb {
+        margin-top: 12px;
+    }
+    .features_info .features_item .media{
+        display: block;
+    }
+    .features_info .features_item .media .media-body{
+        padding-top: 20px;
+    }
+    .about_title:after{
+        margin-left: 13px;
+    }
+    .about_title{
+        font-size: 16px;
+    }
+    .network_status .n_content h1 {
+        font-size: 36px;
+        line-height: 50px;
+        padding-bottom: 20px;
+    }
+    .error_content .theme_btn{
+        padding: 0px 40px;
+        font-size: 20px;
+    }
+    .error_content h1 {
+        font-size: 158px;
+    }
+    .error_content h2 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .error_content p{
+        font-size: 18px;
+    }
+    .commingsoon_section .subscrib_form{
+        display: block;
+    }
+    .commingsoon_section .subscrib_form .submit_btn_b{
+        width: 100%;
+        margin-top: 10px !important;
+    } 
+    .commingsoon_section .timer__section {
+        width: 120px;
+        height: 120px;
+    }
+    .commingsoon_section .timer__section .timer__label{
+        font-size: 16px;
+        padding-top: 0px;
+    }
+    .h_bannr_content .video_btn{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+}

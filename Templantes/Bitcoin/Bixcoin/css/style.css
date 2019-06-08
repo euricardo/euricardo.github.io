@@ -1,0 +1,587 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Rocky
+@URL: http://wethemez.com
+Author E-mail: rockybd1995@gmail.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Straight
+@Author: Rocky
+@Developed By: Rocky
+@Developer URL: http://rocky.wethemez.com
+Author E-mail: rockybd1995@gmail.com
+
+@Default Styles
+
+Table of Content:
+01/ Variables
+02/ predefin
+03/ header
+04/ button
+05/ slider
+06/ banner
+07/ feature
+08/ about
+09/ project 
+10/ price 
+11/ team 
+12/ blog 
+13/ skill  
+14/ testimonial  
+15/ services  
+16/ contact 
+17/ map
+18/ error
+19/ portfolio
+20/ fullpage
+21/ footer
+=====================================================================*/
+/*----------------------------------------------------*/
+/*font Variables*/
+/*Color Variables*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:300,400,500,600,700|Open+Sans:300,400,600,700|Playfair+Display:400,400i|Poppins:300,400,500,600,700");
+.col-md-offset-right-1, .col-lg-offset-right-1 {
+  margin-right: 8.33333333%;
+}
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+.list_style {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.row.m0 {
+  margin: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+body {
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #797979;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#success {
+  display: none;
+}
+
+#error {
+  display: none;
+}
+
+.display_table {
+  display: table;
+  width: 100%;
+}
+
+.display_table_row {
+  display: table-row;
+}
+
+.display_table_cell {
+  display: table-cell;
+  float: none !important;
+}
+
+iframe {
+  border: none;
+}
+
+i:before {
+  margin-left: 0px !important;
+}
+
+.pad_100 {
+  padding: 100px 0px;
+}
+
+/* Container Custome Code css
+============================================================================================ */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* End Container Custome Code css
+============================================================================================ */
+/* Main title css
+============================================================================================ */
+/* Main title css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Banner Area css
+============================================================================================ */
+.banner_straight_area {
+  background: url(../img/banner-bg.jpg) no-repeat scroll center center;
+  background-size: cover;
+  padding: 130px 0px 110px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.banner_inner_text {
+  text-align: center;
+}
+
+.banner_inner_text img {
+  padding-bottom: 25px;
+}
+
+.banner_inner_text h4 {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: .60px;
+  font-weight: 400;
+}
+
+.banner_inner_text h2 {
+  font-size: 38px;
+  letter-spacing: 1.26px;
+  line-height: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding: 30px 0px 40px;
+}
+
+.banner_inner_text h2 span {
+  color: #45ae7d;
+}
+
+.banner_inner_text h3 {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 45px;
+}
+
+.banner_inner_text .demo_btn {
+  display: block;
+  width: 204px;
+  margin: auto;
+  text-align: center;
+  background: #45ae7d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 52px;
+  border-radius: 3px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.banner_inner_text .demo_btn:hover {
+  background: #37ab75;
+}
+
+.banner_inner_text h5 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  color: #cacaca;
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+/* End Banner Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Perfect Demos Area css
+============================================================================================ */
+.perfect_demos_area {
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.Pad_20 {
+  padding: 0px 20px;
+}
+
+.main_title {
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.main_title h2 {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #242424;
+  display: inline-block;
+  position: relative;
+}
+
+.main_title h2:before {
+  content: "";
+  width: 2px;
+  background: #363636;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -60px;
+}
+
+.perfect_demo_inner {
+  max-width: 1590px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: -60px;
+}
+
+.demos_item {
+  margin-bottom: 60px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.demos_item .demo_img {
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+  display: block;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.demos_item h4 {
+  font-size: 22px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-top: 25px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.demos_item h4 span {
+  color: #797979;
+  font-size: 16px;
+}
+
+.demos_item:hover .demo_img {
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.2);
+  margin-top: -10px;
+}
+
+.demos_item:hover h4 {
+  padding-top: 35px;
+}
+
+/* End Perfect Demos Area Area css
+============================================================================================ */
+/* Nice Template Area Area css
+============================================================================================ */
+.nice_template_area {
+  background: #ebebeb;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nice_template_area .nice_template_inner {
+  max-width: 1550px;
+  margin: auto;
+  margin-bottom: -60px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left {
+  width: 24.85%;
+  float: left;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left .nice_template_text h2 {
+  font-size: 40px;
+  line-height: 47px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #242424;
+  padding-bottom: 25px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_left .nice_template_text p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  line-height: 26px;
+  color: #797979;
+  max-width: 287px;
+}
+
+.nice_template_area .nice_template_inner .nice_template_right {
+  width: 75.15%;
+  float: right;
+}
+
+.nice_template_area .nice_template_inner .nice_template_right .nice_item {
+  width: calc(100% / 3);
+  float: left;
+  padding: 0px 15px;
+}
+
+.nice_item {
+  margin-bottom: 60px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+  text-align: center;
+}
+
+.nice_item .demo_img {
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+  display: block;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.nice_item h4 {
+  font-size: 22px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-top: 25px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.nice_item h4 span {
+  color: #797979;
+  font-size: 16px;
+}
+
+.nice_item:hover .demo_img {
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.2);
+  margin-top: -10px;
+}
+
+.nice_item:hover h4 {
+  padding-top: 35px;
+}
+
+/* End Nice Template Area Area css
+============================================================================================ */
+/* Template Feature Area Area css
+============================================================================================ */
+.template_feature_area {
+  background: #dfdfe0;
+  overflow: hidden;
+}
+
+.template_feature_area .main_title {
+  padding-bottom: 40px;
+}
+
+.template_feature_area .main_title h2:before {
+  display: none;
+}
+
+.template_feature_inner {
+  overflow: hidden;
+}
+
+.template_feature_inner .row {
+  margin-bottom: -30px;
+}
+
+.template_feature_inner .col-lg-4 {
+  margin-bottom: 30px;
+}
+
+.feature_item {
+  background: #fff;
+  min-height: 100%;
+  padding: 30px 20px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.feature_item .media .d-flex {
+  padding-right: 25px;
+}
+
+.feature_item .media .d-flex i {
+  font-size: 45px;
+  line-height: 45px;
+  color: #2540a5;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.feature_item .media .d-flex i:before {
+  font-size: 45px;
+}
+
+.feature_item .media .media-body h4 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #242424;
+  padding-bottom: 10px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.feature_item .media .media-body p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #777777;
+  line-height: 28px;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+.feature_item:hover {
+  background: #45ae7d;
+}
+
+.feature_item:hover .media .d-flex i {
+  color: #fff;
+}
+
+.feature_item:hover .media .media-body h4 {
+  color: #fff;
+}
+
+.feature_item:hover .media .media-body p {
+  color: #fff;
+}
+
+/* End Template Feature Area Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Footer Area css
+============================================================================================ */
+.footer_area {
+  background: #26252b;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.footer_top {
+  text-align: center;
+}
+
+.footer_top h2 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.footer_top h3 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px 0px 35px 0px;
+}
+
+.footer_top .f_btn {
+  width: 204px;
+  text-align: center;
+  line-height: 52px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  background: #45ae7d;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.footer_top .f_btn:hover {
+  background: #23398b;
+}
+
+.footer_top h5 {
+  font-size: 14px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  padding-top: 18px;
+  padding-bottom: 80px;
+}
+
+.footer_copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 37px 0px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.footer_copyright .float-sm-left h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_copyright .float-sm-right h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* End Footer Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */

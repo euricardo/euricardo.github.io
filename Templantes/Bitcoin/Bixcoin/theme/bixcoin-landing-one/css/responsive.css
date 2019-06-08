@@ -1,0 +1,243 @@
+@media (max-width:1480px){
+    .banner_isomatric {
+        top: 15px;
+        right: 0px;
+    }
+    .navbar .nav .nav-item{
+        margin-right: 22px;
+    }
+}
+
+@media (max-width:1199px){
+    .navbar{
+        padding: 0px 20px;
+    }
+    .navbar_fixed .navbar {
+        padding: 0px 20px;
+    }
+    .navbar .nav .nav-item {
+        margin-right: 10px;
+    }
+    .navbar .nav .nav-item .nav-link,.login{
+        font-size: 16px;
+    }
+    .login{
+        width: 105px;
+    }
+    .banner_content_three h2{
+        font-size: 48px;
+    }
+    .banner_isomatric {
+        right: 62px;
+    }
+    .about_content{
+        padding-right: 0px;
+    }
+    .chart_one, .chart_two {
+        width: 290px;
+    }
+    .solution_content_two{
+        padding-left: 0px;
+    }
+    .token_area .start_date{
+        padding: 40px 15px;
+    }
+    .faq-accordion .card .card-header .btn-accordion{
+        padding-right: 0px;
+    }
+    .contact_form{
+        padding-right: 0px;
+    }
+    .roadmap_area .roadmap_list .single_roadmap p br{
+        display: none;
+    }
+}
+
+@media (max-width:991px){
+    .navbar {
+        padding: 0px 20px;
+    }
+    .navbar_fixed .navbar {
+        padding: 0px 20px;
+    }
+    .navbar-light .navbar-toggler{
+        margin: 16px 0px 16px 20px;
+    }
+    .banner_content_three{
+        padding-top: 200px;
+    }
+    .navbar-right{
+        flex-direction: row;   
+    }
+    .navbar-collapse{
+        margin-left: -20px;
+        margin-right: -20px;
+        max-height: 220px;
+        overflow-y: scroll;
+        background: #fff;
+    }
+    .menu{
+        padding: 20px; 
+    }
+    .navbar .nav .nav-item{
+        margin-right: 0px;
+    }
+    .navbar .nav .nav-item .nav-link{
+        color: #242424;
+        line-height: 40px;
+    }
+    .navbar_fixed .navbar .nav .nav-item .nav-link{
+        line-height: 40px;
+    }
+    .banner_isomatric{
+        top: 0;
+        right: 0;
+        padding-top: 60px;
+    }
+    .banner_isomatric img{
+        max-width: 100%;
+    }
+    .about_video_img{
+        margin-top: 60px;
+    }
+    .about_video_img > img{
+        width: 100%;
+    }
+    .about_item{
+        margin-bottom: 30px;   
+    }
+    .about_info_two{
+        margin-bottom: -30px;
+    }
+    .solution_item .col-lg-5{
+        text-align: left !important;
+        margin-bottom: 40px;
+    } 
+    .token_area .start_date {
+        padding: 40px 55px;
+        margin-bottom: 90px;
+    }
+    .token_destribution_content .title_h{
+        font-size: 28px;
+    }
+    .token_chart_item_two .token_destribution_content{
+        padding-left: 25px;
+    }
+    .team_img img{
+        width: 100%;
+    }
+    .get_info .get_item {
+        padding-left: 45px;
+    }
+    .f_widget{
+        margin-bottom: 30px;
+    }
+    .link_widget{
+        padding-left: 0px;
+    }
+    .roadmap_area .roadmap_list .min_height,.roadmap_area .roadmap_list .min_height:nth-child(even) .single_roadmap,.roadmap_area .roadmap_list .min_height:nth-child(even){
+        min-height: auto;
+        width: 100%;
+        left: 0;
+        padding: 0px;
+    }
+    .roadmap_area .roadmap_list .single_roadmap,.roadmap_area .roadmap_list .min_height:nth-child(even) .single_roadmap{
+        position: relative;
+        margin: 0px;
+        padding: 0px 0px 0px 50px;
+        display: block;
+    }
+    .roadmap_area .roadmap_list:before{
+        width: 2px;
+        height: 100%;
+        left: 9px;
+    }
+    .roadmap_area .roadmap_list .single_roadmap:before,.roadmap_area .roadmap_list .single_roadmap:after{
+        display: none;
+    }
+    .roadmap_area .roadmap_list .single_roadmap .dot,.roadmap_area .roadmap_list .min_height:nth-child(even) .single_roadmap .dot{
+        bottom: auto;
+        top: 5px;
+    }
+    .footer_widget {
+        padding: 80px 0px 42px;
+    }
+}
+
+@media(max-width:767px){
+    .chart_one{
+        margin-top: 0px;
+    }
+    .token_chart_item + .token_chart_item{
+        padding-top: 90px;
+    }
+    .chart_one, .chart_two{
+        margin: 0 auto 50px;
+    }
+    .token_chart_item_two .token_destribution_content{
+        padding-left: 0px;
+    }
+    .banner_content_three h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .banner_content_three {
+        padding-top: 140px;
+    }
+}
+
+@media (max-width:576px){
+    .token_area .token_info .token_text{
+        width: 100%;
+    }
+    .token_area .token_info + .token_info {
+        margin-top: 20px;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .banner_content_three .b_them_btn_two {
+        margin-left: 0;
+    }
+    .banner_content_three .b_them_btn{
+        margin-bottom: 10px;
+    }
+    .about_content ul li{
+        width: 100%;
+    }
+    .title_h2{
+        font-size: 30px;
+    }
+    .token_area .start_date {
+        padding: 40px 15px;
+    }
+    .about_widget .widget_inner h5, .about_widget .widget_inner p, .about_widget .widget_inner {
+        display: block;
+    }
+    .f_widget {
+        margin-bottom: 40px;
+    }
+    .f_widget .f_title {
+        margin-bottom: 18px;
+    }
+    .banner_content_three h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .about_video_img .video_btn{
+        left: 25px;
+    }
+}
+@media(max-width:480px){
+    .token_area .start_date .timer .timer__section {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .token_area .start_date .timer .timer__number{
+        height: 100px;
+        line-height: 100px;
+    }
+    .token_area .start_date .b_them_btn_two{
+        padding: 0px 40px;
+    }
+}

@@ -1,0 +1,293 @@
+@media (max-width:1199px){
+    .about_currency img,.team_img img{
+        max-width: 100%;
+    }
+    .h_bannr_content_two{
+        padding-right: 0px;
+    }
+    .h_bannr_content_two h2 {
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 400;
+    }
+    .timer {
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+    .timer .timer__number{
+        width: 75px;
+    }
+    .timer .timer__section{
+        margin: 0px 2px;
+    }
+    .title_two{
+        font-size: 30px;
+    }
+    .token_content p{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content {
+        margin-right: 50px;
+    }
+    .timeline .timeline-item .timeline-content{
+        margin-left: 50px;
+    }
+    .faq-accordion .card .card-header .btn-accordion{
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:991px){
+    .navbar .nav .nav-item a,.navbar_fixed .navbar .nav .nav-item a{
+        line-height: 40px;
+    }
+    .navbar .nav .nav-item + li{
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        padding: 10px 20px;
+        background: #2540a5;
+    }
+    .navbar-collapse{
+        max-height: 280px;
+        overflow-y: scroll;
+    }
+    .timer .timer__section {
+        margin: 0px 5px;
+    }
+    .timer .timer__number {
+        width: 80px;
+    }
+    .timer {
+        margin-left: -3px;
+        margin-right: -3px;
+        text-align: center;
+    }
+    .token_timer .rate_inner {
+        max-width: 400px;
+        margin: 40px auto 0px;
+    }
+    .token_timer{
+        padding: 54px 50px 80px;
+    }
+    .about_item{
+        margin-bottom: 40px;
+    }
+    .about_area_two .about_info{
+        padding-bottom: 60px;
+    }
+    .title_p{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about_currency .text-center img{
+        margin-top: 50px;
+    }
+    .fact_inner table tbody th, .fact_inner table tbody td{
+        white-space: nowrap;
+    }
+    .float-md-right,.float-md-left{
+        float: none !important;
+    }
+    .solution_inner .solution_img{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .t_price .t_price_item h2{
+        font-size: 44px;
+    }
+    .t_price .t_price_item{
+        padding: 51px 25px;
+    }
+    .team_member .team_img_inner{
+        display: block;
+    }
+    .team_member .team_img_inner img{
+        width: 100%;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content {
+        margin-right: 0px;
+    }
+    .timeline .timeline-item .timeline-content{
+        margin-left: 27px;
+    }
+    .timeline .timeline-item .timeline-content{
+        padding: 30px 20px;
+    }
+    .get_info .get_item {
+        position: relative;
+        padding-left: 50px;
+    }
+    .link_widget{
+        padding-left: 0;
+    }
+    .f_widget{
+        margin-bottom: 30px;
+    }
+    .fact_inner table thead th{
+        white-space: nowrap;
+    }
+    .fact_inner{
+        padding: 47px 15px 30px;
+    }
+    .fact_inner h2{
+        margin-bottom: 25px;
+    }
+    .footer_widget {
+        padding: 80px 0px 42px;
+    }
+}
+
+@media (max-width:767px){
+    .h_bannr_content_two h2 {
+        font-size: 43px;
+    }
+    .h_bannr_content_two h2 br{
+        display: none;
+    }
+    .t_price .t_price_item {
+        padding: 51px 40px;
+    }
+    .timeline .timeline-item .timeline-content{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .timeline .timeline-item .timeline-info, .timeline .timeline-item .timeline-content{
+        float: none;
+        width: 100%;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-info{
+        float: none;
+    }
+    .timeline:before{
+        margin-left: 0px;
+        left: 0;
+    }
+    .timeline .timeline-item .timeline-marker{
+        left: 0;
+        margin-left: -15px;
+        top: 113px;
+    }
+    .timeline .timeline-item{
+        overflow: visible;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content,.timeline .timeline-item .timeline-content{
+        margin-left: 30px;
+        max-width: 100%;
+        width: auto;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-info,.timeline .timeline-item .timeline-info{
+        padding-left: 32px;
+    }
+    .timeline .timeline-item .timeline-info{
+        text-align: left;
+        padding-right: 0px;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content:before{
+        left: -13px;
+        right: auto;
+        border-style: solid;
+        border-width: 10px 14px 10px 0;
+        border-color: transparent #1a49ab transparent transparent;
+    }
+    .hero_banner_area_four{
+        padding-bottom: 100px;
+        padding-top: 150px;
+    }
+}
+
+@media (max-width:576px){
+    .h_bannr_content_two h2 br{
+        display: none;
+    }
+    .token_timer .rate_inner {
+        max-width: 100%;
+    }
+    .token_timer {
+        padding: 54px 15px 80px;
+    }
+    .navbar .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-collapse {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .about_widget .widget_inner h5, .about_widget .widget_inner p, .about_widget .widget_inner {
+        display: block;
+    }
+    .f_widget {
+        margin-bottom: 40px;
+    }
+    .f_widget .f_title {
+        margin-bottom: 18px;
+    }
+    .h_bannr_content_two h2 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .timer{
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:500px){
+    .timer{
+        overflow: hidden;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .timer .timer__section {
+        width: calc(100% / 2);
+        float: left;
+        padding: 0px 5px;
+        margin: 0px 0px 20px;
+    }
+    .timer .timer__number{
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        font-size: 70px;
+    }
+    .token_timer .rate_inner{
+        margin-top: 10px;
+    }
+    .theme_btn{
+        margin-bottom: 10px;
+    }
+    .w_btn{
+        margin-left: 0px;
+    }
+    .currency_text ul li{
+        width: 100%;
+    }
+    .timeline .timeline-item .timeline-marker {
+        left: 0;
+        margin-left: -6px;
+        top: 121px;
+        width: 20px;
+        height: 20px;
+        border-width: 3px;
+    }
+}
+
+@media (max-width:400px){
+    .t_price .t_price_item {
+        padding: 51px 10px;
+        text-align: center;
+    }
+    .h_bannr_content_two h2{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .h_bannr_content_two h2 br{
+        display: none;
+    }
+    .h_bannr_content_two p{
+        font-size: 18px;
+    }
+}
+
