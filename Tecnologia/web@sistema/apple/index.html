@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Apple IOS Updating Screen Imitation with Kernel Panic</title>
+	<link rel="canonical" href="index.html" />
+	<meta name="description" content="Prank your Apple user friends with a fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen."/>
+	<meta name="keywords" content="fake,apple,update,screen" />	
+	<meta property="fb:admins" content="johnny.johnson1986" />
+	<meta property="og:title" content="Apple IOS Updating Screen Imitation with Kernel Panic" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://geekprank.com/apple/" />
+	<meta property="og:image" content="https://geekprank.com/apple/social.jpg">
+	<meta property="og:description" content="Prank your Apple user friends with a fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen." />
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script type="text/javascript">
+		var loc = window.location.href+'';
+		if (loc.indexOf('http://')==0){
+			window.location.href = loc.replace('http://','https://');	// https redirect
+		}
+		$(document).ready(function () {
+			$("body").click(function(event) {
+				$('#error').show();
+				$('.loading').hide();
+			});	
+			$('body').keypress(function(e) {
+				$('#error').show();
+				$('.loading').hide();
+			});
+		});	
+	</script>
+<style>
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
+.center {
+    width: 100%;
+    margin: 0px auto;
+    height: 175px;
+    position: absolute;
+    bottom: 20%;
+}
+.wrap {
+    position: absolute;
+	top: 0;
+	left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+	background-color: #CCC;
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	vertical-align:middle;
+	text-align:center;
+	margin:0;
+	padding:0;
+	cursor: none;
+}
+#error {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding: 5px;
+    font-family: "Lucida Console",Monaco,monospace;
+    line-height: 17px;
+    font-size: 14px;
+	max-width: 100%;
+	overflow: hidden;
+	display: none;
+}
+#error > span {
+    display: inline-block;
+    background-color: #000;
+    color: #FFF;
+    padding: 0px 4px;
+}
+</style>
+
+</head>
+<body>
+	<div class="wrap">
+		<div class="center">
+			<center>
+				<img src="apple.png" alt="apple logo" />
+				<br /><br /><br />
+				<img src="loading.gif" alt="loading gif" class="loading" />
+			</center>
+		</div>
+		<div id="error">
+			<span>
+			Please contact the Voodoo Kernel dev-team with a photo of the</span><br /><span>
+			information printed below, along with a description of your</span><br /><span>
+			system configuration and what you were doing at the time that</span><br /><span>
+			the kernel panic occured. We apologize for the inconvenience.</span><br /><span>
+			</span><br /><span>
+			panic(cpu 1 caller 0x001A8FFD): Kernel trap at 0x00197f41, type 14=page fault, registers:</span><br /><span>
+			CRO: 0x8001003b, CR2:0x33ec3000, CR3: 0x00dda000, CR4: 0x00000660</span><br /><span>
+			EAX: 0x00000000, EBX:0x401pod40, ECX: 0x00c3d400, EDX: 0x000035d4</span><br /><span>
+			CR2: 0x000sq03b, EBP:0x000w4500, ESI: 0x00dda000, EDI: 0x00056y60</span><br /><span>
+			EFL: 0x000rew3b, EIP:0x000c34w0, CS1: 0x00dda000, DS0: 0x01000030</span><br /><span>
+			</span><br /><span>
+			Debugger called: &lt;panic&gt;</span><br /><span>
+			Backtrace (CPU 1), Frame : Return Address (4 potential args on stack)</span><br /><span>
+			0x2df83c68 : 0x12b08c (0x45bcf0 0x2df83c9c 0x133119)</span><br /><span>
+			0x23hs0008 : 0x00qw90 (0x4sdff0 0x200sd673)</span><br /><span>
+			0x0000rt00 : 0x78sdff (0x00bcdf 0x45fddf)</span><br /><span>
+			0x110000wq : 0x00dfss (0x0000f0 0x00000000 0x00fdg0)</span><br /><span>
+			Backtrace terminated-invalid frame pointer 0</span><br /><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kernel loadable modules in backtrace (with depencencies): </span><br /><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; com.apple.iokit.IOAudioFamily(1.6.5fc3)@0x2dfcc000-&gt;0x2dfe2fff</span><br /><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dependency: com.apple.kext.OSvKernDSPLib(1.1)@0x2dfc9000</span><br /><span>
+			</span><br /><span>
+			BSD process name corresponding to current thread: kernel_task</span><br /><span>
+			MAC OS version: 9G55</span><br /><span>
+			Kernel version: Darwin Kernel Version 9.5.0: Sat Dec 6 19:39:54 IST 2017;Voodo; Release 1.0</span><br /><span>
+			</span>
+		</div>
+	</div>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90658565-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+</body>
+</html>
