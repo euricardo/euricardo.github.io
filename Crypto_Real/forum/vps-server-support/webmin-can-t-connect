@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://opengraphprotocol.org/schema/" lang="en">
+    <head>
+        <title>Webmin - can&#039;t connect</title>
+        <meta charset="utf-8">
+        
+        <meta name="keywords" content="Webmin, -, can&amp;#039;t, connect, vps ">
+        <meta name="description" content="Webmin - can&#039;t connect. Hi! I&#039;m trying to connect to Webmin, but this is not working.
+
+The link should be:
+https://2a02:4780:1:1::1:85:10000
+or
+https://[2a02:4780:1:1::1:85]:10000
+
+What can I do in order to fix this?
+
+Thanks in advance!
+
+B...">
+
+        <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
+        <meta property="bb:url" content="https://www.vps.me/"/>
+        <meta property="bb:client_area" content="https://www.vps.me/"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet" type="text/css" />        
+        <link rel="stylesheet" href="https://www.vps.me/forum/vps-server-support/css/jquery-ui-1.8.18.css" type="text/css">
+        <link rel="stylesheet" href="https://www.vps.me/forum/vps-server-support/css/style.css?v=1.1" type="text/css">
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-26575989-44', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+   
+        <script src="https://www.vps.me/forum/vps-server-support/js/jquery-1.7.1.min.js"></script>
+        <script src="https://www.vps.me/forum/vps-server-support/js/jquery-ui-1.8.18.min.js"></script>
+        <script src="https://www.vps.me/forum/vps-server-support/js/init.js"></script>
+        <!--[if IE]><script src="js/html5.js"></script><![endif]-->
+        
+        		    </head>
+
+    <body>
+	
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=238821502909087";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+                <div class="header">
+            <div class="content">
+                <div class="logo">
+                    <a href="../../index.html"><img src="https://www.vps.me/forum/vps-server-support/images/logo_original.png" alt="logo"></a>
+                </div>
+                <div class="top-buttons">
+                                                            <a class="bb-button bb-button-black bb-popup-open" href="webmin-can-t-connect#bb-popup-login">Sign in</a>
+<!--                    <a class="bb-button bb-button-submit bb-popup-open register-button" href="#bb-popup-register">Register</a> -->
+                    <a class="bb-button bb-button-submit register-button" href="https://www.hostinger.com/vps-hosting">Register</a>
+                                    </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+						<!--<li><a href="https://www.vps.me/affiliate">Affiliate</a></li>-->
+                        <li><a href="../../features">Features</a></li>
+                        <li><a href="../../order">Order</a></li>
+                        <li><a href="../../get-support">Support</a></li>
+                        <li><a href="../../about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="cl"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            
+            <div class="main_banner">
+                <div class="text">
+                    <h1><div style="width:600px;">General Support</div></h1>
+                    <div class="slogan">Webmin - can&#039;t connect</div>
+                </div>
+                <div class="banner_forum"></div>
+                <div class="cl"></div>
+            </div>
+
+            <div class="order_vps greyborder p35">
+                <div class="breadcrumbs">
+<a href="../vps-server-support">General Support</a> < <a href="../../forum">VPS Support &amp; Sales</a>
+</div>
+                <div class="star">Thread by Cristian Silaghi</div>
+                <div class="topline"></div>
+
+                
+
+                
+                <div id="messages"></div>
+                
+<aside id="comments">
+    <ol class="commentlist">
+                <li class="odd">
+            <img id="#m-71" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Hi! I'm trying to connect to Webmin, but this is not working.</p>
+
+<p>The link should be:
+https://2a02:4780:1:1::1:85:10000
+or
+https://[2a02:4780:1:1::1:85]:10000</p>
+
+<p>What can I do in order to fix this?</p>
+
+<p>Thanks in advance!</p>
+
+<p>Best Regards,
+Cristian Silaghi</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 4 days, 5 hours, 39 minutes ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-73" src="https://gravatar.com/avatar/088aeae5b7d8de69ef82489c3493f841?size=55" alt="Pull Myfinger" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Pull Myfinger</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Free clients are able to use IPv4 only for SSH connections. For all other tasks you should use your IPv6. If you can't manage to use it, make sure your PC contains IPv6 protocol and it's installed properly. If you have no knowledge in this area, consider upgrading your VPS to a paid one where you'd be able to use a dedicated IPv4 for all tasks.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 4 days, 2 hours, 43 minutes ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-74" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Yes, my PC is using Windows 8 with IPv6 support, even my Internet provider gives both IPv4 and IPv6 addresses.</p>
+
+<p>But I think it's not working due to technical issue.</p>
+
+<p>Best Regards,
+Cristian Silaghi</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 4 days, 2 hours, 38 minutes, 15 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-80" src="https://gravatar.com/avatar/228c68f85ab6418b3d4b688d9bdfc10a?size=55" alt="Hiumii hiug" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Hiumii hiug</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>The server does not respond to a HEAD request. This test is the most important, the site is unavailable via IPv6!</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 3 days, 13 hours, 37 minutes, 26 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-89" src="https://gravatar.com/avatar/289c086da3fa925885e79ad7184207f7?size=55" alt="Tadas Narbutas" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Tadas Narbutas</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Well, my free VPS is working fine, that means there is no technical issue. You should read more online tutorials about IPv6 and how to set it via your PC and VPS.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 3 days, 9 hours, 48 minutes, 10 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-92" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>I still don't get why it's not working. I should be able to access the panel. I followed the instructions when I change OS. And the instructions for Debian 6 32bit with Webmin are:</p>
+
+<p>"Webmin is a web-based interface for system administration for Unix. Using any modern web browser, you can setup user accounts, Apache, DNS, file sharing and much more. Webmin removes the need to manually edit Unix configuration files like /etc/passwd, and lets you manage a system from the console or remotely.</p>
+
+<p>More information about Webmin you will find at http://www.webmin.com</p>
+
+<p>Notes:
+Webmin logon information is:
+Login username: root
+Login password: your_vps_server_root_password
+Login url: https://your_vps_server_ip_address:10000/"</p>
+
+<p>My IP is: 2a02:4780:1:1::1:85
+So I have to acces Webmin from following URL: https://2a02:4780:1:1::1:85:10000 or https://[2a02:4780:1:1::1:85]:10000
+Right?</p>
+
+<p>I really don't get how can I figure out how to work.</p>
+
+<p>Please admin, can you help me?</p>
+
+<p>Best Regards.
+Cristian Silaghi</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 3 days, 8 hours, 19 minutes, 9 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-97" src="https://gravatar.com/avatar/778037d179f9c67a0998abf4ffaa2234?size=55" alt="Petr Doubrava" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Petr Doubrava</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>I have the same problem.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 3 days, 6 hours, 5 minutes, 15 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-98" src="https://gravatar.com/avatar/1f78054ad02d8abf385f4fca7136f925?size=55" alt="Stefan Cvetkovic" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Stefan Cvetkovic</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Me too. Cant access that ipv6 address, cant even ping it :(</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 3 days, 4 hours, 52 minutes, 36 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-104" src="https://gravatar.com/avatar/9106340a33a2407d63d22e6275300d33?size=55" alt="Anonymous" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Anonymous</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Hi guys,</p>
+
+<p>To check if your raw, just installed VPS works fine with IPv6, you should type in your browser: http://[your-IPv6-IP-in-Brackets]
+Your IPv6 you may check in your clientare, servers tab on the right sidebar.</p>
+
+<p>For example on default Linux CentOS template you will see Apache 2 Test Page that is showing you www is working fine!
+If you can't reach that page in your browser, first of all you should check your network card settings, if IPv6 is installed on your machine. Most latest Windows Vista/7/8 machines support IPv6 by default!
+Also contact your internet provider if it supports IPv6, biggest part of world internet providers started to support it already many years ago, but in little part of some less developed countries you may find exceptions.
+Also always check what OS template you're installing, some of them may contain and may not contain for example Apache or any other server and daemons, and you need to install them manually. For example default Centos OS template contains most things you need for VPS, but some specific OS templates may contain just specific components to do specific tasks and spare some server resources.</p>
+
+<p>If you have done any modifications to you installed Linux, have installed some software, opened/closed some port and can't mod it or reach your server, please learn and ask your native script providers for help. All Free VPS works fine and huge amount of our free users uses IPv6 for their needs. If you need IPv4, you may upgrade in any time and start your projects easily! All Free VPS include shared IPv4 with custom port for SSH, and dedicated IPv6 for all needs. All Paid VPS hosting users get both dedicated IPs! Also you will get dedicated live chat and ticket support! With free plan you have just community support in the Forum board and some questions may stay not answered.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 2 days, 18 hours, 55 minutes, 20 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-110" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Hi Administrator!
+I've already tried but I cannot access that URL.
+According to you, I need to access
+https://[2a02:4780:1:1::1:85]:10000</p>
+
+<p>But it's not working, really.</p>
+
+<p>I can ping IP, but I cannot connect to Webmin.</p>
+
+<p>Best Regards,
+Cristian Silaghi</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 2 days, 15 hours, 31 minutes, 48 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-112" src="https://gravatar.com/avatar/1f78054ad02d8abf385f4fca7136f925?size=55" alt="Stefan Cvetkovic" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Stefan Cvetkovic</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Maybe your provider don't support ipv6.
+In Serbia Telekom dont support it :( and i can't use it :(</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 2 days, 12 hours, 57 minutes, 51 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-113" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>My provider supports IPv6. I'm able to ping IP.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 2 days, 11 hours, 56 minutes, 37 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-116" src="https://gravatar.com/avatar/9106340a33a2407d63d22e6275300d33?size=55" alt="Anonymous" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Anonymous</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Hi Cristian, please read our post correctly once again, for free plan to access www, you should type in your browser: http://[2a02:4780:1:1::1:85] (make sure you have Apache running!)
+First of all it is not HTTPS(!) and no ports after brackets! Please read carefully before posting your questions! In your case, you are using Webmin and you should configure it correctly to use IPv6 for your needs.
+If you do not need webmin, just reinstall your OS template to CentOS.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 2 days, 6 hours, 50 minutes, 19 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-117" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Hi Administrator.
+I've tried to access http://[2a02:4780:1:1::1:85]/ but it's not working. If I select "Debian 6 32bit with Webmin" this is not already configured to work?</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 2 days, 2 hours, 25 minutes, 7 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-119" src="https://gravatar.com/avatar/9106340a33a2407d63d22e6275300d33?size=55" alt="Anonymous" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Anonymous</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Once again, make sure you have Apache running, probably it is not running!</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 1 day, 20 hours, 58 minutes, 37 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-125" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>So I have to install Apache? Or there's already Apache installed or not running?</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 1 day, 16 hours, 27 minutes, 41 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-126" src="https://gravatar.com/avatar/215c6f0bdf1fbbee61df455c9e277881?size=55" alt="Cristian Silaghi" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Cristian Silaghi</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>http://[2a02:4780:1:1::1:85]/</p>
+
+<p>Now it's working! :D</p>
+
+<p>Ok. And now how can I access Webmin, because I still cannot access it! :(</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 10 months, 3 weeks, 1 day, 16 hours, 23 minutes, 7 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-1803" src="https://gravatar.com/avatar/67991858b235a267414d426134347056?size=55" alt="Sonal pathak" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Sonal pathak</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>same with me ...</p>
+
+<p>[2a02:4780:1:1::1:1344:10000] is good
+but 
+ MySQL root password: VBBCJLRkHTuT
++ Webmin login url: https://10.224.0.234:10000
++ Webmin username:  root
++ Webmin password:  root password</p>
+
+<p>cannot access!</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 5 months, 3 weeks, 5 days, 9 hours, 37 minutes, 12 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-1809" src="https://gravatar.com/avatar/67991858b235a267414d426134347056?size=55" alt="Sonal pathak" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Sonal pathak</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Ok; Figured it out!
+Problem is on Client side (External Firewall) -- VPS.me has configured everything correctly. Best option is to SSH Tunnel to (Webmin) Port.</p>
+
+<p>Cristian &amp; Others -- Try this :-</p>
+
+<p>A) First check if you can access Webmin on the Server itself; that way you know the issue is with the remote connection.</p>
+
+<h2>====&gt;&gt; use Lynx to access localhost and log onto Webmin initially: lynx https://www.mysite.com:10000</h2>
+
+<h2>Once logged in, choose Webmin Configurations, and then IP Access Contol, where you can add your IP address. Then you should be able to access Webmin at: https://www.mysite.com:10000 remotely.</h2>
+
+<p>B) If you are using Putty to connect to the server. You can use the tunnel function in Putty, to create a tunnel to the server. In this case, even if the server is locked down, you should be able to access the web page you desire by piggy-backing over SSH.</p>
+
+<h2>====&gt;&gt;  Open putty.Load, but NOT open your session for this server. On the left, go down to "tunnels".</h2>
+
+<h2>In source port, put 443. This is the default https port, but it doesn't hurt to double check that your server isn't set to a different one.</h2>
+
+<h2>In destination put YOURSERVERIP:10000 (or whatever the default port for the application you are using).</h2>
+
+<h2>Click ADD</h2>
+
+<h2>YOU MUST go back up to session, and save your session, or this will disappear after the first connection.</h2>
+
+<h2>Connect to the server with putty, and log in.</h2>
+
+<h2>Now go to your browser and put https://localhost. If that doesn't work try forcing it with https://localhost:443 you can use 127.0.0.1 in place of localhost if that doesn't work.</h2>
+
+<p>You can use this program to forward any port with the following guidelines. Source port can be whatever you wish, as long as you can specify what it is. If you're using your browser, make sure it's 80, 8080, or 443 (in the case of https). The destination should be the servers IP, and the port that the application uses.
+Once you connect through putty, you will always connect to your "localhost" or 127.0.0.1 to fool the computer to try to connect to itself to then forward the packet over SSL to the destination.</p>
+
+<p>Good luck and let me know how this works!!</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 5 months, 3 weeks, 3 days, 13 hours, 28 minutes, 36 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-1831" src="https://gravatar.com/avatar/6516c0fce5963aa5545f1a8a935b911f?size=55" alt="Rubens Rainelli" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Rubens Rainelli</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Sonal I've tried as you told but maybe I didn't understand it very well and I can't access webmin...</p>
+
+<p>For do your procedure... should I have Apache running?
+Could you make a simple guide of this operation?</p>
+
+<p>Thanks a lot!</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 5 months, 3 weeks, 1 day, 13 hours, 42 minutes, 53 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-1962" src="https://gravatar.com/avatar/67c0902b9dabeea1db5826bc9e670039?size=55" alt="Daniel Lintott" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Daniel Lintott</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>The issue here may be that Webmin by default doesn't listen on IPv6.</p>
+
+<p>To find out if Webmin is listening on IPv6 type the following into your SSH terminal:
+  netstat -anp | grep 10000</p>
+
+<p>If you don't see a line beginning tcp6, webmin is not listening on IPv6.</p>
+
+<p>To enable Webmin to listen on IPv6, first ensure the perl IPv6 Socket module is installed:
+  apt-get install libsocket6-perl</p>
+
+<p>Now check if IPv6 is enabled in Webmin:
+  grep "ipv6" /etc/webmin/miniserv.conf</p>
+
+<p>If you don't see any response, you need to configure webmin to listen on IPv6:
+  echo "ipv6=1" &gt;&gt; /etc/webmin/miniserv.conf</p>
+
+<p>Finally restart Webmin:
+  service webmin restart</p>
+
+<p>Webmin should now be listing on IPv6, to confirm run:
+  netstat -anp | grep 10000</p>
+
+<p>You should now see the following line:
+  tcp6       0      0 :::10000                :::*                    LISTEN      4185/perl</p>
+
+<p>If you do... you should now be able to connect to Webmin remotely, using your IPv6 address.</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 5 months, 1 week, 5 days, 6 hours, 12 minutes, 48 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-2011" src="https://gravatar.com/avatar/9bc4e4db25ffb03afce6832eb11cbb8d?size=55" alt="Thomas Z." class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Thomas Z.</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Please help</p>
+
+<p>I can't connect to my vps using hostname. Hostname is ***.tk use dot dns and link to ip (ip i found in details for SSH connection). I use IPv4 mapping too and make port from ***** to 80 (it's for www). No then i entered http://myhostname.tk:port i can see website, but i can't login to webmin and directly to website (without :port). I don't now what to do. And my ISP don give IPv6 internet connection. 
+Maybe "Reverse IP" in "Server Settings" can help for me?</p>
+
+<p>Sorry for errors and my language I'm not  american.</p>
+
+<p>Thanks for help</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 5 months, 1 week, 1 day, 7 hours, 5 minutes, 6 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-2247" src="https://gravatar.com/avatar/6516c0fce5963aa5545f1a8a935b911f?size=55" alt="Rubens Rainelli" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Rubens Rainelli</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>Thanks a lot Daniel!
+You finally explained how to use webmin on the free VPS provided from VPS.me :D</p>
+
+<p>I'm so happy now :D</p>
+
+<p>I'll absolutely make a full guide! ;)</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">5 years, 4 months, 3 weeks, 6 days, 9 hours, 45 minutes, 50 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-3556" src="https://gravatar.com/avatar/32892084d05ca6958697a972d725b88b?size=55" alt="Ernesto hernandez" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Ernesto hernandez</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>hola daniel, en caso de utilizar centos los pasos no son igualues, en la carpeta /etc/webmin/miniserv.conf no aparece que archivo debo configurar en centos</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">4 years, 7 months, 2 weeks, 6 days, 23 hours, 59 minutes, 19 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-4915" src="https://gravatar.com/avatar/94835797cfaf30069b33a6fefa6b3336?size=55" alt="Florian Flormann" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Florian Flormann</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>this is the biggest shittttttttttttttttttttttttttttttttt DELETE MY FUCKING VSERVER</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">4 years, 3 months, 2 weeks, 23 hours, 1 minute, 20 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="even">
+            <img id="#m-6616" src="https://gravatar.com/avatar/1d71b884e95bd0eec15ff754d947b8b2?size=55" alt="Arif B" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Arif B</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>I Added Iptables rule, even i stopped iptables 
+I am using 8080 port for webmin, added ipv4 in miniserv.conf; restarted webmin &amp; server many times on Centos7.2 but still not accessible</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">2 years, 4 months, 1 week, 13 hours, 18 minutes, 25 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+                <li class="odd">
+            <img id="#m-6617" src="https://gravatar.com/avatar/1d71b884e95bd0eec15ff754d947b8b2?size=55" alt="Arif B" class="alignleft" />
+            <div class="comment-body">
+                <div class="com_triangle">&nbsp;</div>
+                <div class="com_box">
+                    <div class="com_info">
+                        <strong class="fl">Arif B</strong>
+                        <small class="fl">&nbsp;said</small>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="forumpost"><p>I Added Iptables rule, even i stopped iptables 
+I am using 8080 port for webmin, added ipv4 in miniserv.conf; restarted webmin &amp; server many times on Centos7.2 but still not accessible</p>
+</div>
+                    <div class="cl"></div>
+                    <small class="fl">2 years, 4 months, 1 week, 13 hours, 18 minutes, 25 seconds ago</small>
+                                        <div class="cl"></div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </li>
+            </ol>
+    <div class="cl"></div>
+</aside>
+
+
+                
+<p>
+        <a href="webmin-can-t-connect#bb-popup-login" class="bb-button bb-button-submit bb-popup-open" type="button">Post reply</a>
+    
+    
+</p>
+
+
+
+<div id="bb-popup-topic-reply" class="bb-popup">
+    <a href="webmin-can-t-connect#" class="close"><img src="https://www.vps.me/forum/vps-server-support/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+
+    <div style="padding-top: 20px">
+        <div class="star">Webmin - can&#039;t connect</div>
+        <div class="bbline"></div>
+    </div>
+    <form method="post" action="webmin-can-t-connect" class="bb-form" onsubmit="return bb.doForumTopicReply(this);">
+
+        <div class="element">
+            <label class="topLabel">Message:</label>
+            <textarea name="message" cols="5" rows="5" required="required"></textarea>
+            <div class="clear"></div>
+        </div>
+
+        <div class="element" style="text-align: center;">
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Submit</button>
+            <div class="clear"></div>
+        </div>
+
+        <input type="hidden" name="forum_topic_id" value="23">
+        <input type="hidden" name="redirect" value="forum/vps-server-support/webmin-can-t-connect?page=">
+    </form>
+</div>
+
+                
+                <div class="cl"></div>
+            </div>
+            
+            
+    <table class="bb-table">
+        <tbody>
+            <tr>
+                <td>Forum</td>
+                <td><a href="../vps-server-support">General Support</a></td>
+            </tr>
+            <tr>
+                <td>Topic</td>
+                <td><a href="webmin-can-t-connect">Webmin - can&#039;t connect</a></td>
+            </tr>
+            <tr>
+                <td>Started By</td>
+                <td>Cristian Silaghi</td>
+            </tr>
+            <tr>
+                <td>Views</td>
+                <td>22089</td>
+            </tr>
+            <tr>
+                <td>Messages</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Since</td>
+                <td>2013-07-15</td>
+            </tr>
+
+                    </tbody>
+
+            </table>
+
+        </div>
+        <div class="footer_before"></div>
+<div class="footer">
+    <div class="content">
+
+        <ul class="partners">
+            <li><img src="https://www.vps.me/forum/vps-server-support/images/data/footer_cisco.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/vps-server-support/images/data/footer_intel.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/vps-server-support/images/data/footer_level.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/vps-server-support/images/data/footer_sas.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/vps-server-support/images/data/footer_comodo.jpg" alt=""></li>
+			<li><img src="https://www.vps.me/forum/vps-server-support/images/data/ipv6-ready.jpg" alt=""></li>
+        </ul>
+        <div class="cl"></div>
+        <div class="topline"></div>
+        <div class="cl"></div>
+
+        <ul>
+            <li class="title">Features</li>
+            <li><a href="../../features">Control Panel</a></li>
+            <li><a href="../../os-templates">OS Templates</a></li>
+            <li><a href="../../free-vps">Test VPS</a></li>
+        </ul>
+
+        <ul>
+            <li class="title">Support</li>
+            <li><a href="../../kb">Knowledge Base</a></li>
+            <li><a href="../../forum">Forum</a></li>
+        </ul>
+
+        <ul>
+            <li class="title">About</li>
+            <li><a href="../../datacenter">Datacenter</a></li>
+            <li><a href="../../about">Our Staff</a></li>
+            <li><a href="../../contacts">Contact Us</a></li>
+			<li><a href="../../tos">Terms of Service</a></li>
+			<li><a href="../../privacy">Privacy Policy</a></li>
+        </ul>
+
+        <div class="logo">
+            <a href="../../index.html"><img src="https://www.vps.me/forum/vps-server-support/images/logo_footer.png" alt=""></a>
+            <div class="social_line"></div>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/www.VPS.me" class="facebook" target="_blank" rel="nofollow"></a></li>
+                <li><a href="http://www.boxbilling.com/order" target="_blank" title="Billing software" rel="nofollow"><img src="https://www.vps.me/forum/vps-server-support/images/boxbilling.png" alt="Billing software"></a></li>
+                <li><a href="https://twitter.com/VpsMeHosting" class="twitter" target="_blank" rel="nofollow"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="cl"></div>
+</div>
+
+
+<div id="bb-popup-login" class="bb-popup">
+    <a href="webmin-can-t-connect#" class="close"><img src="https://www.vps.me/forum/vps-server-support/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    
+    <div style="padding-top: 20px">
+        <div class="star">Enter VPS.me Members Area</div>
+        <div class="bbline"></div>
+    </div>
+
+    <form method="post" action="webmin-can-t-connect#" class="bb-form" onsubmit="return bb.doLogin(this);">
+        <div class="element">
+            <label for="login-email" class="topLabel">E-mail:</label>
+            <input id="login-email" type="email" name="email" value="" required="required" placeholder="my@email.com">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="element">
+            <label for="login-password" class="topLabel">Password:</label>
+            <input id="login-password" name="password" value="" type="password" required="required" placeholder="********">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="element" style="text-align: center;">
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Login</button>
+            <div class="smalltext">
+<!--            <a class="bb-popup-open register-button" href="#bb-popup-register">Register</a> -->
+            <a class="register-button" href="https://www.hostinger.com/vps-hosting">Register</a>
+            <span>|</span>
+            <a class="bb-popup-open" href="webmin-can-t-connect#bb-popup-reset-password">Forgot password?</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </form>
+</div>
+
+<div id="bb-popup-reset-password" class="bb-popup">
+    <a href="webmin-can-t-connect#" class="close"><img src="https://www.vps.me/forum/vps-server-support/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    
+    <div style="padding-top: 20px">
+        <div class="star">Reset VPS.me Members Area Password</div>
+        <div class="bbline"></div>
+    </div>
+
+    <form method="post" action="webmin-can-t-connect#" class="bb-form" onsubmit="return bb.doResetPassword(this);">
+        <div class="element">
+            <label for="login-email" class="topLabel">E-mail:</label>
+            <input id="login-email" type="email" name="email" value="" required="required" placeholder="my@email.com">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="element" style="text-align: center;">
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Reset</button>
+            <div class="smalltext">
+            <a class="bb-popup-open" href="webmin-can-t-connect#bb-popup-login">Back</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </form>
+</div>
+
+<div id="bb-popup-choose" class="bb-popup">
+    <a href="webmin-can-t-connect#" class="close"><img src="https://www.vps.me/forum/vps-server-support/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    <div style="padding-top: 20px">
+        <div class="star">Login or Register!</div>
+        <div class="bbline"></div>
+    </div>
+
+    <a class="bb-button bb-button-big bb-button-submit bb-popup-open" href="webmin-can-t-connect#bb-popup-login">Login</a> or
+    <a class="bb-button bb-button-big bb-popup-open" href="webmin-can-t-connect#bb-popup-register">Register</a>
+</div>
+
+<div id="bb-popup-register" class="bb-popup">
+    <a href="webmin-can-t-connect#" class="close"><img src="https://www.vps.me/forum/vps-server-support/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    
+    <div style="padding-top: 20px">
+        <div class="star">Become VPS.me member!</div>
+        <div class="bbline"></div>
+    </div>
+
+        <form method="post" action="webmin-can-t-connect#" class="bb-form" onsubmit="return bb.doRegister(this);">
+        <fieldset class="col2 first">
+        <div class="element">
+            <label class="topLabel">Email: </label>
+            <input type="text" name="email" value="" required="required">
+        </div>
+        
+        <div class="element">
+            <label class="topLabel">First name & Last name: </label>
+            <input type="text" name="full_name" value="" required="required">
+        </div>
+        
+        
+        <div class="element">
+            <label class="topLabel">Password: </label>
+            <input type="password" name="password" value="" required="required">
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Confirm password: </label>
+            <input type="password" name="password_confirm" value="" required="required">
+        </div>
+        
+                                      <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+            <div class="g-recaptcha" data-sitekey="6LdQ6wMTAAAAAI4p-iIwJEeKILB_WgSTGdXFzsxy"></div>
+            
+
+        </fieldset>
+        
+        <fieldset class="col2 last">
+
+        <div class="element">
+            <label class="topLabel">Country: </label>
+                <select name="country" required="required">
+        <option value="">-- Select country --</option>                <option value="US" label="United States" >United States</option>
+                <option value="AF" label="Afghanistan" >Afghanistan</option>
+                <option value="AL" label="Albania" >Albania</option>
+                <option value="DZ" label="Algeria" >Algeria</option>
+                <option value="AS" label="American Samoa" >American Samoa</option>
+                <option value="AD" label="Andorra" >Andorra</option>
+                <option value="AO" label="Angola" >Angola</option>
+                <option value="AI" label="Anguilla" >Anguilla</option>
+                <option value="AQ" label="Antarctica" >Antarctica</option>
+                <option value="AG" label="Antigua And Barbuda" >Antigua And Barbuda</option>
+                <option value="AR" label="Argentina" >Argentina</option>
+                <option value="AM" label="Armenia" >Armenia</option>
+                <option value="AW" label="Aruba" >Aruba</option>
+                <option value="AU" label="Australia" >Australia</option>
+                <option value="AT" label="Austria" >Austria</option>
+                <option value="AZ" label="Azerbaijan" >Azerbaijan</option>
+                <option value="BS" label="Bahamas" >Bahamas</option>
+                <option value="BH" label="Bahrain" >Bahrain</option>
+                <option value="BD" label="Bangladesh" >Bangladesh</option>
+                <option value="BB" label="Barbados" >Barbados</option>
+                <option value="BY" label="Belarus" >Belarus</option>
+                <option value="BE" label="Belgium" >Belgium</option>
+                <option value="BZ" label="Belize" >Belize</option>
+                <option value="BJ" label="Benin" >Benin</option>
+                <option value="BM" label="Bermuda" >Bermuda</option>
+                <option value="BT" label="Bhutan" >Bhutan</option>
+                <option value="BO" label="Bolivia" >Bolivia</option>
+                <option value="BA" label="Bosnia And Herzegowina" >Bosnia And Herzegowina</option>
+                <option value="BW" label="Botswana" >Botswana</option>
+                <option value="BR" label="Brazil" >Brazil</option>
+                <option value="BN" label="Brunei Darussalam" >Brunei Darussalam</option>
+                <option value="BG" label="Bulgaria" >Bulgaria</option>
+                <option value="BF" label="Burkina Faso" >Burkina Faso</option>
+                <option value="BI" label="Burundi" >Burundi</option>
+                <option value="KH" label="Cambodia" >Cambodia</option>
+                <option value="CM" label="Cameroon" >Cameroon</option>
+                <option value="CA" label="Canada" >Canada</option>
+                <option value="CV" label="Cape Verde" >Cape Verde</option>
+                <option value="KY" label="Cayman Islands" >Cayman Islands</option>
+                <option value="CF" label="Central African Republic" >Central African Republic</option>
+                <option value="TD" label="Chad" >Chad</option>
+                <option value="CL" label="Chile" >Chile</option>
+                <option value="CN" label="China" >China</option>
+                <option value="CX" label="Christmas Island" >Christmas Island</option>
+                <option value="CC" label="Cocos (Keeling) Islands" >Cocos (Keeling) Islands</option>
+                <option value="CO" label="Colombia" >Colombia</option>
+                <option value="KM" label="Comoros" >Comoros</option>
+                <option value="CG" label="Congo" >Congo</option>
+                <option value="CK" label="Cook Islands" >Cook Islands</option>
+                <option value="CR" label="Costa Rica" >Costa Rica</option>
+                <option value="CI" label="Cote D&#039;Ivoire" >Cote D&#039;Ivoire</option>
+                <option value="HR" label="Croatia" >Croatia</option>
+                <option value="CU" label="Cuba" >Cuba</option>
+                <option value="CY" label="Cyprus" >Cyprus</option>
+                <option value="CZ" label="Czech Republic" >Czech Republic</option>
+                <option value="DK" label="Denmark" >Denmark</option>
+                <option value="DJ" label="Djibouti" >Djibouti</option>
+                <option value="DM" label="Dominica" >Dominica</option>
+                <option value="DO" label="Dominican Republic" >Dominican Republic</option>
+                <option value="TP" label="East Timor" >East Timor</option>
+                <option value="EC" label="Ecuador" >Ecuador</option>
+                <option value="EG" label="Egypt" >Egypt</option>
+                <option value="SV" label="El Salvador" >El Salvador</option>
+                <option value="GQ" label="Equatorial Guinea" >Equatorial Guinea</option>
+                <option value="ER" label="Eritrea" >Eritrea</option>
+                <option value="EE" label="Estonia" >Estonia</option>
+                <option value="ET" label="Ethiopia" >Ethiopia</option>
+                <option value="FO" label="Faroe Islands" >Faroe Islands</option>
+                <option value="FJ" label="Fiji" >Fiji</option>
+                <option value="FI" label="Finland" >Finland</option>
+                <option value="FR" label="France" >France</option>
+                <option value="GA" label="Gabon" >Gabon</option>
+                <option value="GB" label="Great Britain" >Great Britain</option>
+                <option value="GM" label="Gambia" >Gambia</option>
+                <option value="GE" label="Georgia" >Georgia</option>
+                <option value="DE" label="Germany" >Germany</option>
+                <option value="GH" label="Ghana" >Ghana</option>
+                <option value="GI" label="Gibraltar" >Gibraltar</option>
+                <option value="GR" label="Greece" >Greece</option>
+                <option value="GL" label="Greenland" >Greenland</option>
+                <option value="GD" label="Grenada" >Grenada</option>
+                <option value="GP" label="Guadeloupe" >Guadeloupe</option>
+                <option value="GU" label="Guam" >Guam</option>
+                <option value="GT" label="Guatemala" >Guatemala</option>
+                <option value="GN" label="Guinea" >Guinea</option>
+                <option value="GW" label="Guinea-Bissau" >Guinea-Bissau</option>
+                <option value="GY" label="Guyana" >Guyana</option>
+                <option value="HT" label="Haiti" >Haiti</option>
+                <option value="EL" label="Hellenic Republic (Greece)" >Hellenic Republic (Greece)</option>
+                <option value="HN" label="Honduras" >Honduras</option>
+                <option value="HK" label="Hong Kong" >Hong Kong</option>
+                <option value="HU" label="Hungary" >Hungary</option>
+                <option value="IS" label="Iceland" >Iceland</option>
+                <option value="IN" label="India" >India</option>
+                <option value="ID" label="Indonesia" >Indonesia</option>
+                <option value="IR" label="Iran" >Iran</option>
+                <option value="IQ" label="Iraq" >Iraq</option>
+                <option value="IE" label="Ireland" >Ireland</option>
+                <option value="IL" label="Israel" >Israel</option>
+                <option value="IT" label="Italy" >Italy</option>
+                <option value="JM" label="Jamaica" >Jamaica</option>
+                <option value="JP" label="Japan" >Japan</option>
+                <option value="JO" label="Jordan" >Jordan</option>
+                <option value="KZ" label="Kazakhstan" >Kazakhstan</option>
+                <option value="KE" label="Kenya" >Kenya</option>
+                <option value="KI" label="Kiribati" >Kiribati</option>
+                <option value="KR" label="Korea, Republic Of" >Korea, Republic Of</option>
+                <option value="KW" label="Kuwait" >Kuwait</option>
+                <option value="KG" label="Kyrgyzstan" >Kyrgyzstan</option>
+                <option value="LV" label="Latvia" >Latvia</option>
+                <option value="LB" label="Lebanon" >Lebanon</option>
+                <option value="LS" label="Lesotho" >Lesotho</option>
+                <option value="LR" label="Liberia" >Liberia</option>
+                <option value="LY" label="Libyan Arab Jamahiriya" >Libyan Arab Jamahiriya</option>
+                <option value="LI" label="Liechtenstein" >Liechtenstein</option>
+                <option value="LT" label="Lithuania" >Lithuania</option>
+                <option value="LU" label="Luxembourg" >Luxembourg</option>
+                <option value="MO" label="Macau" >Macau</option>
+                <option value="MG" label="Madagascar" >Madagascar</option>
+                <option value="MK" label="Macedonia" >Macedonia</option>
+                <option value="MW" label="Malawi" >Malawi</option>
+                <option value="MY" label="Malaysia" >Malaysia</option>
+                <option value="MV" label="Maldives" >Maldives</option>
+                <option value="ML" label="Mali" >Mali</option>
+                <option value="MT" label="Malta" >Malta</option>
+                <option value="MH" label="Marshall Islands" >Marshall Islands</option>
+                <option value="MQ" label="Martinique" >Martinique</option>
+                <option value="MR" label="Mauritania" >Mauritania</option>
+                <option value="MU" label="Mauritius" >Mauritius</option>
+                <option value="YT" label="Mayotte" >Mayotte</option>
+                <option value="MX" label="Mexico" >Mexico</option>
+                <option value="MD" label="Moldova, Republic Of" >Moldova, Republic Of</option>
+                <option value="MC" label="Monaco" >Monaco</option>
+                <option value="MN" label="Mongolia" >Mongolia</option>
+                <option value="ME" label="Montenegro" >Montenegro</option>
+                <option value="MS" label="Montserrat" >Montserrat</option>
+                <option value="MA" label="Morocco" >Morocco</option>
+                <option value="MZ" label="Mozambique" >Mozambique</option>
+                <option value="MM" label="Myanmar" >Myanmar</option>
+                <option value="NA" label="Namibia" >Namibia</option>
+                <option value="NR" label="Nauru" >Nauru</option>
+                <option value="NP" label="Nepal" >Nepal</option>
+                <option value="NL" label="Netherlands" >Netherlands</option>
+                <option value="AN" label="Netherlands Antilles" >Netherlands Antilles</option>
+                <option value="NC" label="New Caledonia" >New Caledonia</option>
+                <option value="NZ" label="New Zealand" >New Zealand</option>
+                <option value="NI" label="Nicaragua" >Nicaragua</option>
+                <option value="NE" label="Niger" >Niger</option>
+                <option value="NG" label="Nigeria" >Nigeria</option>
+                <option value="NU" label="Niue" >Niue</option>
+                <option value="NF" label="Norfolk Island" >Norfolk Island</option>
+                <option value="MP" label="Northern Mariana Islands" >Northern Mariana Islands</option>
+                <option value="NO" label="Norway" >Norway</option>
+                <option value="OM" label="Oman" >Oman</option>
+                <option value="PK" label="Pakistan" >Pakistan</option>
+                <option value="PW" label="Palau" >Palau</option>
+                <option value="PS" label="Palestine" >Palestine</option>
+                <option value="PA" label="Panama" >Panama</option>
+                <option value="PG" label="Papua New Guinea" >Papua New Guinea</option>
+                <option value="PY" label="Paraguay" >Paraguay</option>
+                <option value="PE" label="Peru" >Peru</option>
+                <option value="PH" label="Philippines" >Philippines</option>
+                <option value="PN" label="Pitcairn" >Pitcairn</option>
+                <option value="PL" label="Poland" >Poland</option>
+                <option value="PT" label="Portugal" >Portugal</option>
+                <option value="PR" label="Puerto Rico" >Puerto Rico</option>
+                <option value="QA" label="Qatar" >Qatar</option>
+                <option value="RE" label="Reunion" >Reunion</option>
+                <option value="RO" label="Romania" >Romania</option>
+                <option value="RU" label="Russian Federation" >Russian Federation</option>
+                <option value="RW" label="Rwanda" >Rwanda</option>
+                <option value="KN" label="Saint Kitts And Nevis" >Saint Kitts And Nevis</option>
+                <option value="LC" label="Saint Lucia" >Saint Lucia</option>
+                <option value="WS" label="Samoa" >Samoa</option>
+                <option value="SM" label="San Marino" >San Marino</option>
+                <option value="ST" label="Sao Tome And Principe" >Sao Tome And Principe</option>
+                <option value="SA" label="Saudi Arabia" >Saudi Arabia</option>
+                <option value="SN" label="Senegal" >Senegal</option>
+                <option value="RS" label="Serbia" >Serbia</option>
+                <option value="SC" label="Seychelles" >Seychelles</option>
+                <option value="SL" label="Sierra Leone" >Sierra Leone</option>
+                <option value="SG" label="Singapore" >Singapore</option>
+                <option value="SK" label="Slovakia" >Slovakia</option>
+                <option value="SI" label="Slovenia" >Slovenia</option>
+                <option value="SB" label="Solomon Islands" >Solomon Islands</option>
+                <option value="SO" label="Somalia" >Somalia</option>
+                <option value="ZA" label="South Africa" >South Africa</option>
+                <option value="ES" label="Spain" >Spain</option>
+                <option value="LK" label="Sri Lanka" >Sri Lanka</option>
+                <option value="SH" label="St. Helena" >St. Helena</option>
+                <option value="PM" label="St. Pierre And Miquelon" >St. Pierre And Miquelon</option>
+                <option value="SD" label="Sudan" >Sudan</option>
+                <option value="SR" label="Suriname" >Suriname</option>
+                <option value="SZ" label="Swaziland" >Swaziland</option>
+                <option value="SE" label="Sweden" >Sweden</option>
+                <option value="CH" label="Switzerland" >Switzerland</option>
+                <option value="SY" label="Syrian Arab Republic" >Syrian Arab Republic</option>
+                <option value="TW" label="Taiwan" >Taiwan</option>
+                <option value="TJ" label="Tajikistan" >Tajikistan</option>
+                <option value="TZ" label="Tanzania" >Tanzania</option>
+                <option value="TH" label="Thailand" >Thailand</option>
+                <option value="TG" label="Togo" >Togo</option>
+                <option value="TK" label="Tokelau" >Tokelau</option>
+                <option value="TO" label="Tonga" >Tonga</option>
+                <option value="TT" label="Trinidad And Tobago" >Trinidad And Tobago</option>
+                <option value="TN" label="Tunisia" >Tunisia</option>
+                <option value="TR" label="Turkey" >Turkey</option>
+                <option value="TM" label="Turkmenistan" >Turkmenistan</option>
+                <option value="TV" label="Tuvalu" >Tuvalu</option>
+                <option value="UG" label="Uganda" >Uganda</option>
+                <option value="UA" label="Ukraine" >Ukraine</option>
+                <option value="AE" label="United Arab Emirates" >United Arab Emirates</option>
+                <option value="UY" label="Uruguay" >Uruguay</option>
+                <option value="UZ" label="Uzbekistan" >Uzbekistan</option>
+                <option value="VU" label="Vanuatu" >Vanuatu</option>
+                <option value="VE" label="Venezuela" >Venezuela</option>
+                <option value="VN" label="Viet Nam" >Viet Nam</option>
+                <option value="VG" label="Virgin Islands (British)" >Virgin Islands (British)</option>
+                <option value="VI" label="Virgin Islands (U.S.)" >Virgin Islands (U.S.)</option>
+                <option value="EH" label="Western Sahara" >Western Sahara</option>
+                <option value="YE" label="Yemen" >Yemen</option>
+                <option value="ZM" label="Zambia" >Zambia</option>
+                <option value="ZW" label="Zimbabwe" >Zimbabwe</option>
+            </select>
+
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Phone number: <span class="red">*</span></label>
+            <input type="text" name="phone_cc" value="" maxlength="3" placeholder="" readonly="readonly" class="phone_cc">
+            -
+            <input type="text" name="phone" value="" style="width: 280px" placeholder="" required="required">
+        </div>
+        
+        <div class="element">
+            <label class="topLabel">Confirm phone number: </label>
+            <input type="text" name="phone_cc" value="" maxlength="3" placeholder="" readonly="readonly" class="phone_cc">
+            -
+            <input type="text" name="phone" value="" style="width: 280px" placeholder="" required="required">
+        </div>
+		
+		<div class="element">
+            <label class="topLabel">Like us on Facebook: </label>
+            
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fwww.VPS.me&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>	
+	
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Address: </label>
+            <input type="text" name="address_1" value="">
+        </div>
+
+        <div class="element">
+            <label class="topLabel">City: </label>
+            <input type="text" name="city" value="">
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Zip Code: </label>
+            <input type="text" name="postcode" value="">
+        </div>
+
+        </fieldset>
+        <div class="clear"></div>
+            
+        <div class="element" style="text-align: center;">
+            <input type="hidden" name="auto_login" value="1" />
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Register</button>
+        </div>
+
+        <input type="hidden" name="forward" value="http://www.vps.me/client">
+    </form>
+    
+    <center><p><span class="red">*</span> Phone number is used to verify your account by SMS verification code.</p></center>
+        
+    <script type="text/javascript">
+    $(function() {
+        $('select[name="country"]').bind('change',function(event){
+            $.ajax({
+                type: "GET",
+                url: bb.restUrl('guest/system/phone_codes'),
+                data: {country:$(this).val()},
+                global: false,
+                dataType: 'json',
+                error: function(jqXHR, textStatus, e) {
+                    bb.msg(e, 'error');
+                },
+                success: function(data) {
+                    $('input[name="phone_cc"]').val(data.result);
+                }
+            });
+        });
+    });
+    </script>
+</div>
+
+
+
+
+    
+        <script type="text/javascript">
+    $(function() {
+            });
+</script>
+    </body>
+</html>

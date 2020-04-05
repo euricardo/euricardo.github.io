@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://opengraphprotocol.org/schema/" lang="en">
+    <head>
+        <title>General Support</title>
+        <meta charset="utf-8">
+        
+        <meta name="keywords" content="General, Support, vps ">
+        <meta name="description" content="VPS.me provides premium VPS hosting services. Our virtual private VPS hosting servers are powered by the cloud hardware and software.">
+
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+        <meta property="bb:url" content="https://www.vps.me/"/>
+        <meta property="bb:client_area" content="https://www.vps.me/"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet" type="text/css" />        
+        <link rel="stylesheet" href="https://www.vps.me/forum/css/jquery-ui-1.8.18.css" type="text/css">
+        <link rel="stylesheet" href="https://www.vps.me/forum/css/style.css?v=1.1" type="text/css">
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-26575989-44', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+   
+        <script src="https://www.vps.me/forum/js/jquery-1.7.1.min.js"></script>
+        <script src="https://www.vps.me/forum/js/jquery-ui-1.8.18.min.js"></script>
+        <script src="https://www.vps.me/forum/js/init.js"></script>
+        <!--[if IE]><script src="js/html5.js"></script><![endif]-->
+        
+        		    </head>
+
+    <body>
+	
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=238821502909087";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+                <div class="header">
+            <div class="content">
+                <div class="logo">
+                    <a href="../index.html"><img src="https://www.vps.me/forum/images/logo_original.png" alt="logo"></a>
+                </div>
+                <div class="top-buttons">
+                                                            <a class="bb-button bb-button-black bb-popup-open" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#bb-popup-login">Sign in</a>
+<!--                    <a class="bb-button bb-button-submit bb-popup-open register-button" href="#bb-popup-register">Register</a> -->
+                    <a class="bb-button bb-button-submit register-button" href="https://www.hostinger.com/vps-hosting">Register</a>
+                                    </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+						<!--<li><a href="https://www.vps.me/affiliate">Affiliate</a></li>-->
+                        <li><a href="../features">Features</a></li>
+                        <li><a href="../order">Order</a></li>
+                        <li><a href="../get-support">Support</a></li>
+                        <li><a href="../about">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="cl"></div>
+            </div>
+        </div>
+
+        <div class="content">
+            
+            <div class="main_banner">
+                <div class="text">
+                    <h1><div style="width:600px;">General Support</div></h1>
+                    <div class="slogan">VPS Support &amp; Sales</div>
+                </div>
+                <div class="banner_forum"></div>
+                <div class="cl"></div>
+            </div>
+
+            <div class="order_vps greyborder p35">
+                <div class="breadcrumbs">
+    <a href="../forum">VPS Support &amp; Sales</a>
+</div>
+                <div class="star"><div style="line-height: 17px;width:764px;">General VPS server support thread. Ask our forum community your general questions about free VPS servers and VPS hosting overall.</div></div>
+                <div class="topline"></div>
+
+                
+
+                
+                <div id="messages"></div>
+                            <div class="block" style="text-align: center; margin: 20px 0 20px 0">
+                <form method="get" action="https://www.vps.me/forum/search" class="searchForm">
+                    <p>
+                        <input class="search text" name="q" type="text" value="" placeholder="What are you looking for?">
+                        <input class="bb-button bb-button-submit" value="Search" type="submit">
+                        <input type="text" name="forum_id" value="10" hidden />
+                    </p>
+                </form>
+            </div>
+            <table class="bb-table">
+                <thead>
+                    <tr>
+                        <th style="width:5%">&nbsp;</th>
+                        <th style="width:5%">&nbsp;</th>
+                        <th style="width:40%"><p class="forum-table-title">Thread / Thread Starter</p></th>
+                        <th><p class="forum-table-title">Last post</p></th>
+                        <th><p class="forum-table-title">Replies</p></th>
+                        <th><p class="forum-table-title">Views</p></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                                        
+                    <tr class="odd">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/80b1b28ce54f7663673fe9fbaea5a0e0?size=30" alt="Spi AtLinux" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/delete-account-209977">Delete Account #209977</a>
+                            <p style="font-size:11px;margin:0px;">Spi AtLinux</p>
+                        </td>
+                        <td>
+                            2014-10-14
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/delete-account-209977#m-3540">Spi AtLinux </p>
+                        </td>
+                        <td>1</td>
+                        <td>1063</td>
+                    </tr>
+
+                    
+                    <tr class="even">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/3378deff961bf7ee1e71137125a4af97?size=30" alt="Lucas A." />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/please-delete-order-no-233839-sms-verification-problem">Please delete order no. 233839 - sms verification problem</a>
+                            <p style="font-size:11px;margin:0px;">Lucas A.</p>
+                        </td>
+                        <td>
+                            2014-10-13
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/please-delete-order-no-233839-sms-verification-problem#m-3536">Lucas A. </p>
+                        </td>
+                        <td>1</td>
+                        <td>969</td>
+                    </tr>
+
+                    
+                    <tr class="odd">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/5d806b1a61a2246aa7863634bce4963d?size=30" alt="Boerni j..." />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/deletevm-218641">deleteVM 218641</a>
+                            <p style="font-size:11px;margin:0px;">Boerni j...</p>
+                        </td>
+                        <td>
+                            2014-10-12
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/deletevm-218641#m-3534">Boerni j... </p>
+                        </td>
+                        <td>1</td>
+                        <td>977</td>
+                    </tr>
+
+                    
+                    <tr class="even">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/4e6057122ee514023ec13324bfd5e60c?size=30" alt="Julian Rouw" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/account-suspended">account suspended</a>
+                            <p style="font-size:11px;margin:0px;">Julian Rouw</p>
+                        </td>
+                        <td>
+                            2014-10-11
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/account-suspended#m-3532">Julian Rouw </p>
+                        </td>
+                        <td>1</td>
+                        <td>1022</td>
+                    </tr>
+
+                    
+                    <tr class="odd">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/78bf1d04b848c6f9f22bd3e39ee62e41?size=30" alt="Adrian Kewley" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/delete-order-id-234388-and-remove-any-information-stored-by-you-on-me">DELETE Order ID:	234388 AND REMOVE ANY INFORMATION STORED BY YOU ON ME </a>
+                            <p style="font-size:11px;margin:0px;">Adrian Kewley</p>
+                        </td>
+                        <td>
+                            2014-10-11
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/delete-order-id-234388-and-remove-any-information-stored-by-you-on-me#m-3531">Adrian Kewley </p>
+                        </td>
+                        <td>1</td>
+                        <td>827</td>
+                    </tr>
+
+                    
+                    <tr class="even">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/5123097b436d97ab108490c2b0bd4393?size=30" alt="Sofiano sa" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/suspended-why">Suspended - Why?</a>
+                            <p style="font-size:11px;margin:0px;">Sofiano sa</p>
+                        </td>
+                        <td>
+                            2014-10-11
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/suspended-why#m-3530">Sofiano sa </p>
+                        </td>
+                        <td>1</td>
+                        <td>1101</td>
+                    </tr>
+
+                    
+                    <tr class="odd">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/bd5de115967f1a61c484db7f9871d940?size=30" alt="Agung Network" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/plz-delete-163074-and-117987">plz Delete 163074 and 117987</a>
+                            <p style="font-size:11px;margin:0px;">Agung Network</p>
+                        </td>
+                        <td>
+                            2014-10-10
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/plz-delete-163074-and-117987#m-3529">Agung Network </p>
+                        </td>
+                        <td>1</td>
+                        <td>1059</td>
+                    </tr>
+
+                    
+                    <tr class="even">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/637a58af32a3282b8f731761fb145180?size=30" alt="Agung Tell" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/delete-122616">Delete 122616</a>
+                            <p style="font-size:11px;margin:0px;">Agung Tell</p>
+                        </td>
+                        <td>
+                            2014-10-10
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/delete-122616#m-3528">Agung Tell </p>
+                        </td>
+                        <td>1</td>
+                        <td>990</td>
+                    </tr>
+
+                    
+                    <tr class="odd">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/58cc8e92fe4afe70760f9fe428e63673?size=30" alt="Juan Sebastian" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/vps-sms-verification">vps sms verification</a>
+                            <p style="font-size:11px;margin:0px;">Juan Sebastian</p>
+                        </td>
+                        <td>
+                            2014-10-09
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/vps-sms-verification#m-3527">Juan Sebastian </p>
+                        </td>
+                        <td>1</td>
+                        <td>1177</td>
+                    </tr>
+
+                    
+                    <tr class="even">
+                        <td>
+                            <span class="forum-status active"></span>
+                        </td>
+                        <td>
+                            <img src="https://gravatar.com/avatar/625684d530f50f06271f6a593d429c96?size=30" alt="Ramon rodriguez" />
+                        </td>
+                        <td>
+                            <a href="vps-server-support/deletevm">deleteVM</a>
+                            <p style="font-size:11px;margin:0px;">Ramon rodriguez</p>
+                        </td>
+                        <td>
+                            2014-10-09
+                            <p style="font-size:11px;margin:0px;">by <a href="vps-server-support/deletevm#m-3526">Ramon rodriguez </p>
+                        </td>
+                        <td>1</td>
+                        <td>1035</td>
+                    </tr>
+
+                    
+                </tbody>
+
+            </table>
+
+    
+<div class="paginator">
+<ul>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=1">1</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=2">2</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=3">3</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=4">4</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=5">5</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=6">6</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=7">7</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=8">8</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=9">9</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=10">10</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=11">11</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=12">12</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=13">13</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=14">14</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=15">15</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=16">16</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=17">17</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=18">18</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=19">19</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=20">20</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=21">21</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=22">22</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=23">23</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=24">24</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=25">25</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=26">26</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=27">27</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=28">28</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=29">29</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=30">30</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=31">31</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=32">32</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=33">33</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=34">34</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=35">35</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=36">36</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=37">37</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=38">38</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=39">39</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=40">40</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=41">41</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=42">42</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=43">43</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=44">44</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=45">45</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=46">46</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=47">47</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=48">48</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=49">49</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=50">50</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=51">51</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=52">52</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=53">53</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=54">54</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=55">55</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=56">56</a>
+        </li>
+      <li>
+            <a class="bb-button bb-button-submit" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" onclick="return false;">57</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=58">58</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=59">59</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=60">60</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=61">61</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=62">62</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=63">63</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=64">64</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=65">65</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=66">66</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=67">67</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=68">68</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=69">69</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=70">70</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=71">71</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=72">72</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=73">73</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=74">74</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=75">75</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=76">76</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=77">77</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=78">78</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=79">79</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=80">80</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=81">81</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=82">82</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=83">83</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=84">84</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=85">85</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=86">86</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=87">87</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=88">88</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=89">89</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=90">90</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=91">91</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=92">92</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=93">93</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=94">94</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=95">95</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=96">96</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=97">97</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=98">98</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=99">99</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=100">100</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=101">101</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=102">102</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=103">103</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=104">104</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=105">105</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=106">106</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=107">107</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=108">108</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=109">109</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=110">110</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=111">111</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=112">112</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=113">113</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=114">114</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=115">115</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=116">116</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=117">117</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=118">118</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=119">119</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=120">120</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=121">121</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=122">122</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=123">123</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=124">124</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=125">125</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=126">126</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=127">127</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=128">128</a>
+        </li>
+      <li>
+            <a class="bb-button" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=129">129</a>
+        </li>
+  </ul>
+    <div class="clear"></div>
+</div>
+
+
+    <p>
+                <a href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#bb-popup-login" class="bb-button bb-button-submit bb-popup-open" type="button">New topic</a>
+            </p>
+
+<div id="bb-popup-new-forum-topic" class="bb-popup">
+    <a href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="close"><img src="https://www.vps.me/forum/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+
+    <div style="padding-top: 20px">
+        <div class="star">Start new topic in "General Support"</div>
+        <div class="bbline"></div>
+    </div>
+
+    <form action="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57" method="post" id="forum-new-topic" class="bb-form">
+            <div class="element">
+                <label class="topLabel">Topic title:</label>
+                <input type="text" name="topic" value="" required="required">
+                <div class="clear"></div>
+            </div>
+
+            <div class="element">
+                <label class="topLabel">Message:</label>
+                <textarea name="message" cols="5" rows="5" required="required"></textarea>
+                <div class="clear"></div>
+            </div>
+
+            <div class="element" style="text-align: center;">
+                <button class="bb-button bb-button-submit bb-button-big" type="submit">Submit</button>
+                <div class="clear"></div>
+            </div>
+
+            <input type="hidden" name="return" value="slug">
+            <input type="hidden" name="forum_id" value="10">
+    </form>
+</div>
+
+                                
+                <div class="cl"></div>
+            </div>
+            
+                    </div>
+        <div class="footer_before"></div>
+<div class="footer">
+    <div class="content">
+
+        <ul class="partners">
+            <li><img src="https://www.vps.me/forum/images/data/footer_cisco.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/images/data/footer_intel.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/images/data/footer_level.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/images/data/footer_sas.jpg" alt=""></li>
+            <li><img src="https://www.vps.me/forum/images/data/footer_comodo.jpg" alt=""></li>
+			<li><img src="https://www.vps.me/forum/images/data/ipv6-ready.jpg" alt=""></li>
+        </ul>
+        <div class="cl"></div>
+        <div class="topline"></div>
+        <div class="cl"></div>
+
+        <ul>
+            <li class="title">Features</li>
+            <li><a href="../features">Control Panel</a></li>
+            <li><a href="../os-templates">OS Templates</a></li>
+            <li><a href="../free-vps">Test VPS</a></li>
+        </ul>
+
+        <ul>
+            <li class="title">Support</li>
+            <li><a href="../kb">Knowledge Base</a></li>
+            <li><a href="../forum">Forum</a></li>
+        </ul>
+
+        <ul>
+            <li class="title">About</li>
+            <li><a href="../datacenter">Datacenter</a></li>
+            <li><a href="../about">Our Staff</a></li>
+            <li><a href="../contacts">Contact Us</a></li>
+			<li><a href="../tos">Terms of Service</a></li>
+			<li><a href="../privacy">Privacy Policy</a></li>
+        </ul>
+
+        <div class="logo">
+            <a href="../index.html"><img src="https://www.vps.me/forum/images/logo_footer.png" alt=""></a>
+            <div class="social_line"></div>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/www.VPS.me" class="facebook" target="_blank" rel="nofollow"></a></li>
+                <li><a href="http://www.boxbilling.com/order" target="_blank" title="Billing software" rel="nofollow"><img src="https://www.vps.me/forum/images/boxbilling.png" alt="Billing software"></a></li>
+                <li><a href="https://twitter.com/VpsMeHosting" class="twitter" target="_blank" rel="nofollow"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="cl"></div>
+</div>
+
+
+<div id="bb-popup-login" class="bb-popup">
+    <a href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="close"><img src="https://www.vps.me/forum/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    
+    <div style="padding-top: 20px">
+        <div class="star">Enter VPS.me Members Area</div>
+        <div class="bbline"></div>
+    </div>
+
+    <form method="post" action="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="bb-form" onsubmit="return bb.doLogin(this);">
+        <div class="element">
+            <label for="login-email" class="topLabel">E-mail:</label>
+            <input id="login-email" type="email" name="email" value="" required="required" placeholder="my@email.com">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="element">
+            <label for="login-password" class="topLabel">Password:</label>
+            <input id="login-password" name="password" value="" type="password" required="required" placeholder="********">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="element" style="text-align: center;">
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Login</button>
+            <div class="smalltext">
+<!--            <a class="bb-popup-open register-button" href="#bb-popup-register">Register</a> -->
+            <a class="register-button" href="https://www.hostinger.com/vps-hosting">Register</a>
+            <span>|</span>
+            <a class="bb-popup-open" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#bb-popup-reset-password">Forgot password?</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </form>
+</div>
+
+<div id="bb-popup-reset-password" class="bb-popup">
+    <a href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="close"><img src="https://www.vps.me/forum/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    
+    <div style="padding-top: 20px">
+        <div class="star">Reset VPS.me Members Area Password</div>
+        <div class="bbline"></div>
+    </div>
+
+    <form method="post" action="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="bb-form" onsubmit="return bb.doResetPassword(this);">
+        <div class="element">
+            <label for="login-email" class="topLabel">E-mail:</label>
+            <input id="login-email" type="email" name="email" value="" required="required" placeholder="my@email.com">
+            <div class="clear"></div>
+        </div>
+        
+        <div class="element" style="text-align: center;">
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Reset</button>
+            <div class="smalltext">
+            <a class="bb-popup-open" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#bb-popup-login">Back</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </form>
+</div>
+
+<div id="bb-popup-choose" class="bb-popup">
+    <a href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="close"><img src="https://www.vps.me/forum/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    <div style="padding-top: 20px">
+        <div class="star">Login or Register!</div>
+        <div class="bbline"></div>
+    </div>
+
+    <a class="bb-button bb-button-big bb-button-submit bb-popup-open" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#bb-popup-login">Login</a> or
+    <a class="bb-button bb-button-big bb-popup-open" href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#bb-popup-register">Register</a>
+</div>
+
+<div id="bb-popup-register" class="bb-popup">
+    <a href="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="close"><img src="https://www.vps.me/forum/images/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+    
+    <div style="padding-top: 20px">
+        <div class="star">Become VPS.me member!</div>
+        <div class="bbline"></div>
+    </div>
+
+        <form method="post" action="vps-server-support@%252Fforum%252Fvps-server-support=&amp;page=57#" class="bb-form" onsubmit="return bb.doRegister(this);">
+        <fieldset class="col2 first">
+        <div class="element">
+            <label class="topLabel">Email: </label>
+            <input type="text" name="email" value="" required="required">
+        </div>
+        
+        <div class="element">
+            <label class="topLabel">First name & Last name: </label>
+            <input type="text" name="full_name" value="" required="required">
+        </div>
+        
+        
+        <div class="element">
+            <label class="topLabel">Password: </label>
+            <input type="password" name="password" value="" required="required">
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Confirm password: </label>
+            <input type="password" name="password_confirm" value="" required="required">
+        </div>
+        
+                                      <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+            <div class="g-recaptcha" data-sitekey="6LdQ6wMTAAAAAI4p-iIwJEeKILB_WgSTGdXFzsxy"></div>
+            
+
+        </fieldset>
+        
+        <fieldset class="col2 last">
+
+        <div class="element">
+            <label class="topLabel">Country: </label>
+                <select name="country" required="required">
+        <option value="">-- Select country --</option>                <option value="US" label="United States" >United States</option>
+                <option value="AF" label="Afghanistan" >Afghanistan</option>
+                <option value="AL" label="Albania" >Albania</option>
+                <option value="DZ" label="Algeria" >Algeria</option>
+                <option value="AS" label="American Samoa" >American Samoa</option>
+                <option value="AD" label="Andorra" >Andorra</option>
+                <option value="AO" label="Angola" >Angola</option>
+                <option value="AI" label="Anguilla" >Anguilla</option>
+                <option value="AQ" label="Antarctica" >Antarctica</option>
+                <option value="AG" label="Antigua And Barbuda" >Antigua And Barbuda</option>
+                <option value="AR" label="Argentina" >Argentina</option>
+                <option value="AM" label="Armenia" >Armenia</option>
+                <option value="AW" label="Aruba" >Aruba</option>
+                <option value="AU" label="Australia" >Australia</option>
+                <option value="AT" label="Austria" >Austria</option>
+                <option value="AZ" label="Azerbaijan" >Azerbaijan</option>
+                <option value="BS" label="Bahamas" >Bahamas</option>
+                <option value="BH" label="Bahrain" >Bahrain</option>
+                <option value="BD" label="Bangladesh" >Bangladesh</option>
+                <option value="BB" label="Barbados" >Barbados</option>
+                <option value="BY" label="Belarus" >Belarus</option>
+                <option value="BE" label="Belgium" >Belgium</option>
+                <option value="BZ" label="Belize" >Belize</option>
+                <option value="BJ" label="Benin" >Benin</option>
+                <option value="BM" label="Bermuda" >Bermuda</option>
+                <option value="BT" label="Bhutan" >Bhutan</option>
+                <option value="BO" label="Bolivia" >Bolivia</option>
+                <option value="BA" label="Bosnia And Herzegowina" >Bosnia And Herzegowina</option>
+                <option value="BW" label="Botswana" >Botswana</option>
+                <option value="BR" label="Brazil" >Brazil</option>
+                <option value="BN" label="Brunei Darussalam" >Brunei Darussalam</option>
+                <option value="BG" label="Bulgaria" >Bulgaria</option>
+                <option value="BF" label="Burkina Faso" >Burkina Faso</option>
+                <option value="BI" label="Burundi" >Burundi</option>
+                <option value="KH" label="Cambodia" >Cambodia</option>
+                <option value="CM" label="Cameroon" >Cameroon</option>
+                <option value="CA" label="Canada" >Canada</option>
+                <option value="CV" label="Cape Verde" >Cape Verde</option>
+                <option value="KY" label="Cayman Islands" >Cayman Islands</option>
+                <option value="CF" label="Central African Republic" >Central African Republic</option>
+                <option value="TD" label="Chad" >Chad</option>
+                <option value="CL" label="Chile" >Chile</option>
+                <option value="CN" label="China" >China</option>
+                <option value="CX" label="Christmas Island" >Christmas Island</option>
+                <option value="CC" label="Cocos (Keeling) Islands" >Cocos (Keeling) Islands</option>
+                <option value="CO" label="Colombia" >Colombia</option>
+                <option value="KM" label="Comoros" >Comoros</option>
+                <option value="CG" label="Congo" >Congo</option>
+                <option value="CK" label="Cook Islands" >Cook Islands</option>
+                <option value="CR" label="Costa Rica" >Costa Rica</option>
+                <option value="CI" label="Cote D&#039;Ivoire" >Cote D&#039;Ivoire</option>
+                <option value="HR" label="Croatia" >Croatia</option>
+                <option value="CU" label="Cuba" >Cuba</option>
+                <option value="CY" label="Cyprus" >Cyprus</option>
+                <option value="CZ" label="Czech Republic" >Czech Republic</option>
+                <option value="DK" label="Denmark" >Denmark</option>
+                <option value="DJ" label="Djibouti" >Djibouti</option>
+                <option value="DM" label="Dominica" >Dominica</option>
+                <option value="DO" label="Dominican Republic" >Dominican Republic</option>
+                <option value="TP" label="East Timor" >East Timor</option>
+                <option value="EC" label="Ecuador" >Ecuador</option>
+                <option value="EG" label="Egypt" >Egypt</option>
+                <option value="SV" label="El Salvador" >El Salvador</option>
+                <option value="GQ" label="Equatorial Guinea" >Equatorial Guinea</option>
+                <option value="ER" label="Eritrea" >Eritrea</option>
+                <option value="EE" label="Estonia" >Estonia</option>
+                <option value="ET" label="Ethiopia" >Ethiopia</option>
+                <option value="FO" label="Faroe Islands" >Faroe Islands</option>
+                <option value="FJ" label="Fiji" >Fiji</option>
+                <option value="FI" label="Finland" >Finland</option>
+                <option value="FR" label="France" >France</option>
+                <option value="GA" label="Gabon" >Gabon</option>
+                <option value="GB" label="Great Britain" >Great Britain</option>
+                <option value="GM" label="Gambia" >Gambia</option>
+                <option value="GE" label="Georgia" >Georgia</option>
+                <option value="DE" label="Germany" >Germany</option>
+                <option value="GH" label="Ghana" >Ghana</option>
+                <option value="GI" label="Gibraltar" >Gibraltar</option>
+                <option value="GR" label="Greece" >Greece</option>
+                <option value="GL" label="Greenland" >Greenland</option>
+                <option value="GD" label="Grenada" >Grenada</option>
+                <option value="GP" label="Guadeloupe" >Guadeloupe</option>
+                <option value="GU" label="Guam" >Guam</option>
+                <option value="GT" label="Guatemala" >Guatemala</option>
+                <option value="GN" label="Guinea" >Guinea</option>
+                <option value="GW" label="Guinea-Bissau" >Guinea-Bissau</option>
+                <option value="GY" label="Guyana" >Guyana</option>
+                <option value="HT" label="Haiti" >Haiti</option>
+                <option value="EL" label="Hellenic Republic (Greece)" >Hellenic Republic (Greece)</option>
+                <option value="HN" label="Honduras" >Honduras</option>
+                <option value="HK" label="Hong Kong" >Hong Kong</option>
+                <option value="HU" label="Hungary" >Hungary</option>
+                <option value="IS" label="Iceland" >Iceland</option>
+                <option value="IN" label="India" >India</option>
+                <option value="ID" label="Indonesia" >Indonesia</option>
+                <option value="IR" label="Iran" >Iran</option>
+                <option value="IQ" label="Iraq" >Iraq</option>
+                <option value="IE" label="Ireland" >Ireland</option>
+                <option value="IL" label="Israel" >Israel</option>
+                <option value="IT" label="Italy" >Italy</option>
+                <option value="JM" label="Jamaica" >Jamaica</option>
+                <option value="JP" label="Japan" >Japan</option>
+                <option value="JO" label="Jordan" >Jordan</option>
+                <option value="KZ" label="Kazakhstan" >Kazakhstan</option>
+                <option value="KE" label="Kenya" >Kenya</option>
+                <option value="KI" label="Kiribati" >Kiribati</option>
+                <option value="KR" label="Korea, Republic Of" >Korea, Republic Of</option>
+                <option value="KW" label="Kuwait" >Kuwait</option>
+                <option value="KG" label="Kyrgyzstan" >Kyrgyzstan</option>
+                <option value="LV" label="Latvia" >Latvia</option>
+                <option value="LB" label="Lebanon" >Lebanon</option>
+                <option value="LS" label="Lesotho" >Lesotho</option>
+                <option value="LR" label="Liberia" >Liberia</option>
+                <option value="LY" label="Libyan Arab Jamahiriya" >Libyan Arab Jamahiriya</option>
+                <option value="LI" label="Liechtenstein" >Liechtenstein</option>
+                <option value="LT" label="Lithuania" >Lithuania</option>
+                <option value="LU" label="Luxembourg" >Luxembourg</option>
+                <option value="MO" label="Macau" >Macau</option>
+                <option value="MG" label="Madagascar" >Madagascar</option>
+                <option value="MK" label="Macedonia" >Macedonia</option>
+                <option value="MW" label="Malawi" >Malawi</option>
+                <option value="MY" label="Malaysia" >Malaysia</option>
+                <option value="MV" label="Maldives" >Maldives</option>
+                <option value="ML" label="Mali" >Mali</option>
+                <option value="MT" label="Malta" >Malta</option>
+                <option value="MH" label="Marshall Islands" >Marshall Islands</option>
+                <option value="MQ" label="Martinique" >Martinique</option>
+                <option value="MR" label="Mauritania" >Mauritania</option>
+                <option value="MU" label="Mauritius" >Mauritius</option>
+                <option value="YT" label="Mayotte" >Mayotte</option>
+                <option value="MX" label="Mexico" >Mexico</option>
+                <option value="MD" label="Moldova, Republic Of" >Moldova, Republic Of</option>
+                <option value="MC" label="Monaco" >Monaco</option>
+                <option value="MN" label="Mongolia" >Mongolia</option>
+                <option value="ME" label="Montenegro" >Montenegro</option>
+                <option value="MS" label="Montserrat" >Montserrat</option>
+                <option value="MA" label="Morocco" >Morocco</option>
+                <option value="MZ" label="Mozambique" >Mozambique</option>
+                <option value="MM" label="Myanmar" >Myanmar</option>
+                <option value="NA" label="Namibia" >Namibia</option>
+                <option value="NR" label="Nauru" >Nauru</option>
+                <option value="NP" label="Nepal" >Nepal</option>
+                <option value="NL" label="Netherlands" >Netherlands</option>
+                <option value="AN" label="Netherlands Antilles" >Netherlands Antilles</option>
+                <option value="NC" label="New Caledonia" >New Caledonia</option>
+                <option value="NZ" label="New Zealand" >New Zealand</option>
+                <option value="NI" label="Nicaragua" >Nicaragua</option>
+                <option value="NE" label="Niger" >Niger</option>
+                <option value="NG" label="Nigeria" >Nigeria</option>
+                <option value="NU" label="Niue" >Niue</option>
+                <option value="NF" label="Norfolk Island" >Norfolk Island</option>
+                <option value="MP" label="Northern Mariana Islands" >Northern Mariana Islands</option>
+                <option value="NO" label="Norway" >Norway</option>
+                <option value="OM" label="Oman" >Oman</option>
+                <option value="PK" label="Pakistan" >Pakistan</option>
+                <option value="PW" label="Palau" >Palau</option>
+                <option value="PS" label="Palestine" >Palestine</option>
+                <option value="PA" label="Panama" >Panama</option>
+                <option value="PG" label="Papua New Guinea" >Papua New Guinea</option>
+                <option value="PY" label="Paraguay" >Paraguay</option>
+                <option value="PE" label="Peru" >Peru</option>
+                <option value="PH" label="Philippines" >Philippines</option>
+                <option value="PN" label="Pitcairn" >Pitcairn</option>
+                <option value="PL" label="Poland" >Poland</option>
+                <option value="PT" label="Portugal" >Portugal</option>
+                <option value="PR" label="Puerto Rico" >Puerto Rico</option>
+                <option value="QA" label="Qatar" >Qatar</option>
+                <option value="RE" label="Reunion" >Reunion</option>
+                <option value="RO" label="Romania" >Romania</option>
+                <option value="RU" label="Russian Federation" >Russian Federation</option>
+                <option value="RW" label="Rwanda" >Rwanda</option>
+                <option value="KN" label="Saint Kitts And Nevis" >Saint Kitts And Nevis</option>
+                <option value="LC" label="Saint Lucia" >Saint Lucia</option>
+                <option value="WS" label="Samoa" >Samoa</option>
+                <option value="SM" label="San Marino" >San Marino</option>
+                <option value="ST" label="Sao Tome And Principe" >Sao Tome And Principe</option>
+                <option value="SA" label="Saudi Arabia" >Saudi Arabia</option>
+                <option value="SN" label="Senegal" >Senegal</option>
+                <option value="RS" label="Serbia" >Serbia</option>
+                <option value="SC" label="Seychelles" >Seychelles</option>
+                <option value="SL" label="Sierra Leone" >Sierra Leone</option>
+                <option value="SG" label="Singapore" >Singapore</option>
+                <option value="SK" label="Slovakia" >Slovakia</option>
+                <option value="SI" label="Slovenia" >Slovenia</option>
+                <option value="SB" label="Solomon Islands" >Solomon Islands</option>
+                <option value="SO" label="Somalia" >Somalia</option>
+                <option value="ZA" label="South Africa" >South Africa</option>
+                <option value="ES" label="Spain" >Spain</option>
+                <option value="LK" label="Sri Lanka" >Sri Lanka</option>
+                <option value="SH" label="St. Helena" >St. Helena</option>
+                <option value="PM" label="St. Pierre And Miquelon" >St. Pierre And Miquelon</option>
+                <option value="SD" label="Sudan" >Sudan</option>
+                <option value="SR" label="Suriname" >Suriname</option>
+                <option value="SZ" label="Swaziland" >Swaziland</option>
+                <option value="SE" label="Sweden" >Sweden</option>
+                <option value="CH" label="Switzerland" >Switzerland</option>
+                <option value="SY" label="Syrian Arab Republic" >Syrian Arab Republic</option>
+                <option value="TW" label="Taiwan" >Taiwan</option>
+                <option value="TJ" label="Tajikistan" >Tajikistan</option>
+                <option value="TZ" label="Tanzania" >Tanzania</option>
+                <option value="TH" label="Thailand" >Thailand</option>
+                <option value="TG" label="Togo" >Togo</option>
+                <option value="TK" label="Tokelau" >Tokelau</option>
+                <option value="TO" label="Tonga" >Tonga</option>
+                <option value="TT" label="Trinidad And Tobago" >Trinidad And Tobago</option>
+                <option value="TN" label="Tunisia" >Tunisia</option>
+                <option value="TR" label="Turkey" >Turkey</option>
+                <option value="TM" label="Turkmenistan" >Turkmenistan</option>
+                <option value="TV" label="Tuvalu" >Tuvalu</option>
+                <option value="UG" label="Uganda" >Uganda</option>
+                <option value="UA" label="Ukraine" >Ukraine</option>
+                <option value="AE" label="United Arab Emirates" >United Arab Emirates</option>
+                <option value="UY" label="Uruguay" >Uruguay</option>
+                <option value="UZ" label="Uzbekistan" >Uzbekistan</option>
+                <option value="VU" label="Vanuatu" >Vanuatu</option>
+                <option value="VE" label="Venezuela" >Venezuela</option>
+                <option value="VN" label="Viet Nam" >Viet Nam</option>
+                <option value="VG" label="Virgin Islands (British)" >Virgin Islands (British)</option>
+                <option value="VI" label="Virgin Islands (U.S.)" >Virgin Islands (U.S.)</option>
+                <option value="EH" label="Western Sahara" >Western Sahara</option>
+                <option value="YE" label="Yemen" >Yemen</option>
+                <option value="ZM" label="Zambia" >Zambia</option>
+                <option value="ZW" label="Zimbabwe" >Zimbabwe</option>
+            </select>
+
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Phone number: <span class="red">*</span></label>
+            <input type="text" name="phone_cc" value="" maxlength="3" placeholder="" readonly="readonly" class="phone_cc">
+            -
+            <input type="text" name="phone" value="" style="width: 280px" placeholder="" required="required">
+        </div>
+        
+        <div class="element">
+            <label class="topLabel">Confirm phone number: </label>
+            <input type="text" name="phone_cc" value="" maxlength="3" placeholder="" readonly="readonly" class="phone_cc">
+            -
+            <input type="text" name="phone" value="" style="width: 280px" placeholder="" required="required">
+        </div>
+		
+		<div class="element">
+            <label class="topLabel">Like us on Facebook: </label>
+            
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fwww.VPS.me&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>	
+	
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Address: </label>
+            <input type="text" name="address_1" value="">
+        </div>
+
+        <div class="element">
+            <label class="topLabel">City: </label>
+            <input type="text" name="city" value="">
+        </div>
+
+        <div class="element">
+            <label class="topLabel">Zip Code: </label>
+            <input type="text" name="postcode" value="">
+        </div>
+
+        </fieldset>
+        <div class="clear"></div>
+            
+        <div class="element" style="text-align: center;">
+            <input type="hidden" name="auto_login" value="1" />
+            <button class="bb-button bb-button-submit bb-button-big" type="submit">Register</button>
+        </div>
+
+        <input type="hidden" name="forward" value="http://www.vps.me/client">
+    </form>
+    
+    <center><p><span class="red">*</span> Phone number is used to verify your account by SMS verification code.</p></center>
+        
+    <script type="text/javascript">
+    $(function() {
+        $('select[name="country"]').bind('change',function(event){
+            $.ajax({
+                type: "GET",
+                url: bb.restUrl('guest/system/phone_codes'),
+                data: {country:$(this).val()},
+                global: false,
+                dataType: 'json',
+                error: function(jqXHR, textStatus, e) {
+                    bb.msg(e, 'error');
+                },
+                success: function(data) {
+                    $('input[name="phone_cc"]').val(data.result);
+                }
+            });
+        });
+    });
+    </script>
+</div>
+
+
+
+
+    
+        <script type="text/javascript">
+$(function() {
+
+    
+    $('#forum-new-topic').bind('submit', function(){
+        bb.post(
+            'client/forum/start_topic',
+            $(this).serialize(),
+            function(result) {
+                bb.redirect('https://www.vps.me/forum' + '/' + 'vps-server-support' + '/' + result);
+            }
+        );
+        return false;
+    });
+
+});
+</script>
+    </body>
+</html>

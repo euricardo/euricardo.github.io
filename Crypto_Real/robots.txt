@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /bb-data/
+Disallow: /bb-library/
+Disallow: /bb-locale/
+Disallow: /bb-modules/
+Disallow: /bb-themes/
+Disallow: /bb-uploads/
+Disallow: /install/
+Sitemap: http://www.vps.me/sitemap.xml
+User-agent: Mediapartners-Google
+Disallow:
