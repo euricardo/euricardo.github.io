@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700)
+
+$nav-width = 250px
+$magenta   = #00a8eb
+$timing    = 0.5s
+$ease      = ease
+
+* 
+  margin 0
+  padding 0
+  box-sizing border-box
+
+html
+body
+  height 100%
+
+body
+  font-family 'Helvetica Neue', Helvetica, sans-serif
+
+#fix-bar
+  position fixed
+  top 0
+  left 0
+  z-index 9
+  width 100%
+  height 60px
+  background-color $magenta
+  
+  .logo
+    position absolute
+    left 0
+    width $nav-width
+    transform translate3d(-50%, 0, 0)
+    transition transform $timing $ease
+    
+    a
+      display block
+      color #fff
+      text-decoration none
+      text-transform uppercase
+      line-height 24px
+      width 60px
+      height 24px
+      padding 18px 16px 18px 24px
+      box-sizing content-box
+    
+  .push
+    position relative
+    left 0
+    height 100%
+    background-color $magenta
+    transition transform $timing $ease
+    
+.hamburguer
+  width 72px
+  height 60px
+  display block
+  position relative
+  cursor pointer
+  
+  span
+    display block
+    position absolute
+    height 4px
+    width 24px
+    background #fff
+    opacity 1
+    left 24px
+    transform rotate(0deg)
+    transition .3s ease-in-out
+    
+    &:nth-child(1)
+      top 20px
+
+    &:nth-child(2)
+    &:nth-child(3)
+      top 28px
+
+    &:nth-child(4)
+      top 36px
+
+#canvas
+  position relative
+  height 100%
+  padding-top 60px
+  overflow hidden
+
+#nav
+  overflow-y scroll
+  position absolute
+  left 0
+  height 100%
+  width $nav-width
+  transform translate3d(-50%, 0, 0)
+  transition transform $timing $ease
+  padding-top 12px
+  padding-bottom 60px // fix bar
+  
+  a
+    text-decoration none
+    color #000
+    display block
+    padding 14px 24px
+    font 20px/1 'Montserrat', sans-serif
+    font-weight 700
+    
+    &:hover
+      background-color #eee
+  
+  .site-menu
+    position relative
+    min-height 100%
+    padding-bottom 60px // copy height
+
+  .copy
+    position absolute
+    bottom 0
+    padding 16px 24px
+    font-size 12px
+    line-height 1.4
+
+#content
+  background-color #fff
+  overflow-y scroll
+  position relative
+  left 0
+  height 100%
+  transition transform $timing $ease
+  transform translate3d(0, 0, 0)
+  padding 20px
+
+.mask
+  position absolute
+  top 60px
+  left 0
+  z-index -1
+  width 100%
+  height 100%
+  opacity 0
+  transition opacity $timing $ease, transform $timing $ease, z-index 0s $timing
+  background-color rgba(0, 0, 0, 0.5)
+
+// trigger menu
+input#show-menu
+  position absolute
+  opacity 0
+
+// show mobile nav  
+input#show-menu:checked ~ 
+  
+  #fix-bar
+    
+    .push
+      transform translate3d($nav-width, 0, 0)
+      
+    .hamburguer span
+      &:nth-child(1)
+      &:nth-child(4)
+        top 28px
+        width 0
+        left 50%
+
+      &:nth-child(2)
+        transform rotate(45deg)
+
+      &:nth-child(3)
+        transform rotate(-45deg)
+  
+  #canvas
+    
+    .mask
+      z-index 1
+      opacity 1
+      transform translate3d($nav-width, 0, 0)
+      transition opacity $timing $ease, transform $timing $ease
+      
+    #nav
+    ^[0] #fix-bar .logo
+      transform translate3d(0, 0, 0)
+
+    #content
+      transform translate3d($nav-width, 0, 0)
+  
