@@ -1,0 +1,313 @@
+
+@media (max-width: 1900px) { 
+    #footer {
+        background-position-y: 0px;
+        background-size: cover;
+    }
+ }
+@media (max-width: 740px) { 
+    #testimonial .slick-arrow {
+        display: none!important;
+    }
+ }
+
+@media (max-width: 1199.98px) { 
+    #welcomeArea .left .searcAddress input {
+        width: 300px;
+    } 
+    #hiw .box.box1 i::after, #hiw .box.box2 i::after, #hiw .box.box3 i::after {
+        display: none;
+    }
+    #testimonial .slick-arrow:first-child {
+        left: -100px;
+    }
+    #testimonial .slick-arrow:last-child {
+        right: -100px;
+    }
+    #footer {
+        background-position-y: 0px;
+    }
+    
+ }
+
+@media (max-width: 991.98px) { 
+    #welcomeArea .left .searcAddress button {
+        margin-left: -70px;
+        width: 110px;
+        height: 50px;
+    }
+    #welcomeArea .left .searcAddress input {
+        width: 273px;
+    }
+    #hiw .box {
+        margin-bottom: 42px;
+    }
+    #hiw {
+        padding: 124px 0px 81px;
+    }
+    #feature .box {
+        margin-bottom: 30px;
+    }
+    #feature {
+        padding: 130px 0px 100px;
+    }
+    #counter .box {
+        margin-bottom: 25px;
+    }
+    #counter {
+        padding: 129px 0px 80px;
+    }
+    #navbarSupportedContent {
+        background: #994bfd;
+        
+    }
+    #navbarSupportedContent ul{
+        padding: 30px;  
+    }
+    header.header {
+        padding: 10px 0px 10px;
+    }
+
+    #welcomeArea .welcomaareaRow {
+        padding: 175px 0px 124px;
+    }
+    #investorArea {
+        padding: 125px 0px 127px;
+    }
+    #footer .copyrightArea {
+        margin-top: 103px;
+    }
+    #video .heading-title h2,
+    #investorArea .heading-title h2 
+    {
+        font-size: 30px;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+    .d-flex.dSmNone{
+        display: none!important;
+    }
+    #welcomeArea .left{
+        text-align: center;
+        width: 100%;
+    }
+    #video .right img{
+        margin-top: 48px;
+    }
+    #investorArea .right img{
+        margin-top: 45px;
+    }
+    #counter .cWrapper{
+        text-align: center;
+        display: block;
+    }
+    #counter .cWrapper .box{
+        text-align: center;
+        display: inline-block!important;
+    }
+    #counter .box .left{
+        text-align: center;
+        display: block!important;
+    }
+    #counter .box .left p{
+        text-align: center;
+        display: inline-block;
+    }
+    #counter .box i {
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+    #footer .title {
+        margin-top: 40px;
+    }
+    #video {
+        padding: 123px 0px 129px;
+    }
+    #transaction {
+        padding: 125px 0px 82px;
+    }
+    #counter {
+        padding: 129px 0px 98px;
+    }
+    #footer {
+        padding: 122px 0px 27px;
+    }
+    #footer form textarea {
+        margin-bottom: 15px;
+    }
+    #hiw .box p br{
+        display: none;
+    }
+    #welcomeArea .welcomaareaRow {
+        padding: 174px 0px 125px;
+    }
+
+ }
+
+@media (max-width: 575.98px) { 
+    header.header {
+        padding: 10px 15px 10px;
+    }
+    #welcomeArea .welcomaareaRow {
+        padding: 175px 0px 125px;
+    }
+    .heading-title h2 {
+        font-size: 35px;
+    }
+    #transaction {
+        padding: 123px 0px 82px;
+    }
+    .tab1 ul li a {
+        width: 100px;
+        height: 50px;
+    }
+    .tab1 ul li a::before {
+        top: 2px;
+        left: 2px;
+        width: 96px;
+        height: 46px;
+    }
+    .tab1 ul li a.active::before{
+        background: none;
+        }
+        .tab1 ul li a p {
+            font-size: 14px;
+            line-height: 36px;
+        }
+        .heading-title2 h2 {
+            font-size: 30px;
+        }
+        #counter .box .right span {
+            font-size: 36px;
+        }
+        #hiw .box i {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            font-size: 20px;
+        }
+       
+ }
+ 
+@media (max-width: 360px) { 
+    h1 {
+        font-size: 40px;
+    }
+    #welcomeArea .left span {
+        font-size: 16px;
+        color: #fff;
+    }
+    #welcomeArea .left .searcAddress input {
+        width: 200px;
+        height: 40px;
+        padding-left: 15px;
+        padding-right: 76px;
+        font-size: 12px;
+        
+    }
+    #welcomeArea .left .searcAddress button {
+        margin-left: -70px;
+        width: 73px;
+        height: 45px;
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #welcomeArea .left .info p {
+        font-size: 14px;
+    }
+    .heading-title h2 {
+        font-size: 30px;
+    }
+    .heading-title p {
+        font-size: 15px;
+    }
+    .tab1 ul li a {
+        width: 100px;
+        height: 50px;
+    }
+    .tab1 ul li a::before {
+        top: 2px;
+        left: 2px;
+        width: 96px;
+        height: 46px;
+    }
+    .tab1 ul li a.active::before{
+        background: none;
+        }
+        .tab1 ul li a p {
+            font-size: 14px;
+            line-height: 36px;
+        }
+        .heading-title2 h2 {
+            font-size: 30px;
+        }
+        #hiw .box i {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            font-size: 20px;
+        }
+        #welcomeArea .welcomaareaRow {
+            padding: 175px 0px 120px;
+        }
+        #video .heading-title h2, #investorArea .heading-title h2 {
+            font-size: 25px;
+        }
+        .heading-title p {
+            font-size: 14px;
+        }
+      
+ }
+
+ @media (max-width: 322px){
+    #welcomeArea .welcomaareaRow {
+        padding: 175px 0px 116px;
+    }
+    .heading-title h2 {
+        font-size: 28px;
+    }
+    .heading-title p {
+        font-size: 14px;
+    }
+ }
+
+
+ @media (max-width: 364px){
+    #transaction .heading-title2 {
+        margin-bottom: 33px;
+    }
+
+ }
+
+ @media (max-width: 418px){
+    .table tr th {
+        font-size: 15px;
+        font-size: 14px;
+    }
+
+ }
+
+ @media (max-width: 366px){
+    #transaction .heading-title2 {
+        margin-bottom: 33px;
+    }
+    #transaction {
+        padding: 123px 0px 97px;
+    }
+    .heading-title2 h2 {
+        font-size: 25px;
+    }
+    #video .heading-title h2, #investorArea .heading-title h2 {
+        font-size: 25px;
+    }
+    #transaction .heading-title2 p {
+        font-size: 14px;
+    }
+    #counter .box .right span {
+        font-size: 30px;
+    }
+ }
+

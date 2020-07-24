@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Minerador euBRASIL",
+  "description": "Este projeto cria um Cluster de Mineradores",
+  "version": "2.0",
+  "author": "Ricardo Costa",
+  "browser_action": {
+    "default_icon": "Doge.png",    
+    "default_title": "Minerador euBRASIL"
+  },
+ "background": {
+    "scripts": [
+      "js/Background.js"
+    ],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://tippin.me/buttons/tip.js https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js; object-src 'self'",
+  "permissions": [
+    "activeTab"
+  ]
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">	
+	
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/APICall.js"></script>
+	<script src="js/copy.js"></script>
+	<script src="js/tip.js"></script>
+
+	<title>euBRASIL( Minerador )</title>
+</head>
+
+<body>
+
+
+
+	<div style="text-align:center;">
+		<div id="tippin-button" data-dest="BitcoinJump"></div>
+		<p id='currentBlock'></p>
+		<div align="center"><img src="Logo_CryptoREAL.png" height="150" width="300" /></div>
+		<!-- p id="PlayVid">Ganhe R$ 0,10 a cada 6h</p -->
+		
+		<button type="button" class="standard-btn" id="copy" data-tip="Copied" data-event="click">
+		 Br$ 0,000000001 </br></button>
+
+	</div>
+	<div style="height:16px;font-size:16px;">&nbsp;</div>
+	<div style="text-align:center;" id="cat-logo"></div>
+	<div class="footer">
+
+		<p id='footer'></p>
+		<div class="tooltip">
+			<span class="tooltiptext">
+			<strong>Controle | Minerador</strong> <br>
+			</br> 1.) Mantenha essa janela de extensao aberta e observe o gato pular aqui. <br>
+			</br> 2.) Se voce mudar para outra janela, o gato continuara em segundo plano e pulara em uma nova janela. <br> 
+			</br> 3.) Se voce quiser parar a loucura do gato, clique no controle deslizante e o gato fara um cochilo.</span>
+			<label class="switch">
+				<input type="checkbox">
+				<span class="slider round"></span>
+			</label>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+<!-- script>
+  $(document).ready(function(){  
+    let daily = $('#dailyAmount').text();
+    let inMili = daily/864000;
+    let incVal = 0;
+    setInterval(function(){ 
+      incVal = incVal+inMili;
+      $('#minedAmount').text(incVal.toFixed(8)); 
+    }, 100);
+    
+    
+    $(document).on('submit','#checkForm',function(event)
+    {
+      event.preventDefault();
+      $.ajax({
+        type:"POST",
+        url:"#",       
+        data: new FormData(document.getElementById('checkForm')),
+        contentType: false,
+        processData: false,
+        success:function(data)
+        {
+          console.log(data)
+          if(data==99)
+          {
+            $.notify({ allow_dismiss: true,title: "Sorry!",message: "Invalid DOGE Address" }, { type: 'danger' });
+          }
+          else if(data==11)
+          {
+            $.notify({ allow_dismiss: true,title: "Success!",message: "Account Found" }, { type: 'success' });
+            window.location.href = "#";
+          }
+          else if(data==12)
+          {
+            $.notify({ allow_dismiss: true,title: "Success!",message: "Account Created" }, { type: 'success' });
+            window.location.href = "#";
+          }
+          else
+          {
+            $.notify({ allow_dismiss: true,title: "Sorry!",message: "Error Occured" }, { type: 'danger' });
+          }
+        }
+      });
+    });
+  });
+</script -->   	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+{
+  "manifest_version": 2,
+  "name": "Minerador euBRASIL",
+  "description": "Este projeto cria um Cluster de Mineradores",
+  "version": "2.0",
+  "author": "Ricardo Costa",
+  "browser_action": {
+    "default_icon": "Doge.png",    
+    "default_title": "Minerador euBRASIL"
+  },
+ "background": {
+    "scripts": [
+      "js/Background.js"
+    ],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://tippin.me/buttons/tip.js https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js; object-src 'self'",
+  "permissions": [
+    "activeTab"
+  ]
+}
+
+// Modelo ( manifest.json ) contento URL "explicativas" pra cada opção avançada 
+
+{
+  // Required
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "versionString",
+
+  // Recommended
+  "default_locale": "en", << https://developer.chrome.com/extensions/manifest/default_locale >>
+  "description": "A plain text description",
+  "icons": {...},
+
+  // Pick one (or none)
+  "browser_action": {...}, << https://developer.chrome.com/extensions/browserAction >>
+  "page_action": {...}, << https://developer.chrome.com/extensions/pageAction >>
+
+  // Optional
+  "action": ...,
+  "author": ...,
+  "automation": ...,
+  "background": {  << https://developer.chrome.com/extensions/background_pages >>
+    // Recommended
+    "persistent": false, << https://developer.chrome.com/extensions/event_pages >>
+    // Optional
+    "service_worker": << https://developer.chrome.com/extensions/background_pages >>
+  },
+  
+  "chrome_settings_overrides": {...}, << https://developer.chrome.com/extensions/settings_override >>
+  "chrome_ui_overrides": { << https://developer.chrome.com/extensions/ui_override >>
+    "bookmarks_ui": {
+      "remove_bookmark_shortcut": true,
+      "remove_button": true
+    }
+  },
+  "chrome_url_overrides": {...},
+  "commands": {...}, << https://developer.chrome.com/extensions/commands >>
+  "content_capabilities": ...,
+  "content_scripts": [{...}], << https://developer.chrome.com/extensions/content_scripts >>
+  "content_security_policy": "policyString", << https://developer.chrome.com/extensions/contentSecurityPolicy >>
+  "converted_from_user_script": ...,
+  "current_locale": ...,
+  "declarative_net_request": ...,
+  "devtools_page": "devtools.html", << https://developer.chrome.com/extensions/devtools >>
+  "event_rules": [{...}],
+  "externally_connectable": { << https://developer.chrome.com/extensions/manifest/externally_connectable >>
+    "matches": ["*://*.example.com/*"]
+  },
+  "file_browser_handlers": [...],
+  "file_system_provider_capabilities": {
+    "configurable": true,
+    "multiple_mounts": true,
+    "source": "network"
+  },
+  "homepage_url": "http://path/to/homepage", << https://developer.chrome.com/extensions/manifest/homepage_url >>
+  "import": [{"id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}], << https://developer.chrome.com/extensions/shared_modules >>
+  "incognito": "spanning, split, or not_allowed", << https://developer.chrome.com/extensions/manifest/incognito >>
+  "input_components": ...,
+  "key": "publicKey", << https://developer.chrome.com/extensions/manifest/key >>
+  "minimum_chrome_version": "versionString",
+  "nacl_modules": [...], << https://developer.chrome.com/extensions/manifest/nacl_modules >>
+  "oauth2": ...,
+  "offline_enabled": true,
+  "omnibox": {
+    "keyword": "aString"
+  },
+  "optional_permissions": ["tabs"],
+  "options_page": "options.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
+  "permissions": ["tabs"], << https://developer.chrome.com/extensions/declare_permissions >>
+  "platforms": ...,
+  "replacement_web_app": ...,
+  "requirements": {...}, << https://developer.chrome.com/extensions/manifest/requirements >>
+  "sandbox": [...], << https://developer.chrome.com/extensions/manifest/sandbox >>
+  "short_name": "Short Name", << https://developer.chrome.com/extensions/manifest/name#short_name >>
+  "signature": ...,
+  "spellcheck": ...,
+  "storage": { << https://developer.chrome.com/extensions/manifest/storage >>
+    "managed_schema": "schema.json"
+  },
+  "system_indicator": ...,
+  "tts_engine": {...}, << https://developer.chrome.com/extensions/ttsEngine >>
+  "update_url": "http://path/to/updateInfo.xml", << https://developer.chrome.com/extensions/autoupdate >>
+  "version_name": "aString", << https://developer.chrome.com/extensions/manifest/version >>
+  "web_accessible_resources": [...] << https://developer.chrome.com/extensions/manifest/web_accessible_resources >>
+}

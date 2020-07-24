@@ -1,0 +1,526 @@
+<html>
+<head>
+<style>
+a.move {color: black; text-decoration: none;}
+html {height: 100%;}
+body {height: 100%; margin: 0px; padding: 0px;}
+</style>
+<script language="javascript" type="text/javascript">
+
+//image data
+var pieces = new Array("", "wp", "wn", "wb", "wr", "wq", "wk", "bp", "bn", "bb", "br", "bq", "bk");
+
+ws = new Image();
+ws.src = "merida/ws.png";
+wpws = new Image();
+wpws.src = "merida/wpws.png";
+wnws = new Image();
+wnws.src = "merida/wnws.png";
+wbws = new Image();
+wbws.src = "merida/wbws.png";
+wrws = new Image();
+wrws.src = "merida/wrws.png";
+wqws = new Image();
+wqws.src = "merida/wqws.png";
+wkws = new Image();
+wkws.src = "merida/wkws.png";
+bpws = new Image();
+bpws.src = "merida/bpws.png";
+bnws = new Image();
+bnws.src = "merida/bnws.png";
+bbws = new Image();
+bbws.src = "merida/bbws.png";
+brws = new Image();
+brws.src = "merida/brws.png";
+bqws = new Image();
+bqws.src = "merida/bqws.png";
+bkws = new Image();
+bkws.src = "merida/bkws.png";
+bs = new Image();
+bs.src = "merida/bs.png";
+wpbs = new Image();
+wpbs.src = "merida/wpbs.png";
+wnbs = new Image();
+wnbs.src = "merida/wnbs.png";
+wbbs = new Image();
+wbbs.src = "merida/wbbs.png";
+wrbs = new Image();
+wrbs.src = "merida/wrbs.png";
+wqbs = new Image();
+wqbs.src = "merida/wqbs.png";
+wkbs = new Image();
+wkbs.src = "merida/wkbs.png";
+bpbs = new Image();
+bpbs.src = "merida/bpbs.png";
+bnbs = new Image();
+bnbs.src = "merida/bnbs.png";
+bbbs = new Image();
+bbbs.src = "merida/bbbs.png";
+brbs = new Image();
+brbs.src = "merida/brbs.png";
+bqbs = new Image();
+bqbs.src = "merida/bqbs.png";
+bkbs = new Image();
+bkbs.src = "merida/bkbs.png";
+
+//initial/current position
+var variation = 0;
+var move = 0;
+var flipped = false;
+var board = new Array(10,8,9,11,12,9,8,10,7,7,7,7,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,4,2,3,5,6,3,2,4);
+
+//Start position, moves and variations
+var initial = new Array(10,8,9,11,12,9,8,10,7,7,7,7,7,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,4,2,3,5,6,3,2,4);
+parents = new Array();
+moves = new Array();
+parents[0] = new Array(-1,0);
+moves[0] = new Array(48,32,-1,-1,12,20,-1,-1,32,24,-1,-1,1,18,-1,-1,51,35,-1,-1,5,33,-1,-1,50,42,-1,-1,33,24,-1,-1,49,33,-1,-1,24,17,-1,-1,52,44,-1,-1,6,21,-1,-1,57,51,-1,-1,21,27,-1,-1,58,49,-1,-1,3,30,-1,-1,62,45,-1,-1,30,22,-1,-1,45,39,-1,-1,22,21,-1,-1,54,46,-1,-1,14,30,-1,-1,39,45,-1,-1,30,38,-1,-1,45,39,-1,-1,7,6,-1,-1,61,25,-1,-1,8,16,-1,-1,25,18,-1,-1,11,18,-1,-1,51,34,-1,-1,17,8,-1,-1,34,24,-1,-1,21,30,-1,-1,59,52,-1,-1,13,29,-1,-1,55,47,-1,-1,38,47,-1,-1,63,47,-1,-1,30,38,-1,-1,52,38,-1,-1,29,38,-1,-1,47,55,-1,-1,15,31,-1,-1,60,58,56,59,6,30,-1,-1,39,54,-1,-1,27,21,-1,-1,54,37,-1,-1,30,29,-1,-1,59,63,-1,-1,0,1,-1,-1,24,34,-1,-1,2,11,-1,-1,34,28,-1,-1,1,2,-1,-1,42,34,-1,-1,21,36,-1,-1,34,26,-1,-1,2,3,-1,-1,28,43,-1,-1,4,5,-1,-1,55,31,-1,-1,29,31,-1,-1,63,31,-1,-1,3,2,-1,-1,31,55,-1,-1,5,4,-1,-1,43,28,-1,-1,4,3,-1,-1,28,38,-1,-1,36,30,-1,-1,38,21,-1,-1,3,12,-1,-1,21,11,-1,-1,12,11,-1,-1,37,22,-1,-1,2,6,-1,-1,55,23,-1,-1,30,36,-1,-1,22,28,-1,-1,11,2,-1,-1,28,43,-1,-1,2,11,-1,-1,23,15,-1,-1,11,2,-1,-1,15,39,-1,-1,36,21,-1,-1,43,37,-1,-1,21,38,-1,-1,39,38,-1,-1,6,38,-1,-1,37,20,-1,-1,38,6,-1,-1,58,51,-1,-1,9,25,-1,-1,51,52,-1,-1,2,1,-1,-1,44,36,-1,-1,6,4,-1,-1,20,30,-1,-1,4,7,-1,-1,49,42,-1,-1,7,4,-1,-1,53,37,-1,-1,1,0,-1,-1,36,28,-1,-1,4,6,-1,-1,52,45,-1,-1,6,7,-1,-1,30,20,-1,-1,8,1,-1,-1,37,29,-1,-1,7,63,-1,-1,45,36,-1,-1,63,58,-1,-1,42,51,-1,-1,58,62,-1,-1,51,37,-1,-1,62,60,-1,-1,36,43,-1,-1,60,57,-1,-1,43,42,-1,-1,57,61,-1,-1,29,21,-1,-1,61,45,-1,-1,42,51,-1,-1,45,53,-1,-1,51,44,-1,-1,53,55,-1,-1,21,13,-1,-1,55,7,-1,-1,13,5,-5,-1,7,5,-1,-1,20,5,-1,-1,0,8,-1,-1,5,11,-1,-1,8,9,-1,-1,11,1,-1,-1,9,1,-1,-1,46,38,-1,-1,1,2,-1,-1,28,20,-1,-1,2,3,-1,-1,37,30,-1,-1,3,4,-1,-1,44,36,-1,-1,4,5,-1,-1,35,27,-1,-1,18,27,-1,-1,36,27,-1,-1,5,14,-1,-1,20,12,-1,-1,14,13,-1,-1,27,18,-1,-1,13,4,-1,-1,18,10,-1,-1,16,24,-1,-1,33,24,-1,-1,4,13,-1,-1,24,16,-1,-1,13,22,-1,-1,30,37,-1,-1,22,13,-1,-1,10,11,-1,-1,13,21,-1,-1,26,18,-1,-1,21,14,-1,-1,18,10,-1,-1,14,7,-1,-1,10,2,-5,-1,7,15,-1,-1,11,20,-1,-1,25,33,-1,-1,12,4,-5,-1,33,41,-1,-1,2,11,-1,-1,-1,-1,-1,-1);
+
+
+//initial timerID
+var intervalID = -1;
+
+function autoplay(interval)
+{
+  if(intervalID != -1)
+  {
+    clearInterval(intervalID);
+  }
+
+  if(interval != -1)
+  {
+    intervalID = setInterval("forward()", interval * 1000);
+  }
+}
+
+function flip()
+{
+  var temp;
+  for(square = 0; square < 32; square++)
+  {
+    temp = board[square];
+    board[square] = board[63 - square];
+    board[63 - square] = temp
+  }
+  flipped = ~flipped;
+  update();  
+}
+
+function domove()
+{
+  var source = moves[variation][move * 4];
+  var destination = moves[variation][move * 4 + 1];
+
+  if(source < 0)
+  {
+    return;
+  }
+
+  if(flipped)
+  {
+    source = 63 - source;
+    destination = 63 - destination;
+  }
+
+  board[destination] = board[source];
+  board[source] = 0;
+
+  if(moves[variation][move * 4 + 2] < -1)
+  {
+    board[destination] = - moves[variation][move * 4 + 2];
+  }
+
+  source = moves[variation][move * 4 + 2];
+  destination = moves[variation][move * 4 + 3];
+
+  if(flipped)
+  {
+    source = 63 - source;
+    destination = 63 - destination;
+  }
+
+  if(source >= 0)
+  {
+    board[destination] = board[source];
+    board[source] = 0;
+  }
+
+  move++;
+}
+
+function jumpto(target_variation, target_move)
+{ 
+  var route;
+  unhighlight();
+  reset();
+
+  while(variation != target_variation)
+  {
+    route = target_variation;
+
+    while(parents[route][0] != variation)
+    {
+      route = parents[route][0];
+    }
+
+    while(move != parents[route][1])
+    {
+      domove();
+    }
+
+    variation = route;
+    move = 0;
+  }
+
+  while(move != target_move)
+  {
+    domove();
+  }
+
+  update();
+}
+
+function reset()
+{
+  variation = 0;
+  move = 0;
+
+  for(square = 0; square < 64; square++)
+  {
+    if(flipped)
+    {
+      board[square] = initial[63 - square];
+    }
+    else
+    {
+      board[square] = initial[square];
+    }
+  }
+}
+
+function unhighlight()
+{
+  if(move > 0)
+  {
+    document.getElementById("v" + variation + "m" + move).style.background = "white";
+  }
+}
+
+function update()
+{
+  for(square = 0; square < 64; square++)
+  {
+    document.getElementById("s" + square).src = "merida/" + pieces[board[square]] + (((square % 8 + Math.floor(square / 8)) % 2) ? "bs" : "ws") + ".png";
+  }
+
+  if(move != 0)
+  {
+    document.getElementById("v" + variation + "m" + move).style.background = "yellow";
+  }
+}
+
+function first()
+{
+  unhighlight();
+  reset();
+  update();
+}
+
+function backward()
+{
+  if(move > 1)
+  {
+    jumpto(variation, move - 1);
+  }
+  else
+  {
+    if(parents[variation][0] == -1)
+    {
+      jumpto(0, 0);
+    }
+    else
+    {
+      jumpto(parents[variation][0], parents[variation][1]);
+    }
+  }
+}
+
+function forward()
+{
+  unhighlight();
+  domove();
+  update();
+}
+
+function last()
+{
+  unhighlight();
+  while(moves[variation][move * 4] != -1)
+  {
+    domove();
+  }
+  update();
+}
+
+</script>
+</head>
+<body onLoad="reset(); update();">
+
+<div style="float: left; height: 100%;">
+
+<div style="padding: 8px; text-align: center;">
+
+
+<p>
+<div style="width: 256px;">
+
+<img id="s0" src="merida/brws.png"><img id="s1" src="<pieces/>/bnbs.png"><img id="s2" src="<pieces/>/bbws.png"><img id="s3" src="<pieces/>/bqbs.png"><img id="s4" src="<pieces/>/bkws.png"><img id="s5" src="<pieces/>/bbbs.png"><img id="s6" src="<pieces/>/bnws.png"><img id="s7" src="merida/brbs.png"><br>
+
+<img id="s8" src="merida/bpbs.png"><img id="s9" src="<pieces/>/bpws.png"><img id="s10" src="<pieces/>/bpbs.png"><img id="s11" src="<pieces/>/bpws.png"><img id="s12" src="<pieces/>/bpbs.png"><img id="s13" src="<pieces/>/bpws.png"><img id="s14" src="<pieces/>/bpbs.png"><img id="s15" src="merida/bpws.png"><br>
+
+<img id="s16" src="merida/ws.png"><img id="s17" src="<pieces/>/bs.png"><img id="s18" src="<pieces/>/ws.png"><img id="s19" src="<pieces/>/bs.png"><img id="s20" src="<pieces/>/ws.png"><img id="s21" src="<pieces/>/bs.png"><img id="s22" src="<pieces/>/ws.png"><img id="s23" src="merida/bs.png"><br>
+
+<img id="s24" src="merida/bs.png"><img id="s25" src="<pieces/>/ws.png"><img id="s26" src="<pieces/>/bs.png"><img id="s27" src="<pieces/>/ws.png"><img id="s28" src="<pieces/>/bs.png"><img id="s29" src="<pieces/>/ws.png"><img id="s30" src="<pieces/>/bs.png"><img id="s31" src="merida/ws.png"><br>
+
+<img id="s32" src="merida/ws.png"><img id="s33" src="<pieces/>/bs.png"><img id="s34" src="<pieces/>/ws.png"><img id="s35" src="<pieces/>/bs.png"><img id="s36" src="<pieces/>/ws.png"><img id="s37" src="<pieces/>/bs.png"><img id="s38" src="<pieces/>/ws.png"><img id="s39" src="merida/bs.png"><br>
+
+<img id="s40" src="merida/bs.png"><img id="s41" src="<pieces/>/ws.png"><img id="s42" src="<pieces/>/bs.png"><img id="s43" src="<pieces/>/ws.png"><img id="s44" src="<pieces/>/bs.png"><img id="s45" src="<pieces/>/ws.png"><img id="s46" src="<pieces/>/bs.png"><img id="s47" src="merida/ws.png"><br>
+
+<img id="s48" src="merida/wpws.png"><img id="s49" src="<pieces/>/wpbs.png"><img id="s50" src="<pieces/>/wpws.png"><img id="s51" src="<pieces/>/wpbs.png"><img id="s52" src="<pieces/>/wpws.png"><img id="s53" src="<pieces/>/wpbs.png"><img id="s54" src="<pieces/>/wpws.png"><img id="s55" src="merida/wpbs.png"><br>
+
+<img id="s56" src="merida/wrbs.png"><img id="s57" src="<pieces/>/wnws.png"><img id="s58" src="<pieces/>/wbbs.png"><img id="s59" src="<pieces/>/wqws.png"><img id="s60" src="<pieces/>/wkbs.png"><img id="s61" src="<pieces/>/wbws.png"><img id="s62" src="<pieces/>/wnbs.png"><img id="s63" src="merida/wrws.png"><br>
+
+</div>
+
+<p>
+
+<input type="button" value=" ◨ " onclick="flip()">
+<input type="button" value=" ◁ " onclick="first()">
+<input type="button" value=" ◀ " onclick="backward()">
+<input type="button" value=" ▶ " onclick="forward()">
+<input type="button" value=" ▷ " onclick="last()">
+
+
+
+<p>Movimento : 
+<select style="vertical-align: middle" name="autoplay" onchange="autoplay(this.value)">
+<option value="-1">Desligado
+<option value="1" >01 Segundo
+<option value="3" >03 Segundos
+<option value="5" >05 Segundos
+<option value="10">10 Segundos
+<option value="30">30 Segundos
+</select>
+&nbsp;
+
+
+
+
+</div>
+
+</div>
+
+<div style="float right; height: 100%; overflow: auto;">
+
+<div style="padding: 8px;"> 
+
+<h2>
+Ricardo 
+.Vs. 
+Boris
+( 03 / 06 / 2020 )
+</h2>
+<h3>
+www.sparkchess.com
+</h3>
+
+<p>
+<b>
+1.<a class="move" href="javascript:jumpto(0, 1);" id="v0m1">a4</a>
+<a class="move" href="javascript:jumpto(0, 2);" id="v0m2">e6</a>
+2.<a class="move" href="javascript:jumpto(0, 3);" id="v0m3">a5</a>
+<a class="move" href="javascript:jumpto(0, 4);" id="v0m4">Nc6</a>
+3.<a class="move" href="javascript:jumpto(0, 5);" id="v0m5">d4</a>
+<a class="move" href="javascript:jumpto(0, 6);" id="v0m6">Bb4+</a>
+4.<a class="move" href="javascript:jumpto(0, 7);" id="v0m7">c3</a>
+<a class="move" href="javascript:jumpto(0, 8);" id="v0m8">Bxa5</a>
+5.<a class="move" href="javascript:jumpto(0, 9);" id="v0m9">b4</a>
+<a class="move" href="javascript:jumpto(0, 10);" id="v0m10">Bb6</a>
+6.<a class="move" href="javascript:jumpto(0, 11);" id="v0m11">e3</a>
+<a class="move" href="javascript:jumpto(0, 12);" id="v0m12">Nf6</a>
+7.<a class="move" href="javascript:jumpto(0, 13);" id="v0m13">Nd2</a>
+<a class="move" href="javascript:jumpto(0, 14);" id="v0m14">Nd5</a>
+8.<a class="move" href="javascript:jumpto(0, 15);" id="v0m15">Bb2</a>
+<a class="move" href="javascript:jumpto(0, 16);" id="v0m16">Qg5</a>
+9.<a class="move" href="javascript:jumpto(0, 17);" id="v0m17">Ngf3</a>
+<a class="move" href="javascript:jumpto(0, 18);" id="v0m18">Qg6</a>
+10.<a class="move" href="javascript:jumpto(0, 19);" id="v0m19">Nh4</a>
+<a class="move" href="javascript:jumpto(0, 20);" id="v0m20">Qf6</a>
+11.<a class="move" href="javascript:jumpto(0, 21);" id="v0m21">g3</a>
+<a class="move" href="javascript:jumpto(0, 22);" id="v0m22">g5</a>
+12.<a class="move" href="javascript:jumpto(0, 23);" id="v0m23">Nhf3</a>
+<a class="move" href="javascript:jumpto(0, 24);" id="v0m24">g4</a>
+13.<a class="move" href="javascript:jumpto(0, 25);" id="v0m25">Nh4</a>
+<a class="move" href="javascript:jumpto(0, 26);" id="v0m26">Rg8</a>
+14.<a class="move" href="javascript:jumpto(0, 27);" id="v0m27">Bb5</a>
+<a class="move" href="javascript:jumpto(0, 28);" id="v0m28">a6</a>
+15.<a class="move" href="javascript:jumpto(0, 29);" id="v0m29">Bxc6</a>
+<a class="move" href="javascript:jumpto(0, 30);" id="v0m30">dxc6</a>
+16.<a class="move" href="javascript:jumpto(0, 31);" id="v0m31">Nc4</a>
+<a class="move" href="javascript:jumpto(0, 32);" id="v0m32">Ba7</a>
+17.<a class="move" href="javascript:jumpto(0, 33);" id="v0m33">Na5</a>
+<a class="move" href="javascript:jumpto(0, 34);" id="v0m34">Qg5</a>
+18.<a class="move" href="javascript:jumpto(0, 35);" id="v0m35">Qe2</a>
+<a class="move" href="javascript:jumpto(0, 36);" id="v0m36">f5</a>
+19.<a class="move" href="javascript:jumpto(0, 37);" id="v0m37">h3</a>
+<a class="move" href="javascript:jumpto(0, 38);" id="v0m38">gxh3</a>
+20.<a class="move" href="javascript:jumpto(0, 39);" id="v0m39">Rxh3</a>
+<a class="move" href="javascript:jumpto(0, 40);" id="v0m40">Qg4</a>
+21.<a class="move" href="javascript:jumpto(0, 41);" id="v0m41">Qxg4</a>
+<a class="move" href="javascript:jumpto(0, 42);" id="v0m42">fxg4</a>
+22.<a class="move" href="javascript:jumpto(0, 43);" id="v0m43">Rh2</a>
+<a class="move" href="javascript:jumpto(0, 44);" id="v0m44">h5</a>
+23.<a class="move" href="javascript:jumpto(0, 45);" id="v0m45">O-O-O</a>
+<a class="move" href="javascript:jumpto(0, 46);" id="v0m46">Rg5</a>
+24.<a class="move" href="javascript:jumpto(0, 47);" id="v0m47">Ng2</a>
+<a class="move" href="javascript:jumpto(0, 48);" id="v0m48">Nf6</a>
+25.<a class="move" href="javascript:jumpto(0, 49);" id="v0m49">Nf4</a>
+<a class="move" href="javascript:jumpto(0, 50);" id="v0m50">Rf5</a>
+26.<a class="move" href="javascript:jumpto(0, 51);" id="v0m51">Rdh1</a>
+<a class="move" href="javascript:jumpto(0, 52);" id="v0m52">Rb8</a>
+27.<a class="move" href="javascript:jumpto(0, 53);" id="v0m53">Nc4</a>
+<a class="move" href="javascript:jumpto(0, 54);" id="v0m54">Bd7</a>
+28.<a class="move" href="javascript:jumpto(0, 55);" id="v0m55">Ne5</a>
+<a class="move" href="javascript:jumpto(0, 56);" id="v0m56">Rc8</a>
+29.<a class="move" href="javascript:jumpto(0, 57);" id="v0m57">c4</a>
+<a class="move" href="javascript:jumpto(0, 58);" id="v0m58">Ne4</a>
+30.<a class="move" href="javascript:jumpto(0, 59);" id="v0m59">c5</a>
+<a class="move" href="javascript:jumpto(0, 60);" id="v0m60">Rd8</a>
+31.<a class="move" href="javascript:jumpto(0, 61);" id="v0m61">Ned3</a>
+<a class="move" href="javascript:jumpto(0, 62);" id="v0m62">Kf8</a>
+32.<a class="move" href="javascript:jumpto(0, 63);" id="v0m63">Rxh5</a>
+<a class="move" href="javascript:jumpto(0, 64);" id="v0m64">Rxh5</a>
+33.<a class="move" href="javascript:jumpto(0, 65);" id="v0m65">Rxh5</a>
+<a class="move" href="javascript:jumpto(0, 66);" id="v0m66">Rc8</a>
+34.<a class="move" href="javascript:jumpto(0, 67);" id="v0m67">Rh2</a>
+<a class="move" href="javascript:jumpto(0, 68);" id="v0m68">Ke8</a>
+35.<a class="move" href="javascript:jumpto(0, 69);" id="v0m69">Ne5</a>
+<a class="move" href="javascript:jumpto(0, 70);" id="v0m70">Kd8</a>
+36.<a class="move" href="javascript:jumpto(0, 71);" id="v0m71">Nxg4</a>
+<a class="move" href="javascript:jumpto(0, 72);" id="v0m72">Ng5</a>
+37.<a class="move" href="javascript:jumpto(0, 73);" id="v0m73">Nf6</a>
+<a class="move" href="javascript:jumpto(0, 74);" id="v0m74">Ke7</a>
+38.<a class="move" href="javascript:jumpto(0, 75);" id="v0m75">Nxd7</a>
+<a class="move" href="javascript:jumpto(0, 76);" id="v0m76">Kxd7</a>
+39.<a class="move" href="javascript:jumpto(0, 77);" id="v0m77">Ng6</a>
+<a class="move" href="javascript:jumpto(0, 78);" id="v0m78">Rg8</a>
+40.<a class="move" href="javascript:jumpto(0, 79);" id="v0m79">Rh6</a>
+<a class="move" href="javascript:jumpto(0, 80);" id="v0m80">Ne4</a>
+41.<a class="move" href="javascript:jumpto(0, 81);" id="v0m81">Ne5+</a>
+<a class="move" href="javascript:jumpto(0, 82);" id="v0m82">Kc8</a>
+42.<a class="move" href="javascript:jumpto(0, 83);" id="v0m83">Nd3</a>
+<a class="move" href="javascript:jumpto(0, 84);" id="v0m84">Kd7</a>
+43.<a class="move" href="javascript:jumpto(0, 85);" id="v0m85">Rh7+</a>
+<a class="move" href="javascript:jumpto(0, 86);" id="v0m86">Kc8</a>
+44.<a class="move" href="javascript:jumpto(0, 87);" id="v0m87">Rh4</a>
+<a class="move" href="javascript:jumpto(0, 88);" id="v0m88">Nf6</a>
+45.<a class="move" href="javascript:jumpto(0, 89);" id="v0m89">Nf4</a>
+<a class="move" href="javascript:jumpto(0, 90);" id="v0m90">Ng4</a>
+46.<a class="move" href="javascript:jumpto(0, 91);" id="v0m91">Rxg4</a>
+<a class="move" href="javascript:jumpto(0, 92);" id="v0m92">Rxg4</a>
+47.<a class="move" href="javascript:jumpto(0, 93);" id="v0m93">Nxe6</a>
+<a class="move" href="javascript:jumpto(0, 94);" id="v0m94">Rg8</a>
+48.<a class="move" href="javascript:jumpto(0, 95);" id="v0m95">Kd2</a>
+<a class="move" href="javascript:jumpto(0, 96);" id="v0m96">b5</a>
+49.<a class="move" href="javascript:jumpto(0, 97);" id="v0m97">Ke2</a>
+<a class="move" href="javascript:jumpto(0, 98);" id="v0m98">Kb8</a>
+50.<a class="move" href="javascript:jumpto(0, 99);" id="v0m99">e4</a>
+<a class="move" href="javascript:jumpto(0, 100);" id="v0m100">Re8</a>
+51.<a class="move" href="javascript:jumpto(0, 101);" id="v0m101">Ng5</a>
+<a class="move" href="javascript:jumpto(0, 102);" id="v0m102">Rh8</a>
+52.<a class="move" href="javascript:jumpto(0, 103);" id="v0m103">Bc3</a>
+<a class="move" href="javascript:jumpto(0, 104);" id="v0m104">Re8</a>
+53.<a class="move" href="javascript:jumpto(0, 105);" id="v0m105">f4</a>
+<a class="move" href="javascript:jumpto(0, 106);" id="v0m106">Ka8</a>
+54.<a class="move" href="javascript:jumpto(0, 107);" id="v0m107">e5</a>
+<a class="move" href="javascript:jumpto(0, 108);" id="v0m108">Rg8</a>
+55.<a class="move" href="javascript:jumpto(0, 109);" id="v0m109">Kf3</a>
+<a class="move" href="javascript:jumpto(0, 110);" id="v0m110">Rh8</a>
+56.<a class="move" href="javascript:jumpto(0, 111);" id="v0m111">Ne6</a>
+<a class="move" href="javascript:jumpto(0, 112);" id="v0m112">Bb8</a>
+57.<a class="move" href="javascript:jumpto(0, 113);" id="v0m113">f5</a>
+<a class="move" href="javascript:jumpto(0, 114);" id="v0m114">Rh1</a>
+58.<a class="move" href="javascript:jumpto(0, 115);" id="v0m115">Ke4</a>
+<a class="move" href="javascript:jumpto(0, 116);" id="v0m116">Rc1</a>
+59.<a class="move" href="javascript:jumpto(0, 117);" id="v0m117">Bd2</a>
+<a class="move" href="javascript:jumpto(0, 118);" id="v0m118">Rg1</a>
+60.<a class="move" href="javascript:jumpto(0, 119);" id="v0m119">Bf4</a>
+<a class="move" href="javascript:jumpto(0, 120);" id="v0m120">Re1+</a>
+61.<a class="move" href="javascript:jumpto(0, 121);" id="v0m121">Kd3</a>
+<a class="move" href="javascript:jumpto(0, 122);" id="v0m122">Rb1</a>
+62.<a class="move" href="javascript:jumpto(0, 123);" id="v0m123">Kc3</a>
+<a class="move" href="javascript:jumpto(0, 124);" id="v0m124">Rf1</a>
+63.<a class="move" href="javascript:jumpto(0, 125);" id="v0m125">f6</a>
+<a class="move" href="javascript:jumpto(0, 126);" id="v0m126">Rf3+</a>
+64.<a class="move" href="javascript:jumpto(0, 127);" id="v0m127">Kd2</a>
+<a class="move" href="javascript:jumpto(0, 128);" id="v0m128">Rf2+</a>
+65.<a class="move" href="javascript:jumpto(0, 129);" id="v0m129">Ke3</a>
+<a class="move" href="javascript:jumpto(0, 130);" id="v0m130">Rh2</a>
+66.<a class="move" href="javascript:jumpto(0, 131);" id="v0m131">f7</a>
+<a class="move" href="javascript:jumpto(0, 132);" id="v0m132">Rh8</a>
+67.<a class="move" href="javascript:jumpto(0, 133);" id="v0m133">f8=Q</a>
+<a class="move" href="javascript:jumpto(0, 134);" id="v0m134">Rxf8</a>
+68.<a class="move" href="javascript:jumpto(0, 135);" id="v0m135">Nxf8</a>
+<a class="move" href="javascript:jumpto(0, 136);" id="v0m136">Ka7</a>
+69.<a class="move" href="javascript:jumpto(0, 137);" id="v0m137">Nd7</a>
+<a class="move" href="javascript:jumpto(0, 138);" id="v0m138">Kb7</a>
+70.<a class="move" href="javascript:jumpto(0, 139);" id="v0m139">Nxb8</a>
+<a class="move" href="javascript:jumpto(0, 140);" id="v0m140">Kxb8</a>
+71.<a class="move" href="javascript:jumpto(0, 141);" id="v0m141">g4</a>
+<a class="move" href="javascript:jumpto(0, 142);" id="v0m142">Kc8</a>
+72.<a class="move" href="javascript:jumpto(0, 143);" id="v0m143">e6</a>
+<a class="move" href="javascript:jumpto(0, 144);" id="v0m144">Kd8</a>
+73.<a class="move" href="javascript:jumpto(0, 145);" id="v0m145">Bg5+</a>
+<a class="move" href="javascript:jumpto(0, 146);" id="v0m146">Ke8</a>
+74.<a class="move" href="javascript:jumpto(0, 147);" id="v0m147">Ke4</a>
+<a class="move" href="javascript:jumpto(0, 148);" id="v0m148">Kf8</a>
+75.<a class="move" href="javascript:jumpto(0, 149);" id="v0m149">d5</a>
+<a class="move" href="javascript:jumpto(0, 150);" id="v0m150">cxd5+</a>
+76.<a class="move" href="javascript:jumpto(0, 151);" id="v0m151">Kxd5</a>
+<a class="move" href="javascript:jumpto(0, 152);" id="v0m152">Kg7</a>
+77.<a class="move" href="javascript:jumpto(0, 153);" id="v0m153">e7</a>
+<a class="move" href="javascript:jumpto(0, 154);" id="v0m154">Kf7</a>
+78.<a class="move" href="javascript:jumpto(0, 155);" id="v0m155">Kc6</a>
+<a class="move" href="javascript:jumpto(0, 156);" id="v0m156">Ke8</a>
+79.<a class="move" href="javascript:jumpto(0, 157);" id="v0m157">Kxc7</a>
+<a class="move" href="javascript:jumpto(0, 158);" id="v0m158">a5</a>
+80.<a class="move" href="javascript:jumpto(0, 159);" id="v0m159">bxa5</a>
+<a class="move" href="javascript:jumpto(0, 160);" id="v0m160">Kf7</a>
+81.<a class="move" href="javascript:jumpto(0, 161);" id="v0m161">a6</a>
+<a class="move" href="javascript:jumpto(0, 162);" id="v0m162">Kg6</a>
+82.<a class="move" href="javascript:jumpto(0, 163);" id="v0m163">Bf4</a>
+<a class="move" href="javascript:jumpto(0, 164);" id="v0m164">Kf7</a>
+83.<a class="move" href="javascript:jumpto(0, 165);" id="v0m165">Kd7</a>
+<a class="move" href="javascript:jumpto(0, 166);" id="v0m166">Kf6</a>
+84.<a class="move" href="javascript:jumpto(0, 167);" id="v0m167">c6</a>
+<a class="move" href="javascript:jumpto(0, 168);" id="v0m168">Kg7</a>
+85.<a class="move" href="javascript:jumpto(0, 169);" id="v0m169">c7</a>
+<a class="move" href="javascript:jumpto(0, 170);" id="v0m170">Kh8</a>
+86.<a class="move" href="javascript:jumpto(0, 171);" id="v0m171">c8=Q+</a>
+<a class="move" href="javascript:jumpto(0, 172);" id="v0m172">Kh7</a>
+87.<a class="move" href="javascript:jumpto(0, 173);" id="v0m173">Ke6</a>
+<a class="move" href="javascript:jumpto(0, 174);" id="v0m174">b4</a>
+88.<a class="move" href="javascript:jumpto(0, 175);" id="v0m175">e8=Q</a>
+<a class="move" href="javascript:jumpto(0, 176);" id="v0m176">b3</a>
+89.<a class="move" href="javascript:jumpto(0, 177);" id="v0m177">Qcd7#</a></b>
+ - White wins. 
+<b>
+1-0
+</b>
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+html {
+    overflow: hidden;
+	overflow-x:hidden
+}
+
+body {
+    width: 400px;
+    margin: 00px;
+    background-color: #f2a900;
+    border-radius: 2px;
+    height: 590px;
+    overflow: hidden; 
+}
+
+#PlayVid, #currentBlock, #block {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f2a900;
+    color: white;
+    line-height: 1.5;
+}
+
+#tippin-button,
+#copy {
+    background-color: #4d4d4e;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 auto;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+#cat-logo {
+    width: 145px;
+    position: relative;
+  margin: 0 auto;
+}
+
+#close {
+    background-color: #4d4d4e;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    font-size: 15px;
+    float: right;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#copy {
+    margin-top: 15px;
+}
+
+#tippin-button:hover,
+#copy:hover, #close:hover {
+    opacity: .7
+}
+
+.button-filled {
+    width: 120px;
+    min-width: 30px;
+    height: 40px;
+    line-height: 2.5;
+    text-align: center;
+    cursor: pointer;
+    background: #fc7e7e;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 4px;
+    font-family: Futura, Helvetica;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button-filled:hover, #copy:hover, #close:hover {
+    background: #606060;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0, 0);
+    position: relative;
+    top: 2px;
+}
+
+.button-filled:active {
+    background: #fc7e7e;
+    position: relative;
+    top: 2px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0, 0);
+}
+
+.modal-tippin-container {
+    position: fixed;
+    z-index: 1000;
+    text-align: left;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-tippin-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 400px;
+    height: 590px;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+    position: relative;
+    z-index: 1;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal-tippin {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+} 
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+  }
+
+  #footer {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    z-index: -1;
+  }
+
+  /* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  /*
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #f2a900;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f2a900;
+  }
+  */
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f2a900;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #4d4d4e;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: white;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px white;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;  
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -20px;
+    text-align: left;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
